@@ -1,0 +1,547 @@
+[
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Learning about learning",
+          "url": "https://siyangsun.github.io/courtyard/learning-about-learning",
+          "status": "updated"
+        },
+        {
+          "title": "Obsidian",
+          "url": "https://siyangsun.github.io/courtyard/obsidian",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-2024-01-31",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 2 pages",
+    "text": "Learning about learning (updated)\nObsidian (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2024-01-31T02:52:28.000Z",
+    "fetched_at": "2026-11-03T19:21:15.204Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 2
+        }
+      ]
+    },
+    "id": "github:commits:2024-01-30",
+    "source": "github",
+    "type": "commits",
+    "title": "2 commits in 1 repo",
+    "text": "courtyard (2)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2024-01-31T02:52:28.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:52941483",
+    "source": "arena",
+    "type": "block",
+    "title": "the thought of needing someone else to fulfill me never crossed my mind",
+    "text": "Sukuna to Kashimo, on the subject of love\nJujutsu Kaisen Chapter 238",
+    "url": "https://www.are.na/block/25821970",
+    "published_at": "2024-01-20T20:54:14.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/25821970/original_26d43d0b021b6f3a5ca47cfbbd8b171a.png?1705784055"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "siyangsun.github.io",
+          "url": "https://github.com/siyangsun/siyangsun.github.io",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2024-01-17",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "siyangsun.github.io (1)",
+    "url": "https://github.com/siyangsun/siyangsun.github.io",
+    "published_at": "2024-01-18T04:50:27.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:52690739",
+    "source": "arena",
+    "type": "block",
+    "title": "fifty",
+    "text": "",
+    "url": "https://www.are.na/block/25722437",
+    "published_at": "2024-01-16T05:16:13.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/25722437/original_eff6ba2ac3016191bd0c6120ab9c94ea.png?1705382174"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "substack:unevenlyeven:two-kinds-of-transience",
+    "source": "substack",
+    "type": "post",
+    "title": "two kinds of transience",
+    "text": "how having more blogs will ... definitely ... have me write more",
+    "url": "https://unevenlyeven.substack.com/p/two-kinds-of-transience",
+    "published_at": "2024-01-14T21:36:13.000Z",
+    "fetched_at": "2026-11-03T16:08:16.142Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "unevenlyeven",
+      "account_url": "https://unevenlyeven.substack.com"
+    },
+    "kind": "post"
+  },
+  {
+    "id": "substack:sump:courtyard-cleaning",
+    "source": "substack",
+    "type": "post",
+    "title": "courtyard cleaning",
+    "text": "migrating digital garden to quartz v4",
+    "url": "https://sump.substack.com/p/courtyard-cleaning",
+    "published_at": "2024-01-14T19:39:00.000Z",
+    "fetched_at": "2026-11-03T16:08:16.142Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sump",
+      "account_url": "https://sump.substack.com"
+    },
+    "kind": "post"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 3
+        }
+      ]
+    },
+    "id": "github:commits:2024-01-14",
+    "source": "github",
+    "type": "commits",
+    "title": "3 commits in 1 repo",
+    "text": "courtyard (3)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2024-01-14T15:37:46.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "A system for ephemera and eternità",
+          "url": "https://siyangsun.github.io/courtyard/a-system-for-ephemera-and-eternita",
+          "status": "updated"
+        },
+        {
+          "title": "Barriers to entry",
+          "url": "https://siyangsun.github.io/courtyard/barriers-to-entry",
+          "status": "updated"
+        },
+        {
+          "title": "Blank canvas syndrome",
+          "url": "https://siyangsun.github.io/courtyard/blank-canvas-syndrome",
+          "status": "updated"
+        },
+        {
+          "title": "Chekhov's gun",
+          "url": "https://siyangsun.github.io/courtyard/chekhov's-gun",
+          "status": "updated"
+        },
+        {
+          "title": "Cognitive scaffolding",
+          "url": "https://siyangsun.github.io/courtyard/cognitive-scaffolding",
+          "status": "updated"
+        },
+        {
+          "title": "Creating to inspire creation",
+          "url": "https://siyangsun.github.io/courtyard/creating-to-inspire-creation",
+          "status": "updated"
+        },
+        {
+          "title": "Design as problem solving",
+          "url": "https://siyangsun.github.io/courtyard/design-as-problem-solving",
+          "status": "updated"
+        },
+        {
+          "title": "Discord",
+          "url": "https://siyangsun.github.io/courtyard/discord",
+          "status": "updated"
+        },
+        {
+          "title": "Discord servers are walled gardens",
+          "url": "https://siyangsun.github.io/courtyard/discord-servers-are-walled-gardens",
+          "status": "updated"
+        },
+        {
+          "title": "Doing quests is more rewarding than grinding skills",
+          "url": "https://siyangsun.github.io/courtyard/doing-quests-is-more-rewarding-than-grinding-skills",
+          "status": "updated"
+        },
+        {
+          "title": "Dunbar's Number",
+          "url": "https://siyangsun.github.io/courtyard/dunbar's-number",
+          "status": "updated"
+        },
+        {
+          "title": "Edge case",
+          "url": "https://siyangsun.github.io/courtyard/edge-case",
+          "status": "updated"
+        },
+        {
+          "title": "Enabling environment",
+          "url": "https://siyangsun.github.io/courtyard/enabling-environment",
+          "status": "updated"
+        },
+        {
+          "title": "Gradient of improvement",
+          "url": "https://siyangsun.github.io/courtyard/gradient-of-improvement",
+          "status": "updated"
+        },
+        {
+          "title": "Granularity of transportation",
+          "url": "https://siyangsun.github.io/courtyard/granularity-of-transportation",
+          "status": "updated"
+        },
+        {
+          "title": "Greedy algorithm",
+          "url": "https://siyangsun.github.io/courtyard/greedy-algorithm",
+          "status": "updated"
+        },
+        {
+          "title": "Happy accidents",
+          "url": "https://siyangsun.github.io/courtyard/happy-accidents",
+          "status": "updated"
+        },
+        {
+          "title": "High skill ceilings allow for skill expression",
+          "url": "https://siyangsun.github.io/courtyard/high-skill-ceilings-allow-for-skill-expression",
+          "status": "updated"
+        },
+        {
+          "title": "Learning exhaust",
+          "url": "https://siyangsun.github.io/courtyard/learning-exhaust",
+          "status": "updated"
+        },
+        {
+          "title": "Limitations breed creativity",
+          "url": "https://siyangsun.github.io/courtyard/limitations-breed-creativity",
+          "status": "updated"
+        },
+        {
+          "title": "Living edge case",
+          "url": "https://siyangsun.github.io/courtyard/living-edge-case",
+          "status": "updated"
+        },
+        {
+          "title": "Low rank approximation",
+          "url": "https://siyangsun.github.io/courtyard/low-rank-approximation",
+          "status": "updated"
+        },
+        {
+          "title": "Low rank approximation of an orchestra",
+          "url": "https://siyangsun.github.io/courtyard/low-rank-approximation-of-an-orchestra",
+          "status": "updated"
+        },
+        {
+          "title": "Low skill floor",
+          "url": "https://siyangsun.github.io/courtyard/low-skill-floor",
+          "status": "updated"
+        },
+        {
+          "title": "Medium speed travel in games",
+          "url": "https://siyangsun.github.io/courtyard/medium-speed-travel-in-games",
+          "status": "updated"
+        },
+        {
+          "title": "Memorization as a cognitive scaffolding",
+          "url": "https://siyangsun.github.io/courtyard/memorization-as-a-cognitive-scaffolding",
+          "status": "updated"
+        },
+        {
+          "title": "MMO mechanics are glue work",
+          "url": "https://siyangsun.github.io/courtyard/MMO-mechanics-are-glue-work",
+          "status": "updated"
+        },
+        {
+          "title": "Objective function",
+          "url": "https://siyangsun.github.io/courtyard/objective-function",
+          "status": "updated"
+        },
+        {
+          "title": "Observations on skin highlights",
+          "url": "https://siyangsun.github.io/courtyard/observations-on-skin-highlights",
+          "status": "updated"
+        },
+        {
+          "title": "Optimization problem",
+          "url": "https://siyangsun.github.io/courtyard/optimization-problem",
+          "status": "updated"
+        },
+        {
+          "title": "Philosophical razor",
+          "url": "https://siyangsun.github.io/courtyard/philosophical-razor",
+          "status": "updated"
+        },
+        {
+          "title": "Reasons to learn a new skill",
+          "url": "https://siyangsun.github.io/courtyard/reasons-to-learn-a-new-skill",
+          "status": "updated"
+        },
+        {
+          "title": "Requirements for a real-life quest",
+          "url": "https://siyangsun.github.io/courtyard/requirements-for-a-real-life-quest",
+          "status": "updated"
+        },
+        {
+          "title": "Resource management",
+          "url": "https://siyangsun.github.io/courtyard/resource-management",
+          "status": "updated"
+        },
+        {
+          "title": "Shortcomings of intention",
+          "url": "https://siyangsun.github.io/courtyard/shortcomings-of-intention",
+          "status": "updated"
+        },
+        {
+          "title": "Skill cross-pollination",
+          "url": "https://siyangsun.github.io/courtyard/skill-cross-pollination",
+          "status": "updated"
+        },
+        {
+          "title": "Some communities lend themselves to unstructured teaching and mentorship",
+          "url": "https://siyangsun.github.io/courtyard/some-communities-lend-themselves-to-teaching-and-mentorship",
+          "status": "updated"
+        },
+        {
+          "title": "Spitpaint",
+          "url": "https://siyangsun.github.io/courtyard/spitpaint",
+          "status": "updated"
+        },
+        {
+          "title": "Startups are asymmetric warfare",
+          "url": "https://siyangsun.github.io/courtyard/startups-are-asymmetric-warfare",
+          "status": "updated"
+        },
+        {
+          "title": "Tempo vs. value",
+          "url": "https://siyangsun.github.io/courtyard/tempo-vs-value",
+          "status": "updated"
+        },
+        {
+          "title": "Third space",
+          "url": "https://siyangsun.github.io/courtyard/third-space",
+          "status": "updated"
+        },
+        {
+          "title": "Training your intuition",
+          "url": "https://siyangsun.github.io/courtyard/training-intuition",
+          "status": "updated"
+        },
+        {
+          "title": "Unplanned repeated interactions",
+          "url": "https://siyangsun.github.io/courtyard/unplanned-repeated-interactions",
+          "status": "updated"
+        },
+        {
+          "title": "Using depth models to generate post-processing fog",
+          "url": "https://siyangsun.github.io/courtyard/using-depth-models-to-generate-post-processing-fog",
+          "status": "updated"
+        },
+        {
+          "title": "Vertical slice",
+          "url": "https://siyangsun.github.io/courtyard/vertical-slice",
+          "status": "updated"
+        },
+        {
+          "title": "Ways to aggregate and organize content",
+          "url": "https://siyangsun.github.io/courtyard/ways-to-aggregate-and-organize-content",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-2024-01-14",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 46 pages",
+    "text": "A system for ephemera and eternità (updated)\nBarriers to entry (updated)\nBlank canvas syndrome (updated)\nChekhov's gun (updated)\nCognitive scaffolding (updated)\nCreating to inspire creation (updated)\nDesign as problem solving (updated)\nDiscord (updated)\nDiscord servers are walled gardens (updated)\nDoing quests is more rewarding than grinding skills (updated)\nDunbar's Number (updated)\nEdge case (updated)\nEnabling environment (updated)\nGradient of improvement (updated)\nGranularity of transportation (updated)\nGreedy algorithm (updated)\nHappy accidents (updated)\nHigh skill ceilings allow for skill expression (updated)\nLearning exhaust (updated)\nLimitations breed creativity (updated)\nLiving edge case (updated)\nLow rank approximation (updated)\nLow rank approximation of an orchestra (updated)\nLow skill floor (updated)\nMedium speed travel in games (updated)\nMemorization as a cognitive scaffolding (updated)\nMMO mechanics are glue work (updated)\nObjective function (updated)\nObservations on skin highlights (updated)\nOptimization problem (updated)\nPhilosophical razor (updated)\nReasons to learn a new skill (updated)\nRequirements for a real-life quest (updated)\nResource management (updated)\nShortcomings of intention (updated)\nSkill cross-pollination (updated)\nSome communities lend themselves to unstructured teaching and mentorship (updated)\nSpitpaint (updated)\nStartups are asymmetric warfare (updated)\nTempo vs. value (updated)\nThird space (updated)\nTraining your intuition (updated)\nUnplanned repeated interactions (updated)\nUsing depth models to generate post-processing fog (updated)\nVertical slice (updated)\nWays to aggregate and organize content (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2024-01-14T06:08:12.000Z",
+    "fetched_at": "2026-11-03T19:21:15.204Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 6
+        }
+      ]
+    },
+    "id": "github:commits:2024-01-12",
+    "source": "github",
+    "type": "commits",
+    "title": "6 commits in 1 repo",
+    "text": "courtyard (6)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2024-01-12T16:05:22.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:52357092",
+    "source": "arena",
+    "type": "block",
+    "title": "f8fjk-pxwaa9s_m?format=jpg-name=4096x4096",
+    "text": "",
+    "url": "https://www.are.na/block/25591745",
+    "published_at": "2024-01-09T02:59:50.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/25591745/original_1b87f7e2a2603e03c0b6815d5f7dc6af.jpg?1704769183"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/F8FJK-pXwAA9s_m?format=jpg&name=4096x4096",
+      "channel": {
+        "title": "࿏ low blood sugar",
+        "url": "https://www.are.na/siyang/low-blood-sugar"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:52357068",
+    "source": "arena",
+    "type": "block",
+    "title": "The dreamer",
+    "text": "illustration by Camille Bozec, for inktober 2019\nhttps://camillebozabdos.tumblr.com/post/178880421200/inktober-day-08",
+    "url": "https://www.are.na/block/25591739",
+    "published_at": "2024-01-09T02:59:00.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/25591739/original_c5df2fbd977927eb8d8d938efe78b340.jpg?1704769142"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GDFKEiVXYAAgEnb?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ follow the food. nurture the next crop. roll w/ the seasons. bigger than u n me.",
+        "url": "https://www.are.na/siyang/follow-the-food-nurture-the-next-crop-roll-w-the-seasons-bigger-than-u-n-me-rhu9qthrmls"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:52357009",
+    "source": "arena",
+    "type": "block",
+    "title": "Mary Oliver",
+    "text": "Long Life: Essays and Other Writings",
+    "url": "https://www.are.na/block/25591719",
+    "published_at": "2024-01-09T02:57:11.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/25591719/original_f179b884b79248720d0369887c42baa6.png?1704769033"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GDMABf5XQAEkwFk?format=png&name=900x900",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:52315127",
+    "source": "arena",
+    "type": "block",
+    "title": "attention is a gift",
+    "text": "jason liu, \"advice to young people\"\nhttps://jxnl.github.io/blog/writing/2024/06/01/advice-to-young-people/",
+    "url": "https://www.are.na/block/25573739",
+    "published_at": "2024-01-08T13:28:14.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/25573739/original_3e1e9ccd4b3f0ba2822cddc0602b75c7.png?1704720495"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  }
+]

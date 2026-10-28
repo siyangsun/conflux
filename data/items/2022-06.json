@@ -1,0 +1,170 @@
+[
+  {
+    "id": "youtube:cPfXv2IQG0s",
+    "source": "youtube",
+    "type": "video",
+    "title": "quick clean reverbs: using bitwig's envelope follower to duck reverb against dry signal",
+    "text": "you could also use effect tracks (sends) and sidechain it against itself, but this feels much quicker in my workflow",
+    "url": "https://www.youtube.com/watch?v=cPfXv2IQG0s",
+    "published_at": "2022-06-26T05:39:47.000Z",
+    "fetched_at": "2026-11-03T16:26:56.003Z",
+    "images": [],
+    "embed": {
+      "provider": "youtube",
+      "id": "cPfXv2IQG0s"
+    },
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "youtube:dewuPXFZzCw",
+    "source": "youtube",
+    "type": "video",
+    "title": "modulating reverb using velocity in bitwig",
+    "text": "in bitwig, you can apply note velocity to any parameter (even a parameter within an external FX plugin) using the expressions modulator. this gives us an alternative way to make something that sounds kind of like a gated reverb effect",
+    "url": "https://www.youtube.com/watch?v=dewuPXFZzCw",
+    "published_at": "2022-06-26T00:36:24.000Z",
+    "fetched_at": "2026-11-03T16:26:56.003Z",
+    "images": [],
+    "embed": {
+      "provider": "youtube",
+      "id": "dewuPXFZzCw"
+    },
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "youtube:qtsASe0oYJM",
+    "source": "youtube",
+    "type": "video",
+    "title": "unorthodox way to use sidechain as a modulator in bitwig",
+    "text": "instead of using the audio sidechain to duck audio based on the signal of another track (generally used to improve clarity in the mix), we can instead use that signal to turn some other knobs instead to get some interesting effects",
+    "url": "https://www.youtube.com/watch?v=qtsASe0oYJM",
+    "published_at": "2022-06-25T22:05:52.000Z",
+    "fetched_at": "2026-11-03T16:26:56.003Z",
+    "images": [],
+    "embed": {
+      "provider": "youtube",
+      "id": "qtsASe0oYJM"
+    },
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "arena:31048987",
+    "source": "arena",
+    "type": "block",
+    "title": "#rkgk 16052022  ガンナー",
+    "text": "illustration by ケンジ・ルー(3Hard) @Kenji_Loo",
+    "url": "https://www.are.na/block/16641527",
+    "published_at": "2022-06-25T05:37:03.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/16641527/original_f9ad6aa2fae80edba99f884970d40a02.jpg?1653889921"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/FS4JlG0aIAAZJSR?format=jpg&name=4096x4096",
+      "channel": {
+        "title": "⍋ hard round supremacy",
+        "url": "https://www.are.na/siyang/hard-round-supremacy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:30668099",
+    "source": "arena",
+    "type": "block",
+    "title": "Atrium",
+    "text": "painting by Devin Korwin @devinkorwin",
+    "url": "https://www.are.na/block/16823525",
+    "published_at": "2022-06-13T00:00:13.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/16823525/original_8cd24ca5de9528db7bc27adc4eff535a.jpg?1655078414"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/FTc5B3oWAAECw2c?format=jpg&name=large",
+      "channel": {
+        "title": "⏧ ecobrutalism",
+        "url": "https://www.are.na/siyang/ecobrutalism"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:30620761",
+    "source": "arena",
+    "type": "block",
+    "title": "fttmyhcakaari45?format=jpg-name=medium",
+    "text": "illustration by 9度楽 @NineV_",
+    "url": "https://www.are.na/block/16801511",
+    "published_at": "2022-06-10T16:25:37.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/16801511/original_5dca6cc384de04ac2a19234d62306214.jpg?1654878338"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/FTtmYhCakAArI45?format=jpg&name=medium",
+      "channel": {
+        "title": "⍋ hard round supremacy",
+        "url": "https://www.are.na/siyang/hard-round-supremacy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:1610423",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍋ hard round supremacy",
+    "text": "digital art made mostly with a hard-edged round brush, between 0.7 and 1.0 opacity, very little pressure control if any",
+    "url": "https://www.are.na/siyang/hard-round-supremacy",
+    "published_at": "2022-06-10T16:25:33.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:30620445",
+    "source": "arena",
+    "type": "block",
+    "title": "evening pond (1/3)",
+    "text": "illustration by 九水巷 @999999999sx",
+    "url": "https://www.are.na/block/16801319",
+    "published_at": "2022-06-10T16:16:42.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/16801319/original_4c802dea3e92755957bd8179ca183635.jpg?1654877803"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/FU4DGmSUYAAiFPF?format=jpg&name=large",
+      "channel": {
+        "title": "⍋ unnecessary chroma",
+        "url": "https://www.are.na/siyang/unnecessary-chroma"
+      }
+    },
+    "kind": "reblog"
+  }
+]

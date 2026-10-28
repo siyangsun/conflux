@@ -1,0 +1,116 @@
+[
+  {
+    "id": "arena:47590254",
+    "source": "arena",
+    "type": "block",
+    "title": "Aurorasaurus - Reporting Auroras from the Ground Up",
+    "text": "Friends, see my real-time #aurora report on the aurorasaurus.org map! Follow us on www.facebook.com/aurorasaurus.org (http://www.facebook.com/aurorasaurus.org). Reporting #northernlights and #citizenscience from the ground up since 2012!",
+    "url": "https://www.are.na/block/23722505",
+    "published_at": "2023-09-19T23:42:30.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/23722505/original_ca956dd1f5b5563a4b38cff9cae3d8e5.png?1695166963"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://aurorasaurus.org/",
+      "channel": {
+        "title": "⍕ citizen scientist",
+        "url": "https://www.are.na/siyang/citizen-scientist-d69w1aib6yg"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:47590241",
+    "source": "arena",
+    "type": "block",
+    "title": "STEVE (Strong Thermal Emission Velocity Enhancement)",
+    "text": "An atmospheric phenomenon named in 2016 by hobbyist aurora watchers",
+    "url": "https://www.are.na/block/23722501",
+    "published_at": "2023-09-19T23:41:56.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/23722501/original_5a4ff94d82c3dbfe640d21986b4c3449.png?1695166926"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/STEVE",
+      "channel": {
+        "title": "⍕ citizen scientist",
+        "url": "https://www.are.na/siyang/citizen-scientist-d69w1aib6yg"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:47394144",
+    "source": "arena",
+    "type": "block",
+    "title": "the oculus in new york city //shot on panasonic lumix lx5",
+    "text": "Froyo Tam 📕 @FroyoTam",
+    "url": "https://www.are.na/block/23642041",
+    "published_at": "2023-09-15T04:10:16.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/23642041/original_0e36ce347c08ebb80309637995ec8617.jpg?1694751018"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/F59R79HakAAP0I7?format=jpg&name=4096x4096",
+      "channel": {
+        "title": "⏧ hypertrance",
+        "url": "https://www.are.na/siyang/hypertrance"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "substack:unevenlyeven:a-system-for-ephemera-and-eternita",
+    "source": "substack",
+    "type": "post",
+    "title": "a system for ephemera and eternità",
+    "text": "I've been thinking about how to organize and share my thoughts for many years.",
+    "url": "https://unevenlyeven.substack.com/p/a-system-for-ephemera-and-eternita",
+    "published_at": "2023-09-09T18:30:10.000Z",
+    "fetched_at": "2026-11-03T16:08:16.142Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "unevenlyeven",
+      "account_url": "https://unevenlyeven.substack.com"
+    },
+    "kind": "post"
+  },
+  {
+    "id": "arena:47138570",
+    "source": "arena",
+    "type": "block",
+    "title": "f74b3c309f2e840e920bbab3ee816334.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/7514341",
+    "published_at": "2023-09-09T04:08:21.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/7514341/original_4668ef7dc8f4b4ef1ac5e0a112791712.jpg?1591079680"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://www.pinterest.com.au/pin/282108364146895150/?nic_v1=1atzIQQIs8GG%2BnYJEY%2FICKqxNUlrOF0CyIrWppmgAqsXIIz7rX3e7EktLnbi6DeZ3T",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  }
+]

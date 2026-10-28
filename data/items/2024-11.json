@@ -1,0 +1,93 @@
+[
+  {
+    "id": "arena:68274438",
+    "source": "arena",
+    "type": "block",
+    "title": "Will Ye",
+    "text": "Home",
+    "url": "https://www.are.na/block/32614588",
+    "published_at": "2024-11-29T19:01:44.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/32614588/original_f169f9c7aeb5b22c8053f5b8f4f7555f.png?1732906909"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://williamyeny.github.io/",
+      "channel": {
+        "title": "⏧ austere homepages",
+        "url": "https://www.are.na/siyang/austere-homepages"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:68271126",
+    "source": "arena",
+    "type": "block",
+    "title": "Ovidiu Maitec",
+    "text": "",
+    "url": "https://www.are.na/block/20529999",
+    "published_at": "2024-11-29T17:24:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/20529999/original_faf442a39d4d1890e8f6fd9a2280a8b9.jpg?1677162530"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/collection/CU/KY/CU_KY_OM_1-002.jpg",
+      "channel": {
+        "title": "⏧ powerful artefacts",
+        "url": "https://www.are.na/siyang/powerful-artefacts"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:68055255",
+    "source": "arena",
+    "type": "block",
+    "title": "Art by Refael Idan Suissa - @irefaels",
+    "text": "Textural Inspiration",
+    "url": "https://www.are.na/block/32511464",
+    "published_at": "2024-11-25T21:24:12.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/32511464/original_247f0b839395c5b979301a972297b39c.jpg?1732569522"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ decay",
+        "url": "https://www.are.na/siyang/decay-cob9tpuhula"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:67644008",
+    "source": "arena",
+    "type": "block",
+    "text": "not only has streaming gotten worse, piracy has gotten better (https://cohost.org/cr1901/post/1154390-i-need-to-set-up-a-s)",
+    "url": "https://www.are.na/block/26168943",
+    "published_at": "2024-11-18T18:33:02.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ cause + effect",
+        "url": "https://www.are.na/siyang/cause-effect-mg0eegpp9yu"
+      }
+    },
+    "kind": "reblog"
+  }
+]

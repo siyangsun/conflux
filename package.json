@@ -1,0 +1,16 @@
+{
+  "name": "conflux",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node src/build/index.ts",
+    "preview": "BASE_PATH= node src/build/index.ts && npx --yes serve _site",
+    "test": "node --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2"
+  }
+}

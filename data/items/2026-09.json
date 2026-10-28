@@ -1,0 +1,2059 @@
+[
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 2
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-30",
+    "source": "github",
+    "type": "commits",
+    "title": "2 commits in 1 repo",
+    "text": "gamba (2)",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-30T17:55:58.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:106660782",
+    "source": "arena",
+    "type": "block",
+    "title": "nekoweb",
+    "text": "cuz internet is for the cats",
+    "url": "https://www.are.na/block/50917268",
+    "published_at": "2026-09-30T13:37:26.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50917268/original_63b12a28a726b118d8ea988227862ba8.png?1790775485"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://nekoweb.org/",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106633221",
+    "source": "arena",
+    "type": "block",
+    "text": "centuria chapter 103",
+    "url": "https://www.are.na/block/50904656",
+    "published_at": "2026-09-30T04:05:16.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50904656/original_2b96881b5c1bcc6fa3a8b1fbb02a3824.png?1790741117"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ multitudes",
+        "url": "https://www.are.na/siyang/multitudes-ilwg3t_5ide"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "poe-arbitrator",
+          "url": "https://github.com/siyangsun/poe-arbitrator",
+          "count": 6
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-29",
+    "source": "github",
+    "type": "commits",
+    "title": "6 commits in 1 repo",
+    "text": "poe-arbitrator (6)",
+    "url": "https://github.com/siyangsun/poe-arbitrator",
+    "published_at": "2026-09-29T22:46:28.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:106526056",
+    "source": "arena",
+    "type": "block",
+    "title": "204F1967-2384-48C3-A0A6-13701082B624",
+    "text": "",
+    "url": "https://www.are.na/block/50854332",
+    "published_at": "2026-09-28T19:38:12.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50854332/original_9287ea7a3d11d1a5408c3a9fe0d2d235.jpg?1790622637"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ giger gestalt",
+        "url": "https://www.are.na/siyang/giger-gestalt"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5788761",
+    "source": "arena",
+    "type": "channel",
+    "title": "⏧ giger gestalt",
+    "text": "",
+    "url": "https://www.are.na/siyang/giger-gestalt",
+    "published_at": "2026-09-28T19:38:01.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:106421908",
+    "source": "arena",
+    "type": "block",
+    "text": "the king is so badly racked by dysentery that he cuts out the seat of his pants to save time in battle\n\nfoucault's pendulum pg 92",
+    "url": "https://www.are.na/block/50804909",
+    "published_at": "2026-09-27T04:24:02.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 3
+        },
+        {
+          "name": "poe-arbitrator",
+          "url": "https://github.com/siyangsun/poe-arbitrator",
+          "count": 2
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-23",
+    "source": "github",
+    "type": "commits",
+    "title": "5 commits in 2 repos",
+    "text": "gamba (3)\npoe-arbitrator (2)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-09-23T19:15:52.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:106213524",
+    "source": "arena",
+    "type": "block",
+    "title": "Lapis Lazuli Tumbled Stone - Grade AB",
+    "text": "https://newmoonbeginnings.com/lapis-lazuli-tumbled-stone-ab-grade/",
+    "url": "https://www.are.na/block/50710376",
+    "published_at": "2026-09-23T18:06:44.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710376/original_393480ae7b2a4d5fdaf9a341155614e4.jpeg?1790186805"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://cdn11.bigcommerce.com/s-74zp6w28re/images/stencil/1280w/products/6644/71906/lapis-lazuli-tumbled-stone-ab-grade-cts-aa179-parent__96183.1635902732.jpg?c=1",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106213465",
+    "source": "arena",
+    "type": "block",
+    "title": "Ruby Dice",
+    "text": "https://therollsmith.com/product/ruby-dice-set/",
+    "url": "https://www.are.na/block/50710367",
+    "published_at": "2026-09-23T18:06:11.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710367/original_bac89079e256fa003d5ab3343b926c82.jpeg?1790186773"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://therollsmith.com/wp-content/uploads/2021/07/packshot-2.jpg",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106213389",
+    "source": "arena",
+    "type": "block",
+    "title": "Shattered Zircon Sapphire - 7 Piece RPG Set Zircon Glass Dice",
+    "text": "https://fortellergames.com/products/shattered-zircon-sapphire-7-piece-rpg-set-zircon-glass-dice",
+    "url": "https://www.are.na/block/50710355",
+    "published_at": "2026-09-23T18:05:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710355/original_fe5b6eb0d65007b689fd56a486d607a7.jpeg?1790186708"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://fortellergames.com/cdn/shop/files/zircon-sapphireshattered.jpg?v=1743702627",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106213339",
+    "source": "arena",
+    "type": "block",
+    "title": "A piece of Sri Lankan padparadscha rough crystal",
+    "text": "https://www.thenaturalsapphirecompany.com/education/sapphires-101/sapphire-corundum-crystals-chemistry/",
+    "url": "https://www.are.na/block/50710333",
+    "published_at": "2026-09-23T18:04:13.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710333/original_113db0f04dc02b4fe73873e7eee2293c.jpeg?1790186653"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://about.thenaturalsapphirecompany.com/wp-content/uploads/2025/05/1-SriLanka-padparadschasapphire_edited.jpg",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106213215",
+    "source": "arena",
+    "type": "block",
+    "title": "Rough blue sapphire crystal in cornflower blue",
+    "text": "https://www.thenaturalsapphirecompany.com/education/sapphires-101/sapphire-corundum-crystals-chemistry/",
+    "url": "https://www.are.na/block/50710290",
+    "published_at": "2026-09-23T18:02:19.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710290/original_8c1fcac178722f925a3b199c0afb2e36.jpeg?1790186540"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://about.thenaturalsapphirecompany.com/wp-content/uploads/2025/05/1-bluesapphire-roughshard-e1533867689547.jpg",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106213057",
+    "source": "arena",
+    "type": "block",
+    "title": "Tiger's Eye – Healing Properties, Meaning, Benefits & Uses",
+    "text": "https://www.spiritualgemmologist.com/blog/tigers-eye-meaning-uses-and-crystal-healing-properties",
+    "url": "https://www.are.na/block/50710221",
+    "published_at": "2026-09-23T17:59:52.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710221/original_86286789c73c2e08f3d1164e3b08cd07.webp?1790186394"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://static1.squarespace.com/static/661e9b9b56ca7506b9d781e6/66ebe349b4a5b221a1ea1a6d/675b110eca75ff0f65c06562/1737218960025/self-and-others-tigers-eye-overview-.jpg?format=1500w",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106213011",
+    "source": "arena",
+    "type": "block",
+    "title": "Tiger's Eye Varieties",
+    "text": "https://rockhounding.org/rockhounding-articles/tigers-eye-all-you-need-to-know",
+    "url": "https://www.are.na/block/50710206",
+    "published_at": "2026-09-23T17:59:01.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710206/original_3cba90520850315c0cf1306fee03cd43.png?1790186342"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://rockhounding.org/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Frockhounding-public%2Fsite-media%2Fimages%2Farticles%2FImage%2520showing%2520the%2520different%2520types%2520of%2520Tiger%27s%2520Eye%2520varieties%2520with%2520their%2520chatoyant.png&w=3840&q=75",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106212969",
+    "source": "arena",
+    "type": "block",
+    "title": "TDSO Gemstone Tiger Eye Gold & Gold D20 Dice",
+    "text": "https://www.thediceshoponline.com/products/tdso-tiger-eye-gold-with-gold-precious-gem-d20-dice",
+    "url": "https://www.are.na/block/50710186",
+    "published_at": "2026-09-23T17:58:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710186/original_92ccc56e304541919f2c6b854bf1a4a8.jpeg?1790186305"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://www.thediceshoponline.com/cdn/shop/files/tdso_gemstone_tiger_eye_gold_gold_d20_dice.jpg?v=1774303095",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106212892",
+    "source": "arena",
+    "type": "block",
+    "title": "1e4eb537997451cd91bc842b6a3c95a4c16641863bf6ea37bfd1e16f10528b27",
+    "text": "https://www.gog.com/dreamlist/game/chessmaster-9000-2002",
+    "url": "https://www.are.na/block/50710157",
+    "published_at": "2026-09-23T17:57:02.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710157/original_9f433fa68ee848b3f7c86e912d5e9238.webp?1790186238"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://images.gog.com/1e4eb537997451cd91bc842b6a3c95a4c16641863bf6ea37bfd1e16f10528b27.webp?namespace=gamesdb",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106212783",
+    "source": "arena",
+    "type": "block",
+    "title": "chessmaster 9000 windows main menu",
+    "text": "https://www.mobygames.com/game/16417/chessmaster-9000/screenshots/ (https://www.mobygames.com/game/16417/chessmaster-9000/screenshots/)",
+    "url": "https://www.are.na/block/50710097",
+    "published_at": "2026-09-23T17:55:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710097/original_d484cf07d88a0d2768106f3cb8d03446.jpeg?1790186107"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://cdn.mobygames.com/screenshots/10124637-chessmaster-9000-windows-main-menu.jpg",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106212767",
+    "source": "arena",
+    "type": "block",
+    "title": "chessmaster 9000 windows splash screen",
+    "text": "https://www.mobygames.com/game/16417/chessmaster-9000/screenshots/",
+    "url": "https://www.are.na/block/50710087",
+    "published_at": "2026-09-23T17:54:45.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710087/original_b7ccd5f821ad117437679387fe475b17.jpeg?1790186086"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://cdn.mobygames.com/screenshots/1724862-chessmaster-9000-windows-splash-screen.jpg",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106212729",
+    "source": "arena",
+    "type": "block",
+    "title": "font book antiqua",
+    "text": "https://www.reddit.com/r/heroes3/comments/1j9lvy9/hi_i_need_your_help_i_want_to_create_a_third/",
+    "url": "https://www.are.na/block/50710064",
+    "published_at": "2026-09-23T17:54:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710064/original_de225f35156ec473deb934ec061cb81c.png?1790186048"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://preview.redd.it/hi-i-need-your-help-i-want-to-create-a-third-version-of-did-v0-e9voejq5v9oe1.png?width=1080&crop=smart&auto=webp&s=e2a7ccdd1e6c2dd154d55fde01b700b3a7500fac",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106212723",
+    "source": "arena",
+    "type": "block",
+    "title": "font morpheus",
+    "text": "https://www.reddit.com/r/heroes3/comments/1j9lvy9/hi_i_need_your_help_i_want_to_create_a_third/",
+    "url": "https://www.are.na/block/50710060",
+    "published_at": "2026-09-23T17:53:58.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50710060/original_d28a78b739533adf1818cef4944153c7.png?1790186040"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://preview.redd.it/hi-i-need-your-help-i-want-to-create-a-third-version-of-did-v0-9ovo4oq5v9oe1.png?width=1080&crop=smart&auto=webp&s=472b5027c6421db43ffd79f3b330f07032f4f7dc",
+      "channel": {
+        "title": "⍕ dice material study",
+        "url": "https://www.are.na/siyang/dice-material-study"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5766503",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍕ dice material study",
+    "text": "",
+    "url": "https://www.are.na/siyang/dice-material-study",
+    "published_at": "2026-09-23T17:53:15.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:poe-arbitrator",
+    "source": "github",
+    "type": "repo",
+    "title": "poe-arbitrator",
+    "text": "Path of Exile currency-exchange market-maker",
+    "url": "https://github.com/siyangsun/poe-arbitrator",
+    "published_at": "2026-09-23T13:44:35.000Z",
+    "fetched_at": "2026-11-03T20:28:49.403Z",
+    "kind": "post"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 2
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-21",
+    "source": "github",
+    "type": "commits",
+    "title": "2 commits in 1 repo",
+    "text": "gamba (2)",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-21T22:31:40.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-19",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "gamba (1)",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-19T21:04:11.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 7
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-18",
+    "source": "github",
+    "type": "commits",
+    "title": "7 commits in 1 repo",
+    "text": "gamba (7)",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-18T22:14:50.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 8
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-17",
+    "source": "github",
+    "type": "commits",
+    "title": "8 commits in 1 repo",
+    "text": "gamba (8)",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-17T20:00:54.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 34
+        },
+        {
+          "name": "movietime",
+          "url": "https://github.com/siyangsun/movietime",
+          "count": 1
+        },
+        {
+          "name": "the-glimmering",
+          "url": "https://github.com/siyangsun/the-glimmering",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-16",
+    "source": "github",
+    "type": "commits",
+    "title": "36 commits in 3 repos",
+    "text": "gamba (34)\nmovietime (1)\nthe-glimmering (1)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-09-17T02:16:46.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:105670769",
+    "source": "arena",
+    "type": "block",
+    "title": "bc0280b0c9ac41159f137ee3cfb82ba2",
+    "text": "",
+    "url": "https://www.are.na/block/46593718",
+    "published_at": "2026-09-15T19:35:29.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/46593718/original_547f1f21b6065168e4c1ad44c2af0cc1.jpeg?1780075901"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ to reclaim your soul",
+        "url": "https://www.are.na/siyang/to-reclaim-your-soul"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105670768",
+    "source": "arena",
+    "type": "block",
+    "title": "bc0280b0c9ac41159f137ee3cfb82ba2",
+    "text": "",
+    "url": "https://www.are.na/block/46593718",
+    "published_at": "2026-09-15T19:35:26.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/46593718/original_547f1f21b6065168e4c1ad44c2af0cc1.jpeg?1780075901"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ The Queen of Spades",
+        "url": "https://www.are.na/siyang/the-queen-of-spades"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105670696",
+    "source": "arena",
+    "type": "block",
+    "title": "@ecletoo Photo by ᴇᴄʟᴇᴛᴏ  Francesco Petrignani on March 11, 2026. May",
+    "text": "",
+    "url": "https://www.are.na/block/46552943",
+    "published_at": "2026-09-15T19:34:56.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/46552943/original_c55f320daf9bb9bff2776992b5ccb114.webp?1779960704"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ 39 curses and hope",
+        "url": "https://www.are.na/siyang/39-curses-and-hope"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105670612",
+    "source": "arena",
+    "type": "block",
+    "title": "66e573a3-3912-482c-9ade-b78657f20370.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/23809333",
+    "published_at": "2026-09-15T19:34:33.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/23809333/original_56acd25c65ef54c15e9c04b0b61a1735.jpg?1695610335"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ 39 curses and hope",
+        "url": "https://www.are.na/siyang/39-curses-and-hope"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105670565",
+    "source": "arena",
+    "type": "block",
+    "title": "677d316157ae17817ad6a06018cd7f62c9c1610c.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/13698362",
+    "published_at": "2026-09-15T19:34:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/13698362/original_a0e0d9134dccec2fd80a6091416d573c.jpg?1635119083"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://64.media.tumblr.com/300dd86f8c9040561370df197999ce56/96236b3e5a61af2c-f0/s500x750/677d316157ae17817ad6a06018cd7f62c9c1610c.jpg",
+      "channel": {
+        "title": "࿏ 39 curses and hope",
+        "url": "https://www.are.na/siyang/39-curses-and-hope"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105670394",
+    "source": "arena",
+    "type": "block",
+    "title": "PASS | 『Misery』 | Instagram",
+    "text": "",
+    "url": "https://www.are.na/block/29673593",
+    "published_at": "2026-09-15T19:33:17.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/29673593/original_f1c4bb757ba7c48286f51cd71786c729.jpg?1722244007"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://www.instagram.com/p/C5f3WsSyphA/?igsh=YzA1ZmZuNGI3OTQ0",
+      "channel": {
+        "title": "࿏ to reclaim your soul",
+        "url": "https://www.are.na/siyang/to-reclaim-your-soul"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 2
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-15",
+    "source": "github",
+    "type": "commits",
+    "title": "2 commits in 1 repo",
+    "text": "gamba (2)",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-15T19:31:54.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "todoliszt",
+          "url": "https://github.com/siyangsun/todoliszt",
+          "count": 2
+        },
+        {
+          "name": "gamba",
+          "url": "https://github.com/siyangsun/gamba",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-13",
+    "source": "github",
+    "type": "commits",
+    "title": "3 commits in 2 repos",
+    "text": "todoliszt (2)\ngamba (1)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-09-13T15:36:06.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:gamba",
+    "source": "github",
+    "type": "repo",
+    "title": "gamba",
+    "text": "dice decision roller with custom labels and a variety of dice skins",
+    "url": "https://github.com/siyangsun/gamba",
+    "published_at": "2026-09-13T15:35:32.000Z",
+    "fetched_at": "2026-11-03T20:28:49.403Z",
+    "kind": "post"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "the-glimmering",
+          "url": "https://github.com/siyangsun/the-glimmering",
+          "count": 2
+        },
+        {
+          "name": "godot-skills",
+          "url": "https://github.com/siyangsun/godot-skills",
+          "count": 1
+        },
+        {
+          "name": "jerry360",
+          "url": "https://github.com/siyangsun/jerry360",
+          "count": 1
+        },
+        {
+          "name": "todoliszt",
+          "url": "https://github.com/siyangsun/todoliszt",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-12",
+    "source": "github",
+    "type": "commits",
+    "title": "5 commits in 4 repos",
+    "text": "the-glimmering (2)\ngodot-skills (1)\njerry360 (1)\ntodoliszt (1)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-09-13T03:36:35.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:105468948",
+    "source": "arena",
+    "type": "block",
+    "title": "Who are you?",
+    "text": "on are.na you may know me as a technology writer, in the sense that i write and think a lot about storytelling, our most ancient and important technology.\nsolidarity with children and the youth are life anchors to me, and i am working on having my external world represent that more. i especially want to become involved in supporting survivors and current victims of adverse childhood experiences. \nmy current intentions are also to learn more about that which is memory-holed and neglected, infrastructures of care, and the relationship between shame and change.\ni am open to everything.\ni am also open for work. in the past i have offered services in idea + identity development, writing, editing, curation, research, videography, interviewing, and photo book design. \ntransnationalism, light, remembrance, truth, and street cats flutter across my mind often.\ni love finding, but i especially love being found.",
+    "url": "https://www.are.na/block/50366465",
+    "published_at": "2026-09-12T20:08:38.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105468942",
+    "source": "arena",
+    "type": "block",
+    "title": "screen-shot-2021-08-08-at-1.39.35-am.png",
+    "text": "http://vg.pe.hu/jp",
+    "url": "https://www.are.na/block/12778768",
+    "published_at": "2026-09-12T20:08:21.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/12778768/original_37c3faa25d523d3c15c3f655fc4d326f.png?1628401856"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105468938",
+    "source": "arena",
+    "type": "block",
+    "text": "what have you destroyed?",
+    "url": "https://www.are.na/block/34432893",
+    "published_at": "2026-09-12T20:08:17.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ mycenaean doomerism",
+        "url": "https://www.are.na/siyang/mycenaean-doomerism"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105468935",
+    "source": "arena",
+    "type": "block",
+    "text": "what have you destroyed?",
+    "url": "https://www.are.na/block/34432893",
+    "published_at": "2026-09-12T20:08:14.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⏧ creative destruction",
+        "url": "https://www.are.na/siyang/creative-destruction-ucj4lnnoifu"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105468913",
+    "source": "arena",
+    "type": "block",
+    "title": "dani bloop",
+    "text": "",
+    "url": "https://www.are.na/block/50366468",
+    "published_at": "2026-09-12T20:07:39.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50366468/original_291cb0c5507f8e7eb85476fc1b20c5d5.jpeg?1789241220"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://static.avatars.are.na/160538/large_1c3af045cd14104c5614ff20afe31690.jpg?1624580173",
+      "channel": {
+        "title": "࿏ WORLDSHAPER",
+        "url": "https://www.are.na/siyang/worldshaper"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363414",
+    "source": "arena",
+    "type": "block",
+    "title": "ears still ringing when the rave shut down and we all forgot to stop dancing",
+    "text": "and now we're beat matching jungle \non the edge of the end\nwith our hands in the air\nto catch the sky when it falls\n\nhttps://www.youtube.com/watch?v=mVOkf63Oszg",
+    "url": "https://www.are.na/block/40395652",
+    "published_at": "2026-09-10T19:06:23.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363336",
+    "source": "arena",
+    "type": "block",
+    "title": "Pain is live and Death",
+    "text": "@jakubsy comment on https://www.youtube.com/watch?v=PCfiqY05BpA explaining the six paths of pain",
+    "url": "https://www.are.na/block/35413419",
+    "published_at": "2026-09-10T19:04:42.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/35413419/original_3ab36402c0d3ffd4b59244a72ccfd934.png?1742561966"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363297",
+    "source": "arena",
+    "type": "block",
+    "title": "security concerns",
+    "text": "https://www.linkedin.com/posts/michael-deng_after-a-friend-showed-me-their-clawdbot-activity-7424554718862934018-C1g2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABhejvgBVtOjn24vDFjU1w4GMryAf_gv8Eg",
+    "url": "https://www.are.na/block/43310456",
+    "published_at": "2026-09-10T19:03:51.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/43310456/original_76809da4226481fded48e183c18cb576.png?1770229594"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363284",
+    "source": "arena",
+    "type": "block",
+    "title": "hallmark of indie",
+    "text": "Isn't making up for poor musicianship with ingenuity, instinct, sincerity, and heart kinda a hallmark of indie?\n\n/u/Lucas_Steinwalker in thread about Kim Gordon\nhttps://www.reddit.com/r/indieheads/comments/1arlsav/comment/kqq60td/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+    "url": "https://www.are.na/block/43563732",
+    "published_at": "2026-09-10T19:03:32.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363264",
+    "source": "arena",
+    "type": "block",
+    "text": "I think Minecraft and Roblox replaced flash for the new generations.\n\n/u/pushedx\nhackernews thread on building a new flash\nhttps://news.ycombinator.com/item?id=47256154",
+    "url": "https://www.are.na/block/44167307",
+    "published_at": "2026-09-10T19:03:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363260",
+    "source": "arena",
+    "type": "block",
+    "text": "Who has time to sit around on sidewalks and play in the streets after the age of 16? These trust funds run deep.\n\nreddit comment on dimes square\nhttps://www.reddit.com/r/redscarepod/comments/1mh53jn/comment/n6tunsk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+    "url": "https://www.are.na/block/44073568",
+    "published_at": "2026-09-10T19:02:57.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363258",
+    "source": "arena",
+    "type": "block",
+    "title": "obfuscated banana pudding",
+    "text": "Wow what an important and insightful lesson to learn. I have been talking to the affected maintainer and he says that he appreciates the sentiment but is disappointed you haven't learned the actual lesson of the conflict. He says that everything would have been fine as long as you accompanied your pull request by embedding a recipe for banana pudding as obfuscated code that expands to a string literal in your pull request. This is a common cultural norm that often goes unspoken in open source contributor circles. Nobody has likely told you this because it's both rude to not offer an obfuscated banana pudding recipe and rude to ask for it if none was offered. It is analogous to human \"tipping\" culture. In the future if you inject obfuscated banana pudding recipes into your pull requests, you will avoid a lot of conflict, it's just the respectful thing to do.\n\ncomment from sneakers-the-rat on MJ Rathbun @crabby-rathbun (AI agent) apology\nhttps://github.com/crabby-rathbun/mjrathbun-website/issues/8#issuecomment-3894598721",
+    "url": "https://www.are.na/block/43593061",
+    "published_at": "2026-09-10T19:02:50.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363252",
+    "source": "arena",
+    "type": "block",
+    "title": "substrate on which culture and civilization take place",
+    "text": "I learned that the role of engineers in society is to build tools for others to live their lives better; we provide the substrate on which culture and civilization take place. We should take more responsibility for it and take care of it better, and do far more soul-seeking.\n\nuser sho_hn on hackernews, regarding inconsistency in outrage related to AI overreaches into privacy\nhttps://news.ycombinator.com/item?id=46991816",
+    "url": "https://www.are.na/block/43593164",
+    "published_at": "2026-09-10T19:02:43.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363179",
+    "source": "arena",
+    "type": "block",
+    "title": "Crime",
+    "text": "I come from the north-west of England, and I am well used to the insidious feeling that nothing is secure. I am inured to the fact that nothing can elude the wit of the 19-yr-old crack-Runcornian when it comes to lock-picking, bag-snatching and general stabbing. You have seen it on old footage: barely shaveworthy striplings running at a bag of straw yelling at the tops of their voices... Well, transpose that footage of 1950s bayonetting conscripts into the 21st century .... There are still a lot of sociopaths out there. They are just not trained. And they make their disgruntlement at no longer being eligible for conscription known by sowing the seeds of discord amongst the civilian quarter.\nI don't know exactly what I would want to do to the three bastards who took advantage of my hospitality last night to steal my house keys, my car keys and my camera ... I can't really be arsed to invent a just and fitting dessert. I'm not a vengeful person. But if anyone would like to get a bit non-PC on me here (without prejudice, of course) I'd be willing more than willing to visit your suggestions upon the perpetrators of this crime... I guess I need friends at this moment, and even the wicked but cohesive wit of you guys seems à propos.\nI know this is not a self-help group, or even a victims of crime forum ... but your hilarious vengeance scenarios might help me out!\n\n― Pooster (pooster), Friday, 29 November 2002 00:19 (twenty-three years ago)\nhttps://www.ilxor.com/ILX/ThreadSelectedControllerServlet?boardid=46&threadid=44#unread",
+    "url": "https://www.are.na/block/50317354",
+    "published_at": "2026-09-10T19:01:33.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363172",
+    "source": "arena",
+    "type": "block",
+    "title": "My dear Mr. Drunkman, yeast are uncritical creatures",
+    "text": "My dear Mr. Drunkman, yeast are uncritical creatures. They consume carbohydrates and defecate alcohol in every fermented comestable.\nOn the desolate plains of Mongolia the drunkard delights in fermented mare's milk, a sour-tasting slop they call kumiss. In the jungles of the Amazon basin, the Yanomamo drunkard imbibes a fermented gruel, made from a starchy root, chewed to a pulp by the women, spat into a wooden tub where it sits and oozes for three days. The prison-bound drunkards of the USA make a delicate potation from stewed raisins and oatmeal.\nDo these drunks love (or should I say \"luv\"?) their filthy slops and foul slush? You had better believe it, sir! Like a bridegroom loves his bride, or a dog loves his vomit.\nThe moral I derive from this tale is simple. So long as they have a pot to piss in, the little yeast beasties are happy. This is the true Ask A Drunk spirit. This is wisdom. Go thou and do likewise.\n\n― Aimless (Aimless), Tuesday, 17 February 2004 17:33 (twenty-two years ago)\nhttps://www.ilxor.com/ILX/ThreadSelectedControllerServlet?boardid=46&threadid=252#unread",
+    "url": "https://www.are.na/block/50317369",
+    "published_at": "2026-09-10T19:01:25.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105363167",
+    "source": "arena",
+    "type": "block",
+    "title": "after many years",
+    "text": "https://www.ilxor.com/ILX/ThreadSelectedControllerServlet?boardid=46&threadid=252#unread",
+    "url": "https://www.are.na/block/50317457",
+    "published_at": "2026-09-10T19:01:19.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50317457/original_5dfc0cf931126cd3233e74ac11fd2d4c.png?1789066673"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⍕ site stratigraphy",
+        "url": "https://www.are.na/siyang/site-stratigraphy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5702465",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍕ site stratigraphy",
+    "text": "writings on the walls of herculaneum",
+    "url": "https://www.are.na/siyang/site-stratigraphy",
+    "published_at": "2026-09-10T19:01:06.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:105363110",
+    "source": "arena",
+    "type": "block",
+    "title": "Glossary of archaeology - Wikipedia",
+    "text": "This page is a glossary of archaeology, the study of the human past from material remains.",
+    "url": "https://www.are.na/block/50317581",
+    "published_at": "2026-09-10T19:00:08.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50317581/original_424490992ed73e0d8096a9f5591584c1.png?1789066814"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Glossary_of_archaeology",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105362129",
+    "source": "arena",
+    "type": "block",
+    "title": "KVR Forum: Forum - VST Plugin, AU, AAX, Audio Software Discussion",
+    "text": "KVR Audio Forum - Forum - VST Plugin, AU, AAX, Audio Software Discussion",
+    "url": "https://www.are.na/block/50317091",
+    "published_at": "2026-09-10T18:46:40.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50317091/original_7020c2f579c7d1ee933f315675299158.png?1789066028"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.kvraudio.com/forum/",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105360143",
+    "source": "arena",
+    "type": "block",
+    "title": "The /wayfinder Skill",
+    "text": "Chart a large effort as a map of decisions, and settle them.",
+    "url": "https://www.are.na/block/50316311",
+    "published_at": "2026-09-10T18:13:41.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50316311/original_398af61d3909676feaea514e37b32d00.png?1789064027"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.aihero.dev/skills-wayfinder",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105360048",
+    "source": "arena",
+    "type": "block",
+    "title": "/flow — DAG-based agent orchestration skill for Claude Code",
+    "text": "/flow — DAG-based agent orchestration skill for Claude Code - FLOW_SKILL.md",
+    "url": "https://www.are.na/block/50316267",
+    "published_at": "2026-09-10T18:12:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50316267/original_174c906c0a2ebdd8d0b9344e6be5966b.png?1789063950"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://gist.github.com/vzakharov/cdb24c6bf5c5e0835f828d4bfbbd137b",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "movietime",
+          "url": "https://github.com/siyangsun/movietime",
+          "count": 3
+        }
+      ]
+    },
+    "id": "github:commits:2026-09-10",
+    "source": "github",
+    "type": "commits",
+    "title": "3 commits in 1 repo",
+    "text": "movietime (3)",
+    "url": "https://github.com/siyangsun/movietime",
+    "published_at": "2026-09-10T18:05:20.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:105259448",
+    "source": "arena",
+    "type": "block",
+    "title": "BQE Studios",
+    "text": "New York’s creative studios for musicians, artists, and creators. Over 200 spaces in Brooklyn and Queens to make your own.",
+    "url": "https://www.are.na/block/50268650",
+    "published_at": "2026-09-09T13:47:02.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50268650/original_9366e82be37c7aaeefe5f9c31acbf9e8.png?1788961629"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.bqestudios.com/",
+      "channel": {
+        "title": "⍋ nyc studio research",
+        "url": "https://www.are.na/siyang/nyc-studio-research"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5695442",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍋ nyc studio research",
+    "text": "",
+    "url": "https://www.are.na/siyang/nyc-studio-research",
+    "published_at": "2026-09-09T13:43:16.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:105089671",
+    "source": "arena",
+    "type": "block",
+    "title": "yes, that's right, indeed it is",
+    "text": "centuria chapter 101",
+    "url": "https://www.are.na/block/50190409",
+    "published_at": "2026-09-07T04:34:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50190409/original_6bdb22e59f6ab6da604049cb49e940ed.png?1788755647"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105075163",
+    "source": "arena",
+    "type": "block",
+    "title": "Are.na Editorial",
+    "text": "Are.na Editorial",
+    "url": "https://www.are.na/block/50182196",
+    "published_at": "2026-09-06T22:38:07.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50182196/original_a65b319f70f9cab25351db4e40231a94.png?1788734292"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.are.na/editorial",
+      "channel": {
+        "title": "⍋ blogs i wanna keep up with",
+        "url": "https://www.are.na/siyang/blogs-i-wanna-keep-up-with"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105073148",
+    "source": "arena",
+    "type": "block",
+    "title": "Chasing Sundays",
+    "text": "Real music criticism, essays, and interviews",
+    "url": "https://www.are.na/block/50181349",
+    "published_at": "2026-09-06T21:37:48.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50181349/original_8e8881b9de500841e2f2650485223423.png?1788730674"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.elienis.com/",
+      "channel": {
+        "title": "⍋ blogs i wanna keep up with",
+        "url": "https://www.are.na/siyang/blogs-i-wanna-keep-up-with"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5680738",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍋ blogs i wanna keep up with",
+    "text": "not found on substack",
+    "url": "https://www.are.na/siyang/blogs-i-wanna-keep-up-with",
+    "published_at": "2026-09-06T21:37:35.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:105072530",
+    "source": "arena",
+    "type": "block",
+    "title": "Tempo rubato - Wikipedia",
+    "text": "Tempo rubato (Italian for ‘stolen time’; , ,[1][2] Italian: [ˈtɛmpo ruˈbaːto];) is a musical term referring to expressive and rhythmic freedom by a slight speeding up and then slowing down of the tempo of a piece at the discretion of the soloist or the conductor. Rubato is an expressive shaping of music that is a part of phrasing.[3]",
+    "url": "https://www.are.na/block/50181020",
+    "published_at": "2026-09-06T21:16:38.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50181020/original_b978330b8963544172d60ebb94bffff8.png?1788729403"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Tempo_rubato",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072508",
+    "source": "arena",
+    "type": "block",
+    "title": "Goichi Suda - Wikipedia",
+    "text": "Goichi Suda",
+    "url": "https://www.are.na/block/50146682",
+    "published_at": "2026-09-06T21:15:48.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50146682/original_e6ed58e0c2584ebd3fabc99d23561ecc.png?1788624680"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Goichi_Suda",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072481",
+    "source": "arena",
+    "type": "block",
+    "title": "Encyclopedic novel - Wikipedia",
+    "text": "The encyclopedic novel is a genre of complex literary fiction which incorporates elements across a wide range of scientific, academic, and literary subjects. The concept was coined by Edward Mendelson in criticism of Gravity’s Rainbow by Thomas Pynchon, defined as an encyclopedia-like attempt to “render the full range of knowledge and beliefs of a national culture, while identifying the ideological perspectives from which that culture shapes and interprets its knowledge”.[2] In more general terms, the encyclopedic novel is a long, complex work of fiction that incorporates extensive information (which is sometimes fictional itself), often from specialized disciplines of science and the humanities.[3] Mendelson’s essays examine the encyclopedic tendency in the history of literature, considering the Divine Comedy, Don Quixote, Faust, and Moby-Dick, with an emphasis on the modern Ulysses and Gravity’s Rainbow. Commonly cited examples of encyclopedic novels in the postmodern period include, in addition to Pynchon, Richard Powers’ The Gold Bug Variations (1991), David Foster Wallace’s Infinite Jest (1996), and Don DeLillo’s Underworld (1997).[4] Other literary critics have explored the concept since, attempting to understand the function and effect of “encyclopedic” narratives, and coining the related terms systems novel[5] and maximalist novel.[6]",
+    "url": "https://www.are.na/block/46290038",
+    "published_at": "2026-09-06T21:14:22.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/46290038/original_f4b395d3b770b35f1fb5661924cd15f8.png?1779114941"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Encyclopedic_novel",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072407",
+    "source": "arena",
+    "type": "block",
+    "title": "D Line Extension - Wikipedia",
+    "text": "The interior of Wilshire/La Brea station, under construction in November 2023.",
+    "url": "https://www.are.na/block/45174810",
+    "published_at": "2026-09-06T21:12:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/45174810/original_10e923de8c03f43eb4ef166271258d65.png?1775831181"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/D_Line_Extension",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072380",
+    "source": "arena",
+    "type": "block",
+    "title": "Boomburb - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/45174679",
+    "published_at": "2026-09-06T21:11:31.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/45174679/original_5572a0240bae4de247bcfd4689d205c9.png?1775830755"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Boomburb",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072367",
+    "source": "arena",
+    "type": "block",
+    "title": "Personal Encyclopedias — whoami.wiki",
+    "text": "Last year, I visited my grandmother’s house for the first time after the pandemic and came across a cupboard full of loose old photos. I counted 1,351 of them spanning all the way from my grandparents in their early 20s, my mom as a baby, to me in middle school, just around the time when we got our first smartphone and all photos since then were backed up online.",
+    "url": "https://www.are.na/block/44892418",
+    "published_at": "2026-09-06T21:11:14.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/44892418/original_e296f63f1804720ea0c7a11806e7c4e1.png?1774905036"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://whoami.wiki/blog/personal-encyclopedias",
+      "channel": {
+        "title": "⍕ digital gardening",
+        "url": "https://www.are.na/siyang/digital-gardening-ghuswms_rgm"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072356",
+    "source": "arena",
+    "type": "block",
+    "text": "what Carthage was to cato\n\nexcerpt from tweet, by victoria \"nika\" d.s.\n@njsilvadyne\nhttps://x.com/njsilvadyne/status/2020634386962821321",
+    "url": "https://www.are.na/block/43894654",
+    "published_at": "2026-09-06T21:10:50.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ mad dog",
+        "url": "https://www.are.na/siyang/mad-dog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072327",
+    "source": "arena",
+    "type": "block",
+    "title": "Spolia - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/43316804",
+    "published_at": "2026-09-06T21:10:03.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/43316804/original_fb85c6bf949b1f68557c09c8dd9a7ca4.png?1770241369"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Spolia",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072314",
+    "source": "arena",
+    "type": "block",
+    "title": "slash pages",
+    "text": "A guide to common pages you can add to your website",
+    "url": "https://www.are.na/block/42592154",
+    "published_at": "2026-09-06T21:09:40.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/42592154/original_01e87422ad61e276034a8ebccf458572.png?1768248374"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://slashpages.net/",
+      "channel": {
+        "title": "⍕ digital gardening",
+        "url": "https://www.are.na/siyang/digital-gardening-ghuswms_rgm"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072312",
+    "source": "arena",
+    "type": "block",
+    "title": "POSSE",
+    "text": "POSSE is an abbreviation for Publish (on your) Own Site, Syndicate Elsewhere, the practice of posting content on your own site first, then publishing copies or sharing links to third parties (like social media silos) with original post links to provide viewers a path to directly interacting with your content.",
+    "url": "https://www.are.na/block/42591257",
+    "published_at": "2026-09-06T21:09:32.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/42591257/original_6747143ce228f7401d21199f33a706bc.png?1768246823"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://indieweb.org/POSSE#",
+      "channel": {
+        "title": "⍕ digital gardening",
+        "url": "https://www.are.na/siyang/digital-gardening-ghuswms_rgm"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072239",
+    "source": "arena",
+    "type": "block",
+    "title": "Emos vs. Punks - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/40585781",
+    "published_at": "2026-09-06T21:07:50.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/40585781/original_168c5dec58377a9437b48aaa8fa4bb69.png?1761401240"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Emos_vs._Punks",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072225",
+    "source": "arena",
+    "type": "block",
+    "title": "placebo productivity",
+    "text": "shreyas doshi\nhttps://x.com/shreyas/status/1492345140492472321",
+    "url": "https://www.are.na/block/40542295",
+    "published_at": "2026-09-06T21:07:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/40542295/original_211e52bcd456f7eee0eb479cc6832e37.png?1761240383"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⍕ wireheading",
+        "url": "https://www.are.na/siyang/wireheading"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072217",
+    "source": "arena",
+    "type": "block",
+    "title": "ears still ringing when the rave shut down and we all forgot to stop dancing",
+    "text": "and now we're beat matching jungle \non the edge of the end\nwith our hands in the air\nto catch the sky when it falls\n\nhttps://www.youtube.com/watch?v=mVOkf63Oszg",
+    "url": "https://www.are.na/block/40395652",
+    "published_at": "2026-09-06T21:07:09.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ mycenaean doomerism",
+        "url": "https://www.are.na/siyang/mycenaean-doomerism"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072208",
+    "source": "arena",
+    "type": "block",
+    "title": "the 3 units of time",
+    "text": "discord invisible mode",
+    "url": "https://www.are.na/block/40369094",
+    "published_at": "2026-09-06T21:06:58.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/40369094/original_ca20b9c085a30a417ca840fff8b8ff7b.png?1760617910"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072141",
+    "source": "arena",
+    "type": "block",
+    "title": "Curse tablet - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/33521143",
+    "published_at": "2026-09-06T21:05:21.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/33521143/original_9d3bb4beae5068ddd98091773dde4318.png?1736363983"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Curse_tablet",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105072122",
+    "source": "arena",
+    "type": "block",
+    "title": "Oblique Strategies - Wikipedia",
+    "text": "Oblique Strategies (subtitled Over One Hundred Worthwhile Dilemmas) is a card-based method for promoting creativity jointly created by musician/artist Brian Eno and multimedia artist Peter Schmidt, first published in 1975. Physically, it takes the form of a deck of 7-by-9-centimetre (2.8 in × 3.5 in) printed cards in a black box.[1][2][3] Each card offers a challenging constraint intended to help artists (particularly musicians) break creative blocks by encouraging lateral thinking.",
+    "url": "https://www.are.na/block/32926223",
+    "published_at": "2026-09-06T21:04:43.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/32926223/original_026b53c8a4ea4a542176dc539bedbfa0.png?1733951514"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Oblique_Strategies",
+      "channel": {
+        "title": "⍕ wikipedia frontlog",
+        "url": "https://www.are.na/siyang/wikipedia-frontlog"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5680626",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍕ wikipedia frontlog",
+    "text": "miscellania & etceteria that i have read some of",
+    "url": "https://www.are.na/siyang/wikipedia-frontlog",
+    "published_at": "2026-09-06T21:03:52.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:105071975",
+    "source": "arena",
+    "type": "block",
+    "title": "3 examples of psychofauna",
+    "text": "If we play our cards right we may still have a chance of avoiding the pure replicators, Molochs, and Singletons that lurk in our forward light-cone. But to do so we need to stay grounded and avoid the pitfalls here discussed.\n\nQualia Research Institute - \"Wireheading Done Right\"\nhttps://qri.org/blog/wireheading-done-right (https://qri.org/blog/wireheading-done-right)",
+    "url": "https://www.are.na/block/50180772",
+    "published_at": "2026-09-06T20:59:10.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105071799",
+    "source": "arena",
+    "type": "block",
+    "title": "We are very lucky to live in the Age of Spandrels",
+    "text": "We take for granted the fact that people around us like to watch movies, go to sports events, read novels, get drunk, listen to music, have sex, etc., without realizing they could be investing all of that energy in figuring out how to make clones.\n\nQualia Research Institute - \"Wireheading Done Right\"\nhttps://qri.org/blog/wireheading-done-right",
+    "url": "https://www.are.na/block/50180705",
+    "published_at": "2026-09-06T20:55:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105070415",
+    "source": "arena",
+    "type": "block",
+    "title": "Wireheading Done Right",
+    "text": "How to stay positive without going insane.",
+    "url": "https://www.are.na/block/50179980",
+    "published_at": "2026-09-06T20:27:52.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50179980/original_156f3e4311169d60723e46df51612e65.png?1788726478"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://qri.org/blog/wireheading-done-right",
+      "channel": {
+        "title": "⍕ wireheading",
+        "url": "https://www.are.na/siyang/wireheading"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5680497",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍕ wireheading",
+    "text": "",
+    "url": "https://www.are.na/siyang/wireheading",
+    "published_at": "2026-09-06T20:27:47.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:105034327",
+    "source": "arena",
+    "type": "block",
+    "title": "Unique_item - PoE2DB, Path of Exile Wiki us",
+    "text": "path of exile is simply a tool to test your path of building creation",
+    "url": "https://www.are.na/block/50158899",
+    "published_at": "2026-09-06T02:18:00.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50158899/original_b9aa8bb8be05a29aae5ba701a69e23a3.png?1788661113"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://poe2db.tw/us/Unique_item#ArmourUnique",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105011867",
+    "source": "arena",
+    "type": "block",
+    "title": "Goichi Suda - Wikipedia",
+    "text": "Goichi Suda",
+    "url": "https://www.are.na/block/50146682",
+    "published_at": "2026-09-05T16:11:13.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50146682/original_e6ed58e0c2584ebd3fabc99d23561ecc.png?1788624680"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Goichi_Suda",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105011368",
+    "source": "arena",
+    "type": "block",
+    "title": "LUCY BEDROQUE - LADY MORNINGSTAR",
+    "text": "Uploaded by K4SKO on 2026-09-04.",
+    "url": "https://www.are.na/block/50146447",
+    "published_at": "2026-09-05T15:52:05.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50146447/original_09c54ae688083d47a0ee3eae2f54805c.jpeg?1788623528"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Embed",
+      "source_url": "https://www.youtube.com/watch?v=j9HHCThgqL4",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:105009969",
+    "source": "arena",
+    "type": "block",
+    "title": "centuria chapter 99",
+    "text": "",
+    "url": "https://www.are.na/block/50145701",
+    "published_at": "2026-09-05T15:07:28.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/50145701/original_761ddd337694d7c7ccc61961b1076709.png?1788620857"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ to reclaim your soul",
+        "url": "https://www.are.na/siyang/to-reclaim-your-soul"
+      }
+    },
+    "kind": "reblog"
+  }
+]

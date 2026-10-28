@@ -1,0 +1,273 @@
+[
+  {
+    "id": "youtube:wT4VvkrweAo",
+    "source": "youtube",
+    "type": "video",
+    "title": "adding movement to tracks by automating distortion on master channel",
+    "text": "here i'm automating the dry/wet level of a saturation/distortion plugin that's on the master to add some movement across every 4 bars. in bitwig 4 i can draw curves with the native `steps` modulator, triggered every 8th note, to do this. v5 has new MSEG features that do this even better, but for now (aka just the next few weeks, hopefully...) i'm still only on v4.10\n\nplugin i'm using is density, i have another short video on cranking it up all the way with a low dry/wet in parallel (which is basically what we are doing here): https://www.youtube.com/watch?v=D4YLFTE_5co\n\nother ways to do this (for any DAW): \n- LFOs that sync to the beat\n- copy + paste automation\n- third party plugins like shaperbox\n\nthese can work to the same effect but for me using stock envelopes feels more elegant\n\nedit: now that bitwig 5 is out we can use the new Curves modulator to do this. this method still works for those on Essentials or Producer edition which don't yet have access to Curves",
+    "url": "https://www.youtube.com/watch?v=wT4VvkrweAo",
+    "published_at": "2023-06-26T21:53:53.000Z",
+    "fetched_at": "2026-11-03T16:08:16.338Z",
+    "images": [],
+    "embed": {
+      "provider": "youtube",
+      "id": "wT4VvkrweAo"
+    },
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "arena:43619412",
+    "source": "arena",
+    "type": "block",
+    "title": "ponyo energy",
+    "text": "dri @plant_a_dri\nhttps://twitter.com/plant_a_dri/status/1666992510395195395",
+    "url": "https://www.are.na/block/22188992",
+    "published_at": "2023-06-09T15:44:38.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/22188992/original_3f459ad5299fb3e6e694c94ee2b6ebc0.png?1686325479"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ ponyocore",
+        "url": "https://www.are.na/siyang/ponyocore"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43400529",
+    "source": "arena",
+    "type": "block",
+    "title": "Tweet by @NIB4A",
+    "text": "NIBB (https://twitter.com/@NIB4A)\n@NIB4A\n@_osaposapo\nhttps://pbs.twimg.com/tweet_video_thumb/FxvQrPnaIAAfB48.jpg:large https://pbs.twimg.com/tweet_video_thumb/FxvQrPnaIAAfB48.jpg:large\n12:31 AM · Jun 4, 2023\n\n@_osaposapo",
+    "url": "https://www.are.na/block/22113895",
+    "published_at": "2023-06-04T15:01:07.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/22113895/original_b6ad0e2740f24364db06528d293df806.png?1685890889"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://twitter.com/NIB4A/status/1665154169945174016",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43354705",
+    "source": "arena",
+    "type": "block",
+    "title": "Dear Red Sky at Morning,",
+    "text": "I have been birds and branches. I have been bees and wolves. I have been ether flooding the void between stars, tangling their breath into networks of song. I have been fish and plankton and humus, and all these have been me.\n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22096104",
+    "published_at": "2023-06-02T15:35:45.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43337694",
+    "source": "arena",
+    "type": "block",
+    "title": "My dear Miskowaanzhe",
+    "text": "every evening I see a red sky bleed over blue water and think of us. Have you ever watched this kind of sunset? The colours don't blend: the redder the sky the bluer the water, as we tilt away from the sun.\n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22089738",
+    "published_at": "2023-06-02T04:15:40.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍋ unnecessary chroma",
+        "url": "https://www.are.na/siyang/unnecessary-chroma"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43337682",
+    "source": "arena",
+    "type": "block",
+    "text": "I want to be a body for you.\n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22090327",
+    "published_at": "2023-06-02T04:14:34.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43336704",
+    "source": "arena",
+    "type": "block",
+    "text": "I wonder what of me there is in you.\n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22089842",
+    "published_at": "2023-06-02T03:35:11.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43336668",
+    "source": "arena",
+    "type": "block",
+    "text": "Blue loves cities—their anonymity,\ntheir smells and sounds—but she loves forests, too, places other people call quiet\nthat are anything but. \n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22089824",
+    "published_at": "2023-06-02T03:33:09.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ cities",
+        "url": "https://www.are.na/siyang/cities-pc1ztnnym7q"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43336663",
+    "source": "arena",
+    "type": "block",
+    "text": "Blue loves cities—their anonymity,\ntheir smells and sounds—but she loves forests, too, places other people call quiet\nthat are anything but. \n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22089824",
+    "published_at": "2023-06-02T03:32:51.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ multitudes",
+        "url": "https://www.are.na/siyang/multitudes-ilwg3t_5ide"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43336609",
+    "source": "arena",
+    "type": "block",
+    "title": "but i am / you are here.",
+    "text": "two of us breathers who want \nto know the other's opposite. you / i could be anywhere\nbut i am / you are here.\n\nSavannah Brown in \"This too shall devastate\", from Sweetdark (2020)",
+    "url": "https://www.are.na/block/22049560",
+    "published_at": "2023-06-02T03:29:27.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43335887",
+    "source": "arena",
+    "type": "block",
+    "title": "yours,",
+    "text": " It is difficult—it is very difficult, to befriend where you wish to consume, to find those who, when they ask Do I have you still, when they end a letter with Yours, mean it in any substantive way.\n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22089355",
+    "published_at": "2023-06-02T02:52:59.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ karaoke duets and tracing art",
+        "url": "https://www.are.na/siyang/karaoke-duets-and-tracing-art"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43335879",
+    "source": "arena",
+    "type": "block",
+    "text": "So I go. I travel farther and faster and harder than most, and I read, and I write, and I love cities. To be alone in a crowd, apart and belonging, to have distance between what I see and what I am\n\nAmal El-Mohtar and Max Gladstone - \"This Is How You Lose The Time War\"",
+    "url": "https://www.are.na/block/22089350",
+    "published_at": "2023-06-02T02:52:18.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "⍕ cities",
+        "url": "https://www.are.na/siyang/cities-pc1ztnnym7q"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:43335848",
+    "source": "arena",
+    "type": "block",
+    "title": "sick bug facts #2 (3/3)",
+    "text": "in spite of this, the caterpillar isn't dead in the sense that you might be thinking. caterpillars who have been conditioned to avoid certain smells will still avoid them as butterflies, so somehow some memories live on even after they have quite literally eaten their own brains.\n\ni bless the rains down in castamere @Chinchillazllla\nhttps://twitter.com/Chinchillazllla/status/1632424443711553536",
+    "url": "https://www.are.na/block/22089341",
+    "published_at": "2023-06-02T02:50:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  }
+]

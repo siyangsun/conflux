@@ -1,0 +1,1022 @@
+[
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "movietime",
+          "url": "https://github.com/siyangsun/movietime",
+          "count": 3
+        }
+      ]
+    },
+    "id": "github:commits:2025-07-30",
+    "source": "github",
+    "type": "commits",
+    "title": "3 commits in 1 repo",
+    "text": "movietime (3)",
+    "url": "https://github.com/siyangsun/movietime",
+    "published_at": "2025-07-30T12:38:35.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:80974683",
+    "source": "arena",
+    "type": "block",
+    "text": "",
+    "url": "https://www.are.na/block/14334016",
+    "published_at": "2025-07-28T20:01:45.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/14334016/original_a3cbaa0c3af54653d06b72c5943f6654.jpg?1639351148"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ doors",
+        "url": "https://www.are.na/siyang/doors-ni_fwtjtyiw"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "movietime",
+          "url": "https://github.com/siyangsun/movietime",
+          "count": 5
+        }
+      ]
+    },
+    "id": "github:commits:2025-07-27",
+    "source": "github",
+    "type": "commits",
+    "title": "5 commits in 1 repo",
+    "text": "movietime (5)",
+    "url": "https://github.com/siyangsun/movietime",
+    "published_at": "2025-07-27T19:32:41.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:movietime",
+    "source": "github",
+    "type": "repo",
+    "title": "movietime",
+    "text": "scrape a curated subset of indie theaters and post daily showtimes via jinja",
+    "url": "https://github.com/siyangsun/movietime",
+    "published_at": "2025-07-27T17:42:43.000Z",
+    "fetched_at": "2026-11-03T20:28:49.403Z",
+    "kind": "post"
+  },
+  {
+    "id": "arena:80913497",
+    "source": "arena",
+    "type": "block",
+    "title": "melt",
+    "text": "AI generated art by 夢鬱つ @0__11Xx",
+    "url": "https://www.are.na/block/38387764",
+    "published_at": "2025-07-27T16:02:31.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38387764/original_8eb79156c0522ccbc5cfe5d55c2ac6fc.jpg?1753632152"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GwxYPJZbgAQ6MI8?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ doors",
+        "url": "https://www.are.na/siyang/doors-ni_fwtjtyiw"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:4032361",
+    "source": "arena",
+    "type": "channel",
+    "title": "࿏ doors",
+    "text": "",
+    "url": "https://www.are.na/siyang/doors-ni_fwtjtyiw",
+    "published_at": "2025-07-27T16:02:27.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:80913478",
+    "source": "arena",
+    "type": "block",
+    "title": "2025.07.26 13:43 🌻",
+    "text": "illustration by John Kafka @john_kafka02",
+    "url": "https://www.are.na/block/38387755",
+    "published_at": "2025-07-27T16:01:31.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38387755/original_8f8d003c393d3c2c3eda6068dd11c632.jpg?1753632092"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GwyQSdMaYAAGzrG?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ all roads lead to me",
+        "url": "https://www.are.na/siyang/all-roads-lead-to-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80913402",
+    "source": "arena",
+    "type": "block",
+    "title": "Girl and Demon 39",
+    "text": "AI generated illustration by tam @6BDf4N7yeKYYNXC",
+    "url": "https://www.are.na/block/38387725",
+    "published_at": "2025-07-27T15:59:07.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38387725/original_827152deba501747bc8b74df3a4bce65.jpg?1753631949"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GwyTuNBboAE4E1q?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ multitudes",
+        "url": "https://www.are.na/siyang/multitudes-ilwg3t_5ide"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80858333",
+    "source": "arena",
+    "type": "block",
+    "text": "",
+    "url": "https://www.are.na/block/19574117",
+    "published_at": "2025-07-25T18:21:50.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/19574117/original_4866f633d5f195902eeb2cc5e2d2a96b.jpg?1672075348"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80831417",
+    "source": "arena",
+    "type": "block",
+    "title": "dragon's dead",
+    "text": "",
+    "url": "https://www.are.na/block/38350181",
+    "published_at": "2025-07-25T04:59:36.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38350181/original_e2f696c71aa61450e07394bceba92316.png?1753419578"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "◈ collage cola",
+        "url": "https://www.are.na/siyang/collage-cola"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80801242",
+    "source": "arena",
+    "type": "block",
+    "title": "inallofthis-2025-07-24-1121.mp3",
+    "text": "yeah i'm not alone\nthrough all of this\ncuz i've got you, good for me\ni'm not gonna lose.\none more time,\ni wanted to improve\nwe can try\ncuz i know where to go\nwhere you'll never go\nit's so clear, \nyou're not here\nenough anymore\nfor me\nbut i'm still not alone\nthrough all of this\nand i've got you, good for me\ni'm not gonna lose\nall this time\ni wanted to prove we can shine",
+    "url": "https://www.are.na/block/38337067",
+    "published_at": "2025-07-24T15:26:59.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Attachment",
+      "channel": {
+        "title": "◈ vocal demos",
+        "url": "https://www.are.na/siyang/vocal-demos"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80614584",
+    "source": "arena",
+    "type": "block",
+    "title": "this is where we were",
+    "text": "",
+    "url": "https://www.are.na/block/38253978",
+    "published_at": "2025-07-21T13:54:41.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38253978/original_d1e43c60528e6c0c5904abfe5411d8be.png?1753106082"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "◈ collage cola",
+        "url": "https://www.are.na/siyang/collage-cola"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80594409",
+    "source": "arena",
+    "type": "block",
+    "title": "desires-pull-me-2025-07-19-1451.mp3",
+    "text": "desires \npull me inside out\nto live a life\nclumsy, without doubt\ndecide to leave\nbefore behind\ni tried to be\nso undefined\nhellos\nhold my outsides in\nyou say that's how it goes\nat the beginning\na side of me\nto my chagrin\nthere's something left\nin the final inning",
+    "url": "https://www.are.na/block/38244566",
+    "published_at": "2025-07-21T04:45:13.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Attachment",
+      "channel": {
+        "title": "◈ vocal demos",
+        "url": "https://www.are.na/siyang/vocal-demos"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80594389",
+    "source": "arena",
+    "type": "block",
+    "title": "march-parade-2025-07-21-0042.mp3",
+    "text": "the lords, they say\nget on your saddle\nand ride towards the battle\nthere'll be more to handle\nneed to burn that candle\nkeep your steel sharp\nfight until dark\ngotta give it your heart\nbetter give it your heart\noh, and i'm riding back to you\nit's the only that's true\nand the more i have to lose\nto prove\nbut then they left the battle\nfor another castle\nwe didn't need to paddle\nto the ocean at all\nand they'll wipe their swords clean\nas if they didn't betray me\nthe sunshine i'm craving\ni could only daydream",
+    "url": "https://www.are.na/block/38244561",
+    "published_at": "2025-07-21T04:44:37.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Attachment",
+      "channel": {
+        "title": "◈ vocal demos",
+        "url": "https://www.are.na/siyang/vocal-demos"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "tumblr:789522986021634048",
+    "source": "tumblr",
+    "type": "post",
+    "text": "these days",
+    "url": "https://siyang-art-dump.tumblr.com/post/789522986021634048",
+    "published_at": "2025-07-19T17:56:33.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/083dbb976cc50777467888bbed70cc06/ff9e24949d09a826-69/s1280x1920/e3687a74d11c57d5b8bc92bfe88161e56ad3bf7f.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "arena:80538091",
+    "source": "arena",
+    "type": "block",
+    "title": "even if we never talk again",
+    "text": "illustration by ARCH BUDZAR𖤐\n@ArchBudzar",
+    "url": "https://www.are.na/block/38217133",
+    "published_at": "2025-07-19T14:51:55.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38217133/original_b365aeb4e3e55f0fca5661090ed672c1.jpg?1752936716"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gv1PogCXAA0z_uX?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80538072",
+    "source": "arena",
+    "type": "block",
+    "title": "The Eclipse of the Sun",
+    "text": "The Eclipse of the Sun in Venice, July 6, 1842, by Ippolito Caffi (1842)\nfound on X @_ArtMuseum",
+    "url": "https://www.are.na/block/38217126",
+    "published_at": "2025-07-19T14:50:59.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/38217126/original_75b64c141d210af3ce3dfdec5e0744d7.jpg?1752936660"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gv1l_TbWgAAzYJa?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ low blood sugar",
+        "url": "https://www.are.na/siyang/low-blood-sugar"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:80059993",
+    "source": "arena",
+    "type": "block",
+    "text": "What if a piece of wood discovers that it is a violin?\n—Arthur Rimbaud",
+    "url": "https://www.are.na/block/15040821",
+    "published_at": "2025-07-09T18:28:34.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ sharks in the shallow",
+        "url": "https://www.are.na/siyang/sharks-in-the-shallow"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79976747",
+    "source": "arena",
+    "type": "block",
+    "title": "gomh0tbxgaefkn4?format=jpg-name=medium",
+    "text": "artwork by cherry✟ @aletiune",
+    "url": "https://www.are.na/block/37955861",
+    "published_at": "2025-07-08T13:36:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955861/original_a87fb636e586cc9b89402b7ca479927f.jpg?1751981785"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GoMh0tBXgAEFkn4?format=jpg&name=medium",
+      "channel": {
+        "title": "࿏ power lines and hard goodbyes",
+        "url": "https://www.are.na/siyang/power-lines-and-hard-goodbyes"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79976570",
+    "source": "arena",
+    "type": "block",
+    "title": "fear",
+    "text": "illustration by Page.nak1 @page_nak1",
+    "url": "https://www.are.na/block/37955565",
+    "published_at": "2025-07-08T13:33:04.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955565/original_03af1b6a50e3bce5a3099964131a2204.jpg?1751981006"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GqR_ew-bAAM1Wbs?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79976484",
+    "source": "arena",
+    "type": "block",
+    "title": "Moon Maker 37/100",
+    "text": "painting by soroni @sorrowny",
+    "url": "https://www.are.na/block/37955733",
+    "published_at": "2025-07-08T13:31:36.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955733/original_29916144b4719d407d81737fd257e07f.jpg?1751981497"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GqS7XFLWQAABiSK?format=jpg&name=4096x4096",
+      "channel": {
+        "title": "⍋ value distillation & shape appeal",
+        "url": "https://www.are.na/siyang/value-distillation-shape-appeal"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "tumblr:788509693210427392",
+    "source": "tumblr",
+    "type": "post",
+    "text": "sloughing off",
+    "url": "https://siyang-art-dump.tumblr.com/post/788509693210427392",
+    "published_at": "2025-07-08T13:30:42.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/7599b27d8fc43b4ab49acdc152aee834/98ed96d788e319e2-e3/s1280x1920/1def4039819e6aa7bd973a26e845db4c3bd5e794.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "arena:79975946",
+    "source": "arena",
+    "type": "block",
+    "title": "gqcjebcwkaaochu?format=jpg-name=large",
+    "text": "found via NEOMECHANICA @neomechanica",
+    "url": "https://www.are.na/block/37955543",
+    "published_at": "2025-07-08T13:22:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955543/original_d996aeb566fada93c44ad10adbf49f08.jpg?1751980928"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GqcJeBCWkAAOChU?format=jpg&name=large",
+      "channel": {
+        "title": "⏧ nen beasts",
+        "url": "https://www.are.na/siyang/nen-beasts"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79975722",
+    "source": "arena",
+    "type": "block",
+    "title": "浮冰",
+    "text": "赤蛹 @5RRLfmnCzqhk4FM",
+    "url": "https://www.are.na/block/37955439",
+    "published_at": "2025-07-08T13:18:35.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955439/original_c5f0837a8472d29a04649874a2dd7863.jpg?1751980717"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gq5z-bCW0AI0IFF?format=jpg&name=medium",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79975635",
+    "source": "arena",
+    "type": "block",
+    "title": "obsidian network",
+    "text": "imit @imitationlearn",
+    "url": "https://www.are.na/block/37955406",
+    "published_at": "2025-07-08T13:17:01.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955406/original_e1bb316cf2de4eb70be4b695500b3e33.png?1751980623"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GrWdwDtWQAA0JLy?format=png&name=medium",
+      "channel": {
+        "title": "⏧ gnostic planes",
+        "url": "https://www.are.na/siyang/gnostic-planes"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79975163",
+    "source": "arena",
+    "type": "block",
+    "title": "It gives Body to purpose",
+    "text": "artwork by 𝗦𝗘𝗘𝗟𝗘 @UndergroundAeon\nAttention is the resource for actualization and continuous reproduction. It gives Body to purpose, a Body that becomes an extension (a pattern connecting things) over time rather than space (this is why synchronicity happens). Targeting attention is a petition to govern patterns.",
+    "url": "https://www.are.na/block/37955248",
+    "published_at": "2025-07-08T13:04:52.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955248/original_082d2f64f1b306e7c645c5d2459014dc.png?1751979893"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GNMvvDzWMAAvuVh?format=png&name=small",
+      "channel": {
+        "title": "࿏ density",
+        "url": "https://www.are.na/siyang/density-bpzszbqglys"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:3969873",
+    "source": "arena",
+    "type": "channel",
+    "title": "࿏ density",
+    "text": "",
+    "url": "https://www.are.na/siyang/density-bpzszbqglys",
+    "published_at": "2025-07-08T13:04:48.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:79975083",
+    "source": "arena",
+    "type": "block",
+    "title": "The Tiger",
+    "text": "",
+    "url": "https://www.are.na/block/37955200",
+    "published_at": "2025-07-08T13:03:28.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955200/original_06e05c85648bf48aec30f42190dc8983.jpg?1751979809"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gr-bfSzWEAAWA02?format=jpg&name=medium",
+      "channel": {
+        "title": "࿏ sun god nika",
+        "url": "https://www.are.na/siyang/sun-god-nika"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974971",
+    "source": "arena",
+    "type": "block",
+    "title": "A piece of me I left behind,,",
+    "text": "artwork by cherry✟ @aletiune",
+    "url": "https://www.are.na/block/37955155",
+    "published_at": "2025-07-08T13:00:00.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955155/original_3ebc717e3f38e8959157c65133b8f620.jpg?1751979602"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GsyUUueXcAAYngB?format=jpg&name=4096x4096",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974695",
+    "source": "arena",
+    "type": "block",
+    "title": "the Path",
+    "text": "࿇࿄M. T. Well࿈☸ @emptyofall",
+    "url": "https://www.are.na/block/37955065",
+    "published_at": "2025-07-08T12:53:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955065/original_f2d0a7fff9a2bb3daf484b649c599d1e.png?1751979205"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GthDEKLWUAAMjCD?format=png&name=900x900",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974636",
+    "source": "arena",
+    "type": "block",
+    "title": "remember that twin.",
+    "text": "found via ★ @thematrixwizard",
+    "url": "https://www.are.na/block/37955043",
+    "published_at": "2025-07-08T12:51:52.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955043/original_443432492df3e2e97309d0563cf660aa.jpg?1751979113"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gttr74dXcAE1kjb?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ heterodox",
+        "url": "https://www.are.na/siyang/heterodox"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974579",
+    "source": "arena",
+    "type": "block",
+    "title": "disrespect to life",
+    "text": "oa @overac111ever\nhttps://x.com/overac111ever/status/1936448983192506859",
+    "url": "https://www.are.na/block/37955020",
+    "published_at": "2025-07-08T12:50:27.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955020/original_2d01457c8355404aeedfd7796a856b8d.png?1751979028"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974559",
+    "source": "arena",
+    "type": "block",
+    "title": "leo tolstoy",
+    "text": "",
+    "url": "https://www.are.na/block/37955012",
+    "published_at": "2025-07-08T12:50:01.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37955012/original_02ca9f67780c9181358391450abcbc6a.jpg?1751979003"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GuIbYzNXEAAuv8g?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974378",
+    "source": "arena",
+    "type": "block",
+    "text": "★ @thematrixwizard",
+    "url": "https://www.are.na/block/37954906",
+    "published_at": "2025-07-08T12:47:05.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954906/original_296bf918061d8a96847ccf1f55e6f17c.jpg?1751978826"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GutNyaGWUAAiaPt?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974329",
+    "source": "arena",
+    "type": "block",
+    "title": "the assumption",
+    "text": "found via Lisa @novelistplace",
+    "url": "https://www.are.na/block/37954896",
+    "published_at": "2025-07-08T12:45:37.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954896/original_eb10115cab683e26c59b2eea3c16646d.jpg?1751978738"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gu3iIkbXUAAm3fA?format=jpg&name=900x900",
+      "channel": {
+        "title": "࿏ i'm here; so are you",
+        "url": "https://www.are.na/siyang/i-m-here-so-are-you"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974275",
+    "source": "arena",
+    "type": "block",
+    "title": "the violence it took",
+    "text": "Nitya Prakash",
+    "url": "https://www.are.na/block/37954872",
+    "published_at": "2025-07-08T12:44:32.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954872/original_a785506f363139126e8c3992e47e456e.jpg?1751978673"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/Gu3GSoMXMAASJYV?format=jpg&name=medium",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974263",
+    "source": "arena",
+    "type": "block",
+    "title": "As long as you love it.",
+    "text": "",
+    "url": "https://www.are.na/block/37954866",
+    "published_at": "2025-07-08T12:44:03.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954866/original_9cfb613c2d3014e2ed4f83dc49e61950.png?1751978644"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974141",
+    "source": "arena",
+    "type": "block",
+    "title": "You are loved. You are free. Goodnight.",
+    "text": "illustration by Dan Allison @danallison",
+    "url": "https://www.are.na/block/37954812",
+    "published_at": "2025-07-08T12:41:05.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954812/original_0bead6cabd70a4534850a1cad9f68ca9.jpg?1751978442"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GvJ-Uj5aAAITLND?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ I want to see you with my eyes",
+        "url": "https://www.are.na/siyang/i-want-to-see-you-with-my-eyes"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974124",
+    "source": "arena",
+    "type": "block",
+    "title": "You are loved. You are free. Goodnight.",
+    "text": "illustration by Dan Allison @danallison",
+    "url": "https://www.are.na/block/37954812",
+    "published_at": "2025-07-08T12:40:40.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954812/original_0bead6cabd70a4534850a1cad9f68ca9.jpg?1751978442"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GvJ-Uj5aAAITLND?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974096",
+    "source": "arena",
+    "type": "block",
+    "title": "laughing in their own ways, dancing in their own ways",
+    "text": "",
+    "url": "https://www.are.na/block/37954803",
+    "published_at": "2025-07-08T12:39:58.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954803/original_deb54551c865610a07e93d10ef3451bd.jpg?1751978398"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GvOrUYvXUAA84Yk?format=jpg&name=large",
+      "channel": {
+        "title": "࿏ sun god nika",
+        "url": "https://www.are.na/siyang/sun-god-nika"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79974064",
+    "source": "arena",
+    "type": "block",
+    "title": "— Rainer Maria Rilke",
+    "text": "",
+    "url": "https://www.are.na/block/37954793",
+    "published_at": "2025-07-08T12:39:20.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37954793/original_53d0b47b02785b6989ad3212ecb0cd92.jpg?1751978361"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://pbs.twimg.com/media/GvPguu7WQAATmec?format=jpg&name=medium",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Counterintuitive body reminders",
+          "url": "https://siyangsun.github.io/courtyard/counterintuitive-body-reminders",
+          "status": "updated"
+        },
+        {
+          "title": "Courtship as Ritual",
+          "url": "https://siyangsun.github.io/courtyard/courtship-as-ritual",
+          "status": "updated"
+        },
+        {
+          "title": "human labor is hidden behind AI",
+          "url": "https://siyangsun.github.io/courtyard/human-labor-is-hidden-behind-AI",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-2025-07-08",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 3 pages",
+    "text": "Counterintuitive body reminders (updated)\nCourtship as Ritual (updated)\nhuman labor is hidden behind AI (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2025-07-08T02:39:45.000Z",
+    "fetched_at": "2026-11-03T19:21:15.204Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2025-07-07",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "courtyard (1)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2025-07-08T02:39:45.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:79939970",
+    "source": "arena",
+    "type": "block",
+    "title": "november",
+    "text": "source: \n- Taking of the Warsaw Arsenal.",
+    "url": "https://www.are.na/block/37935564",
+    "published_at": "2025-07-07T22:21:36.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37935564/original_93e0fb154e43bc2c0887cc64777100ba.png?1751926898"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "◈ collage cola",
+        "url": "https://www.are.na/siyang/collage-cola"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:79939555",
+    "source": "arena",
+    "type": "block",
+    "title": "tumblr_mx7hgyw4po1qa6dfqo1_500.png",
+    "text": "",
+    "url": "https://www.are.na/block/4225042",
+    "published_at": "2025-07-07T22:12:09.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/4225042/original_d998e3c3c5ca8886be842795528a0878.png?1557258942"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://5uzinak.tumblr.com/post/179193180472",
+      "channel": {
+        "title": "࿏ jackals, lampreys, vultures",
+        "url": "https://www.are.na/siyang/jackals-lampreys-vultures"
+      }
+    },
+    "kind": "reblog"
+  }
+]

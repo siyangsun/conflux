@@ -1,0 +1,68 @@
+name: feed
+on:
+  schedule:
+    # 8am-2am New York every 15 min on off-peak minutes, hourly overnight. Never :00.
+    - cron: "7,22,37,52 8-23,0-1 * * *"
+      timezone: "America/New_York"
+    - cron: "7 2-7 * * *"
+      timezone: "America/New_York"
+  push:
+    branches: [main]
+    paths: [src/**, site/**, config/**, posts/**, .github/workflows/**]
+  workflow_dispatch:
+concurrency:
+  group: feed
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: npm }
+      - run: npm ci
+      - if: github.event_name == 'push'
+        run: npm test
+      - id: fetch
+        run: node src/run.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARENA_TOKEN: ${{ secrets.ARENA_TOKEN }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      - name: Commit new items / state
+        if: steps.fetch.outputs.dirty == 'true'
+        env:
+          SUMMARY: ${{ steps.fetch.outputs.summary }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "$SUMMARY"
+          # Retry: a manual push to main during the run would reject this push.
+          for n in 1 2 3; do git pull --rebase && git push && exit 0; sleep $((n * 5)); done; exit 1
+      # Scheduled workflows are disabled after 60 days without repo activity: commit if the last one is 50+ days old.
+      - name: Keepalive
+        if: steps.fetch.outputs.dirty != 'true'
+        run: |
+          if [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt $(( 50 * 86400 )) ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "chore: keepalive"
+            for n in 1 2 3; do git pull --rebase && git push && exit 0; sleep $((n * 5)); done; exit 1
+          fi
+      # Empty runs stop here: no build, no deploy. Pushes (code/template/post changes) always deploy.
+      - if: github.event_name == 'push' || steps.fetch.outputs.count != '0'
+        run: npm run build
+      - if: github.event_name == 'push' || steps.fetch.outputs.count != '0'
+        uses: actions/upload-pages-artifact@v3
+      - id: deploy
+        if: github.event_name == 'push' || steps.fetch.outputs.count != '0'
+        uses: actions/deploy-pages@v4

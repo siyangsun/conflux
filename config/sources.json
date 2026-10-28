@@ -1,0 +1,59 @@
+{
+  "site": {
+    "title": "conflux",
+    "description": "everything I post, in one place",
+    "url": "https://siyangsun.github.io",
+    "base_path": "/conflux",
+    "repo": "siyangsun/conflux"
+  },
+  "sources": {
+    "substack": {
+      "enabled": true,
+      "names": [
+        "sump",
+        "unevenlyeven"
+      ],
+      "hourly": true
+    },
+    "tumblr": {
+      "enabled": true,
+      "username": "siyang-art-dump"
+    },
+    "youtube": {
+      "enabled": true,
+      "channel_id": "UCtFso8gyKStHuFQtou1tqrg"
+    },
+    "arena": {
+      "enabled": true,
+      "username": "siyang"
+    },
+    "x": {
+      "enabled": false,
+      "handle": "",
+      "user_id": ""
+    },
+    "manual": {
+      "enabled": true
+    },
+    "quartz": {
+      "enabled": true,
+      "site_url": "https://siyangsun.github.io/courtyard/"
+    },
+    "soundcloud": {
+      "enabled": true,
+      "user_ids": [
+        "11167186",
+        "1761519321",
+        "374439605"
+      ],
+      "hourly": true
+    },
+    "github": {
+      "enabled": true,
+      "username": "siyangsun",
+      "exclude": [
+        "conflux"
+      ]
+    }
+  }
+}

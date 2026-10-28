@@ -1,0 +1,2115 @@
+[
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "jerry360",
+          "url": "https://github.com/siyangsun/jerry360",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-28",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "jerry360 (1)",
+    "url": "https://github.com/siyangsun/jerry360",
+    "published_at": "2026-10-28T04:37:33.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "jerry360",
+          "url": "https://github.com/siyangsun/jerry360",
+          "count": 3
+        },
+        {
+          "name": "trespass",
+          "url": "https://github.com/siyangsun/trespass",
+          "count": 3
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-27",
+    "source": "github",
+    "type": "commits",
+    "title": "6 commits in 2 repos",
+    "text": "jerry360 (3)\ntrespass (3)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-10-28T03:41:44.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "soundcloud:2427309822",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "no promises",
+    "text": "",
+    "url": "https://soundcloud.com/smurf_account/no-promises",
+    "published_at": "2026-10-28T02:50:27.000Z",
+    "fetched_at": "2026-11-03T16:26:56.003Z",
+    "images": [],
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsmurf_account%2Fno-promises"
+    },
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "smurf_account",
+      "account_url": "https://soundcloud.com/smurf_account"
+    },
+    "kind": "post"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:trespass",
+    "source": "github",
+    "type": "repo",
+    "title": "trespass",
+    "text": "standalone tabular .tres resource editor for godot",
+    "url": "https://github.com/siyangsun/trespass",
+    "published_at": "2026-10-28T00:46:47.000Z",
+    "fetched_at": "2026-11-03T20:28:49.403Z",
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831670041024118784",
+    "source": "tumblr",
+    "type": "post",
+    "text": "wing wretch",
+    "url": "https://siyang-art-dump.tumblr.com/post/831670041024118784",
+    "published_at": "2026-10-27T23:05:57.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/f49cc42f509cb92316216ca67836094c/8c3d03885f55d921-52/s1280x1920/3e5679afdf1df2f47c1aba914cadd239f664994e.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669944169136128",
+    "source": "tumblr",
+    "type": "post",
+    "text": "",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669944169136128",
+    "published_at": "2026-10-27T23:04:25.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/7b89e4e8ac8badca21667dbdf80c52b3/1fbdd293889e7a30-c9/s2048x3072/5cc2ef754178289c07c1371f0f14e200b2e6a85f.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669935606464512",
+    "source": "tumblr",
+    "type": "post",
+    "text": "",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669935606464512",
+    "published_at": "2026-10-27T23:04:17.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/7688b16b4fe136426eba955297857060/9b56c556efc34cfa-46/s2048x3072/c996a02932b0fd39c8bc1506e385b0e55316726a.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669922661875712",
+    "source": "tumblr",
+    "type": "post",
+    "text": "",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669922661875712",
+    "published_at": "2026-10-27T23:04:04.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/573e3490c4a7dc5afcf8a33e58294509/7c9b213c66d60396-11/s1280x1920/7672f00e7d8ad3542e021093ca438fc273ee991c.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669893822889984",
+    "source": "tumblr",
+    "type": "post",
+    "text": "",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669893822889984",
+    "published_at": "2026-10-27T23:03:37.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/c96a18ec489cec5e19a31366adf46142/d4f4367e2011d545-3f/s2048x3072/f75b995eba997f90582b9be9266b97a7eb12337d.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669882850541568",
+    "source": "tumblr",
+    "type": "post",
+    "text": "DJ WORM tour merchandise",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669882850541568",
+    "published_at": "2026-10-27T23:03:26.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/d8bd8b8e3294d9da737c5489dc10ef4c/ddc7b408aaf37cb3-bc/s2048x3072/a169a88e50d8abd166546a06e7f6396539d978df.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669872303964160",
+    "source": "tumblr",
+    "type": "post",
+    "text": "",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669872303964160",
+    "published_at": "2026-10-27T23:03:16.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/b28a00fcbb77f0328c503beadf1678f2/678963f94771e45d-7c/s2048x3072/2a44301ad61877f7b2e31d3e7777e3ee10c28206.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "tumblr:831669858324414464",
+    "source": "tumblr",
+    "type": "post",
+    "text": "",
+    "url": "https://siyang-art-dump.tumblr.com/post/831669858324414464",
+    "published_at": "2026-10-27T23:03:03.000Z",
+    "fetched_at": "2026-11-03T16:08:16.314Z",
+    "images": [
+      "https://64.media.tumblr.com/ec236cde464277399c6817ad609df0f6/d9955f5d7adee97a-34/s2048x3072/0d78bbc798366510be4685c25fba9533d082ab2b.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "kind": "post"
+  },
+  {
+    "id": "arena:108750956",
+    "source": "arena",
+    "type": "block",
+    "title": "moth.rip ʚĭɞ",
+    "text": "A space for work and writing by moth.",
+    "url": "https://www.are.na/block/51967778",
+    "published_at": "2026-10-27T17:51:54.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51967778/original_e8c8e2ea98289fcac144fb5761aac536.png?1793123525"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://moth.rip/",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108749888",
+    "source": "arena",
+    "type": "block",
+    "title": "GitHub - vorssaint/vorssaint-utils: Free and open-source macOS menu bar toolkit.",
+    "text": "Free and open-source macOS menu bar toolkit. Contribute to vorssaint/vorssaint-utils development by creating an account on GitHub.",
+    "url": "https://www.are.na/block/51967284",
+    "published_at": "2026-10-27T17:39:52.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51967284/original_27398d6ea0c3e49e1cf90c6cfd842faf.png?1793122814"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://github.com/vorssaint/vorssaint-utils",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108744274",
+    "source": "arena",
+    "type": "block",
+    "title": "0C4F1CFD-2670-4D30-B7A9-5346ACC0CBBB",
+    "text": "",
+    "url": "https://www.are.na/block/51272705",
+    "published_at": "2026-10-27T16:32:34.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51272705/original_4f56e2bbed393e111ead0954a85dbf60.jpg?1791754999"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ medieval characters that could be played by 2hollis",
+        "url": "https://www.are.na/siyang/medieval-characters-that-could-be-played-by-2hollis"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108744206",
+    "source": "arena",
+    "type": "block",
+    "title": "80.jpg?1517813031",
+    "text": "",
+    "url": "https://www.are.na/block/3703859",
+    "published_at": "2026-10-27T16:31:58.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/3703859/original_817ac5cfd1bf59aeb7294099c02ea2f5.jpg?1550810818"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://img.scryfall.com/cards/art_crop/en/leg/80.jpg?1517813031",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108744127",
+    "source": "arena",
+    "type": "block",
+    "title": "All Posts • Instagram",
+    "text": "",
+    "url": "https://www.are.na/block/46171695",
+    "published_at": "2026-10-27T16:31:14.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/46171695/original_9340db7696783615312bf9cd8de087cc.jpeg?1778822506"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://www.instagram.com/p/DXb96QykUJ7/?hl=en&img_index=8",
+      "channel": {
+        "title": "⏧ drain world",
+        "url": "https://www.are.na/siyang/drain-world"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108744109",
+    "source": "arena",
+    "type": "block",
+    "title": "All Posts • Instagram",
+    "text": "",
+    "url": "https://www.are.na/block/46171695",
+    "published_at": "2026-10-27T16:31:10.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/46171695/original_9340db7696783615312bf9cd8de087cc.jpeg?1778822506"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://www.instagram.com/p/DXb96QykUJ7/?hl=en&img_index=8",
+      "channel": {
+        "title": "࿏ to reclaim your soul",
+        "url": "https://www.are.na/siyang/to-reclaim-your-soul"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108744060",
+    "source": "arena",
+    "type": "block",
+    "title": "The Life of Saint Dymphna (1505) by Goswin van der Weyden",
+    "text": "",
+    "url": "https://www.are.na/block/15893025",
+    "published_at": "2026-10-27T16:30:56.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/15893025/original_2998a703c1e9113235dc44d038d760cc.jpg?1649028465"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ low blood sugar",
+        "url": "https://www.are.na/siyang/low-blood-sugar"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108744027",
+    "source": "arena",
+    "type": "block",
+    "title": "e79yzvuwyaup880.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/12752599",
+    "published_at": "2026-10-27T16:30:44.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/12752599/original_e269093bf66014c008e52f56b6cec775.jpg?1628156040"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ 39 curses and hope",
+        "url": "https://www.are.na/siyang/39-curses-and-hope"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108743989",
+    "source": "arena",
+    "type": "block",
+    "title": "Uma Thurman",
+    "text": "Promo of Uma Thurman for Kill Bill vol. 1 (2003)",
+    "url": "https://www.are.na/block/18572346",
+    "published_at": "2026-10-27T16:30:27.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/18572346/original_d956ed6b72aee1f6408e99d397b8d4ea.png?1666132119"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ medieval characters that could be played by 2hollis",
+        "url": "https://www.are.na/siyang/medieval-characters-that-could-be-played-by-2hollis"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108743977",
+    "source": "arena",
+    "type": "block",
+    "title": "06eafed0-f97b-4971-a1f9-f3e9532b0333.png",
+    "text": "",
+    "url": "https://www.are.na/block/27316954",
+    "published_at": "2026-10-27T16:30:23.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/27316954/original_1d5c8ae9da6289bd4946a9399beaaeee.png?1712029793"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ medieval characters that could be played by 2hollis",
+        "url": "https://www.are.na/siyang/medieval-characters-that-could-be-played-by-2hollis"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108743963",
+    "source": "arena",
+    "type": "block",
+    "title": "tumblr_plsjh0iozp1xqq6dyo1_640.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/8473990",
+    "published_at": "2026-10-27T16:30:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/8473990/original_5c6c9a44d362ea6ee889427a73649333.jpg?1598566493"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ medieval characters that could be played by 2hollis",
+        "url": "https://www.are.na/siyang/medieval-characters-that-could-be-played-by-2hollis"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108743932",
+    "source": "arena",
+    "type": "block",
+    "title": "fsrh3wzxeaarurl.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/16534690",
+    "published_at": "2026-10-27T16:30:00.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/16534690/original_e6c810341885dd24ce4076b903023a09.jpg?1653020392"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⏧ medieval characters that could be played by 2hollis",
+        "url": "https://www.are.na/siyang/medieval-characters-that-could-be-played-by-2hollis"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108743881",
+    "source": "arena",
+    "type": "block",
+    "title": "https://x.com/cjbk01/status/1471323011341258756?s=20",
+    "text": "",
+    "url": "https://www.are.na/block/27133141",
+    "published_at": "2026-10-27T16:29:32.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/27133141/original_0e107da576dc94309a8359cc8695e7d6.jpg?1711111192"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "⍋ hard round supremacy",
+        "url": "https://www.are.na/siyang/hard-round-supremacy"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108740868",
+    "source": "arena",
+    "type": "block",
+    "title": "A modern motherboard for iPods",
+    "text": "Sign up for launch updates on Crowd Supply: https://www.crowdsupply.com/certain-things/sprout-pi-mainboard Sprout is a modern motherboard for classic iPods. It fits inside your iPod's original case and uses its original parts: screen, click wheel and all. No soldering, and fully reversible.",
+    "url": "https://www.are.na/block/51962836",
+    "published_at": "2026-10-27T16:03:16.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51962836/original_58e563d900895ee0f6dd7580a171fbf2.jpg?1793116999"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Embed",
+      "source_url": "https://www.youtube.com/watch?v=xwB0ohq2xYk",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "timebox",
+          "url": "https://github.com/siyangsun/timebox",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-23",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "timebox (1)",
+    "url": "https://github.com/siyangsun/timebox",
+    "published_at": "2026-10-23T21:13:35.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "skill-ablation",
+          "url": "https://github.com/siyangsun/skill-ablation",
+          "count": 1
+        },
+        {
+          "name": "timebox",
+          "url": "https://github.com/siyangsun/timebox",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-22",
+    "source": "github",
+    "type": "commits",
+    "title": "2 commits in 2 repos",
+    "text": "skill-ablation (1)\ntimebox (1)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-10-22T16:54:06.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:timebox",
+    "source": "github",
+    "type": "repo",
+    "title": "timebox",
+    "text": "time aware claude plugin",
+    "url": "https://github.com/siyangsun/timebox",
+    "published_at": "2026-10-22T16:52:14.000Z",
+    "fetched_at": "2026-11-03T20:28:49.403Z",
+    "kind": "post"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "skill-ablation",
+          "url": "https://github.com/siyangsun/skill-ablation",
+          "count": 4
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-21",
+    "source": "github",
+    "type": "commits",
+    "title": "4 commits in 1 repo",
+    "text": "skill-ablation (4)",
+    "url": "https://github.com/siyangsun/skill-ablation",
+    "published_at": "2026-10-21T22:57:49.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:skill-ablation",
+    "source": "github",
+    "type": "repo",
+    "title": "skill-ablation",
+    "text": "claude code plugin that trims down skills made obsolete by new model versions",
+    "url": "https://github.com/siyangsun/skill-ablation",
+    "published_at": "2026-10-21T22:32:40.000Z",
+    "fetched_at": "2026-11-03T20:28:49.403Z",
+    "kind": "post"
+  },
+  {
+    "id": "arena:108241618",
+    "source": "arena",
+    "type": "block",
+    "title": "shutting up",
+    "text": "Taste is about hosting an ever-expanding array of lenses with which to see a work, while simultaneously making your internal lens as precise as possible. Taste is about curiosity and shutting up as much as it is about self-knowledge.\n\nsam bodrojan, \"How To Write About Film\"\nhttps://cchelmetgirl.substack.com/p/how-to-write-about-film?manualredirect=",
+    "url": "https://www.are.na/block/51678404",
+    "published_at": "2026-10-21T21:52:11.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108241262",
+    "source": "arena",
+    "type": "block",
+    "title": "Home / Twitter",
+    "text": "",
+    "url": "https://www.are.na/block/41938296",
+    "published_at": "2026-10-21T21:46:54.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/41938296/original_c3aa41ea4a9a30025882f5c2a8f7c683.jpg?1766282075"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://x.com/mhisamaya/status/2001872070473584850/photo/1",
+      "channel": {
+        "title": "࿏ even if it kills me",
+        "url": "https://www.are.na/siyang/even-if-it-kills-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108241247",
+    "source": "arena",
+    "type": "block",
+    "title": "rina nicolae | Substack",
+    "text": "",
+    "url": "https://www.are.na/block/44633099",
+    "published_at": "2026-10-21T21:46:37.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/44633099/original_bfbde24c04b89b8478b3d5c15cadb5b0.jpg?1774214386"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://substack.com/@rinanicolae?utm_source=global-search",
+      "channel": {
+        "title": "࿏ i'm here; so are you",
+        "url": "https://www.are.na/siyang/i-m-here-so-are-you"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108241213",
+    "source": "arena",
+    "type": "block",
+    "title": "Home / Twitter",
+    "text": "",
+    "url": "https://www.are.na/block/49615803",
+    "published_at": "2026-10-21T21:45:59.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/49615803/original_b458f58b267d6b873817c5aafd7b0ea7.png?1787030307"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://x.com/theJayAlto/status/2089434567069270339/photo/1",
+      "channel": {
+        "title": "࿏ heterodox",
+        "url": "https://www.are.na/siyang/heterodox"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108241151",
+    "source": "arena",
+    "type": "block",
+    "title": "(1) Chris Lakin on X: \"yes let's do it https://t.co/oHepXLbbKa\" / X",
+    "text": "yes let's do it\nif we all tense really hard p doom might be under ten percent\n@nickcammarata - https://x.com/nickcammarata/status/2102947231393517931 (https://x.com/nickcammarata/status/2102947231393517931)",
+    "url": "https://www.are.na/block/51668284",
+    "published_at": "2026-10-21T21:44:59.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51668284/original_5caea1208a56b24a20261021-2-taniu.png?1792604898"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Attachment",
+      "source_url": "https://x.com/chrislakin/status/2102996644119921119",
+      "channel": {
+        "title": "࿏ you are doing childs play and i'm doing adult play here",
+        "url": "https://www.are.na/siyang/you-are-doing-childs-play-and-i-m-doing-adult-play-here"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:108081784",
+    "source": "arena",
+    "type": "block",
+    "title": "start fresh",
+    "text": "https://www.reddit.com/r/drums/comments/16r4mya/comment/k21jsev/?utm\\_source=share&amp;utm\\_medium=web3x&amp;utm\\_name=web3xcss&amp;utm\\_term=1&amp;utm\\_content=share\\_button",
+    "url": "https://www.are.na/block/51602306",
+    "published_at": "2026-10-20T04:52:57.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51602306/original_9e7c5ec2056c186a6d194fac1ed808b6.png?1792471987"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ salvage",
+        "url": "https://www.are.na/siyang/salvage-gugqdx1wujk"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5888282",
+    "source": "arena",
+    "type": "channel",
+    "title": "࿏ salvage",
+    "text": "diy,  low economy, scrappunk, number 8 wire make it work",
+    "url": "https://www.are.na/siyang/salvage-gugqdx1wujk",
+    "published_at": "2026-10-20T04:52:31.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:108077188",
+    "source": "arena",
+    "type": "block",
+    "title": "Cai Guo-Qiang",
+    "text": "",
+    "url": "https://www.are.na/block/51596172",
+    "published_at": "2026-10-20T03:01:25.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51596172/original_5fd37a52de59d395401f7bce445013c7.jpg?1792454090"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://www.google.com/search?client=safari&hs=BUqq&sca_esv=51d9174c6c91f7ac&rls=en&sxsrf=APpeQnvDMmrx5ADK_TtSq-MAAmQRjtRFtw:1792454058624&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIQnNXX16KI5TUYfGThGd0K-Ho2x3_GsK35WaBRMJoA3tlIpM9IN_P8G2V_YHrpTWIPvSNewkbmLcIeuzNrp6ldZISOeatzqzOiFcjF-6C6BXlyVb5tSVLutvdzNnVJJsrLv0juw&q=Cai+Guo-Qiang&sa=X&ved=2ahUKEwiiwsLbo8eXAxUEjIkEHcesIvYQtKgLegQIExAB&biw=1710&bih=870&dpr=2#ip=1&sv=CAMSURoyKhBlLTB0RllvZ3FyMzNaZXJNMg4wdEZZb2dxcjMzWmVyTToOU2MtclVTUE1oQjFFVE0gBCoXCgFzEhBlLTB0RllvZ3FyMzNaZXJNGAEwARgHIPDJwKMHSggQAhgBIAIoAQ",
+      "channel": {
+        "title": "࿏ decay",
+        "url": "https://www.are.na/siyang/decay-cob9tpuhula"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107902925",
+    "source": "arena",
+    "type": "block",
+    "title": "Siren worlds and the perils of over-optimised search",
+    "text": "tl;dr An unconstrained search through possible future worlds is a dangerous way of choosing positive outcomes. Constrained, imperfect or under-optimi…",
+    "url": "https://www.are.na/block/51514875",
+    "published_at": "2026-10-17T16:55:48.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51514875/original_43240e32bdfc58d42d48dbac2c9d7f80.png?1792256176"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.lesswrong.com/posts/nFv2buafNc9jSaxAH/siren-worlds-and-the-perils-of-over-optimised-search",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107899011",
+    "source": "arena",
+    "type": "block",
+    "title": "dall-e-2022-06-21-17.00.02-a-beautiful-feathered-monster-in-the-cinema-style-of-andrei-tarkovsky-high-res.png",
+    "text": "",
+    "url": "https://www.are.na/block/16974386",
+    "published_at": "2026-10-17T15:28:21.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/16974386/original_fef47ac85d2d4626932fd951efa115d9.png?1656002366"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ to reclaim your soul",
+        "url": "https://www.are.na/siyang/to-reclaim-your-soul"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107485006",
+    "source": "arena",
+    "type": "block",
+    "title": "contradictions",
+    "text": "",
+    "url": "https://www.are.na/block/37908668",
+    "published_at": "2026-10-12T14:26:55.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37908668/original_6c62f2a217b590c9b82a30d2e53ed647.jpg?1751839089"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ multitudes",
+        "url": "https://www.are.na/siyang/multitudes-ilwg3t_5ide"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107484875",
+    "source": "arena",
+    "type": "block",
+    "title": "no",
+    "text": "",
+    "url": "https://www.are.na/block/37908653",
+    "published_at": "2026-10-12T14:25:14.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37908653/original_f5111d69d5697fa3ee3d7d71e32312c7.jpg?1751838971"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i'm terminally online, you're permanently on mind",
+        "url": "https://www.are.na/siyang/i-m-terminally-online-you-re-permanently-on-mind"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107484675",
+    "source": "arena",
+    "type": "block",
+    "title": "up close",
+    "text": "",
+    "url": "https://www.are.na/block/37908611",
+    "published_at": "2026-10-12T14:22:32.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/37908611/original_e799177146420045d373d41d052b025e.jpg?1751838762"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ She is everywhere yet always alone",
+        "url": "https://www.are.na/siyang/she-is-everywhere-yet-always-alone"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107406155",
+    "source": "arena",
+    "type": "block",
+    "title": "GitHub - EmbarkStudios/texture-synthesis: 🎨 Example-based texture synthesis written in Rust 🦀",
+    "text": "🎨 Example-based texture synthesis written in Rust 🦀 - EmbarkStudios/texture-synthesis",
+    "url": "https://www.are.na/block/51259936",
+    "published_at": "2026-10-11T13:59:53.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51259936/original_e918a5646941eeeb2ea458ef73f75023.png?1791727204"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://github.com/EmbarkStudios/texture-synthesis",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "jerry360",
+          "url": "https://github.com/siyangsun/jerry360",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-11",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "jerry360 (1)",
+    "url": "https://github.com/siyangsun/jerry360",
+    "published_at": "2026-10-11T05:11:52.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:107375122",
+    "source": "arena",
+    "type": "block",
+    "title": "Essays",
+    "text": "Personal website of Gwern Branwen (writer, self-experimenter, and programmer): topics: psychology, statistics, technology, deep learning, anime. This index page is a categorized list of Gwern.net pages.",
+    "url": "https://www.are.na/block/51245940",
+    "published_at": "2026-10-10T19:24:34.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51245940/original_e18ca7a7fd24d5d1d85e10a1ac214b24.png?1791660279"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://gwern.net/#newest-blog",
+      "channel": {
+        "title": "⍋ blogs i wanna keep up with",
+        "url": "https://www.are.na/siyang/blogs-i-wanna-keep-up-with"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "jerry360",
+          "url": "https://github.com/siyangsun/jerry360",
+          "count": 3
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-10",
+    "source": "github",
+    "type": "commits",
+    "title": "3 commits in 1 repo",
+    "text": "jerry360 (3)",
+    "url": "https://github.com/siyangsun/jerry360",
+    "published_at": "2026-10-10T15:13:12.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "jerry360",
+          "url": "https://github.com/siyangsun/jerry360",
+          "count": 5
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-09",
+    "source": "github",
+    "type": "commits",
+    "title": "5 commits in 1 repo",
+    "text": "jerry360 (5)",
+    "url": "https://github.com/siyangsun/jerry360",
+    "published_at": "2026-10-10T03:44:28.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:107297333",
+    "source": "arena",
+    "type": "block",
+    "title": "144 Sullivan Street #1 in Soho, Manhattan | StreetEasy",
+    "text": "144 Sullivan Street, New York, Ny, 10012: Copilot said: Please inquire by email. Spacious 1-Bedroom / 2-Bathroom Duplex in the heart of SoHo with a private backyar…",
+    "url": "https://www.are.na/block/51209067",
+    "published_at": "2026-10-09T13:01:29.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51209067/original_564647f4959421f49a241a845eff1dcb.png?1791550899"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://streeteasy.com/building/144-sullivan-street-new_york/1?lstt=kyCeXpQ6Ac9bxwP96-IJNEIMZdZIIOenSX6w0v6TJ4Sc1gowiBkSlXdKAGmgA0uiXsdh04ju8fseXjeC",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107275209",
+    "source": "arena",
+    "type": "block",
+    "title": "random imgur",
+    "text": "",
+    "url": "https://www.are.na/block/51198868",
+    "published_at": "2026-10-09T04:44:26.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51198868/original_3185824314e1006d62df510b10827fbe.png?1791521070"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://perchance.org/wpwc5zy8s1",
+      "channel": {
+        "title": "☉ links for newtab",
+        "url": "https://www.are.na/siyang/links-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107274840",
+    "source": "arena",
+    "type": "block",
+    "title": "x likes",
+    "text": "",
+    "url": "https://www.are.na/block/51198619",
+    "published_at": "2026-10-09T04:33:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51198619/original_6cce5632382748cee8588d81730a97d1.png?1791520407"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://x.com/i/history/likes",
+      "channel": {
+        "title": "☉ links for newtab",
+        "url": "https://www.are.na/siyang/links-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107274688",
+    "source": "arena",
+    "type": "block",
+    "title": "oblique strategies",
+    "text": "Brian Eno’s Oblique Strategies card set reimplemented as a dynamic web page.",
+    "url": "https://www.are.na/block/51198503",
+    "published_at": "2026-10-09T04:27:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51198503/original_3cb029ab59d5f07a1f0b2c2356990384.png?1791519961"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://stoney.sb.org/eno/oblique.html",
+      "channel": {
+        "title": "࿏ heterodox",
+        "url": "https://www.are.na/siyang/heterodox"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107274644",
+    "source": "arena",
+    "type": "block",
+    "title": "october starts everything",
+    "text": "Playlist · october starts everything · 24 items",
+    "url": "https://www.are.na/block/51198507",
+    "published_at": "2026-10-09T04:25:33.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51198507/original_b7a94d5d41fc8c227a1f4ee89187076a.jpg?1791519947"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Embed",
+      "source_url": "https://open.spotify.com/playlist/6iuQovsK4L7cIJFsI9UAOr?si=ba4d48b19d814a53",
+      "channel": {
+        "title": "☉ links for newtab",
+        "url": "https://www.are.na/siyang/links-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107274639",
+    "source": "arena",
+    "type": "block",
+    "title": "alembic",
+    "text": "make your ideas matter",
+    "url": "https://www.are.na/block/51198505",
+    "published_at": "2026-10-09T04:25:30.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51198505/original_ac2160a4ee5daa3056741171179ee4ff.png?1791519942"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://alembic.space/",
+      "channel": {
+        "title": "☉ links for newtab",
+        "url": "https://www.are.na/siyang/links-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107274637",
+    "source": "arena",
+    "type": "block",
+    "title": "oblique strategies",
+    "text": "Brian Eno’s Oblique Strategies card set reimplemented as a dynamic web page.",
+    "url": "https://www.are.na/block/51198503",
+    "published_at": "2026-10-09T04:25:26.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51198503/original_3cb029ab59d5f07a1f0b2c2356990384.png?1791519961"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://stoney.sb.org/eno/oblique.html",
+      "channel": {
+        "title": "☉ links for newtab",
+        "url": "https://www.are.na/siyang/links-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5839211",
+    "source": "arena",
+    "type": "channel",
+    "title": "☉ links for newtab",
+    "text": "",
+    "url": "https://www.are.na/siyang/links-for-newtab",
+    "published_at": "2026-10-09T04:23:53.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5839205",
+    "source": "arena",
+    "type": "channel",
+    "title": "☉ are.na-db",
+    "text": "my channels containing data for external apps or websites",
+    "url": "https://www.are.na/siyang/are-na-db",
+    "published_at": "2026-10-09T04:21:35.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:107272345",
+    "source": "arena",
+    "type": "block",
+    "text": "catch sunlight moving up the wall. touch it and put it in your pocket.",
+    "url": "https://www.are.na/block/51197350",
+    "published_at": "2026-10-09T03:16:24.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272339",
+    "source": "arena",
+    "type": "block",
+    "text": "are you caught up on things? take some time to catch up on things",
+    "url": "https://www.are.na/block/51197346",
+    "published_at": "2026-10-09T03:16:19.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272337",
+    "source": "arena",
+    "type": "block",
+    "text": "write an edict on your palm or the nearest surface",
+    "url": "https://www.are.na/block/51197344",
+    "published_at": "2026-10-09T03:16:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272333",
+    "source": "arena",
+    "type": "block",
+    "text": "eat the stillness",
+    "url": "https://www.are.na/block/51197341",
+    "published_at": "2026-10-09T03:16:11.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272332",
+    "source": "arena",
+    "type": "block",
+    "text": "wash your face with cold water feel the refreshing dewy moisture on your skin you are young you are so young",
+    "url": "https://www.are.na/block/51197340",
+    "published_at": "2026-10-09T03:16:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272329",
+    "source": "arena",
+    "type": "block",
+    "text": "one thing must return to its home",
+    "url": "https://www.are.na/block/51197338",
+    "published_at": "2026-10-09T03:16:02.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272326",
+    "source": "arena",
+    "type": "block",
+    "text": "project the limit of the room and break it",
+    "url": "https://www.are.na/block/51197337",
+    "published_at": "2026-10-09T03:15:58.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272323",
+    "source": "arena",
+    "type": "block",
+    "text": "you are a marionette, and the puppet master commands your strings taut to heaven still",
+    "url": "https://www.are.na/block/51197335",
+    "published_at": "2026-10-09T03:15:53.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272320",
+    "source": "arena",
+    "type": "block",
+    "text": "say something true to someone. something true that only you know",
+    "url": "https://www.are.na/block/51197333",
+    "published_at": "2026-10-09T03:15:46.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272317",
+    "source": "arena",
+    "type": "block",
+    "text": "look at the sky. i'm still here. you're still here. this is God's land, these people beneath are God's creations",
+    "url": "https://www.are.na/block/51197331",
+    "published_at": "2026-10-09T03:15:40.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107272314",
+    "source": "arena",
+    "type": "block",
+    "text": "drain a glass (A GLASS) of water down your gullet, notice it, it is cold is it not? something ripples under your skin, does it not?",
+    "url": "https://www.are.na/block/51197329",
+    "published_at": "2026-10-09T03:15:33.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tasks for newtab",
+        "url": "https://www.are.na/siyang/tasks-for-newtab"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5839034",
+    "source": "arena",
+    "type": "channel",
+    "title": "☉ tasks for newtab",
+    "text": "",
+    "url": "https://www.are.na/siyang/tasks-for-newtab",
+    "published_at": "2026-10-09T03:10:52.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "movietime",
+          "url": "https://github.com/siyangsun/movietime",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2026-10-08",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "movietime (1)",
+    "url": "https://github.com/siyangsun/movietime",
+    "published_at": "2026-10-09T01:45:29.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "id": "arena:107182182",
+    "source": "arena",
+    "type": "block",
+    "title": "0b3f7794-be36-416e-a01a-e0d5cf94ee68.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/45226401",
+    "published_at": "2026-10-07T21:09:39.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/45226401/original_4b5709efc1a2eb73d9f1404c3476b035.jpg?1776015851"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107182176",
+    "source": "arena",
+    "type": "block",
+    "title": "Sophocles",
+    "text": "",
+    "url": "https://www.are.na/block/48553136",
+    "published_at": "2026-10-07T21:09:30.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/48553136/original_b4b5b8813075690cb98e9f3f9de3bcb9.jpeg?1785472138"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ whomstdve",
+        "url": "https://www.are.na/siyang/whomstdve"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107182156",
+    "source": "arena",
+    "type": "block",
+    "title": "07ac6b5ca694639f8dcc6d78cae73767a951fdfa.jpg",
+    "text": "",
+    "url": "https://www.are.na/block/20532601",
+    "published_at": "2026-10-07T21:09:01.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/20532601/original_382bb292c9b27b99c827797c4b00e1ca.jpg?1677170837"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "source_url": "https://64.media.tumblr.com/02b44ef903ee412f6190700b240e2eda/04e66e1b39cd7d65-58/s1280x1920/07ac6b5ca694639f8dcc6d78cae73767a951fdfa.jpg",
+      "channel": {
+        "title": "࿏ She is everywhere yet always alone",
+        "url": "https://www.are.na/siyang/she-is-everywhere-yet-always-alone"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107167114",
+    "source": "arena",
+    "type": "block",
+    "title": "Newly found Chinese artifacts illuminate mysterious ancient kingdom",
+    "text": "Archaeologists on Monday announced a “significant” series of finds at the Sanxingdui ruins in China’s southwestern Sichuan province.",
+    "url": "https://www.are.na/block/51151813",
+    "published_at": "2026-10-07T17:51:29.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151813/original_5ff43b317527474e85267c1612494b47.png?1791395516"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://web.archive.org/web/20240617074504/https://www.nbcnews.com/news/world/sanxingdui-china-archaeology-artifacts-sacrificial-pits-shu-kingdom-rcna33643",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107167011",
+    "source": "arena",
+    "type": "block",
+    "title": "Ba–Shu culture - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/51151780",
+    "published_at": "2026-10-07T17:50:20.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151780/original_f8a91783848b0f00e31eb66a62daafbd.png?1791395481"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Ba%E2%80%93Shu_culture",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107166850",
+    "source": "arena",
+    "type": "block",
+    "title": "Jiangnan: South of the Lower Reaches of the Yangtze River",
+    "text": "Famous Cities of Jiangnan,Ancient Water Towns of Jiangnan,Folk Houses in Jiangnan",
+    "url": "https://www.are.na/block/51151714",
+    "published_at": "2026-10-07T17:48:15.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151714/original_0f796ef88d73b8550879a0268ac430ef.png?1791395309"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://web.archive.org/web/20170225003321/http://www.cultural-china.com/chinaWH/features/jiangnan/index.html",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107166714",
+    "source": "arena",
+    "type": "block",
+    "title": "Songze culture - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/51151669",
+    "published_at": "2026-10-07T17:46:06.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151669/original_702d89566ded0f0f79142de06790936a.png?1791395171"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Songze_culture",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107166632",
+    "source": "arena",
+    "type": "block",
+    "title": "Wu Chinese - Wikipedia",
+    "text": "Native speakers",
+    "url": "https://www.are.na/block/51151636",
+    "published_at": "2026-10-07T17:45:04.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151636/original_ef0792047c385dcf19daace1b46c757b.png?1791395121"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Wu_Chinese",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107166628",
+    "source": "arena",
+    "type": "block",
+    "title": "Jiangnan - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/51151633",
+    "published_at": "2026-10-07T17:45:00.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151633/original_78cc0947604cd4ae4ddcaff993e4277f.png?1791395106"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Jiangnan",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107166483",
+    "source": "arena",
+    "type": "block",
+    "title": "Ba–Shu Chinese - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/51151585",
+    "published_at": "2026-10-07T17:43:10.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151585/original_cc095ec9b0ad235e5da7a292bfeaac09.png?1791394996"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Ba%E2%80%93Shu_Chinese",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107166443",
+    "source": "arena",
+    "type": "block",
+    "title": "Yellow River civilization - Wikipedia",
+    "text": "From Wikipedia, the free encyclopedia",
+    "url": "https://www.are.na/block/51151566",
+    "published_at": "2026-10-07T17:42:35.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51151566/original_0d2bd626805b3e8b0e0a9514cd61d106.png?1791394961"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://en.wikipedia.org/wiki/Yellow_River_civilization",
+      "channel": {
+        "title": "⍋ tracing my ancestry",
+        "url": "https://www.are.na/siyang/tracing-my-ancestry"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5832006",
+    "source": "arena",
+    "type": "channel",
+    "title": "⍋ tracing my ancestry",
+    "text": "",
+    "url": "https://www.are.na/siyang/tracing-my-ancestry",
+    "published_at": "2026-10-07T17:42:18.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:107164200",
+    "source": "arena",
+    "type": "block",
+    "title": "Hearts2Hearts & f(x) - Focus x 4 Walls (mashup)",
+    "text": "okay so i know this idea has been done to death at this point but i noticed that on every mashup no one realized that the verses and the pre chorus were in different keys and that's why it ended up sounding a little off to many!",
+    "url": "https://www.are.na/block/51150762",
+    "published_at": "2026-10-07T17:16:58.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51150762/original_23e5a121f4b84de21fb59ccf89526c42.jpg?1791393420"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Embed",
+      "source_url": "https://www.youtube.com/watch?v=u8FPfhXry3Y",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:107163211",
+    "source": "arena",
+    "type": "block",
+    "title": "Tinashe & Nine Inch Nails - Nobody Wanna Dance Anymore x Closer (Nine Inch Noize Version) [mashup]",
+    "text": "Listen & download on bandcamp: https://venees.bandcamp.com/track/tinashe-nine-inch-nails-nobody-wanna-dance-anymore-x-closer-boys-noize-version-mashup Tinashe is the latest addition to my list of people that need to hop on a Trent Reznor & Atticus Ross produced track immediately items used: Nine Inch Nails & Boys Noize - Closer (Nine Inch Noize Version) (inst.",
+    "url": "https://www.are.na/block/51150341",
+    "published_at": "2026-10-07T17:04:52.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51150341/original_fc86c02c588e033a4c4cd176118d20ce.jpg?1791392708"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Embed",
+      "source_url": "https://www.youtube.com/watch?v=FD1zRVVNlSM",
+      "channel": {
+        "title": "☉ device transfer clipboard",
+        "url": "https://www.are.na/siyang/device-transfer-clipboard"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "soundcloud:2414327304",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "mature",
+    "text": "",
+    "url": "https://soundcloud.com/smurf_account/mature",
+    "published_at": "2026-10-06T19:39:54.000Z",
+    "fetched_at": "2026-11-03T16:26:56.003Z",
+    "images": [],
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsmurf_account%2Fmature"
+    },
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "smurf_account",
+      "account_url": "https://soundcloud.com/smurf_account"
+    },
+    "kind": "post"
+  },
+  {
+    "id": "arena:107083980",
+    "source": "arena",
+    "type": "block",
+    "title": "guillermo del toro",
+    "text": "The academic tradition exists not as a gatekeeper but as gate opener, now come on in and rearrange the room.\n\nhttps://www.youtube.com/watch?v=GgCMQPjRi60",
+    "url": "https://www.are.na/block/51116403",
+    "published_at": "2026-10-06T17:18:46.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ heterodox",
+        "url": "https://www.are.na/siyang/heterodox"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106986428",
+    "source": "arena",
+    "type": "block",
+    "title": "smartdumb | Nick Sylvester | Substack",
+    "text": "music producer nick sylvester’s weekly inquiry into the things that make us say ‘what?’ then ‘wow’. published weekly, sometimes more. sometimes less! Click to read smartdumb, by Nick Sylvester, a Substack publication with hundreds of subscribers.",
+    "url": "https://www.are.na/block/51072763",
+    "published_at": "2026-10-05T13:40:27.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51072763/original_64ca7fa132fc49cb9669ba365ffa9e5e.png?1791207681"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://smartdumb.substack.com/",
+      "channel": {
+        "title": "⍋ blogs i wanna keep up with",
+        "url": "https://www.are.na/siyang/blogs-i-wanna-keep-up-with"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "substack:sump:laconic-agents",
+    "source": "substack",
+    "type": "post",
+    "title": "laconic agents",
+    "text": "default claude is so wordy!",
+    "url": "https://sump.substack.com/p/laconic-agents",
+    "published_at": "2026-10-05T13:26:08.000Z",
+    "fetched_at": "2026-11-03T16:08:16.142Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sump",
+      "account_url": "https://sump.substack.com"
+    },
+    "kind": "post"
+  },
+  {
+    "id": "arena:106959565",
+    "source": "arena",
+    "type": "block",
+    "text": "multitrack alchemies\ncustom game with shaders, videotaped in OBS\nbespoke website\nscreenshotting parts of random things and collaging them\nscreenshotting parts of random things and uploading them as profile pictures, banners, backgrounds, icons, screensavers, metadata\nmaking songs, icons, sprites, sfx; just for a simple game",
+    "url": "https://www.are.na/block/51059842",
+    "published_at": "2026-10-05T04:42:55.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ miscellaneous list of lists (of lists?)",
+        "url": "https://www.are.na/siyang/miscellaneous-list-of-lists-of-lists"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106959388",
+    "source": "arena",
+    "type": "block",
+    "text": "tinker with keyboard layout",
+    "url": "https://www.are.na/block/51059852",
+    "published_at": "2026-10-05T04:40:11.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tinker tools",
+        "url": "https://www.are.na/siyang/tinker-tools"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106959345",
+    "source": "arena",
+    "type": "block",
+    "text": "multitrack alchemies\ncustom game with shaders, videotaped in OBS\nbespoke website\nscreenshotting parts of random things and collaging them\nscreenshotting parts of random things and uploading them as profile pictures, banners, backgrounds, icons, screensavers, metadata\nmaking songs, icons, sprites, sfx; just for a simple game",
+    "url": "https://www.are.na/block/51059842",
+    "published_at": "2026-10-05T04:39:39.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tinker tools",
+        "url": "https://www.are.na/siyang/tinker-tools"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106959262",
+    "source": "arena",
+    "type": "block",
+    "text": "esoteric tool tech stack (img)\ndingboard\nphotomosh\nalembic\nmeme deep fryer\nfigjam",
+    "url": "https://www.are.na/block/44169371",
+    "published_at": "2026-10-05T04:38:20.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "☉ tinker tools",
+        "url": "https://www.are.na/siyang/tinker-tools"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "arena:channel:5817932",
+    "source": "arena",
+    "type": "channel",
+    "title": "☉ tinker tools",
+    "text": "for tinkering's sake",
+    "url": "https://www.are.na/siyang/tinker-tools",
+    "published_at": "2026-10-05T04:37:57.000Z",
+    "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "id": "arena:106957933",
+    "source": "arena",
+    "type": "block",
+    "title": "The Marginalian",
+    "text": "Marginalia on our search for meaning.",
+    "url": "https://www.are.na/block/51059240",
+    "published_at": "2026-10-05T04:10:02.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51059240/original_40fd575ee48041d77984ac37e0978ab1.png?1791173409"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "source_url": "https://www.themarginalian.org/",
+      "channel": {
+        "title": "⍋ blogs i wanna keep up with",
+        "url": "https://www.are.na/siyang/blogs-i-wanna-keep-up-with"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106905768",
+    "source": "arena",
+    "type": "block",
+    "title": "just a believer",
+    "text": "naruto chapter 321",
+    "url": "https://www.are.na/block/51032533",
+    "published_at": "2026-10-04T05:40:54.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51032533/original_fc33e08320238f3e35cfc92f9b6d39f9.png?1791092455"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ all roads lead to me",
+        "url": "https://www.are.na/siyang/all-roads-lead-to-me"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106902148",
+    "source": "arena",
+    "type": "block",
+    "title": "...",
+    "text": "naruto chapter 285",
+    "url": "https://www.are.na/block/51030952",
+    "published_at": "2026-10-04T03:05:09.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51030952/original_13ce306147ea9700ae12f05be738bb62.png?1791083110"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ binding vows",
+        "url": "https://www.are.na/siyang/binding-vows"
+      }
+    },
+    "kind": "reblog"
+  },
+  {
+    "id": "arena:106884213",
+    "source": "arena",
+    "type": "block",
+    "text": "naruto chapter 251",
+    "url": "https://www.are.na/block/51022148",
+    "published_at": "2026-10-03T19:16:49.000Z",
+    "fetched_at": "2026-11-03T16:09:01.296Z",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/51022148/original_a7fb7e9a9c6ce93ea2fb2fc9547b5da0.png?1791055011"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Image",
+      "channel": {
+        "title": "࿏ i am not afraid of storms, for i am learning how to sail my ship",
+        "url": "https://www.are.na/siyang/i-am-not-afraid-of-storms-for-i-am-learning-how-to-sail-my-ship"
+      }
+    },
+    "kind": "reblog"
+  }
+]
