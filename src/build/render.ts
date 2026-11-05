@@ -20,7 +20,12 @@ const safe = (u: string) => (/^https?:\/\//i.test(u) ? u : "#");
 export const entryUrl = (i: Item) => (hasPage(i) ? abs(permalink(i)) : safe(i.url) !== "#" ? i.url : abs(BASE + "/"));
 const when = (iso: string) =>
   new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", dateStyle: "medium", timeStyle: "short" }).format(new Date(iso));
-const paragraphs = (t: string) => t.split(/\n{2,}/).filter(Boolean).map((p) => `<p>${esc(p).replace(/\n/g, "<br>")}</p>`).join("");
+// Bare http(s) URLs become links (text is escaped first, so a URL can't break out of the attribute); trailing punctuation stays outside the link.
+const linkify = (h: string) => h.replace(/https?:\/\/(?:(?!&#(?:34|39|60|62);)[^\s<])+/g, (u) => {
+  const tail = u.match(/[.,:!?)\]]+$/)?.[0] ?? "", url = u.slice(0, u.length - tail.length);
+  return `<a href="${url}" rel="noopener">${url}</a>${tail}`;
+});
+export const paragraphs = (t: string) => t.split(/\n{2,}/).filter(Boolean).map((p) => `<p>${linkify(esc(p)).replace(/\n/g, "<br>")}</p>`).join("");
 
 // YouTube: click-to-load. The poster is derived from the video id (nothing stored); the iframe replaces it on click (see site/site.js).
 // SoundCloud: the compact player, lazy-loaded. Both ids are checked so stored data can't inject an arbitrary iframe.
