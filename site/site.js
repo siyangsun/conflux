@@ -30,3 +30,27 @@ document.addEventListener("click", (e) => {
     })
     .catch(() => {});
 })();
+
+// Search page: load search.json once, show items containing every word typed.
+(() => {
+  const q = document.getElementById("q");
+  if (!q) return;
+  const out = document.getElementById("results");
+  let rows;
+  const run = () => {
+    const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    out.replaceChildren();
+    if (!rows || !words.length) return;
+    for (const r of rows.filter((r) => words.every((w) => r[4].includes(w))).slice(0, 100)) {
+      const li = document.createElement("li"), a = document.createElement("a"), m = document.createElement("span");
+      a.href = r[1];
+      a.textContent = r[0];
+      m.className = "meta";
+      m.textContent = " " + r[3] + " · " + r[2];
+      li.append(a, m);
+      out.append(li);
+    }
+  };
+  q.addEventListener("input", run);
+  fetch(q.dataset.src).then((r) => r.json()).then((j) => { rows = j; run(); });
+})();

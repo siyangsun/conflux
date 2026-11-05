@@ -2,7 +2,7 @@ import { cpSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { loadAll } from "../store.ts";
 import type { Item } from "../types.ts";
 import { atom, feedLinks, jsonFeed } from "./feeds.ts";
-import { abs, BASE, DESC, esc, hasPage, page, permalink, renderItem, SITE, slug, title } from "./render.ts";
+import { abs, BASE, DESC, entryUrl, esc, hasPage, page, permalink, renderItem, SITE, slug, title } from "./render.ts";
 
 const OUT = "_site";
 const PAGE = 50;
@@ -85,6 +85,10 @@ for (const i of items.filter(hasPage)) {
 ${i.images[0] ? `<meta property="og:image" content="${esc(i.images[0])}">` : ""}<meta name="twitter:card" content="${i.images[0] ? "summary_large_image" : "summary"}">`;
   write(`p/${slug(i.id)}`, page(`${t} · ${SITE}`, renderItem(i), og));
 }
+
+// Search: one JSON row per item [label, link, source, date, lowercase text], filtered in the browser (site/site.js). ponytail: fine to a few thousand items; shard or add Pagefind past ~10k.
+writeFileSync(`${OUT}/search.json`, JSON.stringify(items.map((i) => [title(i), entryUrl(i), i.source, i.published_at.slice(0, 10), `${i.title ?? ""} ${i.text} ${i.tags.join(" ")}`.toLowerCase()])));
+write("search", page(`Search · ${SITE}`, `<h2 class="list">Search</h2><input id="q" type="search" placeholder="search ${items.length} items" autofocus data-src="${BASE}/search.json"><ul id="results"></ul>`));
 
 for (const v of VIEWS) writeFeeds(`/${v.path}`, v.list, v.path ? `${v.name} · ${SITE}` : SITE);
 console.log(`built ${items.length} items`);
