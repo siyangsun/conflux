@@ -23,7 +23,7 @@ function paged(base: string, heading: string, list: Item[], head = "", intro = "
   }
 }
 
-const items = loadAll();
+const items = loadAll().filter((i) => i.visibility === "public"); // hidden items stay in data/ so syncs don't re-add them
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 cpSync("site", OUT, { recursive: true }); // style.css, site.js

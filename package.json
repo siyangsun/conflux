@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "node src/build/index.ts",
+    "hide": "node src/hide.ts",
     "preview": "BASE_PATH= node src/build/index.ts && npx --yes serve _site",
     "test": "node --test \"src/**/*.test.ts\""
   },

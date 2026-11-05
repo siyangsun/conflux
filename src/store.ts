@@ -47,3 +47,11 @@ export function addItems(incoming: Item[], dir = DIR, remove: string[] = []) {
   }
   return { added, changed };
 }
+
+// Patches the items with these ids and rewrites only their month files; returns how many matched.
+export function update(ids: Set<string>, patch: Partial<Item>, dir = DIR): number {
+  const all = loadAll(dir), hit = all.filter((i) => ids.has(i.id));
+  for (const i of hit) Object.assign(i, patch);
+  for (const m of new Set(hit.map(month))) writeFileSync(`${dir}/${m}.json`, JSON.stringify(all.filter((i) => month(i) === m), null, 2) + "\n");
+  return hit.length;
+}

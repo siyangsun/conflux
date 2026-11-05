@@ -17,7 +17,7 @@ export type Item = {
   kind: Kind;
   rev?: string; // content fingerprint; an incoming item with the same id and a different rev replaces the stored one
   tags: string[];
-  visibility: "public"; // reserved for future privacy
+  visibility: "public" | "hidden"; // hidden: kept in data/ (so syncs don't re-add it) but left off the site; see src/hide.ts
   meta: Record<string, unknown>;
 };
 
