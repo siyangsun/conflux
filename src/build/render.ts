@@ -74,6 +74,7 @@ const via = (i: Item) => {
 
 export function renderItem(i: Item): string {
   const media = (i.embed && embed(i.embed)) || i.images.map(img).join("");
+  const clip = i.meta.clip === "video" || i.meta.clip === "gif" ? `<p class="meta"><a href="${esc(safe(i.url))}" rel="noopener">▶ ${i.meta.clip} (watch on ${esc(i.source)})</a></p>` : "";
   const linked = i.tags.filter(slug); // symbol-only tags slug to "" and get no page
   const tags = linked.length ? `<p class="tags">${linked.map((t) => `<a href="${BASE}/tag/${slug(t)}/">#${esc(t)}</a>`).join(" ")}</p>` : "";
   const ch = i.meta.channel as { title: string; url: string } | undefined;
@@ -81,7 +82,7 @@ export function renderItem(i: Item): string {
   const preview = i.id.startsWith("manual:") || (i.source === "arena" && i.meta.block_type !== "Image");
   return `<article${preview ? ' class="preview"' : ""}>
 <div class="meta">${lead(i, `<a href="${BASE}/source/${slug(i.source)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
-${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${tags}
+${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${clip}${tags}
 </article>`;
 }
 

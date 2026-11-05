@@ -1,5 +1,49 @@
 [
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1873569371748258262",
+    "source": "x",
+    "type": "post",
+    "text": "maybe not just quickly, i could see that descending into chaos - perhaps more focus on \"orderly\"",
+    "url": "https://x.com/unevenlyeven/status/1873569371748258262",
+    "published_at": "2024-12-30T03:18:42.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1873567234280599733",
+    "source": "x",
+    "type": "post",
+    "text": "they should time how quickly you get your overhear luggage and deplane and then use that to assign seats near the front of the cabin",
+    "url": "https://x.com/unevenlyeven/status/1873567234280599733",
+    "published_at": "2024-12-30T03:10:12.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1872902110934909305",
+    "source": "x",
+    "type": "post",
+    "text": "you can read the dark forest or you can just hop on 2b2t for half an hour and you'll get it",
+    "url": "https://x.com/unevenlyeven/status/1872902110934909305",
+    "published_at": "2024-12-28T07:07:14.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:69581344",
     "source": "arena",
     "type": "block",
@@ -72,6 +116,20 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1871382150668533996",
+    "source": "x",
+    "type": "post",
+    "text": "why do i hear the mahoraga wheel turning sound rn",
+    "url": "https://x.com/unevenlyeven/status/1871382150668533996",
+    "published_at": "2024-12-24T02:27:27.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:69450790",
     "source": "arena",
     "type": "block",
@@ -109,6 +167,20 @@
     "url": "https://www.are.na/siyang/worldshaper",
     "published_at": "2024-12-23T17:35:40.000Z",
     "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1871210771872678145",
+    "source": "x",
+    "type": "post",
+    "text": "i'm moving as fast as i can",
+    "url": "https://x.com/unevenlyeven/status/1871210771872678145",
+    "published_at": "2024-12-23T15:06:28.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:69398392",
@@ -170,6 +242,210 @@
     "url": "https://www.are.na/siyang/all-roads-lead-to-me",
     "published_at": "2024-12-22T05:12:34.000Z",
     "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1870151356419596298",
+    "source": "x",
+    "type": "post",
+    "text": "say it again like a motto",
+    "url": "https://x.com/unevenlyeven/status/1870151356419596298",
+    "published_at": "2024-12-20T16:56:43.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1869828456906928541",
+    "source": "x",
+    "type": "post",
+    "text": "agency is not purely an innate trait in a person; it is also heavily dependent on the situation and environment",
+    "url": "https://x.com/unevenlyeven/status/1869828456906928541",
+    "published_at": "2024-12-19T19:33:38.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1869436020879720883",
+    "source": "x",
+    "type": "post",
+    "text": "i will relearn all my old tricks one day",
+    "url": "https://x.com/unevenlyeven/status/1869436020879720883",
+    "published_at": "2024-12-18T17:34:14.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1867602591800033694",
+    "source": "x",
+    "type": "post",
+    "text": "similar to choosing model architectures based on the problem, you can also tailor your data schemas, your infra, your serving- to fit what you're doing, and be able to back that up. you must become an expert on the data itself and what it means in the domain. the components that dress up your model implementation should feel like clothes for that exact day's weather with your own sensibilities applied",
+    "url": "https://x.com/unevenlyeven/status/1867602591800033694",
+    "published_at": "2024-12-13T16:08:50.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1867372281414267117",
+    "source": "x",
+    "type": "post",
+    "text": "the ideal friend group is half neets and half 0HL grinders",
+    "url": "https://x.com/unevenlyeven/status/1867372281414267117",
+    "published_at": "2024-12-13T00:53:40.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1867323508792930699",
+    "source": "x",
+    "type": "post",
+    "text": "be gentle with those whose eyes remain unopened to opportunity cost",
+    "url": "https://x.com/unevenlyeven/status/1867323508792930699",
+    "published_at": "2024-12-12T21:39:52.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1866204575734391003",
+    "source": "x",
+    "type": "post",
+    "text": "what's all this about them finding luigi's mansion or whatever",
+    "url": "https://x.com/unevenlyeven/status/1866204575734391003",
+    "published_at": "2024-12-09T19:33:37.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1865903722401857670",
+    "source": "x",
+    "type": "post",
+    "text": "dragon ball z always hit different because of how much goku reminded me of my dad",
+    "url": "https://x.com/unevenlyeven/status/1865903722401857670",
+    "published_at": "2024-12-08T23:38:08.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/GeOfKzKXgAA6cKs.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1865509699455468008",
+    "source": "x",
+    "type": "post",
+    "text": "ouch https://t.co/rPZKFQ5YwI",
+    "url": "https://x.com/unevenlyeven/status/1865509699455468008",
+    "published_at": "2024-12-07T21:32:26.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1865161176268583067",
+    "source": "x",
+    "type": "post",
+    "text": "@imitationlearn ofc there is a lot of variance, some mles lean more backend, some lean more researchy, some lean more data eng, some lean more infra/mlops",
+    "url": "https://x.com/unevenlyeven/status/1865161176268583067",
+    "published_at": "2024-12-06T22:27:32.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1865161005363249449",
+    "source": "x",
+    "type": "post",
+    "text": "@imitationlearn basically take a notebook or paper and turn it into either an api endpoint or some kind of nightly job or some kind of enriched table for scientists and analysts to play with",
+    "url": "https://x.com/unevenlyeven/status/1865161005363249449",
+    "published_at": "2024-12-06T22:26:51.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1865106913202995393",
+    "source": "x",
+    "type": "post",
+    "text": "it's hard to look at anything art nouveau without immediately thinking about stable diffusion",
+    "url": "https://x.com/unevenlyeven/status/1865106913202995393",
+    "published_at": "2024-12-06T18:51:54.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1865069526808752503",
+    "source": "x",
+    "type": "post",
+    "text": "the spectrum of tech jobs is so weird like i'll get home at 11pm from a brutal day of work and i'll have friends wanting to call to give me updates on their runescape account theyve been playing on since lunchtime",
+    "url": "https://x.com/unevenlyeven/status/1865069526808752503",
+    "published_at": "2024-12-06T16:23:21.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1864890549104177341",
+    "source": "x",
+    "type": "post",
+    "text": "if you cant move your mind move your body",
+    "url": "https://x.com/unevenlyeven/status/1864890549104177341",
+    "published_at": "2024-12-06T04:32:09.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:68541732",
@@ -574,6 +850,48 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1863721613327319340",
+    "source": "x",
+    "type": "post",
+    "text": "you are not the droplet you are the tap",
+    "url": "https://x.com/unevenlyeven/status/1863721613327319340",
+    "published_at": "2024-12-02T23:07:13.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1863701908944228613",
+    "source": "x",
+    "type": "post",
+    "text": "reels are a psychological giffen good",
+    "url": "https://x.com/unevenlyeven/status/1863701908944228613",
+    "published_at": "2024-12-02T21:48:55.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1863653443958706484",
+    "source": "x",
+    "type": "post",
+    "text": "is ghostty out yet",
+    "url": "https://x.com/unevenlyeven/status/1863653443958706484",
+    "published_at": "2024-12-02T18:36:20.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:68415198",
     "source": "arena",
     "type": "block",
@@ -641,5 +959,19 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1863266891873067434",
+    "source": "x",
+    "type": "post",
+    "text": "what was once driftwood is now machined to be misshapen",
+    "url": "https://x.com/unevenlyeven/status/1863266891873067434",
+    "published_at": "2024-12-01T17:00:19.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   }
 ]

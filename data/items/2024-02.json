@@ -70,6 +70,62 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1763248314433016273",
+    "source": "x",
+    "type": "post",
+    "text": "the best way to notice high art is to look up",
+    "url": "https://x.com/unevenlyeven/status/1763248314433016273",
+    "published_at": "2024-02-29T17:02:12.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1763033743197913479",
+    "source": "x",
+    "type": "post",
+    "text": "whats your most suburban sensibility",
+    "url": "https://x.com/unevenlyeven/status/1763033743197913479",
+    "published_at": "2024-02-29T02:49:34.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1762881071874453890",
+    "source": "x",
+    "type": "post",
+    "text": "still find it so mindblowing that whoever is behind creative direction for le sserafim read @nntaleb and just decided to run with it",
+    "url": "https://x.com/unevenlyeven/status/1762881071874453890",
+    "published_at": "2024-02-28T16:42:54.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1762865995431977298",
+    "source": "x",
+    "type": "post",
+    "text": "reluctantly doing cardio call me pontius pilates",
+    "url": "https://x.com/unevenlyeven/status/1762865995431977298",
+    "published_at": "2024-02-28T15:43:00.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:54964796",
     "source": "arena",
     "type": "block",
@@ -133,6 +189,22 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/GHZUVDaWsAA7g81.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1762689064220635469",
+    "source": "x",
+    "type": "post",
+    "text": "https://t.co/OX2nRCO92R",
+    "url": "https://x.com/unevenlyeven/status/1762689064220635469",
+    "published_at": "2024-02-28T03:59:56.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:54962818",
@@ -202,6 +274,20 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1762624594702127272",
+    "source": "x",
+    "type": "post",
+    "text": "reinvent enough wheels and you can drive over any road",
+    "url": "https://x.com/unevenlyeven/status/1762624594702127272",
+    "published_at": "2024-02-27T23:43:46.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:54946306",
     "source": "arena",
     "type": "block",
@@ -238,6 +324,52 @@
     "url": "https://www.are.na/siyang/games-i-loved",
     "published_at": "2024-02-27T20:56:43.000Z",
     "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1762551568027570371",
+    "source": "x",
+    "type": "post",
+    "text": "@wes_yen (i think this applies to a lot of other fields too)",
+    "url": "https://x.com/unevenlyeven/status/1762551568027570371",
+    "published_at": "2024-02-27T18:53:35.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1762523577335615684",
+    "source": "x",
+    "type": "post",
+    "text": "my mind is a diffusion model",
+    "url": "https://x.com/unevenlyeven/status/1762523577335615684",
+    "published_at": "2024-02-27T17:02:21.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1762523520297255388",
+    "source": "x",
+    "type": "post",
+    "text": "what if ive gotten too good at reading blurry letters to get an accurate prescription from the eye doctor",
+    "url": "https://x.com/unevenlyeven/status/1762523520297255388",
+    "published_at": "2024-02-27T17:02:07.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:54887530",
@@ -569,6 +701,76 @@
     "kind": "activity"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1759274898596262261",
+    "source": "x",
+    "type": "post",
+    "text": "call him bloated til he show them that the flow deluxe",
+    "url": "https://x.com/unevenlyeven/status/1759274898596262261",
+    "published_at": "2024-02-18T17:53:16.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1759269951725080822",
+    "source": "x",
+    "type": "post",
+    "text": "kinda miss the policy debate metagames sometimes",
+    "url": "https://x.com/unevenlyeven/status/1759269951725080822",
+    "published_at": "2024-02-18T17:33:36.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1759014688401113340",
+    "source": "x",
+    "type": "post",
+    "text": "why would u ever mansplain when u can just post things publicly on the internet as information exhaust",
+    "url": "https://x.com/unevenlyeven/status/1759014688401113340",
+    "published_at": "2024-02-18T00:39:17.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1758876335529775360",
+    "source": "x",
+    "type": "post",
+    "text": "how many mister brightside karaokes do u have left in u?",
+    "url": "https://x.com/unevenlyeven/status/1758876335529775360",
+    "published_at": "2024-02-17T15:29:31.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1758531995229990968",
+    "source": "x",
+    "type": "post",
+    "text": "what a radiant sky there is today",
+    "url": "https://x.com/unevenlyeven/status/1758531995229990968",
+    "published_at": "2024-02-16T16:41:14.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "substack:sump:sub-toaster",
     "source": "substack",
     "type": "post",
@@ -585,6 +787,94 @@
       "account_url": "https://sump.substack.com"
     },
     "kind": "post"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1758234503221268634",
+    "source": "x",
+    "type": "post",
+    "text": "how can we ever trust video evidence again",
+    "url": "https://x.com/unevenlyeven/status/1758234503221268634",
+    "published_at": "2024-02-15T20:59:06.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1758231233824210976",
+    "source": "x",
+    "type": "post",
+    "text": "@e__honig http://openai.com/sora",
+    "url": "https://x.com/unevenlyeven/status/1758231233824210976",
+    "published_at": "2024-02-15T20:46:07.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1758216292559892791",
+    "source": "x",
+    "type": "post",
+    "text": "uzi understood quantum immortality better than anyone",
+    "url": "https://x.com/unevenlyeven/status/1758216292559892791",
+    "published_at": "2024-02-15T19:46:44.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1758215831631065591",
+    "source": "x",
+    "type": "post",
+    "text": "thinking about kmeans as a quantization algo instead of clustering makes so much sense",
+    "url": "https://x.com/unevenlyeven/status/1758215831631065591",
+    "published_at": "2024-02-15T19:44:54.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1757987340834803839",
+    "source": "x",
+    "type": "post",
+    "text": "i did not know you could use treemonster like that",
+    "url": "https://x.com/unevenlyeven/status/1757987340834803839",
+    "published_at": "2024-02-15T04:36:58.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1757246099444642188",
+    "source": "x",
+    "type": "post",
+    "text": "unlocking some new fighters lately",
+    "url": "https://x.com/unevenlyeven/status/1757246099444642188",
+    "published_at": "2024-02-13T03:31:32.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:54063376",
@@ -678,6 +968,22 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/GF_ZXi6WsAAKNEq.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1756361383363391717",
+    "source": "x",
+    "type": "post",
+    "text": "https://t.co/LaRIEPGvUq",
+    "url": "https://x.com/unevenlyeven/status/1756361383363391717",
+    "published_at": "2024-02-10T16:56:00.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:54063036",
     "source": "arena",
     "type": "block",
@@ -700,6 +1006,20 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1756357942356394355",
+    "source": "x",
+    "type": "post",
+    "text": "need more http://are.na friends",
+    "url": "https://x.com/unevenlyeven/status/1756357942356394355",
+    "published_at": "2024-02-10T16:42:19.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:54062193",
@@ -1267,6 +1587,22 @@
     "fetched_at": "2026-11-03T21:53:54.848Z"
   },
   {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/GF2X2JGW4AA9CcP.jpg"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1755726388554862990",
+    "source": "x",
+    "type": "post",
+    "text": "every difficulty has an opportunity https://t.co/wrAqKj92G9",
+    "url": "https://x.com/unevenlyeven/status/1755726388554862990",
+    "published_at": "2024-02-08T22:52:45.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -1331,6 +1667,34 @@
     "published_at": "2024-02-06T04:47:19.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1754521608197202247",
+    "source": "x",
+    "type": "post",
+    "text": "i dreamt that they carved stairs into the matterhorn\n\nas if nothing was sacred anymore",
+    "url": "https://x.com/unevenlyeven/status/1754521608197202247",
+    "published_at": "2024-02-05T15:05:23.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1754282952869949714",
+    "source": "x",
+    "type": "post",
+    "text": "i was already reading rilke in 2021 js",
+    "url": "https://x.com/unevenlyeven/status/1754282952869949714",
+    "published_at": "2024-02-04T23:17:03.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:53630689",
@@ -2006,5 +2370,19 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1753138263538151897",
+    "source": "x",
+    "type": "post",
+    "text": "my work exists on the outersection of art and technology",
+    "url": "https://x.com/unevenlyeven/status/1753138263538151897",
+    "published_at": "2024-02-01T19:28:28.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   }
 ]

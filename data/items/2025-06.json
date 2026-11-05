@@ -117,6 +117,20 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1934980266121904541",
+    "source": "x",
+    "type": "post",
+    "text": "these rains will quench a meadow some day",
+    "url": "https://x.com/unevenlyeven/status/1934980266121904541",
+    "published_at": "2025-06-17T14:23:40.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:78972825",
     "source": "arena",
     "type": "block",
@@ -138,6 +152,20 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1932821222984732985",
+    "source": "x",
+    "type": "post",
+    "text": "stop limping into hands. stake what you think you're worth or fold",
+    "url": "https://x.com/unevenlyeven/status/1932821222984732985",
+    "published_at": "2025-06-11T15:24:24.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:78603695",
@@ -229,5 +257,19 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1929647614682693748",
+    "source": "x",
+    "type": "post",
+    "text": "why is everybody so afraid of preprocessing strings before chucking them into llm",
+    "url": "https://x.com/unevenlyeven/status/1929647614682693748",
+    "published_at": "2025-06-02T21:13:37.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   }
 ]

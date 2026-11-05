@@ -198,6 +198,23 @@
     "fetched_at": "2026-11-03T21:53:54.848Z"
   },
   {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/FPHX6l0VcAIcejP.png",
+      "https://pbs.twimg.com/media/FPHYBy5VIAUjXn8.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1509224889806307332",
+    "source": "x",
+    "type": "post",
+    "text": "name a more iconic duo https://t.co/jK91oiskDL",
+    "url": "https://x.com/unevenlyeven/status/1509224889806307332",
+    "published_at": "2022-03-30T17:43:48.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:28303783",
     "source": "arena",
     "type": "block",
@@ -243,6 +260,34 @@
     "published_at": "2022-03-29T06:41:57.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1508677461285900290",
+    "source": "x",
+    "type": "post",
+    "text": "what if the voice you use most comfortably and instinctively all the time isn't your most \"natural\" voice based on your throat and body structure",
+    "url": "https://x.com/unevenlyeven/status/1508677461285900290",
+    "published_at": "2022-03-29T05:28:31.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1507397829177663490",
+    "source": "x",
+    "type": "post",
+    "text": "chaos emperor deadline, envoy of the end",
+    "url": "https://x.com/unevenlyeven/status/1507397829177663490",
+    "published_at": "2022-03-25T16:43:43.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:28140619",
@@ -308,6 +353,92 @@
     "fetched_at": "2026-11-03T21:53:54.848Z"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1507122684601069580",
+    "source": "x",
+    "type": "post",
+    "text": "all i want in life is for this purple line extension to be done already",
+    "url": "https://x.com/unevenlyeven/status/1507122684601069580",
+    "published_at": "2022-03-24T22:30:23.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1507093258198925315",
+    "source": "x",
+    "type": "post",
+    "text": "love playing musical shares with group presentations",
+    "url": "https://x.com/unevenlyeven/status/1507093258198925315",
+    "published_at": "2022-03-24T20:33:27.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1507085948051341327",
+    "source": "x",
+    "type": "post",
+    "text": "the only time i feel like cooking is while i'm eating which is, as you might imagine, inconvenient",
+    "url": "https://x.com/unevenlyeven/status/1507085948051341327",
+    "published_at": "2022-03-24T20:04:24.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1506387381850583042",
+    "source": "x",
+    "type": "post",
+    "text": "which in turn reminds me of playing flex comps in tft where you keep your options open and try to react to the situation in order to stay alive",
+    "url": "https://x.com/unevenlyeven/status/1506387381850583042",
+    "published_at": "2022-03-22T21:48:33.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1506386098401861633",
+    "source": "x",
+    "type": "post",
+    "text": "absurdle reminds me of the toxic way i used to play contact (keep my word flexible, give sequential letter hints that maximize entropy in order to extend the game as long as possible)\n\nhttps://qntm.org/files/absurdle/absurdle.html",
+    "url": "https://x.com/unevenlyeven/status/1506386098401861633",
+    "published_at": "2022-03-22T21:43:27.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1506382153252102144",
+    "source": "x",
+    "type": "post",
+    "text": "a side project in 2022 means making another instagram account",
+    "url": "https://x.com/unevenlyeven/status/1506382153252102144",
+    "published_at": "2022-03-22T21:27:47.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -334,6 +465,34 @@
     "published_at": "2022-03-21T06:03:39.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1505752062428020737",
+    "source": "x",
+    "type": "post",
+    "text": "algorithm is nice and all but i miss some good old word of mouth",
+    "url": "https://x.com/unevenlyeven/status/1505752062428020737",
+    "published_at": "2022-03-21T03:44:01.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1505725447048335360",
+    "source": "x",
+    "type": "post",
+    "text": "changing out of sweatpants and dressing up to go out feels kind of like putting on your gear in runescape after running around in graceful",
+    "url": "https://x.com/unevenlyeven/status/1505725447048335360",
+    "published_at": "2022-03-21T01:58:16.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:27979931",
@@ -406,6 +565,34 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1504545236759953417",
+    "source": "x",
+    "type": "post",
+    "text": "anybody who likes orange juice is a friend in my book",
+    "url": "https://x.com/unevenlyeven/status/1504545236759953417",
+    "published_at": "2022-03-17T19:48:32.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1503984906736586754",
+    "source": "x",
+    "type": "post",
+    "text": "what if there is no grass to touch",
+    "url": "https://x.com/unevenlyeven/status/1503984906736586754",
+    "published_at": "2022-03-16T06:41:59.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:27816502",
@@ -524,6 +711,52 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1503171458595389442",
+    "source": "x",
+    "type": "post",
+    "text": "my friend @ChrisMYChen is collecting some very cool data on the AAPI experience. check out the survey and results on this very cool website that i also happened to do a kind of cool illustration for: https://asianamerican.fyi/",
+    "url": "https://x.com/unevenlyeven/status/1503171458595389442",
+    "published_at": "2022-03-14T00:49:37.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/FNwBgPjVIAABxfy.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "reply_to": "unevenlyeven"
+    },
+    "id": "x:1503078035544674305",
+    "source": "x",
+    "type": "post",
+    "text": "the prime suspects https://t.co/AZeEYSubsx",
+    "url": "https://x.com/unevenlyeven/status/1503078035544674305",
+    "published_at": "2022-03-13T18:38:24.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1502919752041205764",
+    "source": "x",
+    "type": "post",
+    "text": "when the edm live visuals look a bit too much like matplotlib color maps",
+    "url": "https://x.com/unevenlyeven/status/1502919752041205764",
+    "published_at": "2022-03-13T08:09:26.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:27716778",
@@ -826,6 +1059,36 @@
     "fetched_at": "2026-11-03T21:53:54.848Z"
   },
   {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/FNjVRtgVQAITJiX.png"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1502185044864999427",
+    "source": "x",
+    "type": "post",
+    "text": "stupid joke https://t.co/cFdPk1Kb59",
+    "url": "https://x.com/unevenlyeven/status/1502185044864999427",
+    "published_at": "2022-03-11T07:29:58.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1501825519767064576",
+    "source": "x",
+    "type": "post",
+    "text": "typing on a nice keyboard is a luxury i've forgotten",
+    "url": "https://x.com/unevenlyeven/status/1501825519767064576",
+    "published_at": "2022-03-10T07:41:21.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
     "id": "arena:27590891",
     "source": "arena",
     "type": "block",
@@ -935,6 +1198,64 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1501332187731292160",
+    "source": "x",
+    "type": "post",
+    "text": "i know i have good friends when i can say \"pokemon type chart\" when i can't think of the word for \"heatmap\" and no one makes fun of me",
+    "url": "https://x.com/unevenlyeven/status/1501332187731292160",
+    "published_at": "2022-03-08T23:01:01.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1501288349016866817",
+    "source": "x",
+    "type": "post",
+    "text": "the baader-meinhof is strong today",
+    "url": "https://x.com/unevenlyeven/status/1501288349016866817",
+    "published_at": "2022-03-08T20:06:49.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [
+      "https://pbs.twimg.com/media/FNSUnXGVcAIGDow.jpg"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1500988012468924419",
+    "source": "x",
+    "type": "post",
+    "text": "it took me seeing this to realize that modular synths are literally just analog computers 🤯 https://t.co/9h70bbt46Q",
+    "url": "https://x.com/unevenlyeven/status/1500988012468924419",
+    "published_at": "2022-03-08T00:13:23.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1500601663790272512",
+    "source": "x",
+    "type": "post",
+    "text": "why is apex legends 80gb",
+    "url": "https://x.com/unevenlyeven/status/1500601663790272512",
+    "published_at": "2022-03-06T22:38:11.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
     "id": "arena:27485164",
@@ -1094,5 +1415,19 @@
     "url": "https://www.are.na/siyang/unnecessary-chroma",
     "published_at": "2022-03-05T00:47:19.000Z",
     "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:1499616244412022791",
+    "source": "x",
+    "type": "post",
+    "text": "wish the references in academic papers were clickable, previewable, and bidirectional - a la roam/obsidian/every knowledge base app these days",
+    "url": "https://x.com/unevenlyeven/status/1499616244412022791",
+    "published_at": "2022-03-04T05:22:28.000Z",
+    "fetched_at": "2026-11-05T02:07:43.703Z"
   }
 ]
