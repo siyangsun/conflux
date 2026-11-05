@@ -181,5 +181,10 @@
     "cursor": "2026-11-04",
     "last_error": null,
     "failing_since": null
+  },
+  "x": {
+    "cursor": "2118078387105190116",
+    "last_error": null,
+    "failing_since": null
   }
 }
