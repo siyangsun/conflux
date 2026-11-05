@@ -889,44 +889,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Places to make content for no clout",
-          "url": "https://siyangsun.github.io/courtyard/making-content-for-no-clout",
-          "status": "updated"
-        },
-        {
-          "title": "Printing as creative commitment",
-          "url": "https://siyangsun.github.io/courtyard/printing-as-creative-commitment",
-          "status": "updated"
-        },
-        {
-          "title": "Quadratic voting",
-          "url": "https://siyangsun.github.io/courtyard/quadratic-voting",
-          "status": "updated"
-        },
-        {
-          "title": "Using social media as a public archive",
-          "url": "https://siyangsun.github.io/courtyard/using-social-media-as-a-public-archive",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2025-05-08",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 4 pages",
-    "text": "Places to make content for no clout (updated)\nPrinting as creative commitment (updated)\nQuadratic voting (updated)\nUsing social media as a public archive (updated)",
-    "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2025-05-08T02:33:31.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -944,6 +906,62 @@
     "published_at": "2025-05-08T02:33:31.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Places to make content for no clout",
+          "url": "https://siyangsun.github.io/courtyard/making-content-for-no-clout",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2025-05-08",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 1 page",
+    "text": "Places to make content for no clout (updated)",
+    "url": "https://siyangsun.github.io/courtyard/making-content-for-no-clout",
+    "published_at": "2025-05-08T02:33:31.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Printing as creative commitment",
+          "url": "https://siyangsun.github.io/courtyard/printing-as-creative-commitment",
+          "status": "added"
+        },
+        {
+          "title": "Quadratic voting",
+          "url": "https://siyangsun.github.io/courtyard/quadratic-voting",
+          "status": "added"
+        },
+        {
+          "title": "Using social media as a public archive",
+          "url": "https://siyangsun.github.io/courtyard/using-social-media-as-a-public-archive",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2025-05-08",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 3 pages",
+    "text": "Printing as creative commitment (added)\nQuadratic voting (added)\nUsing social media as a public archive (added)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2025-05-08T02:33:31.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "id": "arena:76959093",

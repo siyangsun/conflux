@@ -418,134 +418,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Camelot Wheel",
-          "url": "https://siyangsun.github.io/courtyard/camelot-wheel",
-          "status": "updated"
-        },
-        {
-          "title": "Capitalism turns people into spikes",
-          "url": "https://siyangsun.github.io/courtyard/capitalism-turns-people-into-spikes",
-          "status": "updated"
-        },
-        {
-          "title": "Circle of fifths",
-          "url": "https://siyangsun.github.io/courtyard/circle-of-fifths",
-          "status": "updated"
-        },
-        {
-          "title": "Cosmic resonance",
-          "url": "https://siyangsun.github.io/courtyard/cosmic-resonance",
-          "status": "updated"
-        },
-        {
-          "title": "Crosshair placement",
-          "url": "https://siyangsun.github.io/courtyard/crosshair-placement",
-          "status": "updated"
-        },
-        {
-          "title": "Difficulties of building in public",
-          "url": "https://siyangsun.github.io/courtyard/difficulties-of-building-in-public",
-          "status": "updated"
-        },
-        {
-          "title": "Hangriness",
-          "url": "https://siyangsun.github.io/courtyard/hangriness",
-          "status": "updated"
-        },
-        {
-          "title": "Notes on KPOP song arrangement",
-          "url": "https://siyangsun.github.io/courtyard/notes-on-kpop-song-arrangement",
-          "status": "updated"
-        },
-        {
-          "title": "Ownership history of in-game items adds to immersion",
-          "url": "https://siyangsun.github.io/courtyard/ownership-history-of-in-game-items-adds-to-immersion",
-          "status": "updated"
-        },
-        {
-          "title": "Personal Canon",
-          "url": "https://siyangsun.github.io/courtyard/personal-canon",
-          "status": "updated"
-        },
-        {
-          "title": "Postmortem on defensive cooldowns",
-          "url": "https://siyangsun.github.io/courtyard/postmortem-on-defensive-cooldowns",
-          "status": "updated"
-        },
-        {
-          "title": "purchases that have positively impacted my quality of life",
-          "url": "https://siyangsun.github.io/courtyard/purchases-that-have-positively-impacted-my-quality-of-life",
-          "status": "updated"
-        },
-        {
-          "title": "Replicating analog basses",
-          "url": "https://siyangsun.github.io/courtyard/replicating-analog-basses",
-          "status": "updated"
-        },
-        {
-          "title": "Research on photoshop alternatives",
-          "url": "https://siyangsun.github.io/courtyard/research-on-photoshop-alternatives",
-          "status": "updated"
-        },
-        {
-          "title": "Resources for programming your own DSP",
-          "url": "https://siyangsun.github.io/courtyard/resources-for-programming-your-own-dsp",
-          "status": "updated"
-        },
-        {
-          "title": "Respectable use cases for generative AI images",
-          "url": "https://siyangsun.github.io/courtyard/respectable-use-cases-for-generative-AI-images",
-          "status": "updated"
-        },
-        {
-          "title": "Shadow selves - hungry ghosts, anima, the void",
-          "url": "https://siyangsun.github.io/courtyard/shadow-selves---hungry-ghosts,-anima,-the-void",
-          "status": "updated"
-        },
-        {
-          "title": "Spike archetype",
-          "url": "https://siyangsun.github.io/courtyard/spike-archetype",
-          "status": "updated"
-        },
-        {
-          "title": "Sub-skills for DJing",
-          "url": "https://siyangsun.github.io/courtyard/sub-skills-for-djing",
-          "status": "updated"
-        },
-        {
-          "title": "Subsurface scattering",
-          "url": "https://siyangsun.github.io/courtyard/subsurface-scattering",
-          "status": "updated"
-        },
-        {
-          "title": "Switching with one's shadow",
-          "url": "https://siyangsun.github.io/courtyard/switching-with-one's-shadow",
-          "status": "updated"
-        },
-        {
-          "title": "Systemic incentives",
-          "url": "https://siyangsun.github.io/courtyard/systemic-incentives",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2025-09-25",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 22 pages",
-    "text": "Camelot Wheel (updated)\nCapitalism turns people into spikes (updated)\nCircle of fifths (updated)\nCosmic resonance (updated)\nCrosshair placement (updated)\nDifficulties of building in public (updated)\nHangriness (updated)\nNotes on KPOP song arrangement (updated)\nOwnership history of in-game items adds to immersion (updated)\nPersonal Canon (updated)\nPostmortem on defensive cooldowns (updated)\npurchases that have positively impacted my quality of life (updated)\nReplicating analog basses (updated)\nResearch on photoshop alternatives (updated)\nResources for programming your own DSP (updated)\nRespectable use cases for generative AI images (updated)\nShadow selves - hungry ghosts, anima, the void (updated)\nSpike archetype (updated)\nSub-skills for DJing (updated)\nSubsurface scattering (updated)\nSwitching with one's shadow (updated)\nSystemic incentives (updated)",
-    "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2025-09-25T14:10:37.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -563,6 +435,157 @@
     "published_at": "2025-09-25T14:10:37.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Camelot Wheel",
+          "url": "https://siyangsun.github.io/courtyard/camelot-wheel",
+          "status": "added"
+        },
+        {
+          "title": "Capitalism turns people into spikes",
+          "url": "https://siyangsun.github.io/courtyard/capitalism-turns-people-into-spikes",
+          "status": "added"
+        },
+        {
+          "title": "Cosmic resonance",
+          "url": "https://siyangsun.github.io/courtyard/cosmic-resonance",
+          "status": "added"
+        },
+        {
+          "title": "Crosshair placement",
+          "url": "https://siyangsun.github.io/courtyard/crosshair-placement",
+          "status": "added"
+        },
+        {
+          "title": "Defensive cooldowns",
+          "url": "https://siyangsun.github.io/courtyard/defensive-cooldowns",
+          "status": "added"
+        },
+        {
+          "title": "Difficulties of building in public",
+          "url": "https://siyangsun.github.io/courtyard/difficulties-of-building-in-public",
+          "status": "added"
+        },
+        {
+          "title": "Hangriness",
+          "url": "https://siyangsun.github.io/courtyard/hangriness",
+          "status": "added"
+        },
+        {
+          "title": "Notes on KPOP song arrangement",
+          "url": "https://siyangsun.github.io/courtyard/notes-on-kpop-song-arrangement",
+          "status": "added"
+        },
+        {
+          "title": "Ownership history of in-game items adds to immersion",
+          "url": "https://siyangsun.github.io/courtyard/ownership-history-of-in-game-items-adds-to-immersion",
+          "status": "added"
+        },
+        {
+          "title": "Personal Canon",
+          "url": "https://siyangsun.github.io/courtyard/personal-canon",
+          "status": "added"
+        },
+        {
+          "title": "Postmortem on defensive cooldowns",
+          "url": "https://siyangsun.github.io/courtyard/postmortem-on-defensive-cooldowns",
+          "status": "added"
+        },
+        {
+          "title": "purchases that have positively impacted my quality of life",
+          "url": "https://siyangsun.github.io/courtyard/purchases-that-have-positively-impacted-my-quality-of-life",
+          "status": "added"
+        },
+        {
+          "title": "Replicating analog basses",
+          "url": "https://siyangsun.github.io/courtyard/replicating-analog-basses",
+          "status": "added"
+        },
+        {
+          "title": "Research on photoshop alternatives",
+          "url": "https://siyangsun.github.io/courtyard/research-on-photoshop-alternatives",
+          "status": "added"
+        },
+        {
+          "title": "Resources for programming your own DSP",
+          "url": "https://siyangsun.github.io/courtyard/resources-for-programming-your-own-dsp",
+          "status": "added"
+        },
+        {
+          "title": "Respectable use cases for generative AI images",
+          "url": "https://siyangsun.github.io/courtyard/respectable-use-cases-for-generative-AI-images",
+          "status": "added"
+        },
+        {
+          "title": "Shadow selves - hungry ghosts, anima, the void",
+          "url": "https://siyangsun.github.io/courtyard/shadow-selves---hungry-ghosts,-anima,-the-void",
+          "status": "added"
+        },
+        {
+          "title": "Spike archetype",
+          "url": "https://siyangsun.github.io/courtyard/spike-archetype",
+          "status": "added"
+        },
+        {
+          "title": "Switching with one's shadow",
+          "url": "https://siyangsun.github.io/courtyard/switching-with-one's-shadow",
+          "status": "added"
+        },
+        {
+          "title": "Systemic incentives",
+          "url": "https://siyangsun.github.io/courtyard/systemic-incentives",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2025-09-25",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 20 pages",
+    "text": "Camelot Wheel (added)\nCapitalism turns people into spikes (added)\nCosmic resonance (added)\nCrosshair placement (added)\nDefensive cooldowns (added)\nDifficulties of building in public (added)\nHangriness (added)\nNotes on KPOP song arrangement (added)\nOwnership history of in-game items adds to immersion (added)\nPersonal Canon (added)\nPostmortem on defensive cooldowns (added)\npurchases that have positively impacted my quality of life (added)\nReplicating analog basses (added)\nResearch on photoshop alternatives (added)\nResources for programming your own DSP (added)\nRespectable use cases for generative AI images (added)\nShadow selves - hungry ghosts, anima, the void (added)\nSpike archetype (added)\nSwitching with one's shadow (added)\nSystemic incentives (added)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2025-09-25T14:10:37.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Circle of fifths",
+          "url": "https://siyangsun.github.io/courtyard/circle-of-fifths",
+          "status": "updated"
+        },
+        {
+          "title": "Sub-skills for DJing",
+          "url": "https://siyangsun.github.io/courtyard/sub-skills-for-djing",
+          "status": "updated"
+        },
+        {
+          "title": "Subsurface scattering",
+          "url": "https://siyangsun.github.io/courtyard/subsurface-scattering",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2025-09-25",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 3 pages",
+    "text": "Circle of fifths (updated)\nSub-skills for DJing (updated)\nSubsurface scattering (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2025-09-25T14:10:37.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",

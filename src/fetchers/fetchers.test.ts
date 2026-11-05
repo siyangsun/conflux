@@ -103,7 +103,7 @@ test("x: photo urls resolved from includes, url built from handle", () => {
   assert.deepEqual([p.id, p.url, p.images], ["x:55", "https://x.com/me/status/55", ["https://p/1.jpg"]]);
 });
 
-import { diff, fromSitemap } from "./quartz.ts";
+import { diff, fromHistory } from "./quartz.ts";
 import { shouldBeOpen } from "../issues.ts";
 
 const pg = (slug: string, content: string) => ({ slug, title: slug.toUpperCase(), content, links: [], tags: [] });
@@ -156,18 +156,20 @@ test("youtube watch page: title, upload date, escaped description", () => {
   assert.deepEqual([v.id, v.title, v.published_at, v.text], ["youtube:abc123abc12", "A & B", "2022-07-28T14:58:20.000Z", 'line1\nline "2"']);
 });
 
-test("quartz backfill: sitemap lastmod grouped by day, titles from the index", () => {
-  const sm = `<urlset>
-  <url><loc>https://s.io/c/a</loc><lastmod>2024-01-14T06:00:00.000Z</lastmod></url>
-  <url><loc>https://s.io/c/b</loc><lastmod>2024-01-14T07:00:00.000Z</lastmod></url>
-  <url><loc>https://s.io/</loc><lastmod>2025-02-01T00:00:00.000Z</lastmod></url></urlset>`;
-  const items = fromSitemap(sm, { a: { slug: "a", title: "Alpha" }, b: { slug: "b" }, index: { slug: "index", title: "Home" } }, { site_url: "https://s.io/c" }, NOW);
-  assert.deepEqual(items.map((i) => [i.id, i.title, i.published_at, i.text]), [
-    ["quartz:backfill-2024-01-14", "Updated 2 pages", "2024-01-14T07:00:00.000Z", "Alpha (updated)\nb (updated)"],
-    ["quartz:backfill-2025-02-01", "Updated 1 page", "2025-02-01T00:00:00.000Z", "Home (updated)"],
+test("quartz backfill: first commit = added, later commits = updated, grouped by day", () => {
+  const index = { a: { slug: "a", title: "Alpha" }, b: { slug: "b" }, index: { slug: "index", title: "Home" } };
+  const history = {
+    a: ["2024-01-12T06:00:00Z", "2024-01-12T08:00:00Z", "2024-03-01T00:00:00Z"], // edited the day it was created, then again later
+    b: ["2024-01-12T07:00:00Z"],
+    index: ["2024-03-01T05:00:00Z", "2024-03-01T09:00:00Z"],
+    gone: ["2024-01-01T00:00:00Z"], // not in the index: skipped
+  };
+  const items = fromHistory(history, index, { site_url: "https://s.io/c" }, NOW);
+  assert.deepEqual(items.map((i) => [i.id, i.title, i.published_at, i.text]).sort(), [
+    ["quartz:backfill-added-2024-01-12", "Added 2 pages", "2024-01-12T07:00:00.000Z", "Alpha (added)\nb (added)"],
+    ["quartz:backfill-added-2024-03-01", "Added 1 page", "2024-03-01T05:00:00.000Z", "Home (added)"],
+    ["quartz:backfill-updated-2024-03-01", "Updated 1 page", "2024-03-01T00:00:00.000Z", "Alpha (updated)"],
   ]);
-  assert.equal(items[1].url, "https://s.io/c/");
-  assert.deepEqual(items[0].meta.pages, [{ title: "Alpha", url: "https://s.io/c/a", status: "updated" }, { title: "b", url: "https://s.io/c/b", status: "updated" }]);
 });
 
 import { addDays, dayOf, digests, newRepos } from "./github.ts";

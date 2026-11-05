@@ -7,15 +7,15 @@ const fingerprint = (p: Page) => hash(JSON.stringify([p.title, p.content, p.link
 
 type Changed = { title: string; url: string; status: "added" | "updated" };
 
-// One "Updated N pages" entry; `published_at` is when the change happened (a run time, or a sitemap lastmod when backfilling).
-function siteUpdate(id: string, pages: Changed[], base: string, published_at: string, fetched_at: string): Item {
+// One "Updated N pages" (or "Added") entry; `published_at` is when the change happened (a run time, or a commit time when backfilling).
+function siteUpdate(id: string, pages: Changed[], base: string, published_at: string, fetched_at: string, verb = "Updated"): Item {
   const n = pages.length;
   return item({
     id,
     source: "quartz",
     type: "site-update",
     kind: "activity",
-    title: `Updated ${n} page${n > 1 ? "s" : ""}`,
+    title: `${verb} ${n} page${n > 1 ? "s" : ""}`,
     text: pages.map((p) => `${p.title} (${p.status})`).join("\n"),
     url: n === 1 ? pages[0].url : base,
     published_at,
@@ -48,21 +48,24 @@ export function diff(index: Record<string, Page>, prev: Record<string, string> |
   return { hashes, items };
 }
 
-// Backfill: the sitemap's <lastmod> is each page's last-modified time. Pages sharing a day become one entry, all "updated".
-export function fromSitemap(sitemap: string, index: Record<string, Page>, cfg: Record<string, any>, now: string): Item[] {
+// Backfill from the content repo's git history (slug -> commit times, oldest first; the content index has no dates). Per day, the pages
+// first committed that day become one "Added" entry and the other pages committed that day one "Updated" entry.
+export function fromHistory(history: Record<string, string[]>, index: Record<string, Page>, cfg: Record<string, any>, now: string): Item[] {
   const base = cfg.site_url.replace(/\/?$/, "/");
-  const byDay = new Map<string, { at: string; pages: Changed[] }>();
-  for (const [, loc, at] of sitemap.matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)) {
-    // Quartz's sitemap may omit the site's sub-path (/courtyard/) when baseUrl was set without it: accept both.
-    const path = new URL(loc).pathname, prefix = new URL(base).pathname;
-    const slug = (path.startsWith(prefix) ? path.slice(prefix.length) : path.slice(1)).replace(/\/$/, "") || "index";
-    const day = new Date(at).toISOString().slice(0, 10);
-    const e = byDay.get(day) ?? byDay.set(day, { at, pages: [] }).get(day)!;
-    if (at > e.at) e.at = at;
-    e.pages.push({ title: index[slug]?.title || slug, url: slug === "index" ? base : base + slug, status: "updated" });
+  const days = new Map<string, { at: string; status: "added" | "updated"; pages: Map<string, Changed> }>();
+  for (const [slug, times] of Object.entries(history)) {
+    if (!index[slug]) continue;
+    const iso = times.map((t) => new Date(t).toISOString()), created = iso[0]?.slice(0, 10);
+    iso.forEach((t, k) => {
+      const day = t.slice(0, 10), status = k === 0 ? "added" : "updated";
+      if (status === "updated" && day === created) return; // edited the day it was created: already in "Added"
+      const e = days.get(`${status}-${day}`) ?? days.set(`${status}-${day}`, { at: t, status, pages: new Map() }).get(`${status}-${day}`)!;
+      if (t > e.at) e.at = t;
+      e.pages.set(slug, { title: index[slug].title || slug, url: slug === "index" ? base : base + slug, status });
+    });
   }
-  return [...byDay].map(([day, { at, pages }]) =>
-    siteUpdate(`quartz:backfill-${day}`, pages.sort((a, b) => a.title.localeCompare(b.title)), base, new Date(at).toISOString(), now));
+  return [...days].map(([key, { at, status, pages }]) =>
+    siteUpdate(`quartz:backfill-${key}`, [...pages.values()].sort((a, b) => a.title.localeCompare(b.title)), base, at, now, status === "added" ? "Added" : "Updated"));
 }
 
 const quartz: Fetcher = async (cfg, prev) => {

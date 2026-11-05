@@ -1876,6 +1876,7 @@
     "kind": "post"
   },
   {
+    "kind": "activity",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -1884,24 +1885,23 @@
         {
           "title": "Fitness routine I am trying",
           "url": "https://siyangsun.github.io/courtyard/fitness-routine-i-am-trying",
-          "status": "updated"
+          "status": "added"
         },
         {
           "title": "Managing multiple git profiles",
           "url": "https://siyangsun.github.io/courtyard/managing-multiple-git-profiles",
-          "status": "updated"
+          "status": "added"
         }
       ]
     },
-    "id": "quartz:backfill-2026-03-14",
+    "id": "quartz:backfill-added-2026-03-14",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 2 pages",
-    "text": "Fitness routine I am trying (updated)\nManaging multiple git profiles (updated)",
+    "title": "Added 2 pages",
+    "text": "Fitness routine I am trying (added)\nManaging multiple git profiles (added)",
     "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2026-03-14T19:56:31.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
+    "published_at": "2026-03-14T19:13:56.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",
@@ -2345,6 +2345,7 @@
     "kind": "reblog"
   },
   {
+    "kind": "activity",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -2353,19 +2354,18 @@
         {
           "title": "Other places I might exist",
           "url": "https://siyangsun.github.io/courtyard/other-places-i-might-exist",
-          "status": "updated"
+          "status": "added"
         }
       ]
     },
-    "id": "quartz:backfill-2026-03-11",
+    "id": "quartz:backfill-added-2026-03-11",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
-    "text": "Other places I might exist (updated)",
+    "title": "Added 1 page",
+    "text": "Other places I might exist (added)",
     "url": "https://siyangsun.github.io/courtyard/other-places-i-might-exist",
     "published_at": "2026-03-11T04:04:36.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",

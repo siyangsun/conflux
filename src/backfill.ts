@@ -1,11 +1,12 @@
 // One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr]...` (default: all).
 // Safe to re-run: items are deduped by id like any fetch.
+import { execFileSync } from "node:child_process";
 import { config } from "./config.ts";
 import { get, UA } from "./feed.ts";
 import { nextBefore, feedUrl, parse as parseSoundcloud } from "./fetchers/soundcloud.ts";
 import { addDays, commitDates, dayOf, digests, listRepos } from "./fetchers/github.ts";
 import { api, channelPosts } from "./fetchers/arena.ts";
-import { fromSitemap } from "./fetchers/quartz.ts";
+import { fromHistory } from "./fetchers/quartz.ts";
 import { parseWatch } from "./fetchers/youtube.ts";
 import { parseApi as parseTumblr } from "./fetchers/tumblr.ts";
 import { addItems, loadAll } from "./store.ts";
@@ -29,11 +30,14 @@ const jobs: Record<string, () => Promise<Item[]>> = {
     }
     return out;
   },
-  // Page dates come from the sitemap (the content index has none); see fromSitemap.
+  // Page dates come from the content repo's git history (the content index has none): git clone it, then QUARTZ_DIR=<clone> node src/backfill.ts quartz
   async quartz() {
-    const base = sources.quartz.site_url.replace(/\/?$/, "/");
-    const [sitemap, index] = await Promise.all([get(`${base}sitemap.xml`, {}), get(`${base}static/contentIndex.json`, {})]);
-    return fromSitemap(sitemap!.text, JSON.parse(index!.text), sources.quartz, now);
+    const dir = process.env.QUARTZ_DIR;
+    if (!dir) throw new Error("set QUARTZ_DIR to a clone of the Quartz content repo");
+    const index = JSON.parse((await get(`${sources.quartz.site_url.replace(/\/?$/, "/")}static/contentIndex.json`, {}))!.text);
+    const history = Object.fromEntries(Object.values<any>(index).map((p) =>
+      [p.slug, execFileSync("git", ["-C", dir, "log", "--follow", "--format=%aI", "--", `content/${p.filePath}`], { encoding: "utf8" }).split("\n").filter(Boolean).reverse()]));
+    return fromHistory(history, index, sources.quartz, now);
   },
   // Every finished day of commit history (the live fetcher only handles yesterday onward). Needs ~1 API call per 100 commits per repo:
   // set GITHUB_TOKEN if unauthenticated limits (60/hour) run out.

@@ -574,49 +574,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Defeat in detail",
-          "url": "https://siyangsun.github.io/courtyard/defeat-in-detail",
-          "status": "updated"
-        },
-        {
-          "title": "Ephemeral identities",
-          "url": "https://siyangsun.github.io/courtyard/ephemeral-identities",
-          "status": "updated"
-        },
-        {
-          "title": "Less consumerist ways to spend money",
-          "url": "https://siyangsun.github.io/courtyard/less-consumerist-ways-to-spend-money",
-          "status": "updated"
-        },
-        {
-          "title": "Siyang everything dump",
-          "url": "https://siyangsun.github.io/courtyard/siyang-everything-dump",
-          "status": "updated"
-        },
-        {
-          "title": "Working with the garage door open",
-          "url": "https://siyangsun.github.io/courtyard/working-with-the-garage-door-open",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2026-02-15",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 5 pages",
-    "text": "Defeat in detail (updated)\nEphemeral identities (updated)\nLess consumerist ways to spend money (updated)\nSiyang everything dump (updated)\nWorking with the garage door open (updated)",
-    "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2026-02-15T00:01:39.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -634,6 +591,67 @@
     "published_at": "2026-02-15T00:01:39.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Defeat in detail",
+          "url": "https://siyangsun.github.io/courtyard/defeat-in-detail",
+          "status": "added"
+        },
+        {
+          "title": "Ephemeral identities",
+          "url": "https://siyangsun.github.io/courtyard/ephemeral-identities",
+          "status": "added"
+        },
+        {
+          "title": "Less consumerist ways to spend money",
+          "url": "https://siyangsun.github.io/courtyard/less-consumerist-ways-to-spend-money",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2026-02-15",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 3 pages",
+    "text": "Defeat in detail (added)\nEphemeral identities (added)\nLess consumerist ways to spend money (added)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2026-02-15T00:01:39.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Siyang everything dump",
+          "url": "https://siyangsun.github.io/courtyard/siyang-everything-dump",
+          "status": "updated"
+        },
+        {
+          "title": "Working with the garage door open",
+          "url": "https://siyangsun.github.io/courtyard/working-with-the-garage-door-open",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2026-02-15",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 2 pages",
+    "text": "Siyang everything dump (updated)\nWorking with the garage door open (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2026-02-15T00:01:39.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",

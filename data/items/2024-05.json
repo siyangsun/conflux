@@ -2674,6 +2674,30 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "repos": [
+        {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2024-05-11",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "courtyard (1)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2024-05-12T02:29:39.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "pages": [
         {
           "title": "Building your village",
@@ -2692,38 +2716,14 @@
         }
       ]
     },
-    "id": "quartz:backfill-2024-05-12",
+    "id": "quartz:backfill-updated-2024-05-12",
     "source": "quartz",
     "type": "site-update",
     "title": "Updated 3 pages",
     "text": "Building your village (updated)\nThe Courtyard (updated)\nVisual library (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2024-05-12T02:29:39.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "repos": [
-        {
-          "name": "courtyard",
-          "url": "https://github.com/siyangsun/courtyard",
-          "count": 1
-        }
-      ]
-    },
-    "id": "github:commits:2024-05-11",
-    "source": "github",
-    "type": "commits",
-    "title": "1 commit in 1 repo",
-    "text": "courtyard (1)",
-    "url": "https://github.com/siyangsun/courtyard",
-    "published_at": "2024-05-12T02:29:39.000Z",
-    "fetched_at": "2026-11-03T20:28:33.131Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",

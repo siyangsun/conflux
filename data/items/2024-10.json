@@ -119,6 +119,7 @@
     "kind": "activity"
   },
   {
+    "kind": "activity",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -143,18 +144,45 @@
           "title": "Relative minor",
           "url": "https://siyangsun.github.io/courtyard/relative-minor",
           "status": "updated"
+        },
+        {
+          "title": "Sub-skills for DJing",
+          "url": "https://siyangsun.github.io/courtyard/sub-skills-for-djing",
+          "status": "updated"
         }
       ]
     },
-    "id": "quartz:backfill-2024-10-22",
+    "id": "quartz:backfill-updated-2024-10-22",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 4 pages",
-    "text": "Abstract design theory (updated)\nBitwig studio (updated)\nGear I Use (updated)\nRelative minor (updated)",
+    "title": "Updated 5 pages",
+    "text": "Abstract design theory (updated)\nBitwig studio (updated)\nGear I Use (updated)\nRelative minor (updated)\nSub-skills for DJing (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2024-10-22T04:42:25.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Circle of fifths",
+          "url": "https://siyangsun.github.io/courtyard/circle-of-fifths",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2024-10-22",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 1 page",
+    "text": "Circle of fifths (added)",
+    "url": "https://siyangsun.github.io/courtyard/circle-of-fifths",
+    "published_at": "2024-10-22T04:42:25.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "id": "arena:66090562",

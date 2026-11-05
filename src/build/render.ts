@@ -68,7 +68,7 @@ const lead = (i: Item, s: string) =>
   : i.type === "channel" ? `created a new channel on ${s}`
   : i.type === "page" ? `added a page to ${s}`
   : i.type === "commits" ? `committed on ${s}`
-  : i.type === "site-update" ? `updated ${s}`
+  : i.type === "site-update" ? `${i.title?.startsWith("Added") ? "added to" : "updated"} ${s}`
   : i.type === "video" ? `posted a video to ${s}`
   : i.kind === "reblog" ? (i.source === "arena" ? `saved to ${s}` : `reblogged on ${s}`)
   : i.source === "manual" ? "posted"

@@ -654,29 +654,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Collector's fallacy",
-          "url": "https://siyangsun.github.io/courtyard/collector's-fallacy",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2024-02-18",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 1 page",
-    "text": "Collector's fallacy (updated)",
-    "url": "https://siyangsun.github.io/courtyard/collector's-fallacy",
-    "published_at": "2024-02-18T20:34:33.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -699,6 +676,29 @@
     "published_at": "2024-02-18T20:34:33.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Collector's fallacy",
+          "url": "https://siyangsun.github.io/courtyard/collector's-fallacy",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2024-02-18",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 1 page",
+    "text": "Collector's fallacy (updated)",
+    "url": "https://siyangsun.github.io/courtyard/collector's-fallacy",
+    "published_at": "2024-02-18T20:34:33.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",
@@ -1607,10 +1607,39 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "repos": [
+        {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 1
+        }
+      ]
+    },
+    "id": "github:commits:2024-02-05",
+    "source": "github",
+    "type": "commits",
+    "title": "1 commit in 1 repo",
+    "text": "courtyard (1)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2024-02-06T04:47:19.000Z",
+    "fetched_at": "2026-11-03T20:28:33.131Z",
+    "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "pages": [
         {
-          "title": "Digital audio workstation",
-          "url": "https://siyangsun.github.io/courtyard/digital-audio-workstation",
+          "title": "Bitwig studio",
+          "url": "https://siyangsun.github.io/courtyard/bitwig-studio",
+          "status": "updated"
+        },
+        {
+          "title": "Gear I Use",
+          "url": "https://siyangsun.github.io/courtyard/gear-i-use",
           "status": "updated"
         },
         {
@@ -1635,38 +1664,47 @@
         }
       ]
     },
-    "id": "quartz:backfill-2024-02-06",
+    "id": "quartz:backfill-updated-2024-02-06",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 5 pages",
-    "text": "Digital audio workstation (updated)\nHigh skill ceiling (updated)\nModular synthesis (updated)\nNo frills tutorials (updated)\nUnderstanding equalization (updated)",
+    "title": "Updated 6 pages",
+    "text": "Bitwig studio (updated)\nGear I Use (updated)\nHigh skill ceiling (updated)\nModular synthesis (updated)\nNo frills tutorials (updated)\nUnderstanding equalization (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2024-02-06T04:47:19.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
+    "kind": "activity",
     "images": [],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "repos": [
+      "pages": [
         {
-          "name": "courtyard",
-          "url": "https://github.com/siyangsun/courtyard",
-          "count": 1
+          "title": "Counterintuitive body reminders",
+          "url": "https://siyangsun.github.io/courtyard/counterintuitive-body-reminders",
+          "status": "added"
+        },
+        {
+          "title": "Digital audio workstation",
+          "url": "https://siyangsun.github.io/courtyard/digital-audio-workstation",
+          "status": "added"
+        },
+        {
+          "title": "Places to make content for no clout",
+          "url": "https://siyangsun.github.io/courtyard/making-content-for-no-clout",
+          "status": "added"
         }
       ]
     },
-    "id": "github:commits:2024-02-05",
-    "source": "github",
-    "type": "commits",
-    "title": "1 commit in 1 repo",
-    "text": "courtyard (1)",
-    "url": "https://github.com/siyangsun/courtyard",
+    "id": "quartz:backfill-added-2024-02-06",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 3 pages",
+    "text": "Counterintuitive body reminders (added)\nDigital audio workstation (added)\nPlaces to make content for no clout (added)",
+    "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2024-02-06T04:47:19.000Z",
-    "fetched_at": "2026-11-03T20:28:33.131Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",

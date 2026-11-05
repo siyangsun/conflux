@@ -51,6 +51,7 @@
     "kind": "activity"
   },
   {
+    "kind": "activity",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -62,8 +63,8 @@
           "status": "updated"
         },
         {
-          "title": "Hygge Hobbit Habits",
-          "url": "https://siyangsun.github.io/courtyard/hygge-hobbit-habits",
+          "title": "Circle of fifths",
+          "url": "https://siyangsun.github.io/courtyard/circle-of-fifths",
           "status": "updated"
         },
         {
@@ -73,15 +74,37 @@
         }
       ]
     },
-    "id": "quartz:backfill-2025-04-29",
+    "id": "quartz:backfill-updated-2025-04-29",
     "source": "quartz",
     "type": "site-update",
     "title": "Updated 3 pages",
-    "text": "AI is a collage (updated)\nHygge Hobbit Habits (updated)\nRoguelike games cause happy accidents (updated)",
+    "text": "AI is a collage (updated)\nCircle of fifths (updated)\nRoguelike games cause happy accidents (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2025-04-29T14:46:37.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Hygge Hobbit Habits",
+          "url": "https://siyangsun.github.io/courtyard/hygge-hobbit-habits",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2025-04-29",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 1 page",
+    "text": "Hygge Hobbit Habits (added)",
+    "url": "https://siyangsun.github.io/courtyard/hygge-hobbit-habits",
+    "published_at": "2025-04-29T14:46:37.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "id": "youtube:RxftLGwNw40",

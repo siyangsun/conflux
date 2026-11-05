@@ -1,5 +1,28 @@
 [
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "The Courtyard",
+          "url": "https://siyangsun.github.io/courtyard/",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2023-05-31",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 1 page",
+    "text": "The Courtyard (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2023-05-31T21:01:23.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
     "kind": "post",
     "images": [
       "https://pbs.twimg.com/media/FxeWSBZXoAkLNaw.jpg"

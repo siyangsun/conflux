@@ -1063,39 +1063,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Counterintuitive body reminders",
-          "url": "https://siyangsun.github.io/courtyard/counterintuitive-body-reminders",
-          "status": "updated"
-        },
-        {
-          "title": "Courtship as Ritual",
-          "url": "https://siyangsun.github.io/courtyard/courtship-as-ritual",
-          "status": "updated"
-        },
-        {
-          "title": "human labor is hidden behind AI",
-          "url": "https://siyangsun.github.io/courtyard/human-labor-is-hidden-behind-AI",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2025-07-08",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 3 pages",
-    "text": "Counterintuitive body reminders (updated)\nCourtship as Ritual (updated)\nhuman labor is hidden behind AI (updated)",
-    "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2025-07-08T02:39:45.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -1113,6 +1080,57 @@
     "published_at": "2025-07-08T02:39:45.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Counterintuitive body reminders",
+          "url": "https://siyangsun.github.io/courtyard/counterintuitive-body-reminders",
+          "status": "updated"
+        },
+        {
+          "title": "human labor is hidden behind AI",
+          "url": "https://siyangsun.github.io/courtyard/human-labor-is-hidden-behind-AI",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2025-07-08",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 2 pages",
+    "text": "Counterintuitive body reminders (updated)\nhuman labor is hidden behind AI (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2025-07-08T02:39:45.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Courtship as Ritual",
+          "url": "https://siyangsun.github.io/courtyard/courtship-as-ritual",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2025-07-08",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 1 page",
+    "text": "Courtship as Ritual (added)",
+    "url": "https://siyangsun.github.io/courtyard/courtship-as-ritual",
+    "published_at": "2025-07-08T02:39:45.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "id": "arena:79939970",

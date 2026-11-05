@@ -4,34 +4,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Learning about learning",
-          "url": "https://siyangsun.github.io/courtyard/learning-about-learning",
-          "status": "updated"
-        },
-        {
-          "title": "Obsidian",
-          "url": "https://siyangsun.github.io/courtyard/obsidian",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2024-01-31",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 2 pages",
-    "text": "Learning about learning (updated)\nObsidian (updated)",
-    "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2024-01-31T02:52:28.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -49,6 +21,39 @@
     "published_at": "2024-01-31T02:52:28.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Learning about learning",
+          "url": "https://siyangsun.github.io/courtyard/learning-about-learning",
+          "status": "updated"
+        },
+        {
+          "title": "Obsidian",
+          "url": "https://siyangsun.github.io/courtyard/obsidian",
+          "status": "updated"
+        },
+        {
+          "title": "Sub-skills for DJing",
+          "url": "https://siyangsun.github.io/courtyard/sub-skills-for-djing",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2024-01-31",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 3 pages",
+    "text": "Learning about learning (updated)\nObsidian (updated)\nSub-skills for DJing (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2024-01-31T02:52:28.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",
@@ -423,6 +428,7 @@
     "kind": "activity"
   },
   {
+    "kind": "activity",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -434,13 +440,33 @@
           "status": "updated"
         },
         {
+          "title": "Abstract design theory",
+          "url": "https://siyangsun.github.io/courtyard/abstract-design-theory-course",
+          "status": "updated"
+        },
+        {
+          "title": "AI is a collage",
+          "url": "https://siyangsun.github.io/courtyard/AI-is-a-collage",
+          "status": "updated"
+        },
+        {
           "title": "Barriers to entry",
           "url": "https://siyangsun.github.io/courtyard/barriers-to-entry",
           "status": "updated"
         },
         {
+          "title": "Bitwig studio",
+          "url": "https://siyangsun.github.io/courtyard/bitwig-studio",
+          "status": "updated"
+        },
+        {
           "title": "Blank canvas syndrome",
           "url": "https://siyangsun.github.io/courtyard/blank-canvas-syndrome",
+          "status": "updated"
+        },
+        {
+          "title": "Building your village",
+          "url": "https://siyangsun.github.io/courtyard/building-your-village",
           "status": "updated"
         },
         {
@@ -451,6 +477,11 @@
         {
           "title": "Cognitive scaffolding",
           "url": "https://siyangsun.github.io/courtyard/cognitive-scaffolding",
+          "status": "updated"
+        },
+        {
+          "title": "Collector's fallacy",
+          "url": "https://siyangsun.github.io/courtyard/collector's-fallacy",
           "status": "updated"
         },
         {
@@ -494,6 +525,11 @@
           "status": "updated"
         },
         {
+          "title": "Gear I Use",
+          "url": "https://siyangsun.github.io/courtyard/gear-i-use",
+          "status": "updated"
+        },
+        {
           "title": "Gradient of improvement",
           "url": "https://siyangsun.github.io/courtyard/gradient-of-improvement",
           "status": "updated"
@@ -514,8 +550,28 @@
           "status": "updated"
         },
         {
+          "title": "High skill ceiling",
+          "url": "https://siyangsun.github.io/courtyard/high-skill-ceiling",
+          "status": "updated"
+        },
+        {
           "title": "High skill ceilings allow for skill expression",
           "url": "https://siyangsun.github.io/courtyard/high-skill-ceilings-allow-for-skill-expression",
+          "status": "updated"
+        },
+        {
+          "title": "human labor is hidden behind AI",
+          "url": "https://siyangsun.github.io/courtyard/human-labor-is-hidden-behind-AI",
+          "status": "updated"
+        },
+        {
+          "title": "Internet impermanence",
+          "url": "https://siyangsun.github.io/courtyard/internet-impermanence",
+          "status": "updated"
+        },
+        {
+          "title": "Learning about learning",
+          "url": "https://siyangsun.github.io/courtyard/learning-about-learning",
           "status": "updated"
         },
         {
@@ -564,6 +620,16 @@
           "status": "updated"
         },
         {
+          "title": "Modular synthesis",
+          "url": "https://siyangsun.github.io/courtyard/modular-synthesis",
+          "status": "updated"
+        },
+        {
+          "title": "No frills tutorials",
+          "url": "https://siyangsun.github.io/courtyard/no-frills-tutorials",
+          "status": "updated"
+        },
+        {
           "title": "Objective function",
           "url": "https://siyangsun.github.io/courtyard/objective-function",
           "status": "updated"
@@ -571,6 +637,11 @@
         {
           "title": "Observations on skin highlights",
           "url": "https://siyangsun.github.io/courtyard/observations-on-skin-highlights",
+          "status": "updated"
+        },
+        {
+          "title": "Obsidian",
+          "url": "https://siyangsun.github.io/courtyard/obsidian",
           "status": "updated"
         },
         {
@@ -589,6 +660,11 @@
           "status": "updated"
         },
         {
+          "title": "Relative minor",
+          "url": "https://siyangsun.github.io/courtyard/relative-minor",
+          "status": "updated"
+        },
+        {
           "title": "Requirements for a real-life quest",
           "url": "https://siyangsun.github.io/courtyard/requirements-for-a-real-life-quest",
           "status": "updated"
@@ -599,8 +675,18 @@
           "status": "updated"
         },
         {
+          "title": "Roguelike games cause happy accidents",
+          "url": "https://siyangsun.github.io/courtyard/roguelike-games-cause-happy-accidents",
+          "status": "updated"
+        },
+        {
           "title": "Shortcomings of intention",
           "url": "https://siyangsun.github.io/courtyard/shortcomings-of-intention",
+          "status": "updated"
+        },
+        {
+          "title": "Siyang everything dump",
+          "url": "https://siyangsun.github.io/courtyard/siyang-everything-dump",
           "status": "updated"
         },
         {
@@ -624,8 +710,23 @@
           "status": "updated"
         },
         {
+          "title": "Sub-skills for DJing",
+          "url": "https://siyangsun.github.io/courtyard/sub-skills-for-djing",
+          "status": "updated"
+        },
+        {
+          "title": "Subsurface scattering",
+          "url": "https://siyangsun.github.io/courtyard/subsurface-scattering",
+          "status": "updated"
+        },
+        {
           "title": "Tempo vs. value",
           "url": "https://siyangsun.github.io/courtyard/tempo-vs-value",
+          "status": "updated"
+        },
+        {
+          "title": "The Courtyard",
+          "url": "https://siyangsun.github.io/courtyard/",
           "status": "updated"
         },
         {
@@ -636,6 +737,11 @@
         {
           "title": "Training your intuition",
           "url": "https://siyangsun.github.io/courtyard/training-intuition",
+          "status": "updated"
+        },
+        {
+          "title": "Understanding equalization",
+          "url": "https://siyangsun.github.io/courtyard/understanding-equalization",
           "status": "updated"
         },
         {
@@ -654,21 +760,30 @@
           "status": "updated"
         },
         {
+          "title": "Visual library",
+          "url": "https://siyangsun.github.io/courtyard/visual-library",
+          "status": "updated"
+        },
+        {
           "title": "Ways to aggregate and organize content",
           "url": "https://siyangsun.github.io/courtyard/ways-to-aggregate-and-organize-content",
+          "status": "updated"
+        },
+        {
+          "title": "Working with the garage door open",
+          "url": "https://siyangsun.github.io/courtyard/working-with-the-garage-door-open",
           "status": "updated"
         }
       ]
     },
-    "id": "quartz:backfill-2024-01-14",
+    "id": "quartz:backfill-updated-2024-01-14",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 46 pages",
-    "text": "A system for ephemera and eternità (updated)\nBarriers to entry (updated)\nBlank canvas syndrome (updated)\nChekhov's gun (updated)\nCognitive scaffolding (updated)\nCreating to inspire creation (updated)\nDesign as problem solving (updated)\nDiscord (updated)\nDiscord servers are walled gardens (updated)\nDoing quests is more rewarding than grinding skills (updated)\nDunbar's Number (updated)\nEdge case (updated)\nEnabling environment (updated)\nGradient of improvement (updated)\nGranularity of transportation (updated)\nGreedy algorithm (updated)\nHappy accidents (updated)\nHigh skill ceilings allow for skill expression (updated)\nLearning exhaust (updated)\nLimitations breed creativity (updated)\nLiving edge case (updated)\nLow rank approximation (updated)\nLow rank approximation of an orchestra (updated)\nLow skill floor (updated)\nMedium speed travel in games (updated)\nMemorization as a cognitive scaffolding (updated)\nMMO mechanics are glue work (updated)\nObjective function (updated)\nObservations on skin highlights (updated)\nOptimization problem (updated)\nPhilosophical razor (updated)\nReasons to learn a new skill (updated)\nRequirements for a real-life quest (updated)\nResource management (updated)\nShortcomings of intention (updated)\nSkill cross-pollination (updated)\nSome communities lend themselves to unstructured teaching and mentorship (updated)\nSpitpaint (updated)\nStartups are asymmetric warfare (updated)\nTempo vs. value (updated)\nThird space (updated)\nTraining your intuition (updated)\nUnplanned repeated interactions (updated)\nUsing depth models to generate post-processing fog (updated)\nVertical slice (updated)\nWays to aggregate and organize content (updated)",
+    "title": "Updated 68 pages",
+    "text": "A system for ephemera and eternità (updated)\nAbstract design theory (updated)\nAI is a collage (updated)\nBarriers to entry (updated)\nBitwig studio (updated)\nBlank canvas syndrome (updated)\nBuilding your village (updated)\nChekhov's gun (updated)\nCognitive scaffolding (updated)\nCollector's fallacy (updated)\nCreating to inspire creation (updated)\nDesign as problem solving (updated)\nDiscord (updated)\nDiscord servers are walled gardens (updated)\nDoing quests is more rewarding than grinding skills (updated)\nDunbar's Number (updated)\nEdge case (updated)\nEnabling environment (updated)\nGear I Use (updated)\nGradient of improvement (updated)\nGranularity of transportation (updated)\nGreedy algorithm (updated)\nHappy accidents (updated)\nHigh skill ceiling (updated)\nHigh skill ceilings allow for skill expression (updated)\nhuman labor is hidden behind AI (updated)\nInternet impermanence (updated)\nLearning about learning (updated)\nLearning exhaust (updated)\nLimitations breed creativity (updated)\nLiving edge case (updated)\nLow rank approximation (updated)\nLow rank approximation of an orchestra (updated)\nLow skill floor (updated)\nMedium speed travel in games (updated)\nMemorization as a cognitive scaffolding (updated)\nMMO mechanics are glue work (updated)\nModular synthesis (updated)\nNo frills tutorials (updated)\nObjective function (updated)\nObservations on skin highlights (updated)\nObsidian (updated)\nOptimization problem (updated)\nPhilosophical razor (updated)\nReasons to learn a new skill (updated)\nRelative minor (updated)\nRequirements for a real-life quest (updated)\nResource management (updated)\nRoguelike games cause happy accidents (updated)\nShortcomings of intention (updated)\nSiyang everything dump (updated)\nSkill cross-pollination (updated)\nSome communities lend themselves to unstructured teaching and mentorship (updated)\nSpitpaint (updated)\nStartups are asymmetric warfare (updated)\nSub-skills for DJing (updated)\nSubsurface scattering (updated)\nTempo vs. value (updated)\nThe Courtyard (updated)\nThird space (updated)\nTraining your intuition (updated)\nUnderstanding equalization (updated)\nUnplanned repeated interactions (updated)\nUsing depth models to generate post-processing fog (updated)\nVertical slice (updated)\nVisual library (updated)\nWays to aggregate and organize content (updated)\nWorking with the garage door open (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2024-01-14T06:08:12.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",
@@ -752,6 +867,382 @@
     "url": "https://x.com/unevenlyeven/status/1745836886596194486",
     "published_at": "2024-01-12T15:55:24.000Z",
     "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "The Courtyard",
+          "url": "https://siyangsun.github.io/courtyard/",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2024-01-12",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 1 page",
+    "text": "The Courtyard (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2024-01-12T15:46:16.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "A system for ephemera and eternità",
+          "url": "https://siyangsun.github.io/courtyard/a-system-for-ephemera-and-eternita",
+          "status": "added"
+        },
+        {
+          "title": "Abstract design theory",
+          "url": "https://siyangsun.github.io/courtyard/abstract-design-theory-course",
+          "status": "added"
+        },
+        {
+          "title": "AI is a collage",
+          "url": "https://siyangsun.github.io/courtyard/AI-is-a-collage",
+          "status": "added"
+        },
+        {
+          "title": "Barriers to entry",
+          "url": "https://siyangsun.github.io/courtyard/barriers-to-entry",
+          "status": "added"
+        },
+        {
+          "title": "Bitwig studio",
+          "url": "https://siyangsun.github.io/courtyard/bitwig-studio",
+          "status": "added"
+        },
+        {
+          "title": "Blank canvas syndrome",
+          "url": "https://siyangsun.github.io/courtyard/blank-canvas-syndrome",
+          "status": "added"
+        },
+        {
+          "title": "Building your village",
+          "url": "https://siyangsun.github.io/courtyard/building-your-village",
+          "status": "added"
+        },
+        {
+          "title": "Chekhov's gun",
+          "url": "https://siyangsun.github.io/courtyard/chekhov's-gun",
+          "status": "added"
+        },
+        {
+          "title": "Cognitive scaffolding",
+          "url": "https://siyangsun.github.io/courtyard/cognitive-scaffolding",
+          "status": "added"
+        },
+        {
+          "title": "Collector's fallacy",
+          "url": "https://siyangsun.github.io/courtyard/collector's-fallacy",
+          "status": "added"
+        },
+        {
+          "title": "Creating to inspire creation",
+          "url": "https://siyangsun.github.io/courtyard/creating-to-inspire-creation",
+          "status": "added"
+        },
+        {
+          "title": "Design as problem solving",
+          "url": "https://siyangsun.github.io/courtyard/design-as-problem-solving",
+          "status": "added"
+        },
+        {
+          "title": "Discord",
+          "url": "https://siyangsun.github.io/courtyard/discord",
+          "status": "added"
+        },
+        {
+          "title": "Discord servers are walled gardens",
+          "url": "https://siyangsun.github.io/courtyard/discord-servers-are-walled-gardens",
+          "status": "added"
+        },
+        {
+          "title": "Doing quests is more rewarding than grinding skills",
+          "url": "https://siyangsun.github.io/courtyard/doing-quests-is-more-rewarding-than-grinding-skills",
+          "status": "added"
+        },
+        {
+          "title": "Dunbar's Number",
+          "url": "https://siyangsun.github.io/courtyard/dunbar's-number",
+          "status": "added"
+        },
+        {
+          "title": "Edge case",
+          "url": "https://siyangsun.github.io/courtyard/edge-case",
+          "status": "added"
+        },
+        {
+          "title": "Enabling environment",
+          "url": "https://siyangsun.github.io/courtyard/enabling-environment",
+          "status": "added"
+        },
+        {
+          "title": "Gear I Use",
+          "url": "https://siyangsun.github.io/courtyard/gear-i-use",
+          "status": "added"
+        },
+        {
+          "title": "Gradient of improvement",
+          "url": "https://siyangsun.github.io/courtyard/gradient-of-improvement",
+          "status": "added"
+        },
+        {
+          "title": "Granularity of transportation",
+          "url": "https://siyangsun.github.io/courtyard/granularity-of-transportation",
+          "status": "added"
+        },
+        {
+          "title": "Greedy algorithm",
+          "url": "https://siyangsun.github.io/courtyard/greedy-algorithm",
+          "status": "added"
+        },
+        {
+          "title": "Happy accidents",
+          "url": "https://siyangsun.github.io/courtyard/happy-accidents",
+          "status": "added"
+        },
+        {
+          "title": "High skill ceiling",
+          "url": "https://siyangsun.github.io/courtyard/high-skill-ceiling",
+          "status": "added"
+        },
+        {
+          "title": "High skill ceilings allow for skill expression",
+          "url": "https://siyangsun.github.io/courtyard/high-skill-ceilings-allow-for-skill-expression",
+          "status": "added"
+        },
+        {
+          "title": "human labor is hidden behind AI",
+          "url": "https://siyangsun.github.io/courtyard/human-labor-is-hidden-behind-AI",
+          "status": "added"
+        },
+        {
+          "title": "Internet impermanence",
+          "url": "https://siyangsun.github.io/courtyard/internet-impermanence",
+          "status": "added"
+        },
+        {
+          "title": "Learning about learning",
+          "url": "https://siyangsun.github.io/courtyard/learning-about-learning",
+          "status": "added"
+        },
+        {
+          "title": "Learning exhaust",
+          "url": "https://siyangsun.github.io/courtyard/learning-exhaust",
+          "status": "added"
+        },
+        {
+          "title": "Limitations breed creativity",
+          "url": "https://siyangsun.github.io/courtyard/limitations-breed-creativity",
+          "status": "added"
+        },
+        {
+          "title": "Living edge case",
+          "url": "https://siyangsun.github.io/courtyard/living-edge-case",
+          "status": "added"
+        },
+        {
+          "title": "Low rank approximation",
+          "url": "https://siyangsun.github.io/courtyard/low-rank-approximation",
+          "status": "added"
+        },
+        {
+          "title": "Low rank approximation of an orchestra",
+          "url": "https://siyangsun.github.io/courtyard/low-rank-approximation-of-an-orchestra",
+          "status": "added"
+        },
+        {
+          "title": "Low skill floor",
+          "url": "https://siyangsun.github.io/courtyard/low-skill-floor",
+          "status": "added"
+        },
+        {
+          "title": "Medium speed travel in games",
+          "url": "https://siyangsun.github.io/courtyard/medium-speed-travel-in-games",
+          "status": "added"
+        },
+        {
+          "title": "Memorization as a cognitive scaffolding",
+          "url": "https://siyangsun.github.io/courtyard/memorization-as-a-cognitive-scaffolding",
+          "status": "added"
+        },
+        {
+          "title": "MMO mechanics are glue work",
+          "url": "https://siyangsun.github.io/courtyard/MMO-mechanics-are-glue-work",
+          "status": "added"
+        },
+        {
+          "title": "Modular synthesis",
+          "url": "https://siyangsun.github.io/courtyard/modular-synthesis",
+          "status": "added"
+        },
+        {
+          "title": "No frills tutorials",
+          "url": "https://siyangsun.github.io/courtyard/no-frills-tutorials",
+          "status": "added"
+        },
+        {
+          "title": "Objective function",
+          "url": "https://siyangsun.github.io/courtyard/objective-function",
+          "status": "added"
+        },
+        {
+          "title": "Observations on skin highlights",
+          "url": "https://siyangsun.github.io/courtyard/observations-on-skin-highlights",
+          "status": "added"
+        },
+        {
+          "title": "Obsidian",
+          "url": "https://siyangsun.github.io/courtyard/obsidian",
+          "status": "added"
+        },
+        {
+          "title": "Optimization problem",
+          "url": "https://siyangsun.github.io/courtyard/optimization-problem",
+          "status": "added"
+        },
+        {
+          "title": "Philosophical razor",
+          "url": "https://siyangsun.github.io/courtyard/philosophical-razor",
+          "status": "added"
+        },
+        {
+          "title": "Reasons to learn a new skill",
+          "url": "https://siyangsun.github.io/courtyard/reasons-to-learn-a-new-skill",
+          "status": "added"
+        },
+        {
+          "title": "Relative minor",
+          "url": "https://siyangsun.github.io/courtyard/relative-minor",
+          "status": "added"
+        },
+        {
+          "title": "Requirements for a real-life quest",
+          "url": "https://siyangsun.github.io/courtyard/requirements-for-a-real-life-quest",
+          "status": "added"
+        },
+        {
+          "title": "Resource management",
+          "url": "https://siyangsun.github.io/courtyard/resource-management",
+          "status": "added"
+        },
+        {
+          "title": "Roguelike games cause happy accidents",
+          "url": "https://siyangsun.github.io/courtyard/roguelike-games-cause-happy-accidents",
+          "status": "added"
+        },
+        {
+          "title": "Shortcomings of intention",
+          "url": "https://siyangsun.github.io/courtyard/shortcomings-of-intention",
+          "status": "added"
+        },
+        {
+          "title": "Siyang everything dump",
+          "url": "https://siyangsun.github.io/courtyard/siyang-everything-dump",
+          "status": "added"
+        },
+        {
+          "title": "Skill cross-pollination",
+          "url": "https://siyangsun.github.io/courtyard/skill-cross-pollination",
+          "status": "added"
+        },
+        {
+          "title": "Some communities lend themselves to unstructured teaching and mentorship",
+          "url": "https://siyangsun.github.io/courtyard/some-communities-lend-themselves-to-teaching-and-mentorship",
+          "status": "added"
+        },
+        {
+          "title": "Spitpaint",
+          "url": "https://siyangsun.github.io/courtyard/spitpaint",
+          "status": "added"
+        },
+        {
+          "title": "Startups are asymmetric warfare",
+          "url": "https://siyangsun.github.io/courtyard/startups-are-asymmetric-warfare",
+          "status": "added"
+        },
+        {
+          "title": "Sub-skills for DJing",
+          "url": "https://siyangsun.github.io/courtyard/sub-skills-for-djing",
+          "status": "added"
+        },
+        {
+          "title": "Subsurface scattering",
+          "url": "https://siyangsun.github.io/courtyard/subsurface-scattering",
+          "status": "added"
+        },
+        {
+          "title": "Tempo vs. value",
+          "url": "https://siyangsun.github.io/courtyard/tempo-vs-value",
+          "status": "added"
+        },
+        {
+          "title": "Third space",
+          "url": "https://siyangsun.github.io/courtyard/third-space",
+          "status": "added"
+        },
+        {
+          "title": "Training your intuition",
+          "url": "https://siyangsun.github.io/courtyard/training-intuition",
+          "status": "added"
+        },
+        {
+          "title": "Understanding equalization",
+          "url": "https://siyangsun.github.io/courtyard/understanding-equalization",
+          "status": "added"
+        },
+        {
+          "title": "Unplanned repeated interactions",
+          "url": "https://siyangsun.github.io/courtyard/unplanned-repeated-interactions",
+          "status": "added"
+        },
+        {
+          "title": "Using depth models to generate post-processing fog",
+          "url": "https://siyangsun.github.io/courtyard/using-depth-models-to-generate-post-processing-fog",
+          "status": "added"
+        },
+        {
+          "title": "Vertical slice",
+          "url": "https://siyangsun.github.io/courtyard/vertical-slice",
+          "status": "added"
+        },
+        {
+          "title": "Visual library",
+          "url": "https://siyangsun.github.io/courtyard/visual-library",
+          "status": "added"
+        },
+        {
+          "title": "Ways to aggregate and organize content",
+          "url": "https://siyangsun.github.io/courtyard/ways-to-aggregate-and-organize-content",
+          "status": "added"
+        },
+        {
+          "title": "Working with the garage door open",
+          "url": "https://siyangsun.github.io/courtyard/working-with-the-garage-door-open",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2024-01-12",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 67 pages",
+    "text": "A system for ephemera and eternità (added)\nAbstract design theory (added)\nAI is a collage (added)\nBarriers to entry (added)\nBitwig studio (added)\nBlank canvas syndrome (added)\nBuilding your village (added)\nChekhov's gun (added)\nCognitive scaffolding (added)\nCollector's fallacy (added)\nCreating to inspire creation (added)\nDesign as problem solving (added)\nDiscord (added)\nDiscord servers are walled gardens (added)\nDoing quests is more rewarding than grinding skills (added)\nDunbar's Number (added)\nEdge case (added)\nEnabling environment (added)\nGear I Use (added)\nGradient of improvement (added)\nGranularity of transportation (added)\nGreedy algorithm (added)\nHappy accidents (added)\nHigh skill ceiling (added)\nHigh skill ceilings allow for skill expression (added)\nhuman labor is hidden behind AI (added)\nInternet impermanence (added)\nLearning about learning (added)\nLearning exhaust (added)\nLimitations breed creativity (added)\nLiving edge case (added)\nLow rank approximation (added)\nLow rank approximation of an orchestra (added)\nLow skill floor (added)\nMedium speed travel in games (added)\nMemorization as a cognitive scaffolding (added)\nMMO mechanics are glue work (added)\nModular synthesis (added)\nNo frills tutorials (added)\nObjective function (added)\nObservations on skin highlights (added)\nObsidian (added)\nOptimization problem (added)\nPhilosophical razor (added)\nReasons to learn a new skill (added)\nRelative minor (added)\nRequirements for a real-life quest (added)\nResource management (added)\nRoguelike games cause happy accidents (added)\nShortcomings of intention (added)\nSiyang everything dump (added)\nSkill cross-pollination (added)\nSome communities lend themselves to unstructured teaching and mentorship (added)\nSpitpaint (added)\nStartups are asymmetric warfare (added)\nSub-skills for DJing (added)\nSubsurface scattering (added)\nTempo vs. value (added)\nThird space (added)\nTraining your intuition (added)\nUnderstanding equalization (added)\nUnplanned repeated interactions (added)\nUsing depth models to generate post-processing fog (added)\nVertical slice (added)\nVisual library (added)\nWays to aggregate and organize content (added)\nWorking with the garage door open (added)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2024-01-12T15:12:04.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",

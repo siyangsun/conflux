@@ -690,6 +690,29 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "The Courtyard",
+          "url": "https://siyangsun.github.io/courtyard/",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2022-01-04",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 1 page",
+    "text": "The Courtyard (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2022-01-04T16:39:22.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/018db9bfca9a757791b6737a40c33e67/87bde2e813e85e1d-fd/s1280x1920/bd9413753635ffe232df79dae5ed5856aa474d1a.png"
@@ -729,5 +752,28 @@
     "url": "https://x.com/unevenlyeven/status/1478238118503276547",
     "published_at": "2022-01-04T05:33:26.000Z",
     "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "The Courtyard",
+          "url": "https://siyangsun.github.io/courtyard/",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2022-01-03",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 1 page",
+    "text": "The Courtyard (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2022-01-03T21:37:24.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   }
 ]

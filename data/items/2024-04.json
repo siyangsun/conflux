@@ -94,34 +94,6 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "pages": [
-        {
-          "title": "Internet impermanence",
-          "url": "https://siyangsun.github.io/courtyard/internet-impermanence",
-          "status": "updated"
-        },
-        {
-          "title": "Small form factor PC",
-          "url": "https://siyangsun.github.io/courtyard/small-form-factor-pc",
-          "status": "updated"
-        }
-      ]
-    },
-    "id": "quartz:backfill-2024-04-30",
-    "source": "quartz",
-    "type": "site-update",
-    "title": "Updated 2 pages",
-    "text": "Internet impermanence (updated)\nSmall form factor PC (updated)",
-    "url": "https://siyangsun.github.io/courtyard/",
-    "published_at": "2024-04-30T15:12:51.000Z",
-    "fetched_at": "2026-11-03T19:21:15.204Z",
-    "kind": "activity"
-  },
-  {
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
       "repos": [
         {
           "name": "courtyard",
@@ -139,6 +111,57 @@
     "published_at": "2024-04-30T15:12:51.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Gear I Use",
+          "url": "https://siyangsun.github.io/courtyard/gear-i-use",
+          "status": "updated"
+        },
+        {
+          "title": "Internet impermanence",
+          "url": "https://siyangsun.github.io/courtyard/internet-impermanence",
+          "status": "updated"
+        }
+      ]
+    },
+    "id": "quartz:backfill-updated-2024-04-30",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Updated 2 pages",
+    "text": "Gear I Use (updated)\nInternet impermanence (updated)",
+    "url": "https://siyangsun.github.io/courtyard/",
+    "published_at": "2024-04-30T15:12:51.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "pages": [
+        {
+          "title": "Small form factor PC",
+          "url": "https://siyangsun.github.io/courtyard/small-form-factor-pc",
+          "status": "added"
+        }
+      ]
+    },
+    "id": "quartz:backfill-added-2024-04-30",
+    "source": "quartz",
+    "type": "site-update",
+    "title": "Added 1 page",
+    "text": "Small form factor PC (added)",
+    "url": "https://siyangsun.github.io/courtyard/small-form-factor-pc",
+    "published_at": "2024-04-30T15:12:51.000Z",
+    "fetched_at": "2026-11-05T19:01:54.492Z"
   },
   {
     "kind": "post",
