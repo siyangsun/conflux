@@ -21,11 +21,14 @@ export const entryUrl = (i: Item) => (hasPage(i) ? abs(permalink(i)) : safe(i.ur
 const when = (iso: string) =>
   new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", dateStyle: "medium", timeStyle: "short" }).format(new Date(iso));
 // Bare http(s) URLs become links (text is escaped first, so a URL can't break out of the attribute); trailing punctuation stays outside the link.
-const linkify = (h: string) => h.replace(/https?:\/\/(?:(?!&#(?:34|39|60|62);)[^\s<])+/g, (u) => {
-  const tail = u.match(/[.,:!?)\]]+$/)?.[0] ?? "", url = u.slice(0, u.length - tail.length);
-  return `<a href="${url}" rel="noopener">${url}</a>${tail}`;
-});
-export const paragraphs = (t: string) => t.split(/\n{2,}/).filter(Boolean).map((p) => `<p>${linkify(esc(p)).replace(/\n/g, "<br>")}</p>`).join("");
+// For X tweets, @mentions and #hashtags link to x.com too. Other sources use those characters differently, so they're left alone.
+const linkify = (h: string, source: string) =>
+  h.replace(/https?:\/\/(?:(?!&#(?:34|39|60|62);)[^\s<])+|(?<![\w@])@(\w{1,15})|(?<![\w&#])#((?=[\p{N}_]*\p{L})[\p{L}\p{N}_]+)/gu, (m, user, tag) => {
+    if (user || tag) return source !== "x" ? m : `<a href="https://x.com/${user ?? `hashtag/${encodeURIComponent(tag)}`}" rel="noopener">${m}</a>`;
+    const trail = m.match(/[.,:!?)\]]+$/)?.[0] ?? "", url = m.slice(0, m.length - trail.length);
+    return `<a href="${url}" rel="noopener">${url}</a>${trail}`;
+  });
+export const paragraphs = (t: string, source = "") => t.split(/\n{2,}/).filter(Boolean).map((p) => `<p>${linkify(esc(p), source).replace(/\n/g, "<br>")}</p>`).join("");
 
 // YouTube: click-to-load. The poster is derived from the video id (nothing stored); the iframe replaces it on click (see site/site.js).
 // SoundCloud: the compact player, lazy-loaded. Both ids are checked so stored data can't inject an arbitrary iframe.
@@ -50,7 +53,7 @@ const commits = (i: Item) => {
   const repos = (i.meta.repos as { name: string; url: string; count: number }[] | undefined) ?? [];
   return `<ul>${repos.map((r) => `<li><a href="${esc(safe(r.url))}" rel="noopener">${esc(r.name)}</a> <span class="meta">${r.count}</span></li>`).join("")}</ul>`;
 };
-const plain = (i: Item) => paragraphs(i.text);
+const plain = (i: Item) => paragraphs(i.text, i.source);
 // Record<ItemType, ...>: adding a type to ItemType without a renderer is a type error.
 const BODY: Record<ItemType, (i: Item) => string> = { post: plain, video: plain, audio: plain, block: plain, "site-update": siteUpdate, repo: plain, commits, page: plain, channel: plain };
 
