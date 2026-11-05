@@ -49,7 +49,9 @@ for (const v of VIEWS) {
   }).join(" · ")}</p>`;
   const list = monthsOf(v.list);
   write(dir, page(`Archive · ${SITE}`, `<h2 class="list">Archive</h2>${show()}<ul>${list.map(([m, l]) => `<li><a href="${BASE}/${dir}/${m.replace("-", "/")}/">${m}</a> <span class="meta">${l.length}</span></li>`).join("")}</ul>`));
-  for (const [m, l] of list) paged(`${dir}/${m.replace("-", "/")}/`, m, l, "", show(m));
+  // Month pages link to the neighbouring months that exist in this view (list is newest first).
+  const month = (m?: string, arrow = "") => m ? `<a href="${BASE}/${dir}/${m.replace("-", "/")}/">${arrow === "←" ? `← ${m}` : `${m} →`}</a>` : "";
+  list.forEach(([m, l], k) => paged(`${dir}/${m.replace("-", "/")}/`, m, l, "", `${show(m)}<p class="meta">${[month(list[k - 1]?.[0], "←"), month(list[k + 1]?.[0], "→")].filter(Boolean).join(" · ")}</p>`));
 }
 
 // Filters by source (each with its own feeds), type and tag; /browse/ lists them all.
