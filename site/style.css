@@ -24,7 +24,8 @@ iframe.embed { aspect-ratio:auto; }
 .embed img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; margin:0; } /* crops the black bars off YouTube posters */
 nav { color: var(--muted); font-size: .85rem; padding-top: 2px; }
 nav a { color: var(--muted); }
-h2.list { font-size: 1rem; color: var(--muted); margin: 16px 0 0; }
+h2.list, summary.list { font-size: 1rem; color: var(--muted); margin: 16px 0 0; }
+summary.list { cursor: pointer; }
 .pager { padding: 14px 0; }
 main > ul { padding-left: 1.1rem; }
 article ul { margin: 4px 0; padding-left: 1.1rem; }

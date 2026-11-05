@@ -75,9 +75,13 @@ for (const [s, { label, list }] of bySource) {
 }
 for (const [s, { label, list }] of byType) paged(`type/${s}/`, label, list);
 for (const [s, { label, list }] of byTag) paged(`tag/${s}/`, `#${label}`, list);
-const links = (heading: string, dir: string, g: typeof bySource, prefix = "") =>
-  g.length ? `<h2 class="list">${heading}</h2><ul>${g.map(([s, { label, list }]) => `<li><a href="${BASE}/${dir}/${s}/">${prefix}${esc(label)}</a> <span class="meta">${list.length}</span></li>`).join("")}</ul>` : "";
-write("browse", page(`Browse · ${SITE}`, links("Sources", "source", bySource) + links("Types", "type", byType) + links("Tags", "tag", byTag, "#")));
+const links = (heading: string, dir: string, g: typeof bySource, prefix = "", fold = false) => {
+  if (!g.length) return "";
+  const ul = `<ul>${g.map(([s, { label, list }]) => `<li><a href="${BASE}/${dir}/${s}/">${prefix}${esc(label)}</a> <span class="meta">${list.length}</span></li>`).join("")}</ul>`;
+  // fold: a native <details> dropdown (closed by default), for long lists like tags
+  return fold ? `<details><summary class="list">${heading} <span class="meta">${g.length}</span></summary>${ul}</details>` : `<h2 class="list">${heading}</h2>${ul}`;
+};
+write("browse", page(`Browse · ${SITE}`, links("Sources", "source", bySource) + links("Types", "type", byType) + links("Tags", "tag", byTag, "#", true)));
 
 // Permalink pages (posts only), with OpenGraph / Twitter card tags.
 for (const i of items.filter(hasPage)) {
