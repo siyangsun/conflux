@@ -14,7 +14,7 @@ article { padding: 0 0 22px; }
 .meta a { color: var(--muted); }
 article h2 { margin: 2px 0; font-size: 1.1rem; }
 article p { margin: 4px 0; overflow-wrap: anywhere; }
-article img { margin-top: 6px; max-width: 125vw; height: auto; } /* may run up to 25% past the screen edge */
+article img { margin-top: 6px; } /* natural size, deliberately uncapped: big images overflow */
 article h2, article p { max-width: var(--text); } /* readable line length; media can stay wider */
 article.preview img { max-width: min(100%, 40rem); height: auto; } /* link previews stay small */
 footer { padding: 16px 0 40px; color: var(--muted); font-size: .85rem; }
