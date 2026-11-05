@@ -92,5 +92,9 @@ ${i.images[0] ? `<meta property="og:image" content="${esc(i.images[0])}">` : ""}
 writeFileSync(`${OUT}/search.json`, JSON.stringify(items.map((i) => [title(i), entryUrl(i), i.source, i.published_at.slice(0, 10), `${i.title ?? ""} ${i.text} ${i.tags.join(" ")}`.toLowerCase()])));
 write("search", page(`Search · ${SITE}`, `<h2 class="list">Search</h2><input id="q" type="search" placeholder="search ${items.length} items" autofocus data-src="${BASE}/search.json"><ul id="results"></ul>`));
 
+// "On this day" reuses search.json: the page filters it by today's month-day in the browser (site/site.js). 404.html is served by Pages for any missing path.
+write("today", page(`On this day · ${SITE}`, `<h2 class="list">On this day</h2><div id="today" data-src="${BASE}/search.json"></div>`));
+writeFileSync(`${OUT}/404.html`, page(`Not found · ${SITE}`, `<h2 class="list">Not found</h2><p><a href="${BASE}/">Back to posts</a> · <a href="${BASE}/search/">search</a></p>`));
+
 for (const v of VIEWS) writeFeeds(`/${v.path}`, v.list, v.path ? `${v.name} · ${SITE}` : SITE);
 console.log(`built ${items.length} items`);

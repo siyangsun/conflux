@@ -100,6 +100,6 @@ export function page(pageTitle: string, body: string, head = ""): string {
 <title>${esc(pageTitle)}</title><link rel="icon" href="data:,"><link rel="stylesheet" href="${BASE}/style.css">
 ${feedLinks("/")}${head}</head>
 <body><header><h1><a href="${BASE}/">${esc(SITE)}</a></h1>
-<nav><a href="${BASE}/">posts</a> · <a href="${BASE}/reblogs/">reblogs</a> · <a href="${BASE}/all/">all activity</a> · <a href="${BASE}/search/">search</a> · <a href="${BASE}/archive/">archive</a> · <a href="${BASE}/browse/">browse</a> · <a href="${BASE}/feed.xml">feed</a> · <span id="checked" data-built="${BUILT}" data-repo="${esc(REPO)}"></span></nav></header>
+<nav><a href="${BASE}/">posts</a> · <a href="${BASE}/reblogs/">reblogs</a> · <a href="${BASE}/all/">all activity</a> · <a href="${BASE}/search/">search</a> · <a href="${BASE}/today/">on this day</a> · <a href="${BASE}/archive/">archive</a> · <a href="${BASE}/browse/">browse</a> · <a href="${BASE}/feed.xml">feed</a> · <span id="checked" data-built="${BUILT}" data-repo="${esc(REPO)}"></span></nav></header>
 <main>${body}</main><script src="${BASE}/site.js" defer></script></body></html>`;
 }

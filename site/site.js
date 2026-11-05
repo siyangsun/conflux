@@ -31,6 +31,17 @@ document.addEventListener("click", (e) => {
     .catch(() => {});
 })();
 
+// Search results and "on this day" share a row format: search.json rows are [label, link, source, date, lowercase text].
+const result = (r) => {
+  const li = document.createElement("li"), a = document.createElement("a"), m = document.createElement("span");
+  a.href = r[1];
+  a.textContent = r[0];
+  m.className = "meta";
+  m.textContent = " " + r[3] + " · " + r[2];
+  li.append(a, m);
+  return li;
+};
+
 // Search page: load search.json once, show items containing every word typed.
 (() => {
   const q = document.getElementById("q");
@@ -41,16 +52,26 @@ document.addEventListener("click", (e) => {
     const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
     out.replaceChildren();
     if (!rows || !words.length) return;
-    for (const r of rows.filter((r) => words.every((w) => r[4].includes(w))).slice(0, 100)) {
-      const li = document.createElement("li"), a = document.createElement("a"), m = document.createElement("span");
-      a.href = r[1];
-      a.textContent = r[0];
-      m.className = "meta";
-      m.textContent = " " + r[3] + " · " + r[2];
-      li.append(a, m);
-      out.append(li);
-    }
+    for (const r of rows.filter((r) => words.every((w) => r[4].includes(w))).slice(0, 100)) out.append(result(r));
   };
   q.addEventListener("input", run);
   fetch(q.dataset.src).then((r) => r.json()).then((j) => { rows = j; run(); });
+})();
+
+// On this day: items from today's month-day (in your timezone) in earlier years, newest year first. Dates are UTC, so items near midnight can land a day off.
+(() => {
+  const box = document.getElementById("today");
+  if (!box) return;
+  const now = new Date(), md = String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+  fetch(box.dataset.src).then((r) => r.json()).then((rows) => {
+    const hits = rows.filter((r) => r[3].slice(5) === md && r[3].slice(0, 4) !== String(now.getFullYear()));
+    if (!hits.length) return (box.textContent = "Nothing on this day.");
+    for (const y of [...new Set(hits.map((r) => r[3].slice(0, 4)))].sort().reverse()) {
+      const h = document.createElement("h2"), ul = document.createElement("ul");
+      h.className = "list";
+      h.textContent = y;
+      ul.append(...hits.filter((r) => r[3].startsWith(y)).map(result));
+      box.append(h, ul);
+    }
+  });
 })();
