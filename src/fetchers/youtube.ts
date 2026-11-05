@@ -1,6 +1,6 @@
 import { arr, feedFetcher, iso, item, parseXml, txt } from "../feed.ts";
 import { decode } from "../text.ts";
-import type { Item } from "../types.ts";
+import type { Fetcher, Item } from "../types.ts";
 
 export function parse(xml: string, now: string): Item[] {
   return arr<any>(parseXml(xml).feed?.entry).map((e) => {
@@ -21,7 +21,10 @@ export function parse(xml: string, now: string): Item[] {
   });
 }
 
-export default feedFetcher((c) => `https://www.youtube.com/feeds/videos.xml?channel_id=${c.channel_id}`, parse);
+const byChannel = feedFetcher((c) => `https://www.youtube.com/feeds/videos.xml?channel_id=${c.channel_id}`, parse);
+// Same videos via the uploads playlist (UC... -> UU...): GitHub runner IPs sometimes get a 404 on the channel feed.
+const byPlaylist = feedFetcher((c) => `https://www.youtube.com/feeds/videos.xml?playlist_id=UU${c.channel_id.slice(2)}`, parse);
+export default ((cfg, prev) => byChannel(cfg, prev).catch(() => byPlaylist(cfg, {}))) as Fetcher;
 // Backfill only: the RSS feed stops at 15 videos, so older ones are read from their watch page.
 export function parseWatch(html: string, id: string, now: string): Item {
   const meta = (re: RegExp) => html.match(re)?.[1];

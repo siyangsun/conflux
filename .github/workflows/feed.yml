@@ -58,11 +58,11 @@ jobs:
             git commit --allow-empty -m "chore: keepalive"
             for n in 1 2 3; do git pull --rebase && git push && exit 0; sleep $((n * 5)); done; exit 1
           fi
-      # Empty runs stop here: no build, no deploy. Pushes (code/template/post changes) always deploy.
-      - if: github.event_name == 'push' || steps.fetch.outputs.count != '0'
+      # Empty scheduled runs stop here: no build, no deploy. Pushes and manual runs always deploy.
+      - if: github.event_name != 'schedule' || steps.fetch.outputs.count != '0'
         run: npm run build
-      - if: github.event_name == 'push' || steps.fetch.outputs.count != '0'
+      - if: github.event_name != 'schedule' || steps.fetch.outputs.count != '0'
         uses: actions/upload-pages-artifact@v3
       - id: deploy
-        if: github.event_name == 'push' || steps.fetch.outputs.count != '0'
+        if: github.event_name != 'schedule' || steps.fetch.outputs.count != '0'
         uses: actions/deploy-pages@v4

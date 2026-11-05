@@ -18,7 +18,12 @@ export async function get(url: string, prev: SourceState) {
   const headers: Record<string, string> = { "user-agent": UA };
   if (prev.etag) headers["if-none-match"] = prev.etag;
   if (prev.last_modified) headers["if-modified-since"] = prev.last_modified;
-  const res = await fetch(url, { headers, signal: AbortSignal.timeout(20_000) });
+  let res!: Response;
+  for (let n = 1; n <= 3; n++) { // retry blips; 304 and 2xx are final
+    res = await fetch(url, { headers, signal: AbortSignal.timeout(20_000) });
+    if (res.ok || res.status === 304 || n === 3) break;
+    await new Promise((r) => setTimeout(r, n * 2000));
+  }
   if (res.status === 304) return null;
   if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
   return {

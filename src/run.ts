@@ -36,6 +36,7 @@ const fetched = performance.now() - t0;
 
 const incoming: Item[] = [];
 const remove: string[] = [];
+const notes: string[] = []; // state changes worth naming in the commit message
 let persist = false; // state that must be saved even when no items were added
 jobs.forEach(([name], i) => {
   const r = results[i];
@@ -44,11 +45,13 @@ jobs.forEach(([name], i) => {
     incoming.push(...r.value.items);
     remove.push(...(r.value.remove ?? []));
     persist ||= !!r.value.persist || !!prev.failing_since; // first-run baselines, recoveries
+    if (prev.failing_since) notes.push(`${name} recovered`);
     state[name] = { ...prev, ...r.value.state, last_error: null, failing_since: null };
   } else {
     const msg = String(r.reason?.message ?? r.reason);
     console.error(`::warning::${name} failed: ${msg}`);
     persist ||= !prev.failing_since;
+    if (!prev.failing_since) notes.push(`${name} failing`);
     state[name] = { ...prev, last_error: msg, failing_since: prev.failing_since ?? now };
   }
 });
@@ -65,6 +68,6 @@ console.log(`timing: fetch ${secs(fetched)} (${Object.entries(took).sort((a, b) 
 const sources = [...new Set(added.map((i) => i.source))].join(", ");
 const summary = count
   ? `feed: ${[added.length && `+${added.length} items (${sources})`, changed && `${changed} edited/removed`].filter(Boolean).join(", ")}`
-  : "feed: state";
+  : `feed: ${notes.join(", ") || "state"}`;
 console.log(dirty ? summary : "no new items");
 if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `count=${count}\ndirty=${dirty}\nsummary=${summary}\n`);
