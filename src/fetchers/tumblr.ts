@@ -34,5 +34,27 @@ export function parse(xml: string, now: string): Item[] {
   });
 }
 
+// Backfill: posts from the Tumblr API (v2, legacy format, reblog_info=true). Same rules as the RSS parser: a reblog keeps only my own comment.
+export function parseApi(posts: any[], now: string): Item[] {
+  return posts.map((p): Item => {
+    const from: string | undefined = p.reblogged_from_name;
+    const mine = htmlToText(from ? (p.reblog?.comment ?? "") : (p.body ?? p.caption ?? p.description ?? ""));
+    return item({
+      id: `tumblr:${p.id_string}`,
+      source: "tumblr",
+      type: "post",
+      title: !from && p.title ? p.title : undefined,
+      text: from ? mine || `Reblogged from ${from}` : mine,
+      url: p.post_url,
+      published_at: new Date(p.timestamp * 1000).toISOString(),
+      fetched_at: now,
+      images: from ? [] : (p.photos ?? []).map((ph: any) => ph.original_size.url),
+      tags: p.tags ?? [],
+      ...(from && { kind: "reblog" as const }),
+      meta: from ? { reblog_from: from } : {},
+    });
+  });
+}
+
 export default feedFetcher((c) => `https://${c.username}.tumblr.com/rss`, parse);
 export const required = ["username"];

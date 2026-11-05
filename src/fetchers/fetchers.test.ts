@@ -49,6 +49,18 @@ test("tumblr: reblog stores only my comment, no foreign text or images", () => {
   assert.equal(tumblr.parse(tumblrXml, NOW)[0].kind, "post");
 });
 
+test("tumblr API: own post keeps original images; reblog keeps only my comment", () => {
+  const base = { post_url: "https://me.tumblr.com/post/1", timestamp: 1782000000, tags: ["art"] };
+  const [own, re, bare] = tumblr.parseApi([
+    { ...base, id_string: "1", caption: "<p>my sketch</p>", photos: [{ original_size: { url: "https://i/big.png" } }] },
+    { ...base, id_string: "2", reblogged_from_name: "orig", reblog: { comment: "<p>so good</p>", tree_html: "<p>THEIR TEXT</p>" }, photos: [{ original_size: { url: "https://i/theirs.png" } }] },
+    { ...base, id_string: "3", reblogged_from_name: "orig", reblog: { comment: "" } },
+  ], NOW);
+  assert.deepEqual([own.id, own.text, own.images, own.kind], ["tumblr:1", "my sketch", ["https://i/big.png"], "post"]);
+  assert.deepEqual([re.text, re.images, re.kind, re.meta], ["so good", [], "reblog", { reblog_from: "orig" }]);
+  assert.equal(bare.text, "Reblogged from orig");
+});
+
 test("youtube: embed, thumbnail, alternate link", () => {
   const xml = `<feed xmlns:yt="y" xmlns:media="m"><entry><yt:videoId>abc123</yt:videoId><title>Vid</title>
   <link rel="alternate" href="https://www.youtube.com/watch?v=abc123"/><published>2026-10-27T10:00:00+00:00</published>
