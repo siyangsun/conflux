@@ -51,14 +51,16 @@ test("tumblr: reblog stores only my comment, no foreign text or images", () => {
 
 test("tumblr API: own post keeps original images; reblog keeps only my comment", () => {
   const base = { post_url: "https://me.tumblr.com/post/1", timestamp: 1782000000, tags: ["art"] };
-  const [own, re, bare] = tumblr.parseApi([
+  const [own, re, bare, textPost] = tumblr.parseApi([
     { ...base, id_string: "1", caption: "<p>my sketch</p>", photos: [{ original_size: { url: "https://i/big.png" } }] },
     { ...base, id_string: "2", reblogged_from_name: "orig", reblog: { comment: "<p>so good</p>", tree_html: "<p>THEIR TEXT</p>" }, photos: [{ original_size: { url: "https://i/theirs.png" } }] },
     { ...base, id_string: "3", reblogged_from_name: "orig", reblog: { comment: "" } },
+    { ...base, id_string: "4", type: "text", body: '<figure><img src="https://i/s640.png" srcset="https://i/s100.png 100w, https://i/s640.png 640w"></figure>' },
   ], NOW);
   assert.deepEqual([own.id, own.text, own.images, own.kind], ["tumblr:1", "my sketch", ["https://i/big.png"], "post"]);
   assert.deepEqual([re.text, re.images, re.kind, re.meta], ["so good", [], "reblog", { reblog_from: "orig" }]);
   assert.equal(bare.text, "Reblogged from orig");
+  assert.deepEqual(textPost.images, ["https://i/s640.png"]);
 });
 
 test("youtube: embed, thumbnail, alternate link", () => {

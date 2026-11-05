@@ -38,7 +38,9 @@ export function parse(xml: string, now: string): Item[] {
 export function parseApi(posts: any[], now: string): Item[] {
   return posts.map((p): Item => {
     const from: string | undefined = p.reblogged_from_name;
-    const mine = htmlToText(from ? (p.reblog?.comment ?? "") : (p.body ?? p.caption ?? p.description ?? ""));
+    const html: string = p.body ?? p.caption ?? p.description ?? "";
+    const mine = htmlToText(from ? (p.reblog?.comment ?? "") : html);
+    const photos: string[] = (p.photos ?? []).map((ph: any) => ph.original_size.url);
     return item({
       id: `tumblr:${p.id_string}`,
       source: "tumblr",
@@ -48,7 +50,7 @@ export function parseApi(posts: any[], now: string): Item[] {
       url: p.post_url,
       published_at: new Date(p.timestamp * 1000).toISOString(),
       fetched_at: now,
-      images: from ? [] : (p.photos ?? []).map((ph: any) => ph.original_size.url),
+      images: from ? [] : photos.length ? photos : imagesOf(html), // text posts carry their pictures as <img> in the body
       tags: p.tags ?? [],
       ...(from && { kind: "reblog" as const }),
       meta: from ? { reblog_from: from } : {},
