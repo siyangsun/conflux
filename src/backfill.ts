@@ -1,4 +1,4 @@
-// One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr]...` (default: all).
+// One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr|lastfm]...` (default: all).
 // Safe to re-run: items are deduped by id like any fetch.
 import { execFileSync } from "node:child_process";
 import { config } from "./config.ts";
@@ -9,6 +9,7 @@ import { api, channelPosts } from "./fetchers/arena.ts";
 import { fromHistory } from "./fetchers/quartz.ts";
 import { parseWatch } from "./fetchers/youtube.ts";
 import { parseApi as parseTumblr } from "./fetchers/tumblr.ts";
+import { page as lastfmPage, parse as parseLastfm } from "./fetchers/lastfm.ts";
 import { addItems, loadAll } from "./store.ts";
 import type { Item } from "./types.ts";
 
@@ -70,6 +71,16 @@ const jobs: Record<string, () => Promise<Item[]>> = {
       total = r.total_posts;
       out.push(...parseTumblr(r.posts, now));
       await sleep(300);
+    }
+    return out;
+  },
+  // Every loved track, 200 per request. Needs LASTFM_API_KEY in the environment.
+  async lastfm() {
+    const out: Item[] = [];
+    for (let n = 1, pages = 1; n <= pages; n++) {
+      const r = await lastfmPage(sources.lastfm.username, n, 200);
+      pages = Number(r.lovedtracks["@attr"].totalPages);
+      out.push(...parseLastfm(r, now));
     }
     return out;
   },

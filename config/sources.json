@@ -54,6 +54,11 @@
       "exclude": [
         "conflux"
       ]
+    },
+    "lastfm": {
+      "enabled": false,
+      "username": "siyangsun",
+      "hourly": true
     }
   }
 }

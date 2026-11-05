@@ -220,3 +220,13 @@ test("arena: cursor is the newest updated_at whatever the list order; only newer
   assert.deepEqual([again.open.length, again.cursor], [0, first.cursor]);
   assert.deepEqual(sinceCursor(list, "2026-01-01T00:00:00Z").open.map((c) => c.id), ["b"]);
 });
+
+import * as lastfm from "./lastfm.ts";
+
+test("lastfm: loved tracks are reblogs dated by when I loved them; a single track still parses", () => {
+  const t = { name: "Song", url: "https://www.last.fm/music/Band/_/Song", date: { uts: "1782000000" }, artist: { name: "Band" } };
+  const [a] = lastfm.parse({ lovedtracks: { track: [t] } }, NOW);
+  assert.deepEqual([a.title, a.kind, a.type, a.published_at, a.meta], ["Band – Song", "reblog", "audio", "2026-06-21T00:00:00.000Z", { artist: "Band" }]);
+  assert.equal(lastfm.parse({ lovedtracks: { track: t } }, NOW)[0].id, a.id); // json with one track is an object, not a list
+  assert.deepEqual(lastfm.parse({ lovedtracks: {} }, NOW), []);
+});

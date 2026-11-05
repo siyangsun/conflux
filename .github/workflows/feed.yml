@@ -38,6 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ARENA_TOKEN: ${{ secrets.ARENA_TOKEN }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
       - name: Commit new items / state
         if: steps.fetch.outputs.dirty == 'true'
         env:
