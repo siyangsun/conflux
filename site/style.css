@@ -1,4 +1,4 @@
-:root { --bg:#fff; --fg:#000; --muted:#555; --line:#ddd; --link:#0000ee; }
+:root { --text:48rem; --bg:#fff; --fg:#000; --muted:#555; --line:#ddd; --link:#0000ee; }
 @media (prefers-color-scheme: dark) {
   :root { --bg:#121212; --fg:#e6e6e6; --muted:#9a9a9a; --line:#2a2a2a; --link:#8ab4ff; }
 }
@@ -14,8 +14,8 @@ article { padding: 0 0 22px; }
 .meta a { color: var(--muted); }
 article h2 { margin: 2px 0; font-size: 1.1rem; }
 article p { margin: 4px 0; overflow-wrap: anywhere; }
-article img { margin-top: 6px; max-width: min(100%, 52.5rem); height: auto; } /* 1.25x the text column, never wider than the screen */
-article h2, article p { max-width: 42rem; } /* readable line length; media can stay wider */
+article img { margin-top: 6px; max-width: min(100%, calc(var(--text) * 1.25)); height: auto; } /* 1.25x the text column, never wider than the screen */
+article h2, article p { max-width: var(--text); } /* readable line length; media can stay wider */
 article.preview img { max-width: min(100%, 40rem); height: auto; } /* link previews stay small */
 footer { padding: 16px 0 40px; color: var(--muted); font-size: .85rem; }
 .embed { display:block; position:relative; width:100%; padding:0; border:0; background:var(--line); max-width:40rem; margin-top:6px; cursor:pointer; min-height:120px; }
