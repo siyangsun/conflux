@@ -12,7 +12,7 @@ export const slug = (id: string) => id.toLowerCase().replace(/[^a-z0-9]+/g, "-")
 export const permalink = (i: Item) => `${BASE}/p/${slug(i.id)}/`;
 export const abs = (path: string) => ORIGIN + path;
 // Only posts get a page of their own (/p/...). Reblogs and activity link out to their original; their permalink() is still their stable feed id.
-export const hasPage = (i: Item) => i.kind === "post";
+export const hasPage = (i: Item) => i.kind === "post" && i.source !== "x"; // tweets are just text and a link: the date goes straight to the tweet
 export const title = (i: Item) => i.title || i.text.slice(0, 80) || i.id;
 // Only http(s) links are rendered as hrefs (no javascript: URLs from feed data).
 const safe = (u: string) => (/^https?:\/\//i.test(u) ? u : "#");
@@ -90,7 +90,7 @@ export function renderItem(i: Item): string {
   // Link previews are capped by the stylesheet: manual posts (OpenGraph unfurl) and Are.na Link/Embed/Attachment blocks. Are.na Image blocks stay full size.
   const preview = i.id.startsWith("manual:") || (i.source === "arena" && i.meta.block_type !== "Image");
   return `<article${preview ? ' class="preview"' : ""}>
-<div class="meta">${lead(i, `<a href="${BASE}/source/${slug(i.source)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
+<div class="meta">${lead(i, `<a href="${BASE}/source/${slug(i.source)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${hasPage(i) && i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
 ${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${clip}${tags}
 </article>`;
 }
