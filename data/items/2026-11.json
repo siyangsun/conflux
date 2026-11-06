@@ -78,6 +78,21 @@
     "fetched_at": "2026-11-05T17:32:24.015Z"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "github:repo:conflux",
+    "source": "github",
+    "type": "repo",
+    "title": "conflux",
+    "text": "personal feed / digital exhaust aggregator and archive",
+    "url": "https://github.com/siyangsun/conflux",
+    "published_at": "2026-11-05T00:46:06.000Z",
+    "fetched_at": "2026-11-06T14:50:17.794Z"
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
