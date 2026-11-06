@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
+    "last_error": "https://sump.substack.com/feed -> HTTP 403",
     "failing_since": "2026-11-05T00:56:43.695Z"
   },
   "tumblr": {
@@ -8,8 +8,8 @@
     "failing_since": null
   },
   "youtube": {
-    "last_error": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtFso8gyKStHuFQtou1tqrg -> HTTP 500",
-    "failing_since": "2026-11-06T01:07:01.690Z"
+    "last_error": null,
+    "failing_since": null
   },
   "arena": {
     "last_error": null,
@@ -184,6 +184,10 @@
   },
   "x": {
     "cursor": "2118424771637510497",
+    "last_error": null,
+    "failing_since": null
+  },
+  "lastfm": {
     "last_error": null,
     "failing_since": null
   }
