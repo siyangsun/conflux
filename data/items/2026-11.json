@@ -48,6 +48,23 @@
     "fetched_at": "2026-11-06T07:53:22.250Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 15
+    },
+    "id": "lastfm:plays:2026-11-05",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 21 tracks",
+    "text": "tiny yawn (6)\nIvy (2)\nCameron Winter (1)\nCephalo (1)\nHeadache (1)\n+ 10 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-05&to=2026-11-05",
+    "published_at": "2026-11-05T21:34:25.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "kind": "post",
     "images": [
       "https://pbs.twimg.com/media/HWYoFiFXUAAJ8hT.jpg"
@@ -91,6 +108,23 @@
     "url": "https://github.com/siyangsun/conflux",
     "published_at": "2026-11-05T00:46:06.000Z",
     "fetched_at": "2026-11-06T14:50:17.794Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 21
+    },
+    "id": "lastfm:plays:2026-11-04",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 37 tracks",
+    "text": "Headache (10)\ntiny yawn (7)\nBonesaw (2)\nAimer (1)\nbenji & xian (1)\n+ 16 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-04&to=2026-11-04",
+    "published_at": "2026-11-05T02:18:13.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "kind": "activity",
@@ -238,5 +272,22 @@
     "url": "https://www.are.na/block/49304588",
     "published_at": "2026-11-04T18:03:07.000Z",
     "fetched_at": "2026-11-04T18:50:09.864Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 5
+    },
+    "id": "lastfm:plays:2026-11-03",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 18 tracks",
+    "text": "Harry Teardrop (11)\nHigher Brothers (4)\n9Lives (1)\nfawn burke (1)\nLucy Bedroque (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-03&to=2026-11-03",
+    "published_at": "2026-11-04T02:20:02.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   }
 ]

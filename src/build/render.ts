@@ -70,7 +70,7 @@ const lead = (i: Item, s: string) =>
   : i.type === "commits" ? `committed on ${s}`
   : i.type === "site-update" ? `${i.title?.startsWith("Added") ? "added to" : "updated"} ${s}`
   : i.type === "video" ? `posted a video to ${s}`
-  : i.source === "lastfm" ? `loved on ${s}`
+  : i.source === "lastfm" ? (i.kind === "activity" ? `listened on ${s}` : `loved on ${s}`)
   : i.kind === "reblog" ? (i.source === "arena" ? `saved to ${s}` : `reblogged on ${s}`)
   : i.source === "manual" ? "posted"
   : `posted to ${s}`;

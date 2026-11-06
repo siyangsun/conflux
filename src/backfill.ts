@@ -9,7 +9,7 @@ import { api, channelPosts } from "./fetchers/arena.ts";
 import { fromHistory } from "./fetchers/quartz.ts";
 import { parseWatch } from "./fetchers/youtube.ts";
 import { parseApi as parseTumblr } from "./fetchers/tumblr.ts";
-import { page as lastfmPage, parse as parseLastfm } from "./fetchers/lastfm.ts";
+import { allPlays, page as lastfmPage, parse as parseLastfm, playDigests } from "./fetchers/lastfm.ts";
 import { addItems, loadAll } from "./store.ts";
 import type { Item } from "./types.ts";
 
@@ -74,7 +74,7 @@ const jobs: Record<string, () => Promise<Item[]>> = {
     }
     return out;
   },
-  // Every loved track, 200 per request. Needs LASTFM_API_KEY in the environment.
+  // Every loved track (200 per request) and a daily rollup of all scrobbles. Needs LASTFM_API_KEY in the environment.
   async lastfm() {
     const out: Item[] = [];
     for (let n = 1, pages = 1; n <= pages; n++) {
@@ -82,6 +82,8 @@ const jobs: Record<string, () => Promise<Item[]>> = {
       pages = Number(r.lovedtracks["@attr"].totalPages);
       out.push(...parseLastfm(r, now));
     }
+    // ...and a rollup for every finished day of scrobbles (one request per 200 plays).
+    out.push(...playDigests(await allPlays(sources.lastfm.username), sources.lastfm.username, "0000-00-00", addDays(dayOf(now), -1), now));
     return out;
   },
   // Follow each account's rel="next" chain to the oldest track.

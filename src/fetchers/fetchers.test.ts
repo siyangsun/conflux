@@ -230,3 +230,12 @@ test("lastfm: loved tracks are reblogs dated by when I loved them; a single trac
   assert.equal(lastfm.parse({ lovedtracks: { track: t } }, NOW)[0].id, a.id); // json with one track is an object, not a list
   assert.deepEqual(lastfm.parse({ lovedtracks: {} }, NOW), []);
 });
+
+test("lastfm: scrobbles roll up per New York day; now-playing and out-of-range days are skipped", () => {
+  const play = (uts: number, artist: string) => ({ artist: { "#text": artist }, date: { uts: String(uts) } });
+  const d1 = 1782000000; // 2026-06-21 00:00 UTC = June 20, 8pm New York
+  const tracks = [{ artist: { "#text": "Now" } }, play(d1, "B"), play(d1 + 60, "A"), play(d1 + 120, "A"), play(d1 + 86400 * 5, "Z")];
+  const out = lastfm.playDigests(tracks, "me", "2026-06-20", "2026-06-20", NOW);
+  assert.deepEqual(out.map((i) => [i.id, i.title, i.kind, i.text]), [["lastfm:plays:2026-06-20", "Listened to 3 tracks", "activity", "A (2)\nB (1)"]]);
+  assert.equal(out[0].published_at, "2026-06-21T00:02:00.000Z");
+});

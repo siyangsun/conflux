@@ -69,6 +69,23 @@
     "kind": "reblog"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 5
+    },
+    "id": "lastfm:plays:2026-09-29",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 10 tracks",
+    "text": "Linkin Park (5)\nCONVOLK (2)\nRihanna (1)\nThe Hellp (1)\nThe Killers (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-29&to=2026-09-29",
+    "published_at": "2026-09-30T00:53:14.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -158,6 +175,40 @@
     "fetched_at": "2026-11-03T21:53:54.848Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-28",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 7 tracks",
+    "text": "quietly3 (7)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-28&to=2026-09-28",
+    "published_at": "2026-09-28T16:03:08.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-27",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 10 tracks",
+    "text": "quietly3 (10)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-27&to=2026-09-27",
+    "published_at": "2026-09-28T03:56:35.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "id": "arena:106421908",
     "source": "arena",
     "type": "block",
@@ -176,6 +227,57 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-26",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 10 tracks",
+    "text": "quietly3 (10)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-26&to=2026-09-26",
+    "published_at": "2026-09-26T13:41:04.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 2
+    },
+    "id": "lastfm:plays:2026-09-25",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 12 tracks",
+    "text": "quietly3 (11)\nAlex G (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-25&to=2026-09-25",
+    "published_at": "2026-09-26T03:41:06.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 4
+    },
+    "id": "lastfm:plays:2026-09-24",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 20 tracks",
+    "text": "Alex G (9)\nVince Staples (6)\nAlvvays (3)\nLinkin Park (2)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-24&to=2026-09-24",
+    "published_at": "2026-09-24T20:15:24.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "images": [],
@@ -204,6 +306,23 @@
     "published_at": "2026-09-23T19:15:52.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 7
+    },
+    "id": "lastfm:plays:2026-09-23",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 16 tracks",
+    "text": "Kelly Moran (6)\nSpirit Level (4)\nSiyang (2)\nGorse Panshawe (1)\nGreen-House (1)\n+ 2 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-23&to=2026-09-23",
+    "published_at": "2026-09-23T18:31:06.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "id": "arena:106213524",
@@ -548,6 +667,23 @@
     "kind": "post"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 4
+    },
+    "id": "lastfm:plays:2026-09-22",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 19 tracks",
+    "text": "Incubus (12)\nSEBii (3)\nbenji & xian (2)\nLifehouse (2)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-22&to=2026-09-22",
+    "published_at": "2026-09-22T21:53:20.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -571,6 +707,40 @@
     "kind": "activity"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-21",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 1 track",
+    "text": "Paramore (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-21&to=2026-09-21",
+    "published_at": "2026-09-21T21:15:54.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 12
+    },
+    "id": "lastfm:plays:2026-09-20",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 46 tracks",
+    "text": "In Love With a Ghost (12)\nLifehouse (9)\nRihanna (7)\nlor2mg (6)\nHowie Day (4)\n+ 7 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-20&to=2026-09-20",
+    "published_at": "2026-09-21T03:32:26.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -592,6 +762,23 @@
     "published_at": "2026-09-19T21:04:11.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-19",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 1 track",
+    "text": "Glom (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-19&to=2026-09-19",
+    "published_at": "2026-09-19T16:49:28.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "images": [],
@@ -671,6 +858,40 @@
     "published_at": "2026-09-17T02:16:46.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-16",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 13 tracks",
+    "text": "jackapplepeople (13)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-16&to=2026-09-16",
+    "published_at": "2026-09-16T14:17:05.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 5
+    },
+    "id": "lastfm:plays:2026-09-15",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 12 tracks",
+    "text": "Spirit Level (5)\nLil Ugly Mane (4)\nEffie (1)\nGorse Panshawe (1)\nThey Are Gutting a Body of Water (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-15&to=2026-09-15",
+    "published_at": "2026-09-15T23:27:39.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "id": "arena:105670769",
@@ -836,6 +1057,40 @@
     "kind": "activity"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-14",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 12 tracks",
+    "text": "Alex G (12)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-14&to=2026-09-14",
+    "published_at": "2026-09-14T19:05:36.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 14
+    },
+    "id": "lastfm:plays:2026-09-13",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 36 tracks",
+    "text": "Oklou (17)\nDisq (7)\nAphex Twin (1)\nBaauer (1)\nClaudia Valentina (1)\n+ 9 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-13&to=2026-09-13",
+    "published_at": "2026-09-13T19:18:41.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -915,6 +1170,23 @@
     "published_at": "2026-09-13T03:36:35.000Z",
     "fetched_at": "2026-11-03T20:28:33.131Z",
     "kind": "activity"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 6
+    },
+    "id": "lastfm:plays:2026-09-12",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 11 tracks",
+    "text": "4cf (6)\nimpleiadess (1)\nLosty (1)\nLuke Chiang (1)\nSevendust (1)\n+ 1 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-12&to=2026-09-12",
+    "published_at": "2026-09-12T20:23:38.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "id": "arena:105468948",
@@ -1040,6 +1312,40 @@
     "url": "https://www.last.fm/music/impleiadess/_/You%E2%80%99ll+start+your+best+life+in+next+2+days+(unexplainable).",
     "published_at": "2026-09-12T20:07:03.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 7
+    },
+    "id": "lastfm:plays:2026-09-11",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 9 tracks",
+    "text": "Sevendust (3)\n: Tristam & Rogue (1)\nCarly Rae Jepsen (1)\nKlaypex (1)\nSkrillex (1)\n+ 2 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-11&to=2026-09-11",
+    "published_at": "2026-09-11T16:09:13.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 17
+    },
+    "id": "lastfm:plays:2026-09-10",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 43 tracks",
+    "text": "They Are Gutting a Body of Water (15)\nKelly Moran (6)\nHiromi (3)\nThe Strokes (3)\nBrick + Mortar (2)\n+ 12 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-10&to=2026-09-10",
+    "published_at": "2026-09-10T20:52:39.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "kind": "post",
@@ -1439,6 +1745,23 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 13
+    },
+    "id": "lastfm:plays:2026-09-09",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 14 tracks",
+    "text": "boysinblush (2)\nAvalon Emerson (1)\nChase & Status (1)\nEVILGIANE (1)\ngabby start (1)\n+ 8 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-09&to=2026-09-09",
+    "published_at": "2026-09-10T03:08:13.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "kind": "reblog",
     "images": [],
     "tags": [],
@@ -1493,6 +1816,23 @@
     "url": "https://www.are.na/siyang/nyc-studio-research",
     "published_at": "2026-09-09T13:43:16.000Z",
     "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 9
+    },
+    "id": "lastfm:plays:2026-09-08",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 10 tracks",
+    "text": "2PM (2)\nI Wanna Kno (OST Version) (1)\nIglooghost (1)\nLE SSERAFIM (1)\nOne True God (1)\n+ 4 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-08&to=2026-09-08",
+    "published_at": "2026-09-08T18:19:30.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "kind": "reblog",
@@ -1614,6 +1954,23 @@
     "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 1
+    },
+    "id": "lastfm:plays:2026-09-07",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 1 track",
+    "text": "ear (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-07&to=2026-09-07",
+    "published_at": "2026-09-07T04:52:31.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "id": "arena:105089671",
     "source": "arena",
     "type": "block",
@@ -1635,6 +1992,23 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 42
+    },
+    "id": "lastfm:plays:2026-09-06",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 64 tracks",
+    "text": "Kelly Moran (8)\nVic Mensa (4)\nChanel Beads (3)\njackapplepeople (3)\nboysinblush (2)\n+ 37 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-06&to=2026-09-06",
+    "published_at": "2026-09-07T03:34:52.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "id": "arena:105075163",
@@ -2195,6 +2569,23 @@
     "kind": "reblog"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 16
+    },
+    "id": "lastfm:plays:2026-09-05",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 17 tracks",
+    "text": "siyang ☼ (2)\na la ciutat (1)\nBLOODY, Heybela (1)\nC4RL (1)\nfakemink (1)\n+ 11 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-05&to=2026-09-05",
+    "published_at": "2026-09-05T23:01:40.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
     "kind": "reblog",
     "images": [],
     "tags": [],
@@ -2618,5 +3009,73 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 5
+    },
+    "id": "lastfm:plays:2026-09-04",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 7 tracks",
+    "text": "Mozzy (2)\nShoreline Mafia (2)\nDenz1000 (1)\nfakemink (1)\nNeo House (1)",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-04&to=2026-09-04",
+    "published_at": "2026-09-04T14:20:06.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 10
+    },
+    "id": "lastfm:plays:2026-09-03",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 11 tracks",
+    "text": "Rustie (2)\nAdolf Nomura (1)\nFlamingosis (1)\nG Jones (1)\nGiant Claw (1)\n+ 5 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-03&to=2026-09-03",
+    "published_at": "2026-09-03T22:48:18.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 35
+    },
+    "id": "lastfm:plays:2026-09-02",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 44 tracks",
+    "text": "A Good Year (2)\nbogdan sėkalski (2)\near (2)\nHimera (2)\njackapplepeople (2)\n+ 30 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-02&to=2026-09-02",
+    "published_at": "2026-09-02T19:33:57.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artists": 8
+    },
+    "id": "lastfm:plays:2026-09-01",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 10 tracks",
+    "text": "A Good Year (2)\nAshwarya (2)\nGod of War (1)\nKaty Perry (1)\nModern Baseball (1)\n+ 3 more artists",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-09-01&to=2026-09-01",
+    "published_at": "2026-09-02T00:35:02.000Z",
+    "fetched_at": "2026-11-06T15:38:16.859Z"
   }
 ]
