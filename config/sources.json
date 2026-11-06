@@ -50,10 +50,7 @@
     },
     "github": {
       "enabled": true,
-      "username": "siyangsun",
-      "exclude": [
-        "conflux"
-      ]
+      "username": "siyangsun"
     },
     "lastfm": {
       "enabled": true,
