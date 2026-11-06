@@ -93,13 +93,13 @@ ${i.images[0] ? `<meta property="og:image" content="${esc(i.images[0])}">` : ""}
 }
 
 // Search: one JSON row per item [label, link, source, date, lowercase text], filtered in the browser (site/site.js). ponytail: fine to a few thousand items; shard or add Pagefind past ~10k.
-writeFileSync(`${OUT}/search.json`, JSON.stringify(items.map((i) => [title(i), entryUrl(i), i.source, i.published_at.slice(0, 10), `${i.title ?? ""} ${i.text} ${i.tags.join(" ")}`.toLowerCase()])));
+writeFileSync(`${OUT}/search.json`, JSON.stringify(items.map((i) => [title(i), entryUrl(i), i.source, i.published_at.slice(0, 10), `${i.title ?? ""} ${i.source === "lastfm" && i.kind === "activity" ? "" : i.text} ${i.tags.join(" ")}`.toLowerCase()])));
 write("search", page(`Search · ${SITE}`, `<h2 class="list">Search</h2><input id="q" type="search" placeholder="search ${items.length} items" autofocus data-src="${BASE}/search.json"><ul id="results"></ul>`));
 
 // "On this day": site/site.js loads today's month-day file. 404.html is served by Pages for any missing path.
-// One small JSON per month-day, [[year, rendered items]...] newest year first: the same markup as the feeds, with full text, links and images.
+// One small JSON per month-day (posts and reblogs, not activity), [[year, rendered items]...] newest year first: the same markup as the feeds, with full text, links and images.
 mkdirSync(`${OUT}/today`, { recursive: true });
-for (const [md, list] of Object.entries(Object.groupBy(items, (i) => i.published_at.slice(5, 10)))) {
+for (const [md, list] of Object.entries(Object.groupBy(items.filter((i) => i.kind !== "activity"), (i) => i.published_at.slice(5, 10)))) {
   const years = Object.entries(Object.groupBy(list!, (i) => i.published_at.slice(0, 4))).sort().reverse();
   writeFileSync(`${OUT}/today/${md}.json`, JSON.stringify(years.map(([y, l]) => [y, l!.map(renderItem).join("\n")])));
 }

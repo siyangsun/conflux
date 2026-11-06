@@ -52,17 +52,15 @@
     "images": [],
     "tags": [],
     "visibility": "public",
-    "meta": {
-      "artists": 15
-    },
+    "meta": {},
     "id": "lastfm:plays:2026-11-05",
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 21 tracks",
-    "text": "tiny yawn (6)\nIvy (2)\nCameron Winter (1)\nCephalo (1)\nHeadache (1)\n+ 10 more artists",
+    "text": "Headache – That Thing with the Rabbit\nIchiko Aoba – Pilgrimage\nLamp – ゆめうつつ\ntiny yawn – yellow parrot\ntiny yawn – summer hole\ntiny yawn – yawn\ntiny yawn – Yoake no hoshi\ntiny yawn – Who is ruling the ocean?\nIvy – BUNMEI\nRubens – 天使さん\nSplit End – TEENAGER\nクレナズム – petal\nひとひら – The Tower Is White\nyonige – 11月24日\nKinokoTeikoku – ラプス\nösterreich – caes\nCephalo – Route225\nyeti let you notice – 牧師曰く\ntiny yawn – ghost town\nIvy – Any Noise\nCameron Winter – $0",
     "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-05&to=2026-11-05",
     "published_at": "2026-11-05T21:34:25.000Z",
-    "fetched_at": "2026-11-06T15:38:16.859Z"
+    "fetched_at": "2026-11-06T15:49:06.693Z"
   },
   {
     "kind": "post",
@@ -95,6 +93,21 @@
     "fetched_at": "2026-11-05T17:32:24.015Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-04",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 37 tracks",
+    "text": "Hideki Naganuma – Humming The Bassline - D.S.Remix\nBonesaw – GAMBLER'S REQUIEM\nBonesaw – LET'SROCKET!!\nbenji & xian – sophie says\nLinkin Park – Blackout\nHeadache – The Beginning of the End ×2\nHeadache – That Thing with the Rabbit ×2\nHeadache – The Pavement is my Pillow Talk\nHeadache – Business Opportunities\nHeadache – Truisms 4 Dummies\nHeadache – Bucket Listener\nHeadache – Mission Impossible III\nHeadache – The Party that Never Ends\nbogdan sėkalski – Super Friend Ball Deluxe\nHimera – Taco\nHitsujibungaku – more than words\nVaundy – 踊り子\nAimer – カタオモイ\ntiny yawn – flower raft ×2\nKinokoTeikoku – 怪獣の腕のなか\nIvy – BUNMEI\nひとひら – En\nBrandy Senki – Coming-of-age Story\nSeventeen Years Old and Berlin Wall – Echo Chamber\nyonige – 11月24日\nBlume popo – Tougenkyou\nösterreich – caes\nSplit End – TEENAGER\nSundae May Club – Tiny Umbrella\ntiny yawn – yawn ×2\ntiny yawn – Somewhere\ntiny yawn – yellow parrot\ntiny yawn – summer hole",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-04&to=2026-11-04",
+    "published_at": "2026-11-05T02:18:13.000Z",
+    "fetched_at": "2026-11-06T15:49:06.693Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
@@ -108,23 +121,6 @@
     "url": "https://github.com/siyangsun/conflux",
     "published_at": "2026-11-05T00:46:06.000Z",
     "fetched_at": "2026-11-06T14:50:17.794Z"
-  },
-  {
-    "kind": "activity",
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "artists": 21
-    },
-    "id": "lastfm:plays:2026-11-04",
-    "source": "lastfm",
-    "type": "audio",
-    "title": "Listened to 37 tracks",
-    "text": "Headache (10)\ntiny yawn (7)\nBonesaw (2)\nAimer (1)\nbenji & xian (1)\n+ 16 more artists",
-    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-04&to=2026-11-04",
-    "published_at": "2026-11-05T02:18:13.000Z",
-    "fetched_at": "2026-11-06T15:38:16.859Z"
   },
   {
     "kind": "activity",
@@ -278,16 +274,14 @@
     "images": [],
     "tags": [],
     "visibility": "public",
-    "meta": {
-      "artists": 5
-    },
+    "meta": {},
     "id": "lastfm:plays:2026-11-03",
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 18 tracks",
-    "text": "Harry Teardrop (11)\nHigher Brothers (4)\n9Lives (1)\nfawn burke (1)\nLucy Bedroque (1)",
+    "text": "9Lives – novocaine\nLucy Bedroque – I KNOW (MY INFLUENCE)\nfawn burke – do it now\nHigher Brothers – Storm\nHigher Brothers – 5: 30 A.M.\nHigher Brothers – Made In China\nHigher Brothers – Yahh\nHarry Teardrop – Xx ×3\nHarry Teardrop – Spirit Track ×3\nHarry Teardrop – The birthday party ×3\nHarry Teardrop – DC fireflies ×2",
     "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-03&to=2026-11-03",
     "published_at": "2026-11-04T02:20:02.000Z",
-    "fetched_at": "2026-11-06T15:38:16.859Z"
+    "fetched_at": "2026-11-06T15:49:06.693Z"
   }
 ]

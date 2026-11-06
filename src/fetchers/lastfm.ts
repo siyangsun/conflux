@@ -42,34 +42,30 @@ export async function allPlays(username: string, from?: number): Promise<any[]> 
   return out;
 }
 
-// One entry per finished New York day (from..to inclusive) with plays: the count and the top artists, no track titles.
+// One entry per finished New York day (from..to inclusive) with plays: every track played that day in listening order, "Artist – Track ×N" for repeats.
 export function playDigests(tracks: any[], user: string, from: string, to: string, now: string): Item[] {
-  const days = new Map<string, { last: string; n: number; artists: Map<string, number> }>();
-  for (const t of tracks) {
+  const days = new Map<string, { last: string; n: number; songs: Map<string, number> }>();
+  for (const t of [...tracks].reverse()) { // input is newest first; walk oldest first so a repeat keeps its first position
     if (!t.date) continue; // the track playing right now has no date
     const at = new Date(Number(t.date.uts) * 1000).toISOString(), day = dayOf(at);
     if (day < from || day > to) continue;
-    const d = days.get(day) ?? days.set(day, { last: at, n: 0, artists: new Map() }).get(day)!;
+    const d = days.get(day) ?? days.set(day, { last: at, n: 0, songs: new Map() }).get(day)!;
     if (at > d.last) d.last = at;
     d.n++;
-    const a = t.artist["#text"] ?? t.artist.name;
-    d.artists.set(a, (d.artists.get(a) ?? 0) + 1);
+    const song = `${t.artist["#text"] ?? t.artist.name} – ${t.name}`;
+    d.songs.set(song, (d.songs.get(song) ?? 0) + 1);
   }
-  return [...days].map(([day, d]) => {
-    const top = [...d.artists].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-    return item({
-      id: `lastfm:plays:${day}`,
-      source: "lastfm",
-      type: "audio",
-      kind: "activity",
-      title: `Listened to ${d.n} track${d.n > 1 ? "s" : ""}`,
-      text: top.slice(0, 5).map(([a, c]) => `${a} (${c})`).join("\n") + (top.length > 5 ? `\n+ ${top.length - 5} more artists` : ""),
-      url: `https://www.last.fm/user/${user}/library?from=${day}&to=${day}`,
-      published_at: d.last,
-      fetched_at: now,
-      meta: { artists: top.length },
-    });
-  });
+  return [...days].map(([day, d]) => item({
+    id: `lastfm:plays:${day}`,
+    source: "lastfm",
+    type: "audio",
+    kind: "activity",
+    title: `Listened to ${d.n} track${d.n > 1 ? "s" : ""}`,
+    text: [...d.songs].map(([song, c]) => (c > 1 ? `${song} ×${c}` : song)).join("\n"),
+    url: `https://www.last.fm/user/${user}/library?from=${day}&to=${day}`,
+    published_at: d.last,
+    fetched_at: now,
+  }));
 }
 
 // Each run reads the newest 50 loves, plus the rollup of any finished days since the cursor (src/backfill.ts does the whole history).

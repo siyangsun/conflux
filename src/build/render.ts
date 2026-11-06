@@ -53,7 +53,13 @@ const commits = (i: Item) => {
   const repos = (i.meta.repos as { name: string; url: string; count: number }[] | undefined) ?? [];
   return `<ul>${repos.map((r) => `<li><a href="${esc(safe(r.url))}" rel="noopener">${esc(r.name)}</a> <span class="meta">${r.count}</span></li>`).join("")}</ul>`;
 };
-const plain = (i: Item) => paragraphs(i.text, i.source);
+// A Last.fm day rollup lists every track; show the first few and fold the rest into a dropdown.
+const SHOWN = 5;
+const plays = (i: Item) => {
+  const lines = i.text.split("\n");
+  return paragraphs(lines.slice(0, SHOWN).join("\n")) + (lines.length > SHOWN ? `<details><summary class="meta">${lines.length - SHOWN} more</summary>${paragraphs(lines.slice(SHOWN).join("\n"))}</details>` : "");
+};
+const plain = (i: Item) => (i.source === "lastfm" && i.kind === "activity" ? plays(i) : paragraphs(i.text, i.source));
 // Record<ItemType, ...>: adding a type to ItemType without a renderer is a type error.
 const BODY: Record<ItemType, (i: Item) => string> = { post: plain, video: plain, audio: plain, block: plain, "site-update": siteUpdate, repo: plain, commits, page: plain, channel: plain };
 
