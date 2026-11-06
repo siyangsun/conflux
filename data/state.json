@@ -14,7 +14,7 @@
   "arena": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-06T04:38:45Z"
+    "cursor": "2026-11-06T15:50:16Z"
   },
   "manual": {
     "last_error": null,
@@ -189,6 +189,7 @@
   },
   "lastfm": {
     "last_error": null,
-    "failing_since": null
+    "failing_since": null,
+    "cursor": "2026-11-05"
   }
 }
