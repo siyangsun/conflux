@@ -56,7 +56,7 @@
       ]
     },
     "lastfm": {
-      "enabled": false,
+      "enabled": true,
       "username": "siyangsun",
       "hourly": true
     }
