@@ -58,20 +58,22 @@ const result = (r) => {
   fetch(q.dataset.src).then((r) => r.json()).then((j) => { rows = j; run(); });
 })();
 
-// On this day: items from today's month-day (in your timezone) in earlier years, newest year first. Dates are UTC, so items near midnight can land a day off.
+// On this day: today's month-day file (built per day, see src/build/index.ts) holds the rendered posts of every year; show the earlier years. Dates are UTC.
 (() => {
   const box = document.getElementById("today");
   if (!box) return;
   const now = new Date(), md = String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
-  fetch(box.dataset.src).then((r) => r.json()).then((rows) => {
-    const hits = rows.filter((r) => r[3].slice(5) === md && r[3].slice(0, 4) !== String(now.getFullYear()));
-    if (!hits.length) return (box.textContent = "Nothing on this day.");
-    for (const y of [...new Set(hits.map((r) => r[3].slice(0, 4)))].sort().reverse()) {
-      const h = document.createElement("h2"), ul = document.createElement("ul");
-      h.className = "list";
-      h.textContent = y;
-      ul.append(...hits.filter((r) => r[3].startsWith(y)).map(result));
-      box.append(h, ul);
-    }
-  });
+  fetch(box.dataset.src + md + ".json")
+    .then((r) => (r.ok ? r.json() : []))
+    .then((years) => {
+      const past = years.filter(([y]) => y !== String(now.getFullYear()));
+      if (!past.length) return (box.textContent = "Nothing on this day.");
+      for (const [y, html] of past) {
+        const h = document.createElement("h2"), d = document.createElement("div");
+        h.className = "list";
+        h.textContent = y;
+        d.innerHTML = html; // our own build output, already escaped
+        box.append(h, d);
+      }
+    });
 })();
