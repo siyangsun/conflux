@@ -1714,6 +1714,23 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Jimothy Lacoste"
+    },
+    "id": "lastfm:979fccbe438a",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Jimothy Lacoste – Botox",
+    "text": "",
+    "url": "https://www.last.fm/music/Jimothy+Lacoste/_/Botox",
+    "published_at": "2026-01-07T02:20:04.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],

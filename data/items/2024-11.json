@@ -419,6 +419,23 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Olivia Rodrigo"
+    },
+    "id": "lastfm:ae541d8c5e8e",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Olivia Rodrigo – Vampire (SPORTMODE Remix)",
+    "text": "",
+    "url": "https://www.last.fm/music/Olivia+Rodrigo/_/Vampire+(SPORTMODE+Remix)",
+    "published_at": "2024-11-07T03:16:21.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],

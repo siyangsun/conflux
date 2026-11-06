@@ -790,6 +790,23 @@
     "kind": "reblog"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "163braces"
+    },
+    "id": "lastfm:675fb4d6f531",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "163braces – 找",
+    "text": "",
+    "url": "https://www.last.fm/music/163braces/_/%E6%89%BE",
+    "published_at": "2025-03-15T14:32:49.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "id": "arena:74047504",
     "source": "arena",
     "type": "block",
@@ -930,6 +947,23 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Cross"
+    },
+    "id": "lastfm:2c146d032a7f",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Cross – hot rain",
+    "text": "",
+    "url": "https://www.last.fm/music/Cross/_/hot+rain",
+    "published_at": "2025-03-08T15:25:31.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
     "id": "arena:73641453",

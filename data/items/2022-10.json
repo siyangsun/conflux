@@ -599,6 +599,23 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Pauline Herr"
+    },
+    "id": "lastfm:d645d1a89a57",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Pauline Herr – care about u",
+    "text": "",
+    "url": "https://www.last.fm/music/Pauline+Herr/_/care+about+u",
+    "published_at": "2022-10-17T05:03:35.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/d2f00bcfde2aee6e26bfaf0f0416a674/1e7bc11cfc17c077-3d/s1280x1920/7881fc3db58984df0bb1535ca4bd683c0740ba35.png"

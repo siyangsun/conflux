@@ -556,6 +556,23 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "harper2k"
+    },
+    "id": "lastfm:ab82cbe2d3d1",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "harper2k – does haircut affect beatmaking? (experiment)",
+    "text": "",
+    "url": "https://www.last.fm/music/harper2k/_/does+haircut+affect+beatmaking%3F+(experiment)",
+    "published_at": "2026-02-20T04:25:18.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
@@ -652,6 +669,23 @@
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2026-02-15T00:01:39.000Z",
     "fetched_at": "2026-11-05T19:01:54.492Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Bladee"
+    },
+    "id": "lastfm:88dbb5e3c52b",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Bladee – Magic Misery",
+    "text": "",
+    "url": "https://www.last.fm/music/Bladee/_/Magic+Misery",
+    "published_at": "2026-02-14T05:15:00.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
     "kind": "post",

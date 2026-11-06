@@ -208,6 +208,23 @@
     "kind": "reblog"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Fern Shy"
+    },
+    "id": "lastfm:1c87d8e965ba",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Fern Shy – I Drew It, Then I Made It Sound Like That",
+    "text": "",
+    "url": "https://www.last.fm/music/Fern+Shy/_/I+Drew+It,+Then+I+Made+It+Sound+Like+That",
+    "published_at": "2026-08-22T20:12:18.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "id": "arena:104137421",
     "source": "arena",
     "type": "block",

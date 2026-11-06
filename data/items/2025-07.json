@@ -198,6 +198,23 @@
     "kind": "reblog"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Quadeca"
+    },
+    "id": "lastfm:56ff42ec7759",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Quadeca – Vanisher, Horizon Scraper ( Movie)",
+    "text": "",
+    "url": "https://www.last.fm/music/Quadeca/_/Vanisher,+Horizon+Scraper+(+Movie)",
+    "published_at": "2025-07-27T15:31:04.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "id": "arena:80858333",
     "source": "arena",
     "type": "block",
@@ -407,6 +424,23 @@
     "kind": "reblog"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Ninajirachi"
+    },
+    "id": "lastfm:e8089a0cc944",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Ninajirachi – Ninajirachi - Infohazard",
+    "text": "",
+    "url": "https://www.last.fm/music/Ninajirachi/_/Ninajirachi+-+Infohazard",
+    "published_at": "2025-07-16T23:30:30.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
@@ -419,6 +453,40 @@
     "url": "https://x.com/unevenlyeven/status/1944763818531270735",
     "published_at": "2025-07-14T14:20:00.000Z",
     "fetched_at": "2026-11-05T02:07:43.703Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Wraith9"
+    },
+    "id": "lastfm:25fc7a5eea68",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Wraith9 – Plastic",
+    "text": "",
+    "url": "https://www.last.fm/music/Wraith9/_/Plastic",
+    "published_at": "2025-07-12T15:26:06.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Tmo>< , Liquid Sauce"
+    },
+    "id": "lastfm:e4123ba917d3",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Tmo>< , Liquid Sauce – 羽翼 w/liquid",
+    "text": "",
+    "url": "https://www.last.fm/music/Tmo%3E%3C+,+Liquid+Sauce/_/%E7%BE%BD%E7%BF%BC+w%2Fliquid",
+    "published_at": "2025-07-12T15:20:44.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
     "kind": "post",

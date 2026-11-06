@@ -395,6 +395,23 @@
     "fetched_at": "2026-11-05T02:07:43.703Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Effie"
+    },
+    "id": "lastfm:80cd979400bd",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Effie – face2face (Prod kimj x vvspipes)",
+    "text": "",
+    "url": "https://www.last.fm/music/Effie/_/face2face+(Prod+kimj+x+vvspipes)",
+    "published_at": "2025-11-05T01:47:13.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],

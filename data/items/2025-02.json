@@ -266,6 +266,23 @@
     "kind": "post"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "Rebecca Black"
+    },
+    "id": "lastfm:a4ea5371fe52",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Rebecca Black – doe eyed (amorei bootleg)",
+    "text": "",
+    "url": "https://www.last.fm/music/Rebecca+Black/_/doe+eyed+(amorei+bootleg)",
+    "published_at": "2025-02-18T05:57:33.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
     "id": "arena:72589773",
     "source": "arena",
     "type": "block",
@@ -306,6 +323,23 @@
     "visibility": "public",
     "meta": {},
     "kind": "post"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "artist": "camuse 獅"
+    },
+    "id": "lastfm:538efe14ee86",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "camuse 獅 – vince staples rapping like the rent's due",
+    "text": "",
+    "url": "https://www.last.fm/music/camuse+%E7%8D%85/_/vince+staples+rapping+like+the+rent%27s+due",
+    "published_at": "2025-02-18T02:56:48.000Z",
+    "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
     "kind": "post",
