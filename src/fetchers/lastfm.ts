@@ -42,26 +42,29 @@ export async function allPlays(username: string, from?: number): Promise<any[]> 
   return out;
 }
 
-// One entry per finished New York day (from..to inclusive) with plays: every track played that day in listening order, "Artist – Track ×N" for repeats.
+// One entry per finished New York day (from..to inclusive) with plays, grouped by artist (most played first):
+// "Artist (3): Song, Song ×2" with songs in the order first played.
 export function playDigests(tracks: any[], user: string, from: string, to: string, now: string): Item[] {
-  const days = new Map<string, { last: string; n: number; songs: Map<string, number> }>();
-  for (const t of [...tracks].reverse()) { // input is newest first; walk oldest first so a repeat keeps its first position
+  const days = new Map<string, { last: string; n: number; artists: Map<string, Map<string, number>> }>();
+  for (const t of [...tracks].reverse()) { // input is newest first; walk oldest first so songs keep their first-played order
     if (!t.date) continue; // the track playing right now has no date
     const at = new Date(Number(t.date.uts) * 1000).toISOString(), day = dayOf(at);
     if (day < from || day > to) continue;
-    const d = days.get(day) ?? days.set(day, { last: at, n: 0, songs: new Map() }).get(day)!;
+    const d = days.get(day) ?? days.set(day, { last: at, n: 0, artists: new Map() }).get(day)!;
     if (at > d.last) d.last = at;
     d.n++;
-    const song = `${t.artist["#text"] ?? t.artist.name} – ${t.name}`;
-    d.songs.set(song, (d.songs.get(song) ?? 0) + 1);
+    const songs = d.artists.get(t.artist["#text"] ?? t.artist.name) ?? d.artists.set(t.artist["#text"] ?? t.artist.name, new Map()).get(t.artist["#text"] ?? t.artist.name)!;
+    songs.set(t.name, (songs.get(t.name) ?? 0) + 1);
   }
+  const plays = (songs: Map<string, number>) => [...songs.values()].reduce((a, b) => a + b, 0);
   return [...days].map(([day, d]) => item({
     id: `lastfm:plays:${day}`,
     source: "lastfm",
     type: "audio",
     kind: "activity",
     title: `Listened to ${d.n} track${d.n > 1 ? "s" : ""}`,
-    text: [...d.songs].map(([song, c]) => (c > 1 ? `${song} ×${c}` : song)).join("\n"),
+    text: [...d.artists].sort((a, b) => plays(b[1]) - plays(a[1]) || a[0].localeCompare(b[0]))
+      .map(([artist, songs]) => `${artist} (${plays(songs)}): ${[...songs].map(([name, c]) => (c > 1 ? `${name} ×${c}` : name)).join(", ")}`).join("\n"),
     url: `https://www.last.fm/user/${user}/library?from=${day}&to=${day}`,
     published_at: d.last,
     fetched_at: now,

@@ -31,3 +31,5 @@ main > ul { padding-left: 1.1rem; }
 article ul { margin: 4px 0; padding-left: 1.1rem; }
 .tags{margin:.4rem 0 0;font-size:.85rem}.tags a{margin-right:.5rem;color:var(--muted)}
 #q { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid var(--muted); padding: 6px 8px; margin-bottom: 12px; }
+details.more > summary { cursor: pointer; }
+details.more[open] > summary { display: none; } /* "show N more" is one-way: gone once opened */
