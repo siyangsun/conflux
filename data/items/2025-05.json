@@ -918,6 +918,20 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "bluesky:406e184347c3",
+    "source": "bluesky",
+    "type": "post",
+    "text": "made this a bit ago and never really circulated it:\nhttps://www.youtube.com/watch?v=RxftLGwNw40",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3lpmakjpmc22f",
+    "published_at": "2025-05-20T13:57:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
+  },
+  {
     "id": "arena:77601139",
     "source": "arena",
     "type": "block",
@@ -1304,6 +1318,20 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "bluesky:ac37c29861bb",
+    "source": "bluesky",
+    "type": "post",
+    "text": "so important the daily dance between \"in the house\" and \"out of the house\"",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3lomlhoxt4c2p",
+    "published_at": "2025-05-07T23:47:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
+  },
+  {
     "id": "arena:76933071",
     "source": "arena",
     "type": "block",
@@ -1457,6 +1485,20 @@
     "url": "https://www.are.na/siyang/pools-6rit9wpj-9e",
     "published_at": "2025-05-07T16:32:27.000Z",
     "fetched_at": "2026-11-03T21:53:54.848Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "bluesky:f89d813adf99",
+    "source": "bluesky",
+    "type": "post",
+    "text": "i think i come back to here now",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3lokkvgbp7s2n",
+    "published_at": "2025-05-07T04:31:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
   },
   {
     "kind": "activity",

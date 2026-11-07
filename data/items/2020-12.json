@@ -196,5 +196,26 @@
       "provider": "soundcloud",
       "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Frailings-for-a-staircase-that-has-long-since-been-removed"
     }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [
+      "machine-learning",
+      "data-science",
+      "ai",
+      "kdrama",
+      "startup"
+    ],
+    "visibility": "public",
+    "meta": {},
+    "id": "medium:01ba3244d280",
+    "source": "medium",
+    "type": "post",
+    "title": "Machine Learning Guide to Start-Up on Netflix",
+    "text": "Machine Learning Guide to Start-Up (on Netflix)\n\nThe pure excitement of seeing that your code works (from Start-Up episode 1)I’ve not delved too deeply into the world of Korean dramas. However, as someone who works on machine learning at an early-stage startup, I was intrigued by the new show Start-",
+    "url": "https://siyangsun.medium.com/machine-learning-guide-to-start-up-on-netflix-52ad584b45f6?source=rss-8e982d2e0a6d------2",
+    "published_at": "2020-12-08T05:50:49.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
   }
 ]

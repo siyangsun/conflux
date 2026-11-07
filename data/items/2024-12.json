@@ -352,6 +352,20 @@
     "tags": [],
     "visibility": "public",
     "meta": {},
+    "id": "bluesky:a011e66c9e53",
+    "source": "bluesky",
+    "type": "post",
+    "text": "i will relearn all my old tricks one day",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3ldlyvzr7yc24",
+    "published_at": "2024-12-18T18:38:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
     "id": "x:1869436020879720883",
     "source": "x",
     "type": "post",
@@ -1177,6 +1191,20 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "bluesky:76478e381cdf",
+    "source": "bluesky",
+    "type": "post",
+    "text": "is ghostty out yet",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3lcdrdven7s2w",
+    "published_at": "2024-12-02T18:36:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
+  },
+  {
     "id": "arena:68415198",
     "source": "arena",
     "type": "block",
@@ -1246,6 +1274,20 @@
     "kind": "reblog"
   },
   {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "bluesky:0d1d31bda132",
+    "source": "bluesky",
+    "type": "post",
+    "text": "",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3lcdlaeoyck2s",
+    "published_at": "2024-12-02T16:47:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -1273,5 +1315,19 @@
     "url": "https://x.com/unevenlyeven/status/1863266891873067434",
     "published_at": "2024-12-01T17:00:19.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "bluesky:bc0e61ae0796",
+    "source": "bluesky",
+    "type": "post",
+    "text": "every social media is the same they all have arcane spoilers",
+    "url": "https://bsky.app/profile/siyang.bsky.social/post/3lc7uif2wq22h",
+    "published_at": "2024-12-01T05:22:00.000Z",
+    "fetched_at": "2026-11-07T03:55:22.416Z"
   }
 ]
