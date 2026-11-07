@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
+    "last_error": "https://sump.substack.com/feed -> HTTP 403",
     "failing_since": "2026-11-05T00:56:43.695Z"
   },
   "tumblr": {
@@ -190,7 +190,7 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-05"
+    "cursor": "2026-11-06"
   },
   "rss": {
     "last_error": null,

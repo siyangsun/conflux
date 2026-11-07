@@ -4,6 +4,21 @@
     "images": [],
     "tags": [],
     "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-06",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 5 tracks",
+    "text": "Boards of Canada (2): Wildlife Analysis, An Eagle in Your Mind\nFrom First to Last (2): The One Armed Boxer vs. The Flying Guillotine, Secrets Don't Make Friends\nHole (1): Celebrity Skin",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-06&to=2026-11-06",
+    "published_at": "2026-11-07T04:35:37.000Z",
+    "fetched_at": "2026-11-07T16:55:22.846Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
     "meta": {
       "repos": [
         {
