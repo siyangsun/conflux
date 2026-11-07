@@ -78,6 +78,7 @@ const lead = (i: Item, s: string) =>
   : i.type === "video" ? `posted a video to ${s}`
   : i.source === "lastfm" ? (i.kind === "activity" ? `listened on ${s}` : `loved on ${s}`)
   : i.kind === "reblog" ? (i.source === "arena" ? `saved to ${s}` : `reblogged on ${s}`)
+  : i.source === "x" && i.meta.reply_to && i.url.includes(`/${i.meta.reply_to}/status/`) ? `posted in a thread on ${s}` // a reply to myself
   : i.source === "manual" ? "posted"
   : `posted to ${s}`;
 
