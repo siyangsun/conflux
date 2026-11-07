@@ -56,6 +56,24 @@
       "enabled": true,
       "username": "siyangsun",
       "hourly": true
+    },
+    "rss": {
+      "enabled": true,
+      "hourly": true,
+      "feeds": [
+        {
+          "source": "bluesky",
+          "url": "https://bsky.app/profile/siyang.bsky.social/rss"
+        },
+        {
+          "source": "medium",
+          "url": "https://siyangsun.medium.com/feed"
+        }
+      ]
+    },
+    "hackernews": {
+      "enabled": false,
+      "username": ""
     }
   }
 }

@@ -242,3 +242,14 @@ test("lastfm: scrobbles roll up per New York day, grouped by artist; now-playing
   assert.deepEqual(out.map((i) => [i.id, i.title, i.kind, i.text]), [["lastfm:plays:2026-06-20", "Listened to 4 tracks", "activity", "A (3): One ×2, Two\nB (1): Solo"]]);
   assert.equal(out[0].published_at, "2026-06-21T00:02:00.000Z");
 });
+
+test("rss: RSS 2.0 and Atom entries, hostile-safe ids, micro-post title dropped", async () => {
+  const rss = await import("./rss.ts");
+  const [a] = rss.parse(`<rss><channel><item><title>hello world</title><guid>https://x/1</guid><link>https://x/1</link>
+  <pubDate>Tue, 27 Oct 2026 20:00:00 GMT</pubDate><description>hello world and more</description></item></channel></rss>`, NOW, "bluesky");
+  assert.equal(a.title, undefined);
+  assert.match(a.id, /^bluesky:[0-9a-f]{12}$/);
+  const [b] = rss.parse(`<feed><entry><title>T</title><id>tag:1</id><link rel="alternate" href="https://y/1"/>
+  <published>2026-10-27T20:00:00Z</published><content type="html">&lt;p&gt;body&lt;/p&gt;</content></entry></feed>`, NOW, "letterboxd");
+  assert.deepEqual([b.title, b.text, b.url], ["T", "body", "https://y/1"]);
+});
