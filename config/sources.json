@@ -60,6 +60,7 @@
     "rss": {
       "enabled": true,
       "hourly": true,
+      "skip": ["bluesky:c4996a7a5ce3"],
       "feeds": [
         {
           "source": "bluesky",

@@ -37,7 +37,7 @@ export function parse(xml: string, now: string, source: string): Item[] {
 const rss: Fetcher = async (cfg) => {
   const now = new Date().toISOString();
   const lists = await Promise.all((cfg.feeds as { source: string; url: string }[]).map(async (f) => parse((await get(f.url, {}))!.text, now, f.source)));
-  return { items: lists.flat(), state: {} };
+  return { items: lists.flat().filter((i) => !cfg.skip?.includes(i.id)), state: {} }; // skip: item ids I deleted, never stored
 };
 
 export const required = ["feeds"];

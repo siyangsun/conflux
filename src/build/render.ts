@@ -12,7 +12,7 @@ export const slug = (id: string) => id.toLowerCase().replace(/[^a-z0-9]+/g, "-")
 export const permalink = (i: Item) => `${BASE}/p/${slug(i.id)}/`;
 export const abs = (path: string) => ORIGIN + path;
 // Only posts get a page of their own (/p/...). Reblogs and activity link out to their original; their permalink() is still their stable feed id.
-export const hasPage = (i: Item) => i.kind === "post" && i.source !== "x"; // tweets are just text and a link: the date goes straight to the tweet
+export const hasPage = (i: Item) => i.kind === "post" && i.source !== "x" && i.source !== "bluesky"; // tweets and skeets are just text and a link: the date goes straight to the original
 export const title = (i: Item) => i.title || i.text.slice(0, 80) || i.id;
 // Only http(s) links are rendered as hrefs (no javascript: URLs from feed data).
 const safe = (u: string) => (/^https?:\/\//i.test(u) ? u : "#");
