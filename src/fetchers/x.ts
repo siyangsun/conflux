@@ -8,6 +8,7 @@ export function parse(res: any, handle: string, now: string): Item[] {
     source: "x",
     type: "post",
     text: t.text,
+    meta: t.in_reply_to_user_id ? { reply_to: handle } : {}, // replies to others are excluded by the query, so a reply here is to myself: a thread
     url: `https://x.com/${handle}/status/${t.id}`,
     published_at: new Date(t.created_at).toISOString(),
     fetched_at: now,
@@ -15,13 +16,13 @@ export function parse(res: any, handle: string, now: string): Item[] {
   }));
 }
 
-// Disabled by default (paid API). Cursor = since_id; replies and reposts are excluded.
+// Disabled by default (paid API). Cursor = since_id; replies to others and reposts are excluded (my own threads still come through).
 const x: Fetcher = async (cfg, prev) => {
   if (!process.env.X_BEARER_TOKEN) throw new Error("X_BEARER_TOKEN is not set");
   const q = new URLSearchParams({
     max_results: "100",
     exclude: "replies,retweets",
-    "tweet.fields": "created_at,attachments",
+    "tweet.fields": "created_at,attachments,in_reply_to_user_id",
     expansions: "attachments.media_keys",
     "media.fields": "url,type",
   });
