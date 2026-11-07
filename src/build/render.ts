@@ -131,7 +131,7 @@ export function renderItem(i: Item): string {
   const preview = SRC[i.source]?.preview?.(i);
   return `<article${preview ? ' class="preview"' : ""}>
 <div class="meta">${lead(i, `<a href="${BASE}/source/${slug(i.source)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${hasPage(i) && i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
-${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${clip}${tags}
+${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${clip}${media && i.url ? `<p class="meta url"><a href="${esc(safe(i.url))}" rel="noopener">${esc(i.url)}</a></p>` : ""}${tags}
 </article>`;
 }
 
@@ -139,8 +139,9 @@ export function page(pageTitle: string, body: string, head = ""): string {
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow"><title>${esc(pageTitle)}</title><link rel="icon" href="data:,"><link rel="stylesheet" href="${BASE}/style.css">
+<script>try{localStorage.textonly&&document.documentElement.classList.add("text")}catch(e){}</script>
 ${feedLinks("/")}${head}</head>
 <body><header><h1><a href="${BASE}/">${esc(SITE)}</a></h1>
-<nav><a href="${BASE}/">posts</a> · <a href="${BASE}/reblogs/">reblogs</a> · <a href="${BASE}/all/">all activity</a> · <a href="${BASE}/search/">search</a> · <a href="${BASE}/today/">on this day</a> · <a href="${BASE}/archive/">archive</a> · <a href="${BASE}/browse/">browse</a> · <a href="${BASE}/feed.xml">feed</a> · <span id="checked" data-built="${BUILT}" data-repo="${esc(REPO)}"></span></nav></header>
+<nav><a href="${BASE}/">posts</a> · <a href="${BASE}/reblogs/">reblogs</a> · <a href="${BASE}/all/">all activity</a> · <a href="${BASE}/search/">search</a> · <a href="${BASE}/today/">on this day</a> · <a href="${BASE}/archive/">archive</a> · <a href="${BASE}/browse/">browse</a> · <a href="${BASE}/feed.xml">feed</a> · <a href="#" id="textonly">text only</a> · <span id="checked" data-built="${BUILT}" data-repo="${esc(REPO)}"></span></nav></header>
 <main>${body}</main><script src="${BASE}/site.js" defer></script></body></html>`;
 }

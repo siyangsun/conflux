@@ -33,3 +33,8 @@ article ul { margin: 4px 0; padding-left: 1.1rem; }
 #q { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid var(--muted); padding: 6px 8px; margin-bottom: 12px; }
 details.more > summary { cursor: pointer; }
 details.more[open] > summary { display: none; } /* "show N more" is one-way: gone once opened */
+
+/* "text only" (nav toggle): hide pictures and players, show the link's address instead */
+.url { display:none; }
+html.text article img, html.text article .embed { display:none; }
+html.text .url { display:block; overflow-wrap:anywhere; }

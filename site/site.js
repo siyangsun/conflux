@@ -77,3 +77,17 @@ const result = (r) => {
       }
     });
 })();
+
+// "text only" toggle: the class is applied early by an inline script in <head>; the choice is remembered per browser.
+(() => {
+  const a = document.getElementById("textonly");
+  if (!a) return;
+  const label = () => (a.textContent = document.documentElement.classList.contains("text") ? "show media" : "text only");
+  label();
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+    const on = document.documentElement.classList.toggle("text");
+    try { on ? (localStorage.textonly = 1) : localStorage.removeItem("textonly"); } catch {}
+    label();
+  });
+})();
