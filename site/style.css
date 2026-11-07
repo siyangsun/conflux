@@ -5,7 +5,8 @@
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.5 "Iowan Old Style",Palatino,"Palatino Linotype","Book Antiqua",serif; }
 main, header { max-width: 80rem; margin: 0 auto; padding: 0 16px; }
-header { padding-top: 24px; padding-bottom: 8px; }
+header { padding-top: 24px; padding-bottom: 8px; position: relative; }
+#textonly { position: absolute; top: 28px; right: 16px; font-size: .85rem; color: var(--muted); }
 header h1 { margin:0; font-size:1.25rem; }
 header a { color: inherit; text-decoration: none; }
 a { color: var(--link); }
