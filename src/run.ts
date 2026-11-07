@@ -37,20 +37,19 @@ const fetched = performance.now() - t0;
 const incoming: Item[] = [];
 const remove: string[] = [];
 const notes: string[] = []; // state changes worth naming in the commit message
-let persist = false; // state that must be saved even when no items were added
+let persist = false; // state that must be saved even when no items were added. Failures and recoveries ride along with the next real commit instead of making their own (no "youtube failing/recovered" noise).
 jobs.forEach(([name], i) => {
   const r = results[i];
   const prev = state[name] ?? {};
   if (r.status === "fulfilled") {
     incoming.push(...r.value.items);
     remove.push(...(r.value.remove ?? []));
-    persist ||= !!r.value.persist || !!prev.failing_since; // first-run baselines, recoveries
+    persist ||= !!r.value.persist; // first-run baselines
     if (prev.failing_since) notes.push(`${name} recovered`);
     state[name] = { ...prev, ...r.value.state, last_error: null, failing_since: null };
   } else {
     const msg = String(r.reason?.message ?? r.reason);
     console.error(`::warning::${name} failed: ${msg}`);
-    persist ||= !prev.failing_since;
     if (!prev.failing_since) notes.push(`${name} failing`);
     state[name] = { ...prev, last_error: msg, failing_since: prev.failing_since ?? now };
   }
