@@ -255,6 +255,138 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "imsiyang",
+      "account_url": "https://soundcloud.com/imsiyang"
+    },
+    "id": "soundcloud:1085946940",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "the sinkhole",
+    "text": "",
+    "url": "https://soundcloud.com/imsiyang/the-sinkhole",
+    "published_at": "2021-07-12T06:04:39.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimsiyang%2Fthe-sinkhole"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "imsiyang",
+      "account_url": "https://soundcloud.com/imsiyang"
+    },
+    "id": "soundcloud:1085946928",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "wilt",
+    "text": "",
+    "url": "https://soundcloud.com/imsiyang/wilt",
+    "published_at": "2021-07-12T06:04:37.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimsiyang%2Fwilt"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "imsiyang",
+      "account_url": "https://soundcloud.com/imsiyang"
+    },
+    "id": "soundcloud:1085946916",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "shallow oceans hide no secrets",
+    "text": "",
+    "url": "https://soundcloud.com/imsiyang/shallow-oceans-hide-no-secrets",
+    "published_at": "2021-07-12T06:04:35.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimsiyang%2Fshallow-oceans-hide-no-secrets"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "imsiyang",
+      "account_url": "https://soundcloud.com/imsiyang"
+    },
+    "id": "soundcloud:1085946907",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "waitin4u",
+    "text": "",
+    "url": "https://soundcloud.com/imsiyang/waitin4u",
+    "published_at": "2021-07-12T06:04:33.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimsiyang%2Fwaitin4u"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "imsiyang",
+      "account_url": "https://soundcloud.com/imsiyang"
+    },
+    "id": "soundcloud:1085946889",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "break the chain/make the change",
+    "text": "",
+    "url": "https://soundcloud.com/imsiyang/break-the-chain-make-the",
+    "published_at": "2021-07-12T06:04:30.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimsiyang%2Fbreak-the-chain-make-the"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "imsiyang",
+      "account_url": "https://soundcloud.com/imsiyang"
+    },
+    "id": "soundcloud:1085946697",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "this fog is suffocating",
+    "text": "",
+    "url": "https://soundcloud.com/imsiyang/this-fog-is-suffocating",
+    "published_at": "2021-07-12T06:03:51.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimsiyang%2Fthis-fog-is-suffocating"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "reply_to": "unevenlyeven"
     },
     "id": "x:1414268549678260227",
@@ -324,6 +456,28 @@
     "url": "https://x.com/unevenlyeven/status/1413248029897805824",
     "published_at": "2021-07-08T21:26:01.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1083486979",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Fatboy Slimjim",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/fatboy-slimjim",
+    "published_at": "2021-07-07T23:41:05.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Ffatboy-slimjim"
+    }
   },
   {
     "kind": "post",

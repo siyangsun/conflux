@@ -66,6 +66,28 @@
     "images": [],
     "tags": [],
     "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1129259965",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Nakey Snakey Ball",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/nakey-snakey-ball-2021-09-21-2358",
+    "published_at": "2021-09-22T17:39:39.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fnakey-snakey-ball-2021-09-21-2358"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
     "meta": {},
     "id": "x:1440731246179487756",
     "source": "x",
@@ -168,6 +190,50 @@
     "images": [],
     "tags": [],
     "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1126771438",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "why are my buildups so bad lol",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/reese-is-the-beast-2021-09-16-2003",
+    "published_at": "2021-09-18T06:25:25.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Freese-is-the-beast-2021-09-16-2003"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1126771345",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "give us what we need",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/give-us-need-a-fuck-2021-09-14-2343",
+    "published_at": "2021-09-18T06:25:01.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fgive-us-need-a-fuck-2021-09-14-2343"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
     "meta": {},
     "id": "x:1439075207184977923",
     "source": "x",
@@ -252,6 +318,94 @@
     "url": "https://x.com/unevenlyeven/status/1438646800064278532",
     "published_at": "2021-09-16T23:31:40.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1124901967",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "sleazy one",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/sleazy",
+    "published_at": "2021-09-15T05:30:08.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fsleazy"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1124901565",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "finally figured out how to use vocoder",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/actually-might-qualify-as-color-bass-2021-09-07-1053",
+    "published_at": "2021-09-15T05:28:46.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Factually-might-qualify-as-color-bass-2021-09-07-1053"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1124900959",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "running through the asgarnian ice dungeon",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/asgarnian-ice-dungeon",
+    "published_at": "2021-09-15T05:26:54.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fasgarnian-ice-dungeon"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:1124900029",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "theragun low on battery type beat",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/low-battery-theragun-type-beat",
+    "published_at": "2021-09-15T05:24:07.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Flow-battery-theragun-type-beat"
+    }
   },
   {
     "kind": "post",

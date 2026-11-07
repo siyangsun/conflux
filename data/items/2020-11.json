@@ -62,5 +62,71 @@
     "url": "https://siyang-art-dump.tumblr.com/post/634917939117735936",
     "published_at": "2020-11-16T05:35:31.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:927116701",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Back to the tungsten mines I go",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/back-to-the-tungsten-mines-i-go",
+    "published_at": "2020-11-11T04:28:31.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fback-to-the-tungsten-mines-i-go"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:927115996",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "moonlight albatross (wip)",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/moonlight-albatross-wip",
+    "published_at": "2020-11-11T04:26:21.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fmoonlight-albatross-wip"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:927112639",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "i can finally stop refreshing this stupid colored map",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/i-can-finally-stop-refreshing-this-stupid-colored-map",
+    "published_at": "2020-11-11T04:22:58.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fi-can-finally-stop-refreshing-this-stupid-colored-map"
+    }
   }
 ]

@@ -3,7 +3,7 @@
 import { execFileSync } from "node:child_process";
 import { config } from "./config.ts";
 import { get, UA } from "./feed.ts";
-import { nextBefore, feedUrl, parse as parseSoundcloud } from "./fetchers/soundcloud.ts";
+import { parseApi as parseSoundcloudApi } from "./fetchers/soundcloud.ts";
 import { addDays, commitDates, dayOf, digests, listRepos } from "./fetchers/github.ts";
 import { api, channelPosts } from "./fetchers/arena.ts";
 import { fromHistory } from "./fetchers/quartz.ts";
@@ -87,14 +87,22 @@ const jobs: Record<string, () => Promise<Item[]>> = {
     return out;
   },
   // Follow each account's rel="next" chain to the oldest track.
+  // The RSS only lists tracks uploaded with "include in RSS feed" on, so history comes from the web API.
+  // ponytail: client_id is scraped from soundcloud.com's own JS (no official key); if SoundCloud changes that, this breaks.
   async soundcloud() {
+    const html = await (await fetch("https://soundcloud.com/", { headers: { "user-agent": "Mozilla/5.0" } })).text();
+    let cid: string | undefined;
+    for (const src of html.match(/https:\/\/a-v2\.sndcdn\.com\/assets\/[^"]*\.js/g) ?? []) {
+      cid = (await (await fetch(src)).text()).match(/client_id:"(\w{32})"/)?.[1];
+      if (cid) break;
+    }
+    if (!cid) throw new Error("could not find a SoundCloud client_id");
     const out: Item[] = [];
     for (const id of sources.soundcloud.user_ids as string[]) {
-      for (let before: string | undefined; ; ) {
-        const r = await get(feedUrl(id, before), {});
-        out.push(...parseSoundcloud(r!.text, now));
-        before = nextBefore(r!.text);
-        if (!before) break;
+      for (let url: string | undefined = `https://api-v2.soundcloud.com/users/${id}/tracks?client_id=${cid}&limit=50&linked_partitioning=1`; url; ) {
+        const r: any = await (await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } })).json();
+        out.push(...parseSoundcloudApi(r.collection, now));
+        url = r.next_href && `${r.next_href}&client_id=${cid}`;
         await sleep(300);
       }
     }

@@ -17,6 +17,28 @@
   },
   {
     "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:994796044",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "shrieking winds",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/shrieking-winds",
+    "published_at": "2021-02-28T06:38:18.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fshrieking-winds"
+    }
+  },
+  {
+    "kind": "post",
     "images": [
       "https://64.media.tumblr.com/a11a3ea8b1cfb3df929560edacdaa015/2a2bc11ef2aa20fa-69/s500x750/d5d25f3f38f884b145edc346b8f74a554be7fca8.png"
     ],
@@ -110,5 +132,203 @@
     "url": "https://siyang-art-dump.tumblr.com/post/643759923539345408/shrinking-circle-30-min",
     "published_at": "2021-02-21T19:55:04.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:987237214",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "lookin at my shoe",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/lookin-at-my-shoe",
+    "published_at": "2021-02-17T06:40:52.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Flookin-at-my-shoe"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:987234685",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "there are some things i can modulate that i did not realize i could modulate.",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/there-are-some-things-i-can-modulate-that-i-didnt-realize-i-could-modulate",
+    "published_at": "2021-02-17T06:31:19.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fthere-are-some-things-i-can-modulate-that-i-didnt-realize-i-could-modulate"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:987234295",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "reverse, reverse!",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/reverse-reverse",
+    "published_at": "2021-02-17T06:29:49.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Freverse-reverse"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:985811716",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "eeeeeeeeeeeeeeeeeeeeeee",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/eeeeeeeeeeeeeeeeeeeeeee",
+    "published_at": "2021-02-15T06:43:30.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Feeeeeeeeeeeeeeeeeeeeeee"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:985811647",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "drank water too fast and now i want to throw up",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/beast-snarl-bounce-mode",
+    "published_at": "2021-02-15T06:43:14.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fbeast-snarl-bounce-mode"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:981036064",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "clubhouse is a gross app",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/clubhouse-is-a-gross-app",
+    "published_at": "2021-02-07T20:53:32.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fclubhouse-is-a-gross-app"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:981035752",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Super Monke Ball",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/super-monke-ball",
+    "published_at": "2021-02-07T20:53:00.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fsuper-monke-ball"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:981035572",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "i chain i saw i conquered",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/i-chain-i-saw-i-conquered",
+    "published_at": "2021-02-07T20:52:40.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Fi-chain-i-saw-i-conquered"
+    }
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "siyang-stupid",
+      "account_url": "https://soundcloud.com/siyang-stupid"
+    },
+    "id": "soundcloud:976728139",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Late For Sludgefist Raid",
+    "text": "",
+    "url": "https://soundcloud.com/siyang-stupid/late-for-sludgefist-raid",
+    "published_at": "2021-02-01T06:12:16.000Z",
+    "fetched_at": "2026-11-07T03:40:45.471Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsiyang-stupid%2Flate-for-sludgefist-raid"
+    }
   }
 ]

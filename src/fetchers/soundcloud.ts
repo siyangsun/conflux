@@ -24,6 +24,20 @@ export function parse(xml: string, now: string): Item[] {
   });
 }
 
+// Backfill: tracks from SoundCloud's web API (public tracks only), same item shape as the RSS parser.
+export const parseApi = (tracks: any[], now: string): Item[] => tracks.filter((t) => t.kind === "track" && t.public).map((t) => item({
+  id: `soundcloud:${t.id}`,
+  source: "soundcloud",
+  type: "audio",
+  title: t.title || undefined,
+  text: "",
+  url: t.permalink_url,
+  published_at: iso(t.created_at),
+  fetched_at: now,
+  meta: { account: t.permalink_url.split("/")[3], account_url: `https://soundcloud.com/${t.permalink_url.split("/")[3]}` },
+  embed: { provider: "soundcloud", id: `https://w.soundcloud.com/player/?url=${encodeURIComponent(t.permalink_url)}` },
+}));
+
 export const feedUrl = (userId: string, before?: string) =>
   `https://feeds.soundcloud.com/users/soundcloud:users:${userId}/sounds.rss${before ? `?before=${before}` : ""}`;
 // Each feed page links to the next-older one: <atom:link href="...?before=ID" rel="next">.
