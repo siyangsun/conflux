@@ -1,5 +1,28 @@
 [
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "conflux",
+          "url": "https://github.com/siyangsun/conflux",
+          "count": 14
+        }
+      ]
+    },
+    "id": "github:commits:2026-11-06",
+    "source": "github",
+    "type": "commits",
+    "title": "14 commits in 1 repo",
+    "text": "conflux (14)",
+    "url": "https://github.com/siyangsun/conflux",
+    "published_at": "2026-11-07T03:55:10.000Z",
+    "fetched_at": "2026-11-07T05:50:20.715Z"
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
