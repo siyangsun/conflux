@@ -102,6 +102,7 @@ test("x: photo urls resolved from includes, url built from handle", () => {
   }, "me", NOW);
   assert.deepEqual([p.id, p.url, p.images], ["x:55", "https://x.com/me/status/55", ["https://p/1.jpg"]]);
   const [a, b] = x.parse({ data: [{ id: "1", text: "root", created_at: "2026-10-27T10:00:00.000Z" }, { id: "2", text: "next", created_at: "2026-10-27T10:01:00.000Z", in_reply_to_user_id: "9" }] }, "me", NOW);
+  assert.equal(x.expand("see https://t.co/a and https://t.co/p", [{ url: "https://t.co/a", expanded_url: "https://example.com" }, { url: "https://t.co/p", expanded_url: "https://x.com/me/status/1/photo/1", media_key: "k" }]), "see https://example.com and");
   assert.deepEqual([a.meta, b.meta], [{}, { reply_to: "me" }]); // a reply that gets through the query is a reply to myself
 });
 

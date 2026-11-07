@@ -12,17 +12,17 @@ const cp = (s: string, a: number, b?: number) => Array.from(s).slice(a, b).join(
 export const readJs = (file: string): any[] => { const s = readFileSync(file, "utf8"); return JSON.parse(s.slice(s.indexOf("["))); };
 
 export function parseTweets(tweets: any[], notes: any[], handle: string, uid: string, now: string): Item[] {
-  // Tweets over 280 characters are truncated in tweets.js; the full text is in note-tweet.js, matched by creation time.
-  const longText = new Map(notes.map((n) => [n.noteTweet.createdAt.slice(0, 19), n.noteTweet.core.text as string]));
+  // Tweets over 280 characters are truncated in tweets.js; the full text (and its link list) is in note-tweet.js, matched by creation time.
+  const long = new Map(notes.map((n) => [n.noteTweet.createdAt.slice(0, 19), n.noteTweet.core]));
   return tweets.map((r) => r.tweet).filter((t) => !t.full_text.startsWith("RT @") && (!t.in_reply_to_status_id_str || t.in_reply_to_user_id_str === uid)).map((t) => {
     const at = new Date(t.created_at).toISOString();
     const selfReply = !!t.in_reply_to_status_id_str;
     const [from, to] = t.display_text_range.map(Number);
-    let text = longText.get(at.slice(0, 19));
-    if (text === undefined) {
-      text = cp(t.full_text, selfReply ? from : 0, to); // drop the media link at the end, and the @me in my own threads
-      for (const u of t.entities.urls) text = text.replaceAll(u.url, u.expanded_url);
-    }
+    const note = long.get(at.slice(0, 19));
+    let text: string = note ? note.text : cp(t.full_text, selfReply ? from : 0, to); // drop the @me in my own threads
+    const links: [string, string][] = note ? note.urls.map((u: any) => [u.shortUrl, u.expandedUrl]) : t.entities.urls.map((u: any) => [u.url, u.expanded_url]);
+    for (const [short, full] of links) text = text.replaceAll(short, full);
+    for (const m of t.extended_entities?.media ?? t.entities.media ?? []) text = text.replaceAll(m.url, ""); // the link to my own attached photo or video
     const kinds = (t.extended_entities?.media ?? []).map((m: any) => m.type);
     const clip = kinds.includes("video") ? "video" : kinds.includes("animated_gif") ? "gif" : undefined;
     return item({

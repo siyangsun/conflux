@@ -1,13 +1,17 @@
 import { item, UA } from "../feed.ts";
 import type { Fetcher, Item } from "../types.ts";
 
+// t.co links become the real address; the link to my own attached photo or video (it has a media_key) is dropped.
+export const expand = (text: string, urls: any[]) =>
+  urls.reduce((s, u) => s.replaceAll(u.url, u.media_key ? "" : u.expanded_url), text).trim();
+
 export function parse(res: any, handle: string, now: string): Item[] {
   const media = new Map<string, any>((res.includes?.media ?? []).map((m: any) => [m.media_key, m]));
   return (res.data ?? []).map((t: any): Item => item({
     id: `x:${t.id}`,
     source: "x",
     type: "post",
-    text: t.text,
+    text: expand(t.text, t.entities?.urls ?? []),
     meta: t.in_reply_to_user_id ? { reply_to: handle } : {}, // replies to others are excluded by the query, so a reply here is to myself: a thread
     url: `https://x.com/${handle}/status/${t.id}`,
     published_at: new Date(t.created_at).toISOString(),
@@ -22,7 +26,7 @@ const x: Fetcher = async (cfg, prev) => {
   const q = new URLSearchParams({
     max_results: "100",
     exclude: "replies,retweets",
-    "tweet.fields": "created_at,attachments,in_reply_to_user_id",
+    "tweet.fields": "created_at,attachments,in_reply_to_user_id,entities",
     expansions: "attachments.media_keys",
     "media.fields": "url,type",
   });
