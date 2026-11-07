@@ -11,8 +11,9 @@ export const esc = (s: string) => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt
 export const slug = (id: string) => id.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 export const permalink = (i: Item) => `${BASE}/p/${slug(i.id)}/`;
 export const abs = (path: string) => ORIGIN + path;
-// Only posts get a page of their own (/p/...). Reblogs and activity link out to their original; their permalink() is still their stable feed id.
-export const hasPage = (i: Item) => i.kind === "post" && i.source !== "x" && i.source !== "bluesky"; // tweets and skeets are just text and a link: the date goes straight to the original
+// Everything that differs by source lives in SRC (below); the rest of this file never names a source.
+// Only posts get a page of their own (/p/...), unless the source opts out. Reblogs and activity link out to their original; their permalink() is still their stable feed id.
+export const hasPage = (i: Item) => i.kind === "post" && SRC[i.source]?.page !== false;
 export const title = (i: Item) => i.title || i.text.slice(0, 80) || i.id;
 // Only http(s) links are rendered as hrefs (no javascript: URLs from feed data).
 const safe = (u: string) => (/^https?:\/\//i.test(u) ? u : "#");
@@ -21,10 +22,13 @@ export const entryUrl = (i: Item) => (hasPage(i) ? abs(permalink(i)) : safe(i.ur
 const when = (iso: string) =>
   new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", dateStyle: "medium", timeStyle: "short" }).format(new Date(iso));
 // Bare http(s) URLs become links (text is escaped first, so a URL can't break out of the attribute); trailing punctuation stays outside the link.
-// For X tweets, @mentions and #hashtags link to x.com too. Other sources use those characters differently, so they're left alone.
+// Where a source has its own @mentions and #hashtags, they link out too (SRC.mention / SRC.hashtag); others use those characters differently, so they're left alone.
 const linkify = (h: string, source: string) =>
   h.replace(/https?:\/\/(?:(?!&#(?:34|39|60|62);)[^\s<])+|(?<![\w@])@(\w{1,15})|(?<![\w&#])#((?=[\p{N}_]*\p{L})[\p{L}\p{N}_]+)/gu, (m, user, tag) => {
-    if (user || tag) return source !== "x" ? m : `<a href="https://x.com/${user ?? `hashtag/${encodeURIComponent(tag)}`}" rel="noopener">${m}</a>`;
+    if (user || tag) {
+      const href = user ? SRC[source]?.mention?.(user) : SRC[source]?.hashtag?.(tag);
+      return href ? `<a href="${href}" rel="noopener">${m}</a>` : m;
+    }
     const trail = m.match(/[.,:!?)\]]+$/)?.[0] ?? "", url = m.slice(0, m.length - trail.length);
     return `<a href="${url}" rel="noopener">${url}</a>${trail}`;
   });
@@ -59,7 +63,7 @@ const plays = (i: Item) => {
   const lines = i.text.split("\n");
   return paragraphs(lines.slice(0, SHOWN).join("\n")) + (lines.length > SHOWN ? `<details class="more"><summary class="meta">show ${lines.length - SHOWN} more</summary>${paragraphs(lines.slice(SHOWN).join("\n"))}</details>` : "");
 };
-const plain = (i: Item) => (i.source === "lastfm" && i.kind === "activity" ? plays(i) : paragraphs(i.text, i.source));
+const plain = (i: Item) => SRC[i.source]?.body?.(i) ?? paragraphs(i.text, i.source);
 // Record<ItemType, ...>: adding a type to ItemType without a renderer is a type error.
 const BODY: Record<ItemType, (i: Item) => string> = { post: plain, video: plain, audio: plain, block: plain, "site-update": siteUpdate, repo: plain, commits, page: plain, channel: plain };
 
@@ -76,17 +80,46 @@ const lead = (i: Item, s: string) =>
   : i.type === "commits" ? `committed on ${s}`
   : i.type === "site-update" ? `${i.title?.startsWith("Added") ? "added to" : "updated"} ${s}`
   : i.type === "video" ? `posted a video to ${s}`
-  : i.source === "lastfm" ? (i.kind === "activity" ? `listened on ${s}` : `loved on ${s}`)
-  : i.kind === "reblog" ? (i.source === "arena" ? `saved to ${s}` : `reblogged on ${s}`)
-  : i.source === "x" && i.meta.reply_to && i.url.includes(`/${i.meta.reply_to}/status/`) ? `posted in a thread on ${s}` // a reply to myself
-  : i.source === "manual" ? "posted"
-  : `posted to ${s}`;
+  : SRC[i.source]?.lead?.(i, s) ?? (i.kind === "reblog" ? `reblogged on ${s}` : `posted to ${s}`);
 
 // "via @name": the profile or publication posted to, when the fetcher recorded one (meta.account, meta.account_url).
 const via = (i: Item) => {
   const { account, account_url } = i.meta as { account?: string; account_url?: string };
   return account ? ` via ${account_url ? `<a href="${esc(safe(account_url))}" rel="noopener">@${esc(account)}</a>` : `@${esc(account)}`}` : "";
 };
+
+// Per-source presentation, all optional. page: false = no /p/ page, the date links straight to the original. mention/hashtag: link builders.
+// body: own renderer (undefined falls through to plain text). lead: the verb in the meta line (undefined falls through). preview: cap link-preview size.
+// search: false = keep the text out of site search.
+type View = {
+  page?: false;
+  mention?: (user: string) => string;
+  hashtag?: (tag: string) => string;
+  body?: (i: Item) => string | undefined;
+  lead?: (i: Item, s: string) => string | undefined;
+  preview?: (i: Item) => boolean;
+  search?: (i: Item) => boolean;
+};
+const SRC: Record<string, View> = {
+  x: {
+    page: false, // tweets are just text and a link
+    mention: (u) => `https://x.com/${u}`,
+    hashtag: (t) => `https://x.com/hashtag/${encodeURIComponent(t)}`,
+    lead: (i, s) => (i.meta.reply_to && i.url.includes(`/${i.meta.reply_to}/status/`) ? `posted in a thread on ${s}` : undefined), // a reply to myself
+  },
+  bluesky: { page: false },
+  lastfm: {
+    body: (i) => (i.kind === "activity" ? plays(i) : undefined),
+    lead: (i, s) => (i.kind === "activity" ? `listened on ${s}` : `loved on ${s}`),
+    search: (i) => i.kind !== "activity", // the per-day artist/song lists would drown real results
+  },
+  arena: {
+    lead: (i, s) => (i.kind === "reblog" ? `saved to ${s}` : undefined),
+    preview: (i) => i.meta.block_type !== "Image", // Image blocks stay full size
+  },
+  manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
+};
+export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")}`.toLowerCase();
 
 export function renderItem(i: Item): string {
   const media = (i.embed && embed(i.embed)) || i.images.map(img).join("");
@@ -95,7 +128,7 @@ export function renderItem(i: Item): string {
   const tags = linked.length ? `<p class="tags">${linked.map((t) => `<a href="${BASE}/tag/${slug(t)}/">#${esc(t)}</a>`).join(" ")}</p>` : "";
   const ch = i.meta.channel as { title: string; url: string } | undefined;
   // Link previews are capped by the stylesheet: manual posts (OpenGraph unfurl) and Are.na Link/Embed/Attachment blocks. Are.na Image blocks stay full size.
-  const preview = i.id.startsWith("manual:") || (i.source === "arena" && i.meta.block_type !== "Image");
+  const preview = SRC[i.source]?.preview?.(i);
   return `<article${preview ? ' class="preview"' : ""}>
 <div class="meta">${lead(i, `<a href="${BASE}/source/${slug(i.source)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${hasPage(i) && i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
 ${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${clip}${tags}

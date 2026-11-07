@@ -1,4 +1,4 @@
-import { arr, get, iso, item, parseXml, txt } from "../feed.ts";
+import { arr, getEach, iso, item, parseXml, teaser, txt } from "../feed.ts";
 import { htmlToText } from "../text.ts";
 import type { Fetcher, Item } from "../types.ts";
 
@@ -11,7 +11,7 @@ export function parse(xml: string, now: string, pub: string): Item[] {
       source: "substack",
       type: "post",
       title: txt(it.title) || undefined,
-      text: htmlToText(txt(it.description)).slice(0, 300), // the author's subtitle/teaser, never the essay
+      text: teaser(htmlToText(txt(it.description))), // the author's subtitle/teaser, never the essay
       url: txt(it.link),
       published_at: iso(txt(it.pubDate)),
       fetched_at: now,
@@ -21,11 +21,11 @@ export function parse(xml: string, now: string, pub: string): Item[] {
   });
 }
 
-// ponytail: no conditional GET (state holds one etag, there are several feeds); feeds are small, add per-feed etags if that changes.
-const substack: Fetcher = async (cfg) => {
+const substack: Fetcher = async (cfg, prev) => {
   const now = new Date().toISOString();
-  const lists = await Promise.all((cfg.names as string[]).map(async (n) => parse((await get(`https://${n}.substack.com/feed`, {}))!.text, now, n)));
-  return { items: lists.flat(), state: {} };
+  const name = (u: string) => u.match(/^https:\/\/([^.]+)\./)![1];
+  const { fresh, state } = await getEach((cfg.names as string[]).map((n) => `https://${n}.substack.com/feed`), prev);
+  return { items: fresh.flatMap(([u, xml]) => parse(xml, now, name(u))), state };
 };
 
 export const required = ["names"];

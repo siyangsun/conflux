@@ -11,6 +11,12 @@ export const txt = (x: any): string => (x == null ? "" : typeof x === "object" ?
 // Fills the fields most items leave empty; pass only what differs.
 export const item = (i: Omit<Item, "kind" | "images" | "tags" | "visibility" | "meta"> & Partial<Pick<Item, "kind" | "images" | "tags" | "meta">>): Item =>
   ({ kind: "post", images: [], tags: [], visibility: "public", meta: {}, ...i });
+// Content policy, in one place: long-form writing (Substack, Medium) is a link plus teaser, never the essay or its images;
+// a reblog keeps only my own comment. Tumblr and Are.na apply the reblog rule themselves (Are.na saves keep a hotlinked image on purpose).
+export const teaser = (text: string) => text.slice(0, 300);
+// Tumblr and RSS fill <title> with the start of the post text when no title was set (truncated with an ellipsis if long): keep only real titles.
+export const realTitle = (title: string, text: string) =>
+  title && !text.startsWith(title.replace(/(…|\.\.\.)$/, "")) ? title : undefined;
 export const iso = (d: string) => new Date(d).toISOString();
 
 // Conditional GET using stored ETag / Last-Modified; a 304 means nothing new.
@@ -38,3 +44,14 @@ export const feedFetcher =
     const r = await get(url(cfg), prev);
     return r ? { items: parse(r.text, new Date().toISOString()), state: r.cache } : { items: [], state: {} };
   };
+
+// Several feeds, one source: conditional GET per URL. Returns [url, xml] for the feeds that changed, plus the updated per-feed cache.
+export async function getEach(urls: string[], prev: SourceState) {
+  const feeds = { ...prev.feeds };
+  const fresh = (await Promise.all(urls.map(async (u) => {
+    const r = await get(u, feeds[u] ?? {});
+    if (r) feeds[u] = r.cache;
+    return r && ([u, r.text] as const);
+  }))).filter((x) => x !== null);
+  return { fresh, state: { feeds } };
+}

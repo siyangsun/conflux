@@ -24,6 +24,7 @@ export type Item = {
 export type SourceState = {
   etag?: string;
   last_modified?: string;
+  feeds?: Record<string, { etag?: string; last_modified?: string }>; // sources with several feeds: cache headers per URL
   cursor?: string; // source-specific high-water mark (Are.na: channel updated_at, X: since_id)
   hashes?: Record<string, string>; // Quartz: page slug -> content fingerprint
   last_error?: string | null;

@@ -1,4 +1,4 @@
-import { arr, get, iso, item, parseXml, txt } from "../feed.ts";
+import { arr, getEach, iso, item, parseXml, txt } from "../feed.ts";
 import type { Fetcher, Item } from "../types.ts";
 
 // SoundCloud's public RSS lists the latest tracks (the feed has empty <item> filler, skipped here).
@@ -43,11 +43,10 @@ export const feedUrl = (userId: string, before?: string) =>
 // Each feed page links to the next-older one: <atom:link href="...?before=ID" rel="next">.
 export const nextBefore = (xml: string) => xml.match(/\?before=(\d+)"\s+rel="next"/)?.[1];
 
-// ponytail: no conditional GET (state holds one etag, there are several feeds); feeds are small.
-const soundcloud: Fetcher = async (cfg) => {
+const soundcloud: Fetcher = async (cfg, prev) => {
   const now = new Date().toISOString();
-  const lists = await Promise.all((cfg.user_ids as string[]).map(async (id) => parse((await get(feedUrl(id), {}))!.text, now)));
-  return { items: lists.flat(), state: {} };
+  const { fresh, state } = await getEach((cfg.user_ids as string[]).map((id) => feedUrl(id)), prev);
+  return { items: fresh.flatMap(([, xml]) => parse(xml, now)), state };
 };
 
 export const required = ["user_ids"];

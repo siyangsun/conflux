@@ -1,6 +1,5 @@
-import { arr, get, iso, item, parseXml, txt } from "../feed.ts";
+import { arr, getEach, iso, item, parseXml, realTitle, teaser, txt } from "../feed.ts";
 import { hash, htmlToText, imagesOf } from "../text.ts";
-import { realTitle } from "./tumblr.ts";
 import type { Fetcher, Item } from "../types.ts";
 
 // Any public RSS 2.0 / Atom feed of my own posts, labelled `source` (the name shown on the site).
@@ -16,7 +15,7 @@ export function parse(xml: string, now: string, source: string): Item[] {
     if (!key || !date) return [];
     const full = htmlToText(html);
     const title = realTitle(txt(it.title).trim(), full);
-    const text = title ? full.slice(0, 300) : full; // titled = long-form essay: teaser only, like substack
+    const text = title ? teaser(full) : full; // titled = long-form essay: teaser only, like substack
     const enc = arr<any>(it.enclosure).filter((e) => String(e["@_type"]).startsWith("image/")).map((e) => e["@_url"]);
     return [item({
       id: `${source}:${hash(key)}`,
@@ -33,11 +32,12 @@ export function parse(xml: string, now: string, source: string): Item[] {
   });
 }
 
-// ponytail: no conditional GET (several feeds, one etag slot), same as substack.
-const rss: Fetcher = async (cfg) => {
+const rss: Fetcher = async (cfg, prev) => {
   const now = new Date().toISOString();
-  const lists = await Promise.all((cfg.feeds as { source: string; url: string }[]).map(async (f) => parse((await get(f.url, {}))!.text, now, f.source)));
-  return { items: lists.flat().filter((i) => !cfg.skip?.includes(i.id)), state: {} }; // skip: item ids I deleted, never stored
+  const feeds = cfg.feeds as { source: string; url: string }[];
+  const { fresh, state } = await getEach(feeds.map((f) => f.url), prev);
+  const items = fresh.flatMap(([u, xml]) => parse(xml, now, feeds.find((f) => f.url === u)!.source));
+  return { items: items.filter((i) => !cfg.skip?.includes(i.id)), state }; // skip: item ids I deleted, never stored
 };
 
 export const required = ["feeds"];

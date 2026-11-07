@@ -15,7 +15,6 @@ export function parse(hits: any[], now: string, user: string): Item[] {
       url: `https://news.ycombinator.com/item?id=${h.objectID}`,
       published_at: h.created_at,
       fetched_at: now,
-      ...(!story && { kind: "reblog" as const }), // a comment on someone else's thread; ponytail: reuses "reblog" so it stays out of the posts view
       meta: { account: user, account_url: `https://news.ycombinator.com/user?id=${user}` },
     });
   });

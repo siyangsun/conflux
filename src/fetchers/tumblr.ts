@@ -1,10 +1,8 @@
-import { arr, feedFetcher, iso, item, parseXml, txt } from "../feed.ts";
+import { arr, feedFetcher, iso, item, parseXml, realTitle, txt } from "../feed.ts";
 import { htmlToText, imagesOf } from "../text.ts";
 import type { Item } from "../types.ts";
 
-// Tumblr fills <title> with the start of the post text when no title was set (truncated with an ellipsis if long): keep only real titles.
-export const realTitle = (title: string, text: string) =>
-  title && !text.startsWith(title.replace(/(…|\.\.\.)$/, "")) ? title : undefined;
+export { realTitle };
 
 // Reblogs: archive only the link and my own added comment, never the original author's text or images.
 export function parse(xml: string, now: string): Item[] {
