@@ -1,5 +1,28 @@
 [
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "conflux",
+          "url": "https://github.com/siyangsun/conflux",
+          "count": 4
+        }
+      ]
+    },
+    "id": "github:commits:2026-11-07",
+    "source": "github",
+    "type": "commits",
+    "title": "4 commits in 1 repo",
+    "text": "conflux (4)",
+    "url": "https://github.com/siyangsun/conflux",
+    "published_at": "2026-11-07T17:42:06.000Z",
+    "fetched_at": "2026-11-08T07:12:40.962Z"
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/f0da6ef5b8203a91c6b6c06b642ac6ec/564fb177f192734d-ff/s2048x3072/3c9c9d241f126a3e74a7b481a716a8846c38bb03.png"
@@ -14,6 +37,21 @@
     "url": "https://siyang-art-dump.tumblr.com/post/832643306019225600",
     "published_at": "2026-11-07T16:55:35.000Z",
     "fetched_at": "2026-11-07T21:43:30.719Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-07",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 14 tracks",
+    "text": "Porter Robinson (10): Cheerleader - Nitepunk Remix, Russian Roulette - G Jones Remix, Perfect Pinterest Garden - Ninajirachi & underscores Remix, Everything To Me - jamesjamesjames Remix, Cheerleader - DJ NOT PORTER ROBINSON Remix, Cheerleader (feat. Hatsune Miku), Cheerleader - Control Freak Remix, Easier to Love You - Galileo Galilei Cover, Is There Really No Happiness? - Atura Remix, Is There Really No Happiness? - Joey Valence Remix\nbassvictim (3): God I Wonder, Happysad, 7 (feat. Fimiguerrero)\nBaauer (1): One Last Time - Rustie Remix",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-07&to=2026-11-07",
+    "published_at": "2026-11-07T16:52:50.000Z",
+    "fetched_at": "2026-11-08T07:12:40.964Z"
   },
   {
     "kind": "activity",

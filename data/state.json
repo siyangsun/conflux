@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://sump.substack.com/feed -> HTTP 403",
+    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
     "failing_since": "2026-11-05T00:56:43.695Z"
   },
   "tumblr": {
@@ -8,8 +8,8 @@
     "failing_since": null
   },
   "youtube": {
-    "last_error": null,
-    "failing_since": null
+    "last_error": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtFso8gyKStHuFQtou1tqrg -> HTTP 404",
+    "failing_since": "2026-11-08T07:12:40.868Z"
   },
   "arena": {
     "last_error": null,
@@ -175,10 +175,15 @@
   },
   "soundcloud": {
     "last_error": null,
-    "failing_since": null
+    "failing_since": null,
+    "feeds": {
+      "https://feeds.soundcloud.com/users/soundcloud:users:11167186/sounds.rss": {},
+      "https://feeds.soundcloud.com/users/soundcloud:users:1761519321/sounds.rss": {},
+      "https://feeds.soundcloud.com/users/soundcloud:users:374439605/sounds.rss": {}
+    }
   },
   "github": {
-    "cursor": "2026-11-06",
+    "cursor": "2026-11-07",
     "last_error": null,
     "failing_since": null
   },
@@ -190,10 +195,14 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-06"
+    "cursor": "2026-11-07"
   },
   "rss": {
     "last_error": null,
-    "failing_since": null
+    "failing_since": null,
+    "feeds": {
+      "https://siyangsun.medium.com/feed": {},
+      "https://bsky.app/profile/siyang.bsky.social/rss": {}
+    }
   }
 }
