@@ -1,8 +1,8 @@
 # conflux
 
-Everything I post elsewhere, in one feed. A GitHub Action pulls from my accounts every so often, saves it as JSON in `data/`, and publishes a static site to Pages.
+One feed of everything I post elsewhere. A GitHub Action fetches my accounts every 15 minutes (hourly overnight UTC), stores the items as JSON in `data/`, and deploys a static site to GitHub Pages.
 
-Sources and site settings are in `config/sources.json`. `npm test` to test, `npm run preview` to look at it.
+Sources and site settings live in `config/sources.json`. Run `npm test` for the tests and `npm run preview` to build and serve the site locally.
 
 ## More sources (public, no keys)
 

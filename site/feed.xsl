@@ -7,7 +7,7 @@
 <style>:root{color-scheme:light dark}body{font:16px/1.5 system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem}p.note{opacity:.6}li{margin:.4rem 0}time{opacity:.6;font-size:.85em}</style>
 </head><body>
 <h1><xsl:value-of select="a:title"/></h1>
-<p class="note">This is a feed. Copy this page's URL into a feed reader to subscribe.</p>
+<p class="note">Copy this page's URL into a feed reader to subscribe.</p>
 <ul><xsl:for-each select="a:entry"><li><a href="{a:link/@href}"><xsl:value-of select="a:title"/></a> <time><xsl:value-of select="substring(a:published,1,10)"/></time></li></xsl:for-each></ul>
 </body></html>
 </xsl:template>
