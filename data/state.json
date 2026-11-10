@@ -8,8 +8,8 @@
     "failing_since": null
   },
   "youtube": {
-    "last_error": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtFso8gyKStHuFQtou1tqrg -> HTTP 404",
-    "failing_since": "2026-11-08T07:12:40.868Z"
+    "last_error": null,
+    "failing_since": null
   },
   "arena": {
     "last_error": null,
@@ -183,7 +183,7 @@
     }
   },
   "github": {
-    "cursor": "2026-11-07",
+    "cursor": "2026-11-09",
     "last_error": null,
     "failing_since": null
   },
