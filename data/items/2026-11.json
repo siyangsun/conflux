@@ -4,6 +4,21 @@
     "images": [],
     "tags": [],
     "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-10",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 3 tracks",
+    "text": "imagoTools (2): intro, final thoughts & outro\nbassvictim (1): Charred Glass",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-10&to=2026-11-10",
+    "published_at": "2026-11-11T02:02:12.000Z",
+    "fetched_at": "2026-11-11T07:18:45.962Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
     "meta": {
       "repos": [
         {
@@ -21,6 +36,21 @@
     "url": "https://github.com/siyangsun/conflux",
     "published_at": "2026-11-09T20:51:10.000Z",
     "fetched_at": "2026-11-10T12:57:11.420Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-09",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 10 tracks",
+    "text": "ear (8): Ne Plus Ultra ×8\nBoards of Canada (2): The Color of the Fire, Telephasic Workshop",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-09&to=2026-11-09",
+    "published_at": "2026-11-09T17:26:21.000Z",
+    "fetched_at": "2026-11-11T07:18:45.962Z"
   },
   {
     "kind": "activity",
