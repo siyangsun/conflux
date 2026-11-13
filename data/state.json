@@ -8,8 +8,8 @@
     "failing_since": null
   },
   "youtube": {
-    "last_error": null,
-    "failing_since": null
+    "last_error": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtFso8gyKStHuFQtou1tqrg -> HTTP 500",
+    "failing_since": "2026-11-13T01:31:40.993Z"
   },
   "arena": {
     "last_error": null,
@@ -188,7 +188,7 @@
     "failing_since": null
   },
   "x": {
-    "cursor": "2118908705487958199",
+    "cursor": "2121021943969468635",
     "last_error": null,
     "failing_since": null
   },
