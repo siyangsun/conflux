@@ -8,8 +8,8 @@
     "failing_since": null
   },
   "youtube": {
-    "last_error": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtFso8gyKStHuFQtou1tqrg -> HTTP 500",
-    "failing_since": "2026-11-13T01:31:40.993Z"
+    "last_error": null,
+    "failing_since": null
   },
   "arena": {
     "last_error": null,
@@ -183,19 +183,19 @@
     }
   },
   "github": {
-    "cursor": "2026-11-11",
+    "cursor": "2026-11-12",
     "last_error": null,
     "failing_since": null
   },
   "x": {
-    "cursor": "2121021943969468635",
+    "cursor": "2121250973897408686",
     "last_error": null,
     "failing_since": null
   },
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-10"
+    "cursor": "2026-11-12"
   },
   "rss": {
     "last_error": null,
