@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://sump.substack.com/feed -> HTTP 403",
+    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
     "failing_since": "2026-11-05T00:56:43.695Z"
   },
   "tumblr": {
@@ -14,7 +14,7 @@
   "arena": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-16T22:47:42Z"
+    "cursor": "2026-11-17T18:09:44Z"
   },
   "manual": {
     "last_error": null,
@@ -183,7 +183,7 @@
     }
   },
   "github": {
-    "cursor": "2026-11-15",
+    "cursor": "2026-11-16",
     "last_error": null,
     "failing_since": null
   },
@@ -195,7 +195,7 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-14"
+    "cursor": "2026-11-16"
   },
   "rss": {
     "last_error": null,
