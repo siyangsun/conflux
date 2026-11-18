@@ -17,6 +17,9 @@ export async function api(path: string, tries = 3): Promise<any> {
   return res.json();
 }
 
+// Channels whose title starts with ﻬ are never shown: no channel post, no blocks.
+const skipped = (c: any) => c.title?.startsWith("\ufeec");
+
 // One item per connection (a block added to a second channel is a new item). Only blocks I connected, only public ones.
 export function parse(blocks: any[], channel: any, me: number, now: string): Item[] {
   return blocks.flatMap((b): Item[] => {
@@ -46,7 +49,7 @@ export function parse(blocks: any[], channel: any, me: number, now: string): Ite
 
 // Creating a channel is a post of its own (one per channel, dated by creation). Only channels I own; private ones are skipped.
 export const channelPosts = (channels: any[], me: number, now: string): Item[] =>
-  channels.filter((c) => c.visibility !== "private" && c.owner?.id === me).map((c) => item({
+  channels.filter((c) => c.visibility !== "private" && !skipped(c) && c.owner?.id === me).map((c) => item({
     id: `arena:channel:${c.id}`,
     source: "arena",
     type: "channel",
@@ -60,7 +63,7 @@ export const channelPosts = (channels: any[], me: number, now: string): Item[] =
 // Channels changed since the cursor, and the new cursor (the newest updated_at seen). Independent of list order:
 // Are.na's updated_at_desc sort returns each page oldest-first, so "first item" is not "newest".
 export function sinceCursor(channels: any[], cursor?: string) {
-  const open = channels.filter((c) => c.visibility !== "private" && (!cursor || c.updated_at > cursor));
+  const open = channels.filter((c) => c.visibility !== "private" && !skipped(c) && (!cursor || c.updated_at > cursor));
   const newest = channels.reduce((m: string, c) => (c.updated_at > m ? c.updated_at : m), cursor ?? "");
   return { open, cursor: newest || undefined };
 }

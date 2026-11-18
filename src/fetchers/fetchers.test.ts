@@ -211,6 +211,8 @@ test("imagesOf: largest srcset candidate, else src", () => {
 
 test("arena: a new channel is a post; private and others' channels are skipped", () => {
   const ch = (id: number, over: object = {}) => ({ id, title: "t" + id, slug: "s" + id, visibility: "closed", created_at: "2026-10-20T00:00:00Z", owner: { id: 7, slug: "me" }, description: { plain: "d" }, ...over });
+  assert.deepEqual(arena.channelPosts([ch(1, { title: "\ufeec tine" })], 7, NOW), []); // ﻬ-titled channels are never shown
+  assert.deepEqual(sinceCursor([{ title: "\ufeec x", visibility: "public", updated_at: "2026-01-01" }]).open, []);
   const out = arena.channelPosts([ch(1), ch(2, { visibility: "private" }), ch(3, { owner: { id: 8, slug: "x" } })], 7, NOW);
   assert.deepEqual(out.map((i) => [i.id, i.kind, i.type, i.title, i.url]), [["arena:channel:1", "post", "channel", "t1", "https://www.are.na/me/s1"]]);
 });
