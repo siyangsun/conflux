@@ -9,7 +9,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 4 tracks",
-    "text": "G Jones (2): Maybe ×2\nPAS TASTA (1): zip zapper\nQuadeca (1): Guess Who?",
+    "text": "**G Jones** (2): Maybe\n**PAS TASTA** (1): zip zapper\n**Quadeca** (1): Guess Who?",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-31&to=2023-12-31",
     "published_at": "2023-12-31T22:57:34.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -66,7 +66,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 24 tracks",
-    "text": "G Jones (20): Familiar Frontiers ×2, Too Far Gone ×2, Which Way ×2, Glowing Experiences ×2, Perpetual Bloom ×2, Liminality ×2, Maybe ×2, In My Room ×2, Dancing On the Edge ×2, Remnant ×2\nEarl Sweatshirt (3): Lobby (int), Titanic ×2\nWorking on Dying Producer Shows Her Range (1): GLORILLA AND SEXYYREDD",
+    "text": "**G Jones** (20)\n- Familiar Frontiers (2)\n- Too Far Gone (2)\n- Which Way (2)\n- Glowing Experiences (2)\n- Perpetual Bloom (2)\n- Liminality (2)\n- Maybe (2)\n- In My Room (2)\n- Dancing On the Edge (2)\n- Remnant (2)\n**Earl Sweatshirt** (3)\n- Lobby (int)\n- Titanic (2)\n**Working on Dying Producer Shows Her Range** (1): GLORILLA AND SEXYYREDD",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-28&to=2023-12-28",
     "published_at": "2023-12-29T04:23:24.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -125,7 +125,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 22 tracks",
-    "text": "Earl Sweatshirt (13): Old Friend ×2, 2010 ×2, Sick! ×2, Vision (feat. ZelooperZ) ×2, Tabula Rasa (feat. Armand Hammer) ×2, Lye ×2, Lobby (int)\nSoundgarden (9): Fresh Tendrils, 4th of July ×2, Half ×2, Like Suicide ×2, She Likes Surprises ×2",
+    "text": "**Earl Sweatshirt** (13)\n- Old Friend (2)\n- 2010 (2)\n- Sick! (2)\n- Vision (feat. ZelooperZ) (2)\n- Tabula Rasa (feat. Armand Hammer) (2)\n- Lye (2)\n- Lobby (int)\n**Soundgarden** (9)\n- Fresh Tendrils\n- 4th of July (2)\n- Half (2)\n- Like Suicide (2)\n- She Likes Surprises (2)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-27&to=2023-12-27",
     "published_at": "2023-12-27T21:13:26.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -154,7 +154,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 23 tracks",
-    "text": "Soundgarden (23): Let Me Drown ×2, My Wave ×2, Fell on Black Days ×2, Mailman ×2, Superunknown ×2, Head Down ×2, Black Hole Sun ×2, Spoonman ×2, Limo Wreck ×2, The Day I Tried to Live ×2, Kickstand ×2, Fresh Tendrils",
+    "text": "**Soundgarden** (23)\n- Let Me Drown (2)\n- My Wave (2)\n- Fell on Black Days (2)\n- Mailman (2)\n- Superunknown (2)\n- Head Down (2)\n- Black Hole Sun (2)\n- Spoonman (2)\n- Limo Wreck (2)\n- The Day I Tried to Live (2)\n- Kickstand (2)\n- Fresh Tendrils",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-26&to=2023-12-26",
     "published_at": "2023-12-26T21:48:32.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -169,7 +169,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 1 track",
-    "text": "Lil Uzi Vert (1): Lil Uzi Vert - Red Moon",
+    "text": "**Lil Uzi Vert** (1): Lil Uzi Vert - Red Moon",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-25&to=2023-12-25",
     "published_at": "2023-12-26T01:23:28.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -184,7 +184,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 1 track",
-    "text": "2hollis (1): 2hollis - forfeit",
+    "text": "**2hollis** (1): 2hollis - forfeit",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-24&to=2023-12-24",
     "published_at": "2023-12-24T15:45:57.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -229,7 +229,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 1 track",
-    "text": "Yuno Miles (1): Yuno Miles - Good Christmas  (Ft.BRBLuhTim)",
+    "text": "**Yuno Miles** (1): Yuno Miles - Good Christmas  (Ft.BRBLuhTim)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-23&to=2023-12-23",
     "published_at": "2023-12-24T02:55:16.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -468,7 +468,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 4 tracks",
-    "text": "Superchromatic (2): CONVECTION ×2\nCharli XCX & Sam Smith (1): In The City (Jukaa Bootleg)\nCocteau Twins (1): I Wear Your Ring",
+    "text": "**Superchromatic** (2): CONVECTION\n**Charli XCX & Sam Smith** (1): In The City (Jukaa Bootleg)\n**Cocteau Twins** (1): I Wear Your Ring",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-22&to=2023-12-22",
     "published_at": "2023-12-23T03:19:09.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -521,7 +521,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 5 tracks",
-    "text": "Cocteau Twins (2): Heaven or Las Vegas, I Wear Your Ring\nNice Work If You Can Get It (1): Nice Work If You Can Get It\nSnoop Giraffe (1): kenny beats carti transition\nYung Lean (1): Agony performed Live at the melt festival (one of the most emotional live shows)",
+    "text": "**Cocteau Twins** (2)\n- Heaven or Las Vegas\n- I Wear Your Ring\n**Nice Work If You Can Get It** (1): Nice Work If You Can Get It\n**Snoop Giraffe** (1): kenny beats carti transition\n**Yung Lean** (1): Agony performed Live at the melt festival (one of the most emotional live shows)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-20&to=2023-12-20",
     "published_at": "2023-12-21T04:54:11.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -564,7 +564,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 55 tracks",
-    "text": "yeule (15): 4ui12 ×4, softscars, ghosts ×3, dazies ×2, fish in the pool ×2, cyber meat ×2, aphex twin flame\nRyuichi Sakamoto (11): 20210310 ×2, 20211130 ×2, 20211201 ×2, 20220123 ×2, 20220202 ×2, 20220207\nunderscores (11): Cops and robbers ×2, Locals (Girls like us) [with gabby start] ×2, Duhhhhhhhhhhhhhhhhh ×2, You don't even know who I am ×2, Johnny johnny johnny, Geez louise (with henhouse!) ×2\nCocteau Twins (9): Cherry-Coloured Funk ×2, Pitch the Baby ×2, Iceblink Luck ×2, Fifty-Fifty Clown ×2, Heaven or Las Vegas\nMASS OF THE FERMENTING DREGS (8): Kono Speed No Saki E ×2, Aoi, Koi, Daidaiiro no Hi ×2, Kakuiumono ×2, She Is Inside, He Is Outside ×2\nHeadache (1): Miss Understood",
+    "text": "**yeule** (15)\n- 4ui12 (4)\n- softscars\n- ghosts (3)\n- dazies (2)\n- fish in the pool (2)\n- cyber meat (2)\n- aphex twin flame\n**Ryuichi Sakamoto** (11)\n- 20210310 (2)\n- 20211130 (2)\n- 20211201 (2)\n- 20220123 (2)\n- 20220202 (2)\n- 20220207\n**underscores** (11)\n- Cops and robbers (2)\n- Locals (Girls like us) [with gabby start] (2)\n- Duhhhhhhhhhhhhhhhhh (2)\n- You don't even know who I am (2)\n- Johnny johnny johnny\n- Geez louise (with henhouse!) (2)\n**Cocteau Twins** (9)\n- Cherry-Coloured Funk (2)\n- Pitch the Baby (2)\n- Iceblink Luck (2)\n- Fifty-Fifty Clown (2)\n- Heaven or Las Vegas\n**MASS OF THE FERMENTING DREGS** (8): Kono Speed No Saki E (2), Aoi, Koi, Daidaiiro no Hi (2), Kakuiumono (2), She Is Inside, He Is Outside (2)\n**Headache** (1): Miss Understood",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-19&to=2023-12-19",
     "published_at": "2023-12-20T04:57:15.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -593,7 +593,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 67 tracks",
-    "text": "yeule (63): dazies ×4, x w x ×5, sulky baby ×6, softscars ×9, 4ui12 ×6, ghosts ×3, fish in the pool ×4, software update ×3, inferno ×3, bloodbunny ×3, cyber meat ×9, aphex twin flame ×8\nWink (2): FORGET U, CANT TAKE BACK\nGriselda (1): Chef Dreds\nVincent (1): LUCKY MISTAKE (WINK REMIX)",
+    "text": "**yeule** (63)\n- dazies (4)\n- x w x (5)\n- sulky baby (6)\n- softscars (9)\n- 4ui12 (6)\n- ghosts (3)\n- fish in the pool (4)\n- software update (3)\n- inferno (3)\n- bloodbunny (3)\n- cyber meat (9)\n- aphex twin flame (8)\n**Wink** (2)\n- FORGET U\n- CANT TAKE BACK\n**Griselda** (1): Chef Dreds\n**Vincent** (1): LUCKY MISTAKE (WINK REMIX)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-18&to=2023-12-18",
     "published_at": "2023-12-19T04:56:53.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -776,7 +776,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 4 tracks",
-    "text": "Lilniina (1): cigirl\nquannnic (1): life imitates life\nRamzoid (1): Ramzoid - international euro cash out\nsalvia palth - Topic (1): i was all over her",
+    "text": "**Lilniina** (1): cigirl\n**quannnic** (1): life imitates life\n**Ramzoid** (1): Ramzoid - international euro cash out\n**salvia palth - Topic** (1): i was all over her",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-16&to=2023-12-16",
     "published_at": "2023-12-16T21:27:06.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -833,7 +833,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 1 track",
-    "text": "Flume (1): Helix",
+    "text": "**Flume** (1): Helix",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-15&to=2023-12-15",
     "published_at": "2023-12-15T05:05:21.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -890,7 +890,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 28 tracks",
-    "text": "Griselda (28): Marchello (feat. Raekwon The Chef) - Raekwon The Chef Intro ×4, Chef Dreds ×2, Moselle ×2, Cruiser Weight Coke ×2, Freddie HotSpot ×2, Dr Birds ×2, The Old Groove (feat. Novel) ×2, Scotties ×2, Kennedy (feat. Tiona Deniece) ×2, City On the Map (feat. 50 Cent) ×2, May Store (feat. Keisha Plum) ×2, Lowery (feat. Bro A.A. Rashid) - (AA Outro) ×2, Bang (feat. Eminem) - Remix ×2",
+    "text": "**Griselda** (28)\n- Marchello (feat. Raekwon The Chef) - Raekwon The Chef Intro (4)\n- Chef Dreds (2)\n- Moselle (2)\n- Cruiser Weight Coke (2)\n- Freddie HotSpot (2)\n- Dr Birds (2)\n- The Old Groove (feat. Novel) (2)\n- Scotties (2)\n- Kennedy (feat. Tiona Deniece) (2)\n- City On the Map (feat. 50 Cent) (2)\n- May Store (feat. Keisha Plum) (2)\n- Lowery (feat. Bro A.A. Rashid) - (AA Outro) (2)\n- Bang (feat. Eminem) - Remix (2)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-13&to=2023-12-13",
     "published_at": "2023-12-13T20:39:36.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -992,7 +992,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 20 tracks",
-    "text": "Beach Fossils (12): Rise ×2, May 1st, Sugar, Closer Everywhere, Social Jetlag ×2, Down the Line ×2, Be Nothing ×2, That’s All for Now\nKennyHoopla (2): how will i rest in peace if i'm buried by a highway?// ×2\nKoi (2): ysl ×2\nLil Uzi Vert (2): Venetia ×2\nYung Bans (2): 100 Shells (feat. YNW Melly) ×2",
+    "text": "**Beach Fossils** (12)\n- Rise (2)\n- May 1st\n- Sugar\n- Closer Everywhere\n- Social Jetlag (2)\n- Down the Line (2)\n- Be Nothing (2)\n- That’s All for Now\n**KennyHoopla** (2): how will i rest in peace if i'm buried by a highway?//\n**Koi** (2): ysl\n**Lil Uzi Vert** (2): Venetia\n**Yung Bans** (2): 100 Shells (feat. YNW Melly)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-12&to=2023-12-12",
     "published_at": "2023-12-12T22:59:05.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1021,7 +1021,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 41 tracks",
-    "text": "Beach Fossils (41): Clash the Truth ×2, Generational Synthetic ×2, Sleep Apnea ×2, Careless ×2, Modern Holiday ×2, Taking Off ×2, This Year ×4, Tangerine ×4, Saint Ivy ×4, May 1st ×3, Rise ×2, Sugar ×2, Closer Everywhere ×2, Social Jetlag ×2, Down the Line ×2, Be Nothing ×2, That’s All for Now ×2",
+    "text": "**Beach Fossils** (41)\n- Clash the Truth (2)\n- Generational Synthetic (2)\n- Sleep Apnea (2)\n- Careless (2)\n- Modern Holiday (2)\n- Taking Off (2)\n- This Year (4)\n- Tangerine (4)\n- Saint Ivy (4)\n- May 1st (3)\n- Rise (2)\n- Sugar (2)\n- Closer Everywhere (2)\n- Social Jetlag (2)\n- Down the Line (2)\n- Be Nothing (2)\n- That’s All for Now (2)",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-11&to=2023-12-11",
     "published_at": "2023-12-11T22:30:48.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1036,7 +1036,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 30 tracks",
-    "text": "Lingua Ignota (22): FAITHFUL SERVANT FRIEND OF CHRIST ×3, DO YOU DOUBT ME TRAITOR ×3, BUTCHER OF THE WORLD ×3, MAY FAILURE BE YOUR NOOSE ×3, FRAGRANT IS MY MANY FLOWER'D CROWN, IF THE POISON WON'T TAKE YOU MY DOGS WILL, DAY OF TEARS AND MOURNING, SORROW! SORROW! SORROW!, SPITE ALONE HOLDS ME ALOFT ×2, FUCKING DEATHDEALER ×2, I AM THE BEAST ×2\nThe Strokes (3): Reptilia, Call Me Back, Threat Of Joy\nFreak Slug (2): Friday, 27 Club\nArctic Monkeys (1): This House Is a Circus\nBedouin (1): Hologram\nJulian Casablancas (1): 11th Dimension",
+    "text": "**Lingua Ignota** (22)\n- FAITHFUL SERVANT FRIEND OF CHRIST (3)\n- DO YOU DOUBT ME TRAITOR (3)\n- BUTCHER OF THE WORLD (3)\n- MAY FAILURE BE YOUR NOOSE (3)\n- FRAGRANT IS MY MANY FLOWER'D CROWN\n- IF THE POISON WON'T TAKE YOU MY DOGS WILL\n- DAY OF TEARS AND MOURNING\n- SORROW! SORROW! SORROW!\n- SPITE ALONE HOLDS ME ALOFT (2)\n- FUCKING DEATHDEALER (2)\n- I AM THE BEAST (2)\n**The Strokes** (3)\n- Reptilia\n- Call Me Back\n- Threat Of Joy\n**Freak Slug** (2)\n- Friday\n- 27 Club\n**Arctic Monkeys** (1): This House Is a Circus\n**Bedouin** (1): Hologram\n**Julian Casablancas** (1): 11th Dimension",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-10&to=2023-12-10",
     "published_at": "2023-12-10T21:27:52.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1101,7 +1101,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 2 tracks",
-    "text": "Jamie Penn (1): minecraft music but its a shoegaze banger\nshadient (1): NOT ANYMORE",
+    "text": "**Jamie Penn** (1): minecraft music but its a shoegaze banger\n**shadient** (1): NOT ANYMORE",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-09&to=2023-12-09",
     "published_at": "2023-12-10T04:49:31.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1116,7 +1116,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 5 tracks",
-    "text": "Nitepunk (2): Ending ×2\nshadient (2): PROGRIIM ×2\nBlackGummy (1): Descent",
+    "text": "**Nitepunk** (2): Ending\n**shadient** (2): PROGRIIM\n**BlackGummy** (1): Descent",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-08&to=2023-12-08",
     "published_at": "2023-12-08T23:12:19.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1145,7 +1145,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 80 tracks",
-    "text": "yutaka hirasaka (22): harmo ×2, eau ×2, eternal moment ×2, wander about ×2, ether ×2, foliage ×2, amaretto ×2, acro ×2, exit ×2, spool ×2, sweet crack ×2\nFrank Ocean (4): Pink + White ×2, Pink Matter ×2\nTinlicker (4): Automatic ×2, Nachtwerk ×2\nCity Girl (2): Crescent Nocturne ×2\nCovet (2): Sea Dragon ×2\nDayglow (2): Can I Call You Tonight? ×2\nDominic Fike (2): Phone Numbers ×2\nFlight Facilities (2): All Your Love ×2\nichika Nito (2): Secret ×2\nJoji (2): CAN'T GET OVER YOU (feat. Clams Casino) ×2\nKenichiro Nishihara (2): Flowery Flat ×2\nKidswaste (2): Free ×2\nMASS OF THE FERMENTING DREGS (2): Aoi, Koi, Daidaiiro no Hi ×2\nNIQUO (2): To Love ×2\nOnly Emily (2): Anywhere But Here ×2\nPRGMAT (2): Lucid Dream ×2\nPSYQUI (2): 就寝御礼 ×2\nRezz (2): The Crazy Ones ×2\nslenderbodies (2): Anemone ×2\nSmino (2): Amphetamine ×2\nSoule (2): Forever ×2\nStrawberry Generation (2): Hannah ×2\nTame Impala (2): Disciples ×2\nTim Green (2): Her Future Ghost ×2\nToro y Moi (2): Rose Quartz ×2\nTotorro (2): Tonton Alain Michel ×2\nMetro Boomin (1): start with your drums first sometimes\nMike Will Made-It (1): Midnight (with Tessa Thompson & Gunna )\nSoccer Mommy (1): yellow is the color of her eyes\nVegyn (1): EAr blow out [108.120 BPM]",
+    "text": "**yutaka hirasaka** (22)\n- harmo (2)\n- eau (2)\n- eternal moment (2)\n- wander about (2)\n- ether (2)\n- foliage (2)\n- amaretto (2)\n- acro (2)\n- exit (2)\n- spool (2)\n- sweet crack (2)\n**Frank Ocean** (4)\n- Pink + White (2)\n- Pink Matter (2)\n**Tinlicker** (4)\n- Automatic (2)\n- Nachtwerk (2)\n**City Girl** (2): Crescent Nocturne\n**Covet** (2): Sea Dragon\n**Dayglow** (2): Can I Call You Tonight?\n**Dominic Fike** (2): Phone Numbers\n**Flight Facilities** (2): All Your Love\n**ichika Nito** (2): Secret\n**Joji** (2): CAN'T GET OVER YOU (feat. Clams Casino)\n**Kenichiro Nishihara** (2): Flowery Flat\n**Kidswaste** (2): Free\n**MASS OF THE FERMENTING DREGS** (2): Aoi, Koi, Daidaiiro no Hi\n**NIQUO** (2): To Love\n**Only Emily** (2): Anywhere But Here\n**PRGMAT** (2): Lucid Dream\n**PSYQUI** (2): 就寝御礼\n**Rezz** (2): The Crazy Ones\n**slenderbodies** (2): Anemone\n**Smino** (2): Amphetamine\n**Soule** (2): Forever\n**Strawberry Generation** (2): Hannah\n**Tame Impala** (2): Disciples\n**Tim Green** (2): Her Future Ghost\n**Toro y Moi** (2): Rose Quartz\n**Totorro** (2): Tonton Alain Michel\n**Metro Boomin** (1): start with your drums first sometimes\n**Mike Will Made-It** (1): Midnight (with Tessa Thompson & Gunna )\n**Soccer Mommy** (1): yellow is the color of her eyes\n**Vegyn** (1): EAr blow out [108.120 BPM]",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-07&to=2023-12-07",
     "published_at": "2023-12-08T04:15:15.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1160,7 +1160,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 46 tracks",
-    "text": "Vegyn (24): b ubba anusah bubba o'reiley [113.461 BPM], Beat step Twoards Nothing [120 BPM], Beauty Stranger [155 BPM], Big Fun Never Ending Nightmare [75 BPM], Biotommy Two 005 [140 BPM], Black Bandada [120 BPM] ×2, Britnaeys new baby [125 BPM] ×2, Bunch Of Noises [136 BPM] ×2, Catch it on a hot bed 003 [160 BPM] ×2, Cute Chords [161 BPM] ×2, Da Drive [126 BPM] ×2, DejAView [132 BPM] ×2, Demo For Love [120 BPM] ×2, DW800 Nonsense [100 BPM] ×2, EAr blow out [108.120 BPM]\nDownt (16): AM4:50 ×2, no title ×2, 111511 ×2, Channel 2 ×2, ∬∬∬ ×2, mizu ni naru ×2, Dream In Hell ×2, umm ×2\nHeadache (4): The Beginning of the End, That Thing with the Rabbit, The Pavement is my Pillow Talk, Business Opportunities\nNigo (1): Monster\n宇宙ネコ子 (1): Like A Raspberry",
+    "text": "**Vegyn** (24)\n- b ubba anusah bubba o'reiley [113.461 BPM]\n- Beat step Twoards Nothing [120 BPM]\n- Beauty Stranger [155 BPM]\n- Big Fun Never Ending Nightmare [75 BPM]\n- Biotommy Two 005 [140 BPM]\n- Black Bandada [120 BPM] (2)\n- Britnaeys new baby [125 BPM] (2)\n- Bunch Of Noises [136 BPM] (2)\n- Catch it on a hot bed 003 [160 BPM] (2)\n- Cute Chords [161 BPM] (2)\n- Da Drive [126 BPM] (2)\n- DejAView [132 BPM] (2)\n- Demo For Love [120 BPM] (2)\n- DW800 Nonsense [100 BPM] (2)\n- EAr blow out [108.120 BPM]\n**Downt** (16)\n- AM4:50 (2)\n- no title (2)\n- 111511 (2)\n- Channel 2 (2)\n- ∬∬∬ (2)\n- mizu ni naru (2)\n- Dream In Hell (2)\n- umm (2)\n**Headache** (4)\n- The Beginning of the End\n- That Thing with the Rabbit\n- The Pavement is my Pillow Talk\n- Business Opportunities\n**Nigo** (1): Monster\n**宇宙ネコ子** (1): Like A Raspberry",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-06&to=2023-12-06",
     "published_at": "2023-12-06T22:56:26.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1297,7 +1297,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 19 tracks",
-    "text": "Sixpence None the Richer (3): Kiss Me ×2, There She Goes\nSubsonic Eye (2): cosmic realignment, Cabin Fever\nBarrie (1): Chinatown\nbôa (1): Duvet\nCharmy (1): Stay\nCosmic Child (1): Cats, Cats and Cats Again\nGleemer (1): Gauze\nJohn Mayer (1): Neon\nKinokoTeikoku (1): ミュージシャン\nLife On Venus (1): For the Kill\nmy bloody valentine (1): Sometimes\nNatalie Imbruglia (1): Torn\nRadiohead (1): High and Dry\nSobs (1): Astronomy\nThe La's (1): There She Goes\nTim Henson (1): Die on the Cross of the Martyr",
+    "text": "**Sixpence None the Richer** (3)\n- Kiss Me (2)\n- There She Goes\n**Subsonic Eye** (2)\n- cosmic realignment\n- Cabin Fever\n**Barrie** (1): Chinatown\n**bôa** (1): Duvet\n**Charmy** (1): Stay\n**Cosmic Child** (1): Cats, Cats and Cats Again\n**Gleemer** (1): Gauze\n**John Mayer** (1): Neon\n**KinokoTeikoku** (1): ミュージシャン\n**Life On Venus** (1): For the Kill\n**my bloody valentine** (1): Sometimes\n**Natalie Imbruglia** (1): Torn\n**Radiohead** (1): High and Dry\n**Sobs** (1): Astronomy\n**The La's** (1): There She Goes\n**Tim Henson** (1): Die on the Cross of the Martyr",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-05&to=2023-12-05",
     "published_at": "2023-12-06T02:54:30.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1326,7 +1326,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 1 track",
-    "text": "Natasha Bedingfield (1): Unwritten",
+    "text": "**Natasha Bedingfield** (1): Unwritten",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-04&to=2023-12-04",
     "published_at": "2023-12-04T20:26:12.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1341,7 +1341,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 3 tracks",
-    "text": "Disphing (2): Intro, snares\nDaffa Sudiana (1): *watches wong kar wai once*",
+    "text": "**Disphing** (2)\n- Intro\n- snares\n**Daffa Sudiana** (1): *watches wong kar wai once*",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-03&to=2023-12-03",
     "published_at": "2023-12-03T23:24:36.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
@@ -1414,7 +1414,7 @@
     "source": "lastfm",
     "type": "audio",
     "title": "Listened to 30 tracks",
-    "text": "Sophie (4): LEMONADE ×4\nChance the Rapper (3): Juice, Acid Rain ×2\nlor2mg (3): want me, crossed ×2\ncupcakKe (2): Lime ×2\nLady Gaga (2): Sour Candy (with BLACKPINK) ×2\nOlivia Rodrigo (2): hope ur ok ×2\nRina Sawayama (2): XS ×2\nSlater (2): Skittle on my Wrist ×2\nSofia Kay (2): Starburst ×2\nunderscores (2): Your favorite sidekick ×2\nVoid Vision (2): Sour ×2\nYung Lean (2): Acid at 7/11 ×2\nBeyoncé (1): Freedom (feat. Kendrick Lamar)\nCharli xcx (1): claws",
+    "text": "**Sophie** (4): LEMONADE\n**Chance the Rapper** (3)\n- Juice\n- Acid Rain (2)\n**lor2mg** (3)\n- want me\n- crossed (2)\n**cupcakKe** (2): Lime\n**Lady Gaga** (2): Sour Candy (with BLACKPINK)\n**Olivia Rodrigo** (2): hope ur ok\n**Rina Sawayama** (2): XS\n**Slater** (2): Skittle on my Wrist\n**Sofia Kay** (2): Starburst\n**underscores** (2): Your favorite sidekick\n**Void Vision** (2): Sour\n**Yung Lean** (2): Acid at 7/11\n**Beyoncé** (1): Freedom (feat. Kendrick Lamar)\n**Charli xcx** (1): claws",
     "url": "https://www.last.fm/user/siyangsun/library?from=2023-12-01&to=2023-12-01",
     "published_at": "2023-12-01T22:20:11.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
