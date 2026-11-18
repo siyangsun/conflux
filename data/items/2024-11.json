@@ -34,7 +34,8 @@
       "channel": {
         "title": "⏧ austere homepages",
         "url": "https://www.are.na/siyang/austere-homepages"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },

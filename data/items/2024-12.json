@@ -179,7 +179,8 @@
       "channel": {
         "title": "࿏ WORLDSHAPER",
         "url": "https://www.are.na/siyang/worldshaper"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -231,7 +232,8 @@
       "channel": {
         "title": "࿏ all roads lead to me",
         "url": "https://www.are.na/siyang/all-roads-lead-to-me"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -254,7 +256,8 @@
       "channel": {
         "title": "࿏ all roads lead to me",
         "url": "https://www.are.na/siyang/all-roads-lead-to-me"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -1066,7 +1069,8 @@
       "channel": {
         "title": "࿏ low blood sugar",
         "url": "https://www.are.na/siyang/low-blood-sugar"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -1090,7 +1094,8 @@
       "channel": {
         "title": "࿏ COMEWITHUS",
         "url": "https://www.are.na/siyang/comewithus"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },

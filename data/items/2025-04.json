@@ -732,7 +732,8 @@
       "channel": {
         "title": "࿏ karaoke duets and tracing art",
         "url": "https://www.are.na/siyang/karaoke-duets-and-tracing-art"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },

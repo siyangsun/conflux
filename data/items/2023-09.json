@@ -281,7 +281,8 @@
       "channel": {
         "title": "⍕ citizen scientist",
         "url": "https://www.are.na/siyang/citizen-scientist-d69w1aib6yg"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -305,7 +306,8 @@
       "channel": {
         "title": "⍕ citizen scientist",
         "url": "https://www.are.na/siyang/citizen-scientist-d69w1aib6yg"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -472,7 +474,8 @@
       "channel": {
         "title": "⏧ hypertrance",
         "url": "https://www.are.na/siyang/hypertrance"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },

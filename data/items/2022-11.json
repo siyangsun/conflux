@@ -821,7 +821,8 @@
       "channel": {
         "title": "࿏ trapezia",
         "url": "https://www.are.na/siyang/trapezia"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },

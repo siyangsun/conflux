@@ -1136,7 +1136,8 @@
       "channel": {
         "title": "⍋ unnecessary chroma",
         "url": "https://www.are.na/siyang/unnecessary-chroma"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },

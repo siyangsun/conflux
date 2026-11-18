@@ -493,7 +493,8 @@
       "channel": {
         "title": "⍋ hard round supremacy",
         "url": "https://www.are.na/siyang/hard-round-supremacy"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -617,7 +618,8 @@
       "channel": {
         "title": "⏧ ecobrutalism",
         "url": "https://www.are.na/siyang/ecobrutalism"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -655,7 +657,8 @@
       "channel": {
         "title": "⍋ hard round supremacy",
         "url": "https://www.are.na/siyang/hard-round-supremacy"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
@@ -694,7 +697,8 @@
       "channel": {
         "title": "⍋ unnecessary chroma",
         "url": "https://www.are.na/siyang/unnecessary-chroma"
-      }
+      },
+      "own": true
     },
     "kind": "reblog"
   },
