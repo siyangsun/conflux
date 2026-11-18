@@ -1339,30 +1339,6 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
-    "id": "arena:73526210",
-    "source": "arena",
-    "type": "block",
-    "title": "lossy-page1-1536px-three_children_drawing-_-on_panels-_japan-_1909_lccn2001705661.tif.jpg",
-    "text": "",
-    "url": "https://www.are.na/block/24560289",
-    "published_at": "2025-03-05T22:39:23.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [
-      "https://d2w9rnfcy7mm78.cloudfront.net/24560289/original_bdeb3384535c70ca571d38602bb0fbe9.jpg?1699288817"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Image",
-      "source_url": "https://en.wikipedia.org/wiki/Engawa#/media/File:Three_children_drawing,_(on_panels),_Japan,_1909_LCCN2001705661.tif",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
     "kind": "activity",
     "images": [],
     "tags": [],

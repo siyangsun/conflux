@@ -1348,30 +1348,6 @@
     "fetched_at": "2026-11-06T17:12:37.486Z"
   },
   {
-    "id": "arena:96957261",
-    "source": "arena",
-    "type": "block",
-    "title": "PFH19_SULTAN_Business_Page_1985-1000x785.jpg",
-    "text": "",
-    "url": "https://www.are.na/block/970614",
-    "published_at": "2026-05-10T03:27:16.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [
-      "https://d2w9rnfcy7mm78.cloudfront.net/970614/original_72b4dea89a503e33c111b9d7ccdc508a.jpg?1491956225"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Image",
-      "source_url": "http://larrysultan.com/gallery/pictures-from-home/",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
     "kind": "activity",
     "images": [],
     "tags": [],

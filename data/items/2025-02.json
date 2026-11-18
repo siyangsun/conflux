@@ -582,62 +582,6 @@
     "fetched_at": "2026-11-06T17:12:37.486Z"
   },
   {
-    "id": "arena:72503737",
-    "source": "arena",
-    "type": "block",
-    "text": "Overthinking —> Write\nUninspired —> Read\nScared —> Take one risk\nStuck —> Walk\nTired —> Sleep\nConfused —> Ask\nFrustrated —> Move\nBurned out —> Day off\nImpatient —>Review progress\nUnmotivated —> Remember your “why”\n\nBy Greg Isenberg",
-    "url": "https://www.are.na/block/25943881",
-    "published_at": "2025-02-16T22:24:13.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Text",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
-    "id": "arena:72503285",
-    "source": "arena",
-    "type": "block",
-    "text": "ꪫ",
-    "url": "https://www.are.na/block/34581296",
-    "published_at": "2025-02-16T22:13:11.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Text",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      },
-      "own": true
-    },
-    "kind": "reblog"
-  },
-  {
-    "kind": "post",
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {},
-    "id": "arena:channel:3571483",
-    "source": "arena",
-    "type": "channel",
-    "title": "ﻬ tine",
-    "text": "for u",
-    "url": "https://www.are.na/siyang/tine-q19cst-kzv4",
-    "published_at": "2025-02-16T22:08:39.000Z",
-    "fetched_at": "2026-11-03T21:53:54.848Z"
-  },
-  {
     "id": "arena:72500572",
     "source": "arena",
     "type": "block",

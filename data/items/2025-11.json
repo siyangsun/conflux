@@ -73,29 +73,6 @@
     "fetched_at": "2026-11-06T17:12:37.486Z"
   },
   {
-    "id": "arena:87275590",
-    "source": "arena",
-    "type": "block",
-    "title": "edb7d2e1-3d2c-47b4-9b39-b814994bac39.jpg",
-    "text": "",
-    "url": "https://www.are.na/block/40241243",
-    "published_at": "2025-11-26T17:14:52.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [
-      "https://d2w9rnfcy7mm78.cloudfront.net/40241243/original_940727185caf36cad18b9919347ead28.jpg?1760148528"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Image",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -318,94 +295,6 @@
     "url": "https://www.last.fm/user/siyangsun/library?from=2025-11-17&to=2025-11-17",
     "published_at": "2025-11-18T00:11:57.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
-  },
-  {
-    "id": "arena:86763830",
-    "source": "arena",
-    "type": "block",
-    "text": "“You read something which you thought only happened to you, and you discover that it happened 100 years ago to Dostoyevsky. This is a very great liberation for the suffering, struggling person, who always thinks that he is alone. This is why art is important. Art would not be important if life were not important, and life is important.”\n— James Baldwin, Conversations with James Baldwin",
-    "url": "https://www.are.na/block/11738876",
-    "published_at": "2025-11-17T00:17:09.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Text",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
-    "id": "arena:86763633",
-    "source": "arena",
-    "type": "block",
-    "title": "Henrik Karlsson",
-    "text": "Thoreau would catch a bee and carry it to a place with a clear view of the landscape. There he would release it. He watched closely as the bee flew off. Then, once he lost track of it, he walked to the spot where it disappeared, and waited for a new bee to catch. Repeated enough times, this process would bring him to the nest.\nThis is how I think about finding new books to read, and new people to hang out with (or, increasingly—new aspects of people I already know).\n\nhttps://open.substack.com/pub/escapingflatland/p/the-newness-of-depth",
-    "url": "https://www.are.na/block/35978136",
-    "published_at": "2025-11-17T00:06:59.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Text",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
-    "id": "arena:86763579",
-    "source": "arena",
-    "type": "block",
-    "title": "Home / X",
-    "text": "",
-    "url": "https://www.are.na/block/36353523",
-    "published_at": "2025-11-17T00:04:36.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [
-      "https://d2w9rnfcy7mm78.cloudfront.net/36353523/original_f3f4ed9316c28a60faa4826aaaee17a7.jpg?1746002273"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Image",
-      "source_url": "https://x.com/home",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
-  },
-  {
-    "id": "arena:86763531",
-    "source": "arena",
-    "type": "block",
-    "title": "a07e8f95-3d45-40e4-af10-2ccf42c30a15.jpg",
-    "text": "",
-    "url": "https://www.are.na/block/31565151",
-    "published_at": "2025-11-17T00:02:31.000Z",
-    "fetched_at": "2026-11-03T16:09:01.296Z",
-    "images": [
-      "https://d2w9rnfcy7mm78.cloudfront.net/31565151/original_e468c306d15b2ee211161dd8a6b619ce.jpg?1729424155"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "block_type": "Image",
-      "channel": {
-        "title": "ﻬ tine",
-        "url": "https://www.are.na/siyang/tine-q19cst-kzv4"
-      }
-    },
-    "kind": "reblog"
   },
   {
     "kind": "activity",
