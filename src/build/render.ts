@@ -57,15 +57,19 @@ const commits = (i: Item) => {
   const repos = (i.meta.repos as { name: string; url: string; count: number }[] | undefined) ?? [];
   return `<ul>${repos.map((r) => `<li><a href="${esc(safe(r.url))}" rel="noopener">${esc(r.name)}</a> <span class="meta">${r.count}</span></li>`).join("")}</ul>`;
 };
-// A Last.fm day rollup: one entry per artist ("**Artist** (3)" plus "- Song" lines). More than a few artists start collapsed behind "show N artists"; opening shows everything.
+// A Last.fm day rollup: one entry per artist ("**Artist** (3)" plus "- Song" lines). More than a few artists start collapsed behind "show N artists",
+// and an artist with more than a few songs folds the rest behind "show N more"; both toggle back with "hide".
 const FEW = 3;
+const fold = (show: string, inner: string) => `<details class="fold"><summary class="meta"><span class="s">${show}</span><span class="h">hide</span></summary>${inner}</details>`;
 const artist = (e: string) => {
   const [head, ...songs] = e.split("\n");
-  return `<p>${esc(head).replace(/\*\*(.+?)\*\*/, "<strong>$1</strong>")}</p>${songs.length ? `<ul>${songs.map((l) => `<li>${esc(l.slice(2))}</li>`).join("")}</ul>` : ""}`;
+  const li = (l: string) => `<li>${esc(l.slice(2))}</li>`;
+  const list = songs.length > FEW ? `<ul>${songs.slice(0, FEW).map(li).join("")}</ul>${fold(`show ${songs.length - FEW} more`, `<ul>${songs.slice(FEW).map(li).join("")}</ul>`)}` : songs.length ? `<ul>${songs.map(li).join("")}</ul>` : "";
+  return `<p>${esc(head).replace(/\*\*(.+?)\*\*/, "<strong>$1</strong>")}</p>${list}`;
 };
 const plays = (i: Item) => {
   const entries = i.text.split(/\n(?!- )/), html = entries.map(artist).join("");
-  return entries.length > FEW ? `<details class="more"><summary class="meta">show ${entries.length} artists</summary>${html}</details>` : html;
+  return entries.length > FEW ? fold(`show ${entries.length} artists`, html) : html;
 };
 const plain = (i: Item) => SRC[i.source]?.body?.(i) ?? paragraphs(i.text, i.source);
 // Record<ItemType, ...>: adding a type to ItemType without a renderer is a type error.
