@@ -241,7 +241,7 @@ test("lastfm: scrobbles roll up per New York day, grouped by artist; now-playing
   const d1 = 1782000000; // 2026-06-21 00:00 UTC = June 20, 8pm New York
   const tracks = [{ artist: { "#text": "Now" }, name: "Playing" }, play(d1 + 120, "A", "Two"), play(d1 + 90, "A", "One"), play(d1 + 60, "B", "Solo"), play(d1, "A", "One"), play(d1 + 86400 * 5, "Z", "Later")];
   const out = lastfm.playDigests(tracks, "me", "2026-06-20", "2026-06-20", NOW);
-  assert.deepEqual(out.map((i) => [i.id, i.title, i.kind, i.text]), [["lastfm:plays:2026-06-20", "Listened to 4 tracks", "activity", "A (3): One ×2, Two\nB (1): Solo"]]);
+  assert.deepEqual(out.map((i) => [i.id, i.title, i.kind, i.text]), [["lastfm:plays:2026-06-20", "Listened to 4 tracks", "activity", "**A** (3)\n- One (2)\n- Two\n**B** (1): Solo"]]);
   assert.equal(out[0].published_at, "2026-06-21T00:02:00.000Z");
 });
 

@@ -81,6 +81,23 @@ const jobs: Record<string, () => Promise<Item[]>> = {
     console.log(`arena-own: flagged ${n} of ${own.size}`);
     return [];
   },
+  // Offline: rewrites old digest text ("Artist (3): a, b ×2") into the new format without refetching. Songs are split only when the per-song counts add up to the
+  // artist's count (a comma inside a title always overshoots), else they stay inline. No rev is set, so a real `lastfm` backfill still replaces these.
+  async "lastfm-format"() {
+    const convert = (line: string) => {
+      const m = line.match(/^(.+?) \((\d+)\): (.+)$/);
+      if (!m) return line;
+      const parts = m[3].split(", ").map((p) => p.match(/^(.*) ×(\d+)$/) ?? [p, p, "1"]);
+      const song = (p: string[]) => (+p[2] > 1 ? `${p[1]} (${p[2]})` : p[1]);
+      if (parts.length === 1) return `**${m[1]}** (${m[2]}): ${parts[0][1]}`;
+      if (parts.reduce((n, p) => n + +p[2], 0) === +m[2]) return `**${m[1]}** (${m[2]})` + parts.map((p) => `\n- ${song(p)}`).join("");
+      return `**${m[1]}** (${m[2]}): ${m[3].replace(/ ×(\d+)/g, " ($1)")}`;
+    };
+    let n = 0;
+    for (const i of loadAll().filter((i) => i.id.startsWith("lastfm:plays:") && !i.rev && !i.text.startsWith("**"))) n += update(new Set([i.id]), { text: i.text.split("\n").map(convert).join("\n") });
+    console.log(`lastfm-format: converted ${n}`);
+    return [];
+  },
   // Every post via the Tumblr API, 20 per request (the RSS feed stops at ~20). Needs TUMBLR_API_KEY in the environment (your OAuth consumer key; never commit it).
   async tumblr() {
     const key = process.env.TUMBLR_API_KEY;

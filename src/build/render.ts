@@ -57,11 +57,15 @@ const commits = (i: Item) => {
   const repos = (i.meta.repos as { name: string; url: string; count: number }[] | undefined) ?? [];
   return `<ul>${repos.map((r) => `<li><a href="${esc(safe(r.url))}" rel="noopener">${esc(r.name)}</a> <span class="meta">${r.count}</span></li>`).join("")}</ul>`;
 };
-// A Last.fm day rollup lists every artist and song; show the first few lines and fold the rest behind "show N more" (it goes away once opened).
+// A Last.fm day rollup: one entry per artist ("**Artist** (3)" plus "- Song" lines). Show the first few and fold the rest behind "show N more" (it goes away once opened).
 const SHOWN = 5;
+const artist = (e: string) => {
+  const [head, ...songs] = e.split("\n");
+  return `<p>${esc(head).replace(/\*\*(.+?)\*\*/, "<strong>$1</strong>")}</p>${songs.length ? `<ul>${songs.map((l) => `<li>${esc(l.slice(2))}</li>`).join("")}</ul>` : ""}`;
+};
 const plays = (i: Item) => {
-  const lines = i.text.split("\n");
-  return paragraphs(lines.slice(0, SHOWN).join("\n")) + (lines.length > SHOWN ? `<details class="more"><summary class="meta">show ${lines.length - SHOWN} more</summary>${paragraphs(lines.slice(SHOWN).join("\n"))}</details>` : "");
+  const entries = i.text.split(/\n(?!- )/);
+  return entries.slice(0, SHOWN).map(artist).join("") + (entries.length > SHOWN ? `<details class="more"><summary class="meta">show ${entries.length - SHOWN} more</summary>${entries.slice(SHOWN).map(artist).join("")}</details>` : "");
 };
 const plain = (i: Item) => SRC[i.source]?.body?.(i) ?? paragraphs(i.text, i.source);
 // Record<ItemType, ...>: adding a type to ItemType without a renderer is a type error.
