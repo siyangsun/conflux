@@ -1,4 +1,4 @@
-// One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr|lastfm]...` (default: all).
+// One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr|lastfm]...` (default: all except the one-off fixes `arena-own` and `lastfm-format`, which you name explicitly).
 // Safe to re-run: items are deduped by id like any fetch.
 import { execFileSync } from "node:child_process";
 import { config } from "./config.ts";
@@ -149,7 +149,8 @@ const jobs: Record<string, () => Promise<Item[]>> = {
   },
 };
 
-for (const name of process.argv.length > 2 ? process.argv.slice(2) : Object.keys(jobs)) {
+const oneOff = ["arena-own", "lastfm-format"];
+for (const name of process.argv.length > 2 ? process.argv.slice(2) : Object.keys(jobs).filter((n) => !oneOff.includes(n))) {
   const items = await jobs[name]();
   console.log(`${name}: found ${items.length}, added ${addItems(items).added.length}`);
 }

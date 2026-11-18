@@ -1,5 +1,5 @@
 import type { Item } from "../types.ts";
-import { abs, BASE, BUILT, DESC, entryUrl, esc, hasPage, permalink, SITE, title } from "./render.ts";
+import { abs, BASE, BUILT, DESC, entryUrl, esc, flat, hasPage, permalink, SITE, title } from "./render.ts";
 
 // A feed lives at `<dir>feed.xml` (Atom) and `<dir>feed.json` (JSON Feed 1.1): dir "/" is the aggregate, "/source/x/" one source.
 export const feedLinks = (dir: string, name = SITE) =>
@@ -11,7 +11,7 @@ export const atom = (latest: Item[], dir = "/", name = SITE) => `<?xml version="
 <id>${esc(abs(BASE + dir))}</id><link rel="self" href="${esc(abs(BASE + dir + "feed.xml"))}"/><link href="${esc(abs(BASE + dir))}"/>
 <updated>${latest[0]?.published_at ?? BUILT}</updated>
 ${latest.map((i) => `<entry><id>${esc(abs(permalink(i)))}</id><title>${esc(title(i))}</title><link href="${esc(entryUrl(i))}"/>
-<published>${i.published_at}</published><updated>${i.published_at}</updated><content type="text">${esc(i.text)}</content></entry>`).join("\n")}
+<published>${i.published_at}</published><updated>${i.published_at}</updated><content type="text">${esc(flat(i))}</content></entry>`).join("\n")}
 </feed>
 `;
 
@@ -26,7 +26,7 @@ export const jsonFeed = (latest: Item[], dir = "/", name = SITE) => JSON.stringi
     url: entryUrl(i),
     external_url: hasPage(i) && /^https?:\/\//i.test(i.url) ? i.url : undefined,
     title: i.title,
-    content_text: i.text,
+    content_text: flat(i),
     date_published: i.published_at,
     tags: i.tags.length ? i.tags : undefined,
     image: i.images[0],

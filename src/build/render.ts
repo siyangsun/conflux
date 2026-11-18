@@ -14,6 +14,8 @@ export const abs = (path: string) => ORIGIN + path;
 // Everything that differs by source lives in SRC (below); the rest of this file never names a source.
 // Only posts get a page of their own (/p/...), unless the source opts out. Reblogs and activity link out to their original; their permalink() is still their stable feed id.
 export const hasPage = (i: Item) => i.kind === "post" && SRC[i.source]?.page !== false;
+// Item text without display markup (Last.fm digests store **Artist**), for feeds and link previews.
+export const flat = (i: Item) => i.text.replace(/\*\*(.+?)\*\*/g, "$1");
 export const title = (i: Item) => i.title || i.text.slice(0, 80) || i.id;
 // Only http(s) links are rendered as hrefs (no javascript: URLs from feed data).
 const safe = (u: string) => (/^https?:\/\//i.test(u) ? u : "#");

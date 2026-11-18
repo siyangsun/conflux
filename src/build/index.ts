@@ -2,7 +2,7 @@ import { cpSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { loadAll } from "../store.ts";
 import type { Item } from "../types.ts";
 import { atom, feedLinks, jsonFeed } from "./feeds.ts";
-import { abs, BASE, DESC, entryUrl, esc, hasPage, page, permalink, renderItem, searchText, SITE, slug, title } from "./render.ts";
+import { abs, BASE, DESC, entryUrl, esc, flat, hasPage, page, permalink, renderItem, searchText, SITE, slug, title } from "./render.ts";
 
 const OUT = "_site";
 const PAGE = 50;
@@ -86,7 +86,7 @@ write("browse", page(`Browse · ${SITE}`, links("Sources", "source", bySource) +
 // Permalink pages (posts only), with OpenGraph / Twitter card tags.
 for (const i of items.filter(hasPage)) {
   const t = title(i);
-  const og = `<meta property="og:title" content="${esc(t)}"><meta property="og:description" content="${esc(i.text.slice(0, 200))}">
+  const og = `<meta property="og:title" content="${esc(t)}"><meta property="og:description" content="${esc(flat(i).slice(0, 200))}">
 <meta property="og:type" content="article"><meta property="og:url" content="${esc(abs(permalink(i)))}">
 ${i.images[0] ? `<meta property="og:image" content="${esc(i.images[0])}">` : ""}<meta name="twitter:card" content="${i.images[0] ? "summary_large_image" : "summary"}">`;
   write(`p/${slug(i.id)}`, page(`${t} · ${SITE}`, renderItem(i), og));
