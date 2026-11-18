@@ -1,6 +1,41 @@
 [
   {
     "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "channel": {
+        "title": "࿏ mycenaean doomerism",
+        "url": "https://www.are.na/siyang/mycenaean-doomerism"
+      }
+    },
+    "id": "arena:110657478",
+    "source": "arena",
+    "type": "block",
+    "title": "we all said good night",
+    "text": "We all said good night. I had enjoyed myself. So had they. We didn't yet know that we had begun to play with fire—Greek fire, the kind that burns and destroys.\n\numberto eco, \"foucault's pendulum\" pg 105",
+    "url": "https://www.are.na/block/52948992",
+    "published_at": "2026-11-18T16:14:15.000Z",
+    "fetched_at": "2026-11-18T16:22:39.209Z"
+  },
+  {
+    "kind": "post",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "x:2123080097175626179",
+    "source": "x",
+    "type": "post",
+    "text": "i need a space i can be messy in",
+    "url": "https://x.com/unevenlyeven/status/2123080097175626179",
+    "published_at": "2026-11-18T15:45:14.000Z",
+    "fetched_at": "2026-11-18T16:22:38.717Z"
+  },
+  {
+    "kind": "reblog",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/49931179/original_da36175cbb33352dda46f23b12141d8c.jpeg?1788004739"
     ],
