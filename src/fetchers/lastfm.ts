@@ -43,7 +43,7 @@ export async function allPlays(username: string, from?: number): Promise<any[]> 
 }
 
 // One entry per finished New York day (from..to inclusive) with plays, grouped by artist (most played first):
-// "**Artist** (3)" then "- Song (2)" lines in the order first played; a lone song goes inline: "**Artist** (3): Song".
+// "**Artist** (3)" then "- Song (2)" lines in the order first played; a lone song goes inline with its own count: "**Artist**: Song (3)".
 export function playDigests(tracks: any[], user: string, from: string, to: string, now: string): Item[] {
   const days = new Map<string, { last: string; n: number; artists: Map<string, Map<string, number>> }>();
   for (const t of [...tracks].reverse()) { // input is newest first; walk oldest first so songs keep their first-played order
@@ -66,9 +66,9 @@ export function playDigests(tracks: any[], user: string, from: string, to: strin
     text: [...d.artists].sort((a, b) => plays(b[1]) - plays(a[1]) || a[0].localeCompare(b[0]))
       .map(([artist, songs]) => {
         const list = [...songs].map(([name, c]) => (c > 1 ? `${name} (${c})` : name));
-        return `**${artist}** (${plays(songs)})` + (list.length > 1 ? list.map((l) => `\n- ${l}`).join("") : `: ${[...songs.keys()][0]}`);
+        return (list.length > 1 ? `**${artist}** (${plays(songs)})` : `**${artist}**`) + (list.length > 1 ? list.map((l) => `\n- ${l}`).join("") : `: ${list[0]}`);
       }).join("\n"),
-    rev: "2", // 2: bold artist, bulleted songs (replaces the stored "Artist (3): a, b ×2" text on backfill)
+    rev: "3", // 3: lone-song count on the song; 2: bold artist, bulleted songs (replaces the stored "Artist (3): a, b ×2" text on backfill)
     url: `https://www.last.fm/user/${user}/library?from=${day}&to=${day}`,
     published_at: d.last,
     fetched_at: now,
