@@ -1,7 +1,15 @@
 {
   "substack": {
-    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
-    "failing_since": "2026-11-05T00:56:43.695Z"
+    "last_error": null,
+    "failing_since": null,
+    "feeds": {
+      "https://sump.substack.com/feed": {
+        "etag": "W/\"20398-mnitbYqCEmybIY2HwvpLd4WlMhY\""
+      },
+      "https://unevenlyeven.substack.com/feed": {
+        "etag": "W/\"193d9-wcCEWJWeIk7WTLsQ7lC95IX2ehw\""
+      }
+    }
   },
   "tumblr": {
     "last_error": null,
@@ -14,7 +22,7 @@
   "arena": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-18T16:14:15Z"
+    "cursor": "2026-11-18T20:18:13Z"
   },
   "manual": {
     "last_error": null,
@@ -195,7 +203,7 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-16"
+    "cursor": "2026-11-17"
   },
   "rss": {
     "last_error": null,

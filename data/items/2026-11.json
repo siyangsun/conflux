@@ -1,6 +1,31 @@
 [
   {
     "kind": "reblog",
+    "images": [
+      "https://d2w9rnfcy7mm78.cloudfront.net/52339544/original_82c9baf387415887ca6a0ee7515de63d.png?1793817151"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Link",
+      "own": true,
+      "source_url": "https://clementvalla.com/texts/jig-thinking.html",
+      "channel": {
+        "title": "࿏ salvage",
+        "url": "https://www.are.na/siyang/salvage-gugqdx1wujk"
+      }
+    },
+    "id": "arena:110675176",
+    "source": "arena",
+    "type": "block",
+    "title": "AI and Jig Thinking — Clement Valla",
+    "text": "These are working notes on what I have been calling jig thinking: a way of understanding what happens when artists and designers build their own tools, and in particular what happens when AI makes tool-building fast, specific and disposable.",
+    "url": "https://www.are.na/block/52339544",
+    "published_at": "2026-11-18T20:17:56.000Z",
+    "fetched_at": "2026-11-18T20:52:56.704Z"
+  },
+  {
+    "kind": "reblog",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -34,6 +59,22 @@
     "url": "https://x.com/unevenlyeven/status/2123080097175626179",
     "published_at": "2026-11-18T15:45:14.000Z",
     "fetched_at": "2026-11-18T16:22:38.717Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-17",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 47 tracks",
+    "text": "**KOAN Sound** (12)\n- Phantom Sight\n- Drift (5)\n- Embers From Chaos (4)\n- Shimmer\n- Colour Dance\n**Saja** (11)\n- Forget about it (feat. Zo) (3)\n- What for? (4)\n- crazy (4)\n**Iglooghost** (8)\n- Echo Lace (2)\n- Mouthbreath-r (3)\n- Nemat0de (3)\n**Dntel** (5): (This Is) The Dream of Evan and Chan\n**pleasure systems** (4): Diet Pepsi\n**Tohji** (4): Tohji, Skrillex & Mechatok - W1000\n**Alex G** (3): June Guitar",
+    "rev": "2",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-17&to=2026-11-17",
+    "published_at": "2026-11-18T02:36:09.000Z",
+    "fetched_at": "2026-11-18T20:52:56.132Z"
   },
   {
     "kind": "activity",
