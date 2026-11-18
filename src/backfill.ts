@@ -5,12 +5,12 @@ import { config } from "./config.ts";
 import { get, UA } from "./feed.ts";
 import { parseApi as parseSoundcloudApi } from "./fetchers/soundcloud.ts";
 import { addDays, commitDates, dayOf, digests, listRepos } from "./fetchers/github.ts";
-import { api, channelPosts } from "./fetchers/arena.ts";
+import { api, channelPosts, parse as parseArena } from "./fetchers/arena.ts";
 import { fromHistory } from "./fetchers/quartz.ts";
 import { parseWatch } from "./fetchers/youtube.ts";
 import { parseApi as parseTumblr } from "./fetchers/tumblr.ts";
 import { allPlays, page as lastfmPage, parse as parseLastfm, playDigests } from "./fetchers/lastfm.ts";
-import { addItems, loadAll } from "./store.ts";
+import { addItems, loadAll, update } from "./store.ts";
 import type { Item } from "./types.ts";
 
 const sources = config.sources;
@@ -58,6 +58,28 @@ const jobs: Record<string, () => Promise<Item[]>> = {
       if (!r.meta.has_more_pages) break;
     }
     return channelPosts(channels, me, now);
+  },
+  // Flags existing Are.na items for blocks I created (meta.own), so they read "posted to" not "saved to". Every page of every channel; ~1 request per 100 blocks.
+  async "arena-own"() {
+    const me = (await api(`/users/${sources.arena.username}`)).id as number;
+    const own = new Set<string>();
+    for (let cp = 1, more = true; more; cp++) {
+      const r = await api(`/users/${sources.arena.username}/contents?type=Channel&per=100&page=${cp}`);
+      more = r.meta.has_more_pages;
+      for (const ch of r.data.filter((c: any) => c.visibility !== "private")) {
+        for (let page = 1, next = true; next; page++) {
+          const b = await api(`/channels/${ch.id}/contents?user_id=${me}&per=100&page=${page}`);
+          next = b.meta?.has_more_pages;
+          for (const i of parseArena(b.data, ch, me, now)) if (i.meta.own) own.add(i.id);
+        }
+      }
+    }
+    // update() replaces meta wholesale, so merge per item (ponytail: reloads the store each time; fine for a one-off)
+    const stored = new Map(loadAll().map((i) => [i.id, i]));
+    let n = 0;
+    for (const id of own) if (stored.has(id)) n += update(new Set([id]), { meta: { ...stored.get(id)!.meta, own: true } });
+    console.log(`arena-own: flagged ${n} of ${own.size}`);
+    return [];
   },
   // Every post via the Tumblr API, 20 per request (the RSS feed stops at ~20). Needs TUMBLR_API_KEY in the environment (your OAuth consumer key; never commit it).
   async tumblr() {

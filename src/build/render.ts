@@ -114,7 +114,7 @@ const SRC: Record<string, View> = {
     search: (i) => i.kind !== "activity", // the per-day artist/song lists would drown real results
   },
   arena: {
-    lead: (i, s) => (i.kind === "reblog" ? `saved to ${s}` : undefined),
+    lead: (i, s) => (i.kind === "reblog" ? `${i.meta.own ? "posted" : "saved"} to ${s}` : undefined),
     preview: (i) => i.meta.block_type !== "Image", // Image blocks stay full size
   },
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls

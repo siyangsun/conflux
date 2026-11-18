@@ -36,6 +36,7 @@ export function parse(blocks: any[], channel: any, me: number, now: string): Ite
       images: b.image?.src ? [b.image.src] : [],
       meta: {
         block_type: b.type,
+        ...(b.user?.id === me && { own: true }), // I created the block, not just connected it
         source_url: b.source?.url,
         channel: { title: channel.title, url: `https://www.are.na/${channel.owner?.slug ?? ""}/${channel.slug}` },
       },

@@ -93,6 +93,8 @@ test("arena: only my public available connections, one item per connection", () 
   assert.equal(items[0].url, "https://www.are.na/block/1");
   assert.deepEqual(items[0].meta.channel, { title: "Chan", url: "https://www.are.na/me/chan" });
   assert.deepEqual(items[0].images, ["https://img/a.jpg"]);
+  assert.equal(items[0].meta.own, undefined);
+  assert.equal(arena.parse([blk(5, { user: { id: 7 } })], ch, 7, NOW)[0].meta.own, true);
 });
 
 test("x: photo urls resolved from includes, url built from handle", () => {
