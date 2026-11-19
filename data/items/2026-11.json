@@ -1,6 +1,28 @@
 [
   {
     "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "block_type": "Text",
+      "own": true,
+      "channel": {
+        "title": "࿏ mad dog",
+        "url": "https://www.are.na/siyang/mad-dog"
+      }
+    },
+    "id": "arena:110763449",
+    "source": "arena",
+    "type": "block",
+    "title": "that was the fault of my birth",
+    "text": "I would have liked to be in that field of bullets, shooting, even at the price of hitting Granny.\n\nfoucault's pendulum pg 112",
+    "url": "https://www.are.na/block/52997465",
+    "published_at": "2026-11-19T20:46:46.000Z",
+    "fetched_at": "2026-11-19T21:24:24.230Z"
+  },
+  {
+    "kind": "reblog",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/52961920/original_9721c9f73dc208850e193e3d7176ae76.png?1795040827"
     ],
