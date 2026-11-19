@@ -25,6 +25,34 @@
     "fetched_at": "2026-11-19T02:40:27.304Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "conflux",
+          "url": "https://github.com/siyangsun/conflux",
+          "count": 12
+        },
+        {
+          "name": "the-glimmering",
+          "url": "https://github.com/siyangsun/the-glimmering",
+          "count": 6
+        }
+      ]
+    },
+    "id": "github:commits:2026-11-18",
+    "source": "github",
+    "type": "commits",
+    "title": "18 commits in 2 repos",
+    "text": "conflux (12)\nthe-glimmering (6)",
+    "url": "https://github.com/siyangsun",
+    "published_at": "2026-11-18T21:25:04.000Z",
+    "fetched_at": "2026-11-19T10:47:56.429Z"
+  },
+  {
     "kind": "reblog",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/52339544/original_82c9baf387415887ca6a0ee7515de63d.png?1793817151"
