@@ -1,7 +1,7 @@
 {
   "substack": {
-    "last_error": null,
-    "failing_since": null,
+    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
+    "failing_since": "2026-11-20T16:02:04.157Z",
     "feeds": {
       "https://sump.substack.com/feed": {
         "etag": "W/\"20398-mnitbYqCEmybIY2HwvpLd4WlMhY\""
@@ -191,7 +191,7 @@
     }
   },
   "github": {
-    "cursor": "2026-11-18",
+    "cursor": "2026-11-19",
     "last_error": null,
     "failing_since": null
   },
@@ -203,7 +203,7 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-17"
+    "cursor": "2026-11-19"
   },
   "rss": {
     "last_error": null,

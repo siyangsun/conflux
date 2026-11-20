@@ -22,6 +22,22 @@
     "fetched_at": "2026-11-19T21:24:24.230Z"
   },
   {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-19",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 7 tracks",
+    "text": "**Himera** (6)\n- Rubber Ball ♩ Wooden Horse ♩ Magic Wand ♩ Building Blocks\n- Kiss\n- Our Garden\n- Umbrella\n- Taco\n- Today I Opened My Eyes\n**pleasure systems**: Life Sized",
+    "rev": "3",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-19&to=2026-11-19",
+    "published_at": "2026-11-19T15:45:51.000Z",
+    "fetched_at": "2026-11-20T16:02:04.274Z"
+  },
+  {
     "kind": "reblog",
     "images": [
       "https://d2w9rnfcy7mm78.cloudfront.net/52961920/original_9721c9f73dc208850e193e3d7176ae76.png?1795040827"
@@ -45,6 +61,22 @@
     "url": "https://www.are.na/block/52961920",
     "published_at": "2026-11-18T22:26:51.000Z",
     "fetched_at": "2026-11-19T02:40:27.304Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-18",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 44 tracks",
+    "text": "**Sam Wilkes**: GIRL (21)\n**pleasure systems** (6)\n- Safe\n- Blur\n- When I Picture You Now\n- Thru Your Eyes\n- When I Look For You\n- The Maze\n**Aphex Twin** (2)\n- Gwely Mernans\n- th1 [evnslower]\n**Jaÿ-Z**: 4:44 (2)\n**JAŸ-Z** (2)\n- Blueprint (Momma Loves Me)\n- Brooklyn's Finest\n**KAVARI** (2)\n- yearn\n- Nothing Drowns Out The Pain (The Ward)\n**Black Star**: Respiration\n**Blood of Aza**: Trench\n**Enkei**: Blissful Death\n**Gorse Panshawe**: ggGod Delsuions innthe bath\n**How to Disappear Completely**: Seraph IX\n**Lorn**: Oxbow B\n**Nas**: Michael & Quincy\n**Sophie**: Pretending\n**The Notorious B.I.G.**: Hypnotize - 2014 Remaster",
+    "rev": "3",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-18&to=2026-11-18",
+    "published_at": "2026-11-18T21:54:45.000Z",
+    "fetched_at": "2026-11-20T16:02:04.274Z"
   },
   {
     "kind": "activity",
