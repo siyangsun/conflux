@@ -191,7 +191,7 @@
     }
   },
   "github": {
-    "cursor": "2026-11-20",
+    "cursor": "2026-11-21",
     "last_error": null,
     "failing_since": null
   },
@@ -203,7 +203,7 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-20"
+    "cursor": "2026-11-21"
   },
   "rss": {
     "last_error": null,

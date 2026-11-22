@@ -4,6 +4,45 @@
     "images": [],
     "tags": [],
     "visibility": "public",
+    "meta": {},
+    "id": "lastfm:plays:2026-11-21",
+    "source": "lastfm",
+    "type": "audio",
+    "title": "Listened to 4 tracks",
+    "text": "**Andrew Huang** (2)\n- Commercial hardware\n- Commercial software\n**imago meri**: herman test\n**Primadonna Girl**: omnichord",
+    "rev": "3",
+    "url": "https://www.last.fm/user/siyangsun/library?from=2026-11-21&to=2026-11-21",
+    "published_at": "2026-11-21T18:23:01.000Z",
+    "fetched_at": "2026-11-22T07:05:29.909Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "the-glimmering",
+          "url": "https://github.com/siyangsun/the-glimmering",
+          "count": 5
+        }
+      ]
+    },
+    "id": "github:commits:2026-11-21",
+    "source": "github",
+    "type": "commits",
+    "title": "5 commits in 1 repo",
+    "text": "the-glimmering (5)",
+    "url": "https://github.com/siyangsun/the-glimmering",
+    "published_at": "2026-11-21T07:26:51.000Z",
+    "fetched_at": "2026-11-22T07:05:29.908Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
     "meta": {
       "repos": [
         {
