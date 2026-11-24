@@ -4,6 +4,29 @@
     "images": [],
     "tags": [],
     "visibility": "public",
+    "meta": {
+      "repos": [
+        {
+          "name": "the-glimmering",
+          "url": "https://github.com/siyangsun/the-glimmering",
+          "count": 3
+        }
+      ]
+    },
+    "id": "github:commits:2026-11-23",
+    "source": "github",
+    "type": "commits",
+    "title": "3 commits in 1 repo",
+    "text": "the-glimmering (3)",
+    "url": "https://github.com/siyangsun/the-glimmering",
+    "published_at": "2026-11-23T21:21:46.000Z",
+    "fetched_at": "2026-11-24T10:28:49.020Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
     "meta": {},
     "id": "lastfm:plays:2026-11-21",
     "source": "lastfm",
