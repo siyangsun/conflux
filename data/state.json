@@ -22,7 +22,7 @@
   "arena": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-19T20:46:46Z"
+    "cursor": "2026-11-23T22:21:48Z"
   },
   "manual": {
     "last_error": null,
@@ -191,7 +191,7 @@
     }
   },
   "github": {
-    "cursor": "2026-11-21",
+    "cursor": "2026-11-22",
     "last_error": null,
     "failing_since": null
   },
