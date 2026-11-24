@@ -22,15 +22,15 @@
   "arena": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-23T22:21:48Z"
+    "cursor": "2026-11-24T18:54:47Z"
   },
   "manual": {
     "last_error": null,
     "failing_since": null
   },
   "quartz": {
-    "etag": "W/\"6a1323ad-2701b\"",
-    "last_modified": "Sun, 24 May 2026 16:13:33 GMT",
+    "etag": "W/\"6b05f9a3-2870a\"",
+    "last_modified": "Tue, 24 Nov 2026 20:54:59 GMT",
     "hashes": {
       "AI-is-a-collage": "85ad1714f497",
       "MMO-mechanics-are-glue-work": "dd807f872aa2",
@@ -47,6 +47,7 @@
       "camelot-wheel": "5f030f6e502a",
       "capitalism-turns-people-into-spikes": "490b90e0dbc7",
       "chekhov's-gun": "2d49d9ecc1f4",
+      "chipotle": "6252557b4a69",
       "circle-of-fifths": "db03d82dc764",
       "cognitive-scaffolding": "747a2bb0c5e1",
       "collector's-fallacy": "a116ee93f5a0",
@@ -70,7 +71,7 @@
       "enabling-environment": "dad25e98a462",
       "ephemeral-identities": "2f1f0b051132",
       "fitness-routine-i-am-trying": "e4fe394b913d",
-      "gear-i-use": "e859670b7e57",
+      "gear-i-use": "fded3db32af1",
       "gradient-of-improvement": "7a7653fc893a",
       "granularity-of-transportation": "c3bbeea664aa",
       "greedy-algorithm": "96f88860f3f2",
@@ -84,6 +85,7 @@
       "hygge-hobbit-habits": "619392d0d98f",
       "increasing-temperature": "e8ef8ba2ff75",
       "index": "5f699a34ca3a",
+      "inherency": "38d92b0cf432",
       "internet-impermanence": "5601890a732d",
       "karaoke-duets-and-tracing-art": "656a59867dd7",
       "lack-of-slack-leads-to-resource-constrained-decision-making": "0a584706f2b4",
@@ -107,6 +109,7 @@
       "music-ideation-tricks": "2b8582900bf3",
       "my-hyperpop-journey": "e75e4feb9d3b",
       "my-mental-roadblocks-for-art": "23e0a61ceda0",
+      "my-windows-PC-build": "04e5ffd92941",
       "network-exploitation": "464f9175634f",
       "new-liver,-same-eagles": "8f7a199f1839",
       "no-frills-tutorial-ideas": "eb9300548eff",
@@ -116,9 +119,9 @@
       "observations-on-skin-highlights": "7d197cb293e9",
       "obsidian": "78ea54b51986",
       "optimization-problem": "9f6c52eba82e",
-      "other-places-i-might-exist": "310990a0dcc1",
+      "other-places-i-might-exist": "426ad1373759",
       "ownership-history-of-in-game-items-adds-to-immersion": "d0c83910f081",
-      "personal-canon": "656ee810ae7b",
+      "personal-canon": "1b720ac817e2",
       "philosophical-razor": "dc99c485eda0",
       "piecewise-error-metrics-for-CLV-prediction": "670f0e8491fb",
       "postmortem-on-defensive-cooldowns": "e22fed450b32",
@@ -145,6 +148,7 @@
       "self-hosting-interesting-events": "edab023740cb",
       "shadow-selves---hungry-ghosts,-anima,-the-void": "3efd83d8d82c",
       "shortcomings-of-intention": "a275b2dce4bc",
+      "since": "074fd460cb62",
       "siyang-everything-dump": "d5136d8f6000",
       "skill-cross-pollination": "c3e84fc5fb0c",
       "small-form-factor-pc": "2781c22e69e2",
@@ -175,6 +179,7 @@
       "vertical-slice": "22541a2f6457",
       "visual-library": "e3d5c5b9e45c",
       "ways-to-aggregate-and-organize-content": "82c647b5fa26",
+      "where-the-soul-lives": "8ff3fa29dab0",
       "white-noise-in-sound-design": "ada891164b89",
       "working-with-the-garage-door-open": "a8811436a180"
     },
