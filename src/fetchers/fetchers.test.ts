@@ -41,25 +41,25 @@ test("tumblr: own post keeps images, title and tags", () => {
   assert.deepEqual(own.tags, ["art"]);
 });
 
-test("tumblr: reblog stores only my comment, no foreign text or images", () => {
+test("tumblr: reblog keeps my comment, then the reblogged text and images", () => {
   const [, re] = tumblr.parse(tumblrXml, NOW);
-  assert.equal(re.text, "my comment");
-  assert.deepEqual(re.images, []);
-  assert.deepEqual([re.kind, re.meta], ["reblog", { reblog_from: "orig" }]);
+  assert.equal(re.text, "my comment\n\nTHEIR TEXT");
+  assert.deepEqual(re.images, ["https://i/2.jpg"]);
+  assert.deepEqual([re.kind, re.meta], ["reblog", { reblog_from: "orig", account: "orig", account_url: "https://orig.tumblr.com" }]);
   assert.equal(tumblr.parse(tumblrXml, NOW)[0].kind, "post");
 });
 
-test("tumblr API: own post keeps original images; reblog keeps only my comment", () => {
+test("tumblr API: own post keeps original images; reblog adds the reblogged text and images", () => {
   const base = { post_url: "https://me.tumblr.com/post/1", timestamp: 1782000000, tags: ["art"] };
   const [own, re, bare, textPost] = tumblr.parseApi([
     { ...base, id_string: "1", caption: "<p>my sketch</p>", photos: [{ original_size: { url: "https://i/big.png" } }] },
-    { ...base, id_string: "2", reblogged_from_name: "orig", reblog: { comment: "<p>so good</p>", tree_html: "<p>THEIR TEXT</p>" }, photos: [{ original_size: { url: "https://i/theirs.png" } }] },
+    { ...base, id_string: "2", reblogged_from_name: "orig", reblog: { comment: "<p>so good</p>", tree_html: '<p><a href="https://o.tumblr.com/post/1" class="tumblr_blog">o</a>:</p><blockquote><p>THEIR TEXT</p></blockquote>' }, photos: [{ original_size: { url: "https://i/theirs.png" } }] },
     { ...base, id_string: "3", reblogged_from_name: "orig", reblog: { comment: "" } },
     { ...base, id_string: "4", type: "text", body: '<figure><img src="https://i/s640.png" srcset="https://i/s100.png 100w, https://i/s640.png 640w"></figure>' },
   ], NOW);
   assert.deepEqual([own.id, own.text, own.images, own.kind], ["tumblr:1", "my sketch", ["https://i/big.png"], "post"]);
-  assert.deepEqual([re.text, re.images, re.kind, re.meta], ["so good", [], "reblog", { reblog_from: "orig" }]);
-  assert.equal(bare.text, "Reblogged from @orig");
+  assert.deepEqual([re.text, re.images, re.kind, re.meta.reblog_from], ["so good\n\nTHEIR TEXT", ["https://i/theirs.png"], "reblog", "orig"]);
+  assert.equal(bare.text, "");
   assert.deepEqual(textPost.images, ["https://i/s640.png"]);
 });
 
@@ -107,7 +107,10 @@ test("x: photo urls resolved from includes, url built from handle", () => {
   assert.equal(x.expand("see https://t.co/a and https://t.co/p", [{ url: "https://t.co/a", expanded_url: "https://example.com" }, { url: "https://t.co/p", expanded_url: "https://x.com/me/status/1/photo/1", media_key: "k" }]), "see https://example.com and");
   assert.deepEqual([a.meta, b.meta], [{}, { reply_to: "me" }]); // a reply that gets through the query is a reply to myself
   const [rt] = x.parse({ data: [{ id: "9", text: "RT @bob: hi", created_at: "2026-10-27T10:00:00.000Z", referenced_tweets: [{ type: "retweeted", id: "8" }] }] }, "me", NOW);
-  assert.deepEqual([rt.kind, rt.text, rt.meta], ["reblog", "Reblogged from @bob", { reblog_from: "bob" }]);
+  assert.deepEqual([rt.kind, rt.text, rt.meta.reblog_from], ["reblog", "hi", "bob"]); // no expansion: the RT text minus its prefix
+  const [full] = x.parse({ data: [{ id: "9", text: "RT @bob: the original, cut off…", created_at: "2026-10-27T10:00:00.000Z", referenced_tweets: [{ type: "retweeted", id: "8" }] }],
+    includes: { tweets: [{ id: "8", text: "the original, in full https://t.co/a", entities: { urls: [{ url: "https://t.co/a", expanded_url: "https://example.com" }] }, attachments: { media_keys: ["k"] } }], media: [{ media_key: "k", type: "photo", url: "https://p/1.jpg" }] } }, "me", NOW);
+  assert.deepEqual([full.text, full.images, full.meta.account], ["the original, in full https://example.com", ["https://p/1.jpg"], "bob"]);
 });
 
 import { diff, fromHistory } from "./quartz.ts";
@@ -124,11 +127,11 @@ test("quartz: first run baselines silently; later diffs report added/updated pag
   assert.equal(diff(idx1, first.hashes, cfg, NOW).items.length, 0);
 
   const one = diff({ a: pg("a", "CHANGED"), b: idx1.b }, first.hashes, cfg, NOW).items[0];
-  assert.deepEqual([one.title, one.url], ["Updated 1 page", "https://q.example/c/a"]);
+  assert.deepEqual([one.title, one.url], ["updated 1 page", "https://q.example/c/a"]);
 
   // A new page is its own post; only edits go in the activity digest.
   const both = diff({ a: pg("a", "CHANGED"), b: idx1.b, c: pg("c", "new") }, first.hashes, cfg, NOW).items;
-  assert.deepEqual(both.map((i) => [i.id, i.kind, i.type, i.title]), [["quartz:page:c", "post", "page", "C"], [both[1].id, "activity", "site-update", "Updated 1 page"]]);
+  assert.deepEqual(both.map((i) => [i.id, i.kind, i.type, i.title]), [["quartz:page:c", "post", "page", "C"], [both[1].id, "activity", "site-update", "updated 1 page"]]);
   assert.equal(both[0].url, "https://q.example/c/c");
   const onlyNew = diff({ ...idx1, c: pg("c", "new") }, first.hashes, cfg, NOW).items;
   assert.deepEqual(onlyNew.map((i) => i.id), ["quartz:page:c"]);
@@ -180,9 +183,9 @@ test("quartz backfill: first commit = added, later commits = updated, grouped by
   };
   const items = fromHistory(history, index, { site_url: "https://s.io/c" }, NOW);
   assert.deepEqual(items.map((i) => [i.id, i.title, i.published_at, i.text]).sort(), [
-    ["quartz:backfill-added-2024-01-12", "Added 2 pages", "2024-01-12T07:00:00.000Z", "Alpha (added)\nb (added)"],
-    ["quartz:backfill-added-2024-03-01", "Added 1 page", "2024-03-01T05:00:00.000Z", "Home (added)"],
-    ["quartz:backfill-updated-2024-03-01", "Updated 1 page", "2024-03-01T00:00:00.000Z", "Alpha (updated)"],
+    ["quartz:backfill-added-2024-01-12", "added 2 pages", "2024-01-12T07:00:00.000Z", "Alpha (added)\nb (added)"],
+    ["quartz:backfill-added-2024-03-01", "added 1 page", "2024-03-01T05:00:00.000Z", "Home (added)"],
+    ["quartz:backfill-updated-2024-03-01", "updated 1 page", "2024-03-01T00:00:00.000Z", "Alpha (updated)"],
   ]);
 });
 
@@ -252,7 +255,7 @@ test("lastfm: scrobbles roll up per New York day, grouped by artist; now-playing
   const d1 = 1782000000; // 2026-06-21 00:00 UTC = June 20, 8pm New York
   const tracks = [{ artist: { "#text": "Now" }, name: "Playing" }, play(d1 + 120, "A", "Two"), play(d1 + 90, "A", "One"), play(d1 + 60, "B", "Solo"), play(d1, "A", "One"), play(d1 + 86400 * 5, "Z", "Later")];
   const out = lastfm.playDigests(tracks, "me", "2026-06-20", "2026-06-20", NOW);
-  assert.deepEqual(out.map((i) => [i.id, i.title, i.kind, i.text]), [["lastfm:plays:2026-06-20", "Listened to 4 tracks", "activity", "**A** (3)\n- One (2)\n- Two\n**B**: Solo"]]);
+  assert.deepEqual(out.map((i) => [i.id, i.title, i.kind, i.text]), [["lastfm:plays:2026-06-20", "listened to 4 tracks", "activity", "**A** (3)\n- One (2)\n- Two\n**B**: Solo"]]);
   assert.equal(out[0].published_at, "2026-06-21T00:02:00.000Z");
 });
 

@@ -62,7 +62,7 @@ export function playDigests(tracks: any[], user: string, from: string, to: strin
     source: "lastfm",
     type: "audio",
     kind: "activity",
-    title: `Listened to ${d.n} track${d.n > 1 ? "s" : ""}`,
+    title: `listened to ${d.n} track${d.n > 1 ? "s" : ""}`,
     text: [...d.artists].sort((a, b) => plays(b[1]) - plays(a[1]) || a[0].localeCompare(b[0]))
       .map(([artist, songs]) => {
         const list = [...songs].map(([name, c]) => (c > 1 ? `${name} (${c})` : name));

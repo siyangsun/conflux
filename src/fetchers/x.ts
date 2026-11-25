@@ -5,27 +5,30 @@ import type { Fetcher, Item } from "../types.ts";
 export const expand = (text: string, urls: any[]) =>
   urls.reduce((s, u) => s.replaceAll(u.url, u.media_key ? "" : u.expanded_url), text).trim();
 
-// A repost keeps none of their words, like a Tumblr reblog. `text` is the raw "RT @user: ..." text.
-export const repost = (id: string, text: string, handle: string, at: string, now: string): Item => {
-  const from = text.match(/^RT @(\w+)/)?.[1];
-  return item({ id: `x:${id}`, source: "x", type: "post", kind: "reblog", text: `Reblogged from @${from}`, url: `https://x.com/${handle}/status/${id}`, published_at: new Date(at).toISOString(), fetched_at: now, meta: { reblog_from: from } });
-};
+// A retweet keeps the retweeted post's text and photos (like a Tumblr reblog), with "from @user" shown above (meta.account).
+export const repostMeta = (from?: string) => ({ reblog_from: from, account: from, account_url: `https://x.com/${from}` });
 
 export function parse(res: any, handle: string, now: string): Item[] {
   const media = new Map<string, any>((res.includes?.media ?? []).map((m: any) => [m.media_key, m]));
-  return (res.data ?? []).map((t: any): Item => t.referenced_tweets?.some((r: any) => r.type === "retweeted")
-    ? repost(t.id, t.text, handle, t.created_at, now)
-    : item({
-    id: `x:${t.id}`,
-    source: "x",
-    type: "post",
-    text: expand(t.text, t.entities?.urls ?? []),
-    meta: t.in_reply_to_user_id ? { reply_to: handle } : {}, // replies to others are excluded by the query, so a reply here is to myself: a thread
-    url: `https://x.com/${handle}/status/${t.id}`,
-    published_at: new Date(t.created_at).toISOString(),
-    fetched_at: now,
-    images: (t.attachments?.media_keys ?? []).map((k: string) => media.get(k)).filter((m: any) => m?.type === "photo").map((m: any) => m.url),
-  }));
+  const originals = new Map<string, any>((res.includes?.tweets ?? []).map((t: any) => [t.id, t])); // the retweeted posts (expansion)
+  return (res.data ?? []).map((t: any): Item => {
+    const rt = t.referenced_tweets?.find((r: any) => r.type === "retweeted");
+    const from = rt && t.text.match(/^RT @(\w+)/)?.[1];
+    const src = (rt && originals.get(rt.id)) || t; // a retweet shows the original's text and photos
+    return item({
+      id: `x:${t.id}`,
+      source: "x",
+      type: "post",
+      kind: rt ? "reblog" : "post",
+      text: expand(src === t && rt ? t.text.replace(/^RT @\w+:\s*/, "") : src.text, src.entities?.urls ?? []),
+      meta: rt ? repostMeta(from) : t.in_reply_to_user_id ? { reply_to: handle } : {}, // replies to others are excluded by the query, so a reply here is to myself: a thread
+      url: `https://x.com/${handle}/status/${t.id}`,
+      published_at: new Date(t.created_at).toISOString(),
+      fetched_at: now,
+      images: (src.attachments?.media_keys ?? []).map((k: string) => media.get(k)).filter((m: any) => m?.type === "photo").map((m: any) => m.url),
+      ...(rt && { rev: "2" }), // replaces the older placeholder item
+    });
+  });
 }
 
 // Disabled by default (paid API). Cursor = since_id; replies to others are excluded, reposts become reblogs (my own threads still come through).
@@ -35,7 +38,7 @@ const x: Fetcher = async (cfg, prev) => {
     max_results: "100",
     exclude: "replies",
     "tweet.fields": "created_at,attachments,in_reply_to_user_id,entities,referenced_tweets",
-    expansions: "attachments.media_keys",
+    expansions: "attachments.media_keys,referenced_tweets.id", // the second one returns the retweeted posts (extra post reads)
     "media.fields": "url,type",
   });
   if (prev.cursor) q.set("since_id", prev.cursor);

@@ -2,7 +2,7 @@ import { cpSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { loadAll } from "../store.ts";
 import type { Item } from "../types.ts";
 import { atom, feedLinks, jsonFeed } from "./feeds.ts";
-import { abs, BASE, clip, DESC, entryUrl, esc, flat, hasPage, lead, page, permalink, renderItem, searchText, SITE, slug, title } from "./render.ts";
+import { abs, BASE, clip, DESC, entryUrl, esc, flat, hasPage, lead, NOUN, page, permalink, renderItem, searchText, SITE, slug, title } from "./render.ts";
 
 const OUT = "_site";
 const PAGE = 50;
@@ -13,11 +13,11 @@ const write = (path: string, html: string) => {
 };
 
 // Page 1 lives at `base`, later pages at `base`/page/N/.
-function paged(base: string, heading: string, list: Item[], head = "", intro = "") {
+function paged(base: string, heading: string, list: Item[], head = "", intro = "", [newer, older] = ["← newer", "older →"]) { // archive months say "more": "older" is wrong inside a month from years back
   const pages = Math.max(1, Math.ceil(list.length / PAGE));
   for (let n = 1; n <= pages; n++) {
     const at = (k: number) => `${BASE}/${base}${k === 1 ? "" : `page/${k}/`}`;
-    const nav = `<p class="pager">${n > 1 ? `<a href="${at(n - 1)}">← newer</a> ` : ""}${n < pages ? `<a href="${at(n + 1)}">older →</a>` : ""}</p>`;
+    const nav = `<p class="pager">${n > 1 ? `<a href="${at(n - 1)}">${newer}</a> ` : ""}${n < pages ? `<a href="${at(n + 1)}">${older}</a>` : ""}</p>`;
     const items = list.slice((n - 1) * PAGE, n * PAGE).map(renderItem).join("\n") || "<p>Nothing yet.</p>";
     write(n === 1 ? base : `${base}page/${n}/`, page(n === 1 ? heading : `${heading} · page ${n}`, `${heading === SITE ? "" : `<h2 class="list">${esc(heading)}</h2>`}${intro}${items}${nav}`, head));
   }
@@ -51,7 +51,7 @@ for (const v of VIEWS) {
   write(dir, page(`Archive · ${SITE}`, `<h2 class="list">Archive</h2>${show()}<ul>${list.map(([m, l]) => `<li><a href="${BASE}/${dir}/${m.replace("-", "/")}/">${m}</a> <span class="meta">${l.length}</span></li>`).join("")}</ul>`));
   // Month pages link to the neighbouring months that exist in this view (list is newest first).
   const month = (m?: string, arrow = "") => m ? `<a href="${BASE}/${dir}/${m.replace("-", "/")}/">${arrow === "←" ? `← ${m}` : `${m} →`}</a>` : "";
-  list.forEach(([m, l], k) => paged(`${dir}/${m.replace("-", "/")}/`, m, l, "", `${show(m)}<p class="meta">${[month(list[k - 1]?.[0], "←"), month(list[k + 1]?.[0], "→")].filter(Boolean).join(" · ")}</p>`));
+  list.forEach(([m, l], k) => paged(`${dir}/${m.replace("-", "/")}/`, m, l, "", `${show(m)}<p class="meta">${[month(list[k - 1]?.[0], "←"), month(list[k + 1]?.[0], "→")].filter(Boolean).join(" · ")}</p>`, ["← back", "more →"]));
 }
 
 // Filters by source (each with its own feeds), type and tag; /browse/ lists them all.
@@ -65,7 +65,10 @@ const groups = (key: (i: Item) => string[]) => {
   for (const i of items) for (const k of key(i)) if (slug(k)) (m.get(slug(k)) ?? m.set(slug(k), { label: k, list: [] }).get(slug(k))!).list.push(i);
   return [...m].sort((a, b) => b[1].list.length - a[1].list.length);
 };
-const bySource = [...groups((i) => [i.source]), ...groups((i) => (i.kind === "reblog" ? [`${i.source} reblogs`] : []))].sort((a, b) => b[1].list.length - a[1].list.length); // plus a reblogs-only row per source (liked, saved, reblogged)
+// Sources in NOUN get a second row for just their reblogs ("soundcloud likes"); SoundCloud's own row then holds only its uploads. Any other source is one row (DeviantArt's is named for its likes).
+const bySource = [...groups((i) => (i.kind === "reblog" && i.source === "soundcloud" ? [] : [i.source])), ...groups((i) => (i.kind === "reblog" && NOUN[i.source] ? [`${i.source} ${NOUN[i.source]}`] : []))]
+  .sort((a, b) => b[1].list.length - a[1].list.length)
+  .map(([s, g]): [string, typeof g] => [s, s === "deviantart" ? { ...g, label: "deviantart likes" } : g]);
 const byType = groups((i) => [i.type]);
 const byTag = groups((i) => [...new Set(i.tags.filter(slug))]);
 for (const [s, { label, list }] of bySource) {

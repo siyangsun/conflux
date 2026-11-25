@@ -1,10 +1,14 @@
 import { arr, feedFetcher, iso, item, parseXml, realTitle, txt } from "../feed.ts";
-import { htmlToText, imagesOf } from "../text.ts";
+import { hash, htmlToText, imagesOf } from "../text.ts";
 import type { Item } from "../types.ts";
 
 export { realTitle };
 
-// Reblogs: archive only the link and my own added comment, never the original author's text or images.
+// A reblog keeps my own comment first, then the reblogged post's text and images, with "from @blog" shown above (meta.account).
+const reblogMeta = (from: string) => ({ reblog_from: from, account: from, account_url: `https://${from}.tumblr.com` });
+const attribution = /<p><a [^>]*class="tumblr_blog"[^>]*>[^<]*<\/a>:<\/p>/g; // "<blog>:" lines that head each quoted post
+const withTheirs = (mine: string, theirs: string) => [mine, htmlToText(theirs.replace(attribution, ""))].filter(Boolean).join("\n\n");
+
 export function parse(xml: string, now: string): Item[] {
   return arr<any>(parseXml(xml).rss?.channel?.item).flatMap((it): Item[] => {
     const html = txt(it.description);
@@ -12,7 +16,9 @@ export function parse(xml: string, now: string): Item[] {
     const reblog = from !== undefined;
     const end = html.lastIndexOf("</blockquote>");
     const mine = reblog && end >= 0 ? html.slice(end + "</blockquote>".length) : html;
-    const text = htmlToText(reblog && end < 0 ? "" : mine) || (reblog ? `Reblogged from @${from}` : "");
+    const theirs = reblog && end >= 0 ? html.slice(html.indexOf("<blockquote"), end) : "";
+    const text = reblog ? withTheirs(htmlToText(end < 0 ? "" : mine), theirs) : htmlToText(mine);
+    const images = imagesOf(reblog ? theirs : html);
     const id = (txt(it.guid) + " " + txt(it.link)).match(/\/post\/(\d+)/)?.[1];
     if (!id) return [];
     return [item({
@@ -24,34 +30,37 @@ export function parse(xml: string, now: string): Item[] {
       url: txt(it.link),
       published_at: iso(txt(it.pubDate)),
       fetched_at: now,
-      images: reblog ? [] : imagesOf(html),
+      images,
       tags: arr<any>(it.category).map(txt),
       ...(reblog && { kind: "reblog" as const }),
-      meta: reblog ? { reblog_from: from } : {},
+      ...(reblog && { rev: hash(text + images.join()) }), // a changed parse replaces the stored reblog
+      meta: reblog ? reblogMeta(from) : {},
     })];
   });
 }
 
-// Backfill: posts from the Tumblr API (v2, legacy format, reblog_info=true). Same rules as the RSS parser: a reblog keeps only my own comment.
+// Backfill: posts from the Tumblr API (v2, legacy format, reblog_info=true). Same rules as the RSS parser.
 export function parseApi(posts: any[], now: string): Item[] {
   return posts.map((p): Item => {
     const from: string | undefined = p.reblogged_from_name;
     const html: string = p.body ?? p.caption ?? p.description ?? "";
-    const mine = htmlToText(from ? (p.reblog?.comment ?? "") : html);
+    const mine = htmlToText(from ? (p.reblog?.comment ?? "") : html), theirs: string = from ? (p.reblog?.tree_html ?? "") : "";
     const photos: string[] = (p.photos ?? []).map((ph: any) => ph.original_size.url);
+    const text = from ? withTheirs(mine, theirs) : mine;
+    const images = from ? (imagesOf(theirs).length ? imagesOf(theirs) : photos) : photos.length ? photos : imagesOf(html); // text posts carry their pictures as <img> in the body
     return item({
       id: `tumblr:${p.id_string}`,
       source: "tumblr",
       type: "post",
       title: !from && p.title ? p.title : undefined,
-      text: from ? mine || `Reblogged from @${from}` : mine,
+      text,
       url: p.post_url,
       published_at: new Date(p.timestamp * 1000).toISOString(),
       fetched_at: now,
-      images: from ? [] : photos.length ? photos : imagesOf(html), // text posts carry their pictures as <img> in the body
+      images,
       tags: p.tags ?? [],
-      ...(from && { kind: "reblog" as const }),
-      meta: from ? { reblog_from: from } : {},
+      ...(from && { kind: "reblog" as const, rev: hash(text + images.join()) }),
+      meta: from ? reblogMeta(from) : {},
     });
   });
 }

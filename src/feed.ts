@@ -12,7 +12,7 @@ export const txt = (x: any): string => (x == null ? "" : typeof x === "object" ?
 export const item = (i: Omit<Item, "kind" | "images" | "tags" | "visibility" | "meta"> & Partial<Pick<Item, "kind" | "images" | "tags" | "meta">>): Item =>
   ({ kind: "post", images: [], tags: [], visibility: "public", meta: {}, ...i });
 // Content policy, in one place: long-form writing (Substack, Medium) is a link plus teaser, never the essay or its images;
-// a reblog keeps only my own comment. Tumblr and Are.na apply the reblog rule themselves (Are.na saves keep a hotlinked image on purpose).
+// a reblog or retweet keeps my own comment plus the original's text and photos, shown as "from @name". Are.na saves keep a hotlinked image on purpose.
 export const teaser = (text: string) => text.slice(0, 300);
 // Tumblr and RSS fill <title> with the start of the post text when no title was set (truncated with an ellipsis if long): keep only real titles.
 export const realTitle = (title: string, text: string) =>

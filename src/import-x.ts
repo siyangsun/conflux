@@ -1,10 +1,10 @@
 // One-off import of an X/Twitter data archive: `node src/import-x.ts <archive dir>` (the folder that contains data/tweets.js).
-// Retweets become reblogs (just "Reblogged from @user", like Tumblr: none of their words). Skipped: replies to other people. My own threads are kept.
+// Retweets become reblogs (just "retweeted from @user", like Tumblr: none of their words). Skipped: replies to other people. My own threads are kept.
 import { readFileSync } from "node:fs";
-import { repost } from "./fetchers/x.ts";
+import { repostMeta } from "./fetchers/x.ts";
 import { item } from "./feed.ts";
 import { addItems } from "./store.ts";
-import { decode } from "./text.ts";
+import { decode, hash } from "./text.ts";
 import type { Item } from "./types.ts";
 
 const cp = (s: string, a: number, b?: number) => Array.from(s).slice(a, b).join(""); // display_text_range counts code points
@@ -17,26 +17,30 @@ export function parseTweets(tweets: any[], notes: any[], handle: string, uid: st
   const long = new Map(notes.map((n) => [n.noteTweet.createdAt.slice(0, 19), n.noteTweet.core]));
   return tweets.map((r) => r.tweet).filter((t) => t.full_text.startsWith("RT @") || (!t.in_reply_to_status_id_str || t.in_reply_to_user_id_str === uid)).map((t) => {
     const at = new Date(t.created_at).toISOString();
-    if (t.full_text.startsWith("RT @")) return repost(t.id_str, t.full_text, handle, t.created_at, now);
+    const from = t.full_text.match(/^RT @(\w+): /)?.[1]; // a retweet: keep the text and photos; "from @user" is shown above
     const selfReply = !!t.in_reply_to_status_id_str;
-    const [from, to] = t.display_text_range.map(Number);
+    const [lo, to] = t.display_text_range.map(Number);
     const note = long.get(at.slice(0, 19));
-    let text: string = note ? note.text : cp(t.full_text, selfReply ? from : 0, to); // drop the @me in my own threads
+    let text: string = note ? note.text : cp(t.full_text, selfReply ? lo : 0, to); // drop the @me in my own threads
     const links: [string, string][] = note ? note.urls.map((u: any) => [u.shortUrl, u.expandedUrl]) : t.entities.urls.map((u: any) => [u.url, u.expanded_url]);
     for (const [short, full] of links) text = text.replaceAll(short, full);
     for (const m of t.extended_entities?.media ?? t.entities.media ?? []) text = text.replaceAll(m.url, ""); // the link to my own attached photo or video
     const kinds = (t.extended_entities?.media ?? []).map((m: any) => m.type);
     const clip = kinds.includes("video") ? "video" : kinds.includes("animated_gif") ? "gif" : undefined;
+    const body = decode(text).trim().replace(/^RT @\w+:\s*/, ""), photos: string[] = (t.extended_entities?.media ?? []).filter((m: any) => m.type === "photo").map((m: any) => m.media_url_https);
     return item({
       id: `x:${t.id_str}`,
       source: "x",
       type: "post",
-      text: decode(text).trim(),
+      kind: from ? "reblog" : "post",
+      text: body,
       url: `https://x.com/${handle}/status/${t.id_str}`,
       published_at: at,
       fetched_at: now,
-      images: (t.extended_entities?.media ?? []).filter((m: any) => m.type === "photo").map((m: any) => m.media_url_https),
+      ...(from && { rev: hash(body + photos.join()) }), // a changed parse replaces the stored retweet
+      images: photos,
       meta: {
+        ...(from && repostMeta(from)),
         ...(t.in_reply_to_screen_name && { reply_to: t.in_reply_to_screen_name }),
         ...(clip && { clip }), // shown as a "video" / "gif" link back to the tweet; the file itself isn't embedded
       },

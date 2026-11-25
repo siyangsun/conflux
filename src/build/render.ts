@@ -88,19 +88,23 @@ const dateLink = (i: Item) => {
   return hasPage(i) ? `<a href="${permalink(i)}">${t}</a>` : safe(i.url) !== "#" ? `<a href="${esc(i.url)}" rel="noopener">${t}</a>` : t;
 };
 
+// Sources whose reblogs get their own browse row and page, named for what they are ("soundcloud likes"). Sources not listed keep everything under one row.
+export const NOUN: Record<string, string> = { soundcloud: "likes", x: "retweets", tumblr: "reblogs", lastfm: "loved" };
+export const sourcePage = (i: Item) => slug(i.kind === "reblog" && NOUN[i.source] ? `${i.source} ${NOUN[i.source]}` : i.source);
+
 // What happened, as a lead-in for the meta line; `s` is the linked source name.
 export const lead = (i: Item, s: string) =>
   i.type === "repo" ? `created a new repo on ${s}`
   : i.type === "channel" ? `created a new channel on ${s}`
   : i.type === "page" ? `added a page to ${s}`
   : i.type === "commits" ? `committed on ${s}`
-  : i.type === "site-update" ? `${i.title?.startsWith("Added") ? "added to" : "updated"} ${s}`
+  : i.type === "site-update" ? `${i.title?.startsWith("added") ? "added to" : "updated"} ${s}`
   : i.type === "video" ? `posted a video to ${s}`
   : SRC[i.source]?.lead?.(i, s) ?? (i.kind === "reblog" ? `reblogged on ${s}` : `posted to ${s}`);
 
-// Liked or favourited work: "by @artist" under the title (meta.account, meta.account_url) instead of "via @artist" in the top line.
-const BYLINE = new Set(["soundcloud", "deviantart"]);
-const by = (i: Item) => `<p class="meta">by <a href="${esc(safe(String(i.meta.account_url)))}" rel="noopener">@${esc(String(i.meta.account))}</a></p>`;
+// Liked, favourited or reposted work: "by @artist" (retweets and reblogs: "from @name") under the title (meta.account, meta.account_url) instead of "via @artist" in the top line.
+const BYLINE = new Set(["soundcloud", "deviantart", "x", "tumblr"]);
+const by = (i: Item, word = "by") => `<p class="meta">${word} <a href="${esc(safe(String(i.meta.account_url)))}" rel="noopener">@${esc(String(i.meta.account))}</a></p>`;
 // "via @name": the profile or publication posted to, when the fetcher recorded one (meta.account, meta.account_url).
 const via = (i: Item) => {
   if (i.kind === "reblog" && BYLINE.has(i.source)) return ""; // shown under the title instead
@@ -125,7 +129,8 @@ const SRC: Record<string, View> = {
     page: false, // tweets are just text and a link
     mention: (u) => `https://x.com/${u}`,
     hashtag: (t) => `https://x.com/hashtag/${encodeURIComponent(t)}`,
-    lead: (i, s) => (i.meta.reply_to && i.url.includes(`/${i.meta.reply_to}/status/`) ? `posted in a thread on ${s}` : undefined), // a reply to myself
+    body: (i) => (i.kind === "reblog" ? by(i, "from") + paragraphs(i.text, i.source) : undefined),
+    lead: (i, s) => (i.kind === "reblog" ? `retweeted on ${s}` : i.meta.reply_to && i.url.includes(`/${i.meta.reply_to}/status/`) ? `posted in a thread on ${s}` : undefined), // a reply to myself
   },
   bluesky: { page: false },
   lastfm: {
@@ -141,7 +146,8 @@ const SRC: Record<string, View> = {
     lead: (i, s) => (i.kind === "reblog" ? `liked on ${s}` : undefined),
     body: (i) => (i.kind === "reblog" ? by(i) : undefined),
   },
-  deviantart: { lead: (_, s) => `favorited on ${s}`, body: (i) => by(i) + paragraphs(i.text) }, // favourites are stored as reblogs
+  tumblr: { body: (i) => (i.kind === "reblog" ? by(i, "from") + paragraphs(i.text, i.source) : undefined) },
+  deviantart: { lead: (_, s) => `liked on ${s}`, body: by }, // favourites are stored as reblogs; the artist's description stays in the data (searchable) but is not shown
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
 };
 export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")} ${i.meta.account ?? ""} ${i.meta.reblog_from ?? ""}`.toLowerCase(); // account: the artist or publication; reblog_from: who I reblogged
@@ -155,7 +161,7 @@ export function renderItem(i: Item): string {
   // Link previews are capped by the stylesheet: manual posts (OpenGraph unfurl) and Are.na Link/Embed/Attachment blocks. Are.na Image blocks stay full size.
   const preview = SRC[i.source]?.preview?.(i);
   return `<article${preview ? ' class="preview"' : ""}>
-<div class="meta">${lead(i, `<a href="${BASE}/source/${slug(i.source)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${hasPage(i) && i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
+<div class="meta">${lead(i, `<a href="${BASE}/source/${sourcePage(i)}/">${esc(i.source)}</a>`)}${via(i)} · ${dateLink(i)}${hasPage(i) && i.url && !i.title ? ` · <a href="${esc(safe(i.url))}" rel="noopener">original</a>` : ""}${ch ? ` · in <a href="${esc(safe(ch.url))}" rel="noopener">${esc(ch.title)}</a>` : ""}</div>
 ${i.title ? `<h2>${i.url ? `<a href="${esc(safe(i.url))}" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</h2>` : ""}${BODY[i.type](i)}${media}${clip}${media && i.url ? `<p class="meta url"><a href="${esc(safe(i.url))}" rel="noopener">${esc(i.url)}</a></p>` : ""}${tags}
 </article>`;
 }
