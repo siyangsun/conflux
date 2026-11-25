@@ -40,12 +40,12 @@ const months = VIEWS.map((v) => new Set(monthsOf(v.list).map(([m]) => m)));
 for (const v of VIEWS) {
   paged(v.path, v.path ? v.name : SITE, v.list, v.path ? feedLinks(`/${v.path}`, `${v.name} · ${SITE}`) : `<meta name="description" content="${esc(DESC)}">`);
 
-  // Archive: a month index plus paged month pages for this view. The "show" line switches views, staying on the same month when it exists there.
+  // Archive: a month index plus paged month pages for this view. The "show" line switches views, staying on the same month, or shown as plain text when that view has none.
   const dir = `archive/${v.path}`.replace(/\/$/, "");
   const show = (month?: string) => `<p class="meta">show: ${VIEWS.map((w, k) => {
     if (w === v) return `<b>${w.name}</b>`;
-    const to = month && months[k].has(month) ? `${month.replace("-", "/")}/` : "";
-    return `<a href="${BASE}/archive/${w.path}${to}">${w.name}</a>`;
+    if (month && !months[k].has(month)) return `<span class="meta">${w.name}</span>`; // nothing there this month: no link
+    return `<a href="${BASE}/archive/${w.path}${month ? `${month.replace("-", "/")}/` : ""}">${w.name}</a>`;
   }).join(" · ")}</p>`;
   const list = monthsOf(v.list);
   write(dir, page(`Archive · ${SITE}`, `<h2 class="list">Archive</h2>${show()}<ul>${list.map(([m, l]) => `<li><a href="${BASE}/${dir}/${m.replace("-", "/")}/">${m}</a> <span class="meta">${l.length}</span></li>`).join("")}</ul>`));
