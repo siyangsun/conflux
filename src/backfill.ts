@@ -99,19 +99,20 @@ const jobs: Record<string, () => Promise<Item[]>> = {
     return [];
   },
   // Every post via the Tumblr API, 20 per request (the RSS feed stops at ~20). Needs TUMBLR_API_KEY in the environment (your OAuth consumer key; never commit it).
+  // TUMBLR_BLOG=<name> imports another blog of mine instead, reblogs only (a one-off for an old blog: nothing is added to the config or the live fetch).
   async tumblr() {
-    const key = process.env.TUMBLR_API_KEY;
+    const key = process.env.TUMBLR_API_KEY, blog = process.env.TUMBLR_BLOG ?? sources.tumblr.username;
     if (!key) throw new Error("set TUMBLR_API_KEY");
     const out: Item[] = [];
     for (let offset = 0, total = 1; offset < total; offset += 20) {
-      const res = await fetch(`https://api.tumblr.com/v2/blog/${sources.tumblr.username}.tumblr.com/posts?api_key=${key}&reblog_info=true&limit=20&offset=${offset}`, { headers: { "user-agent": UA } });
+      const res = await fetch(`https://api.tumblr.com/v2/blog/${blog}.tumblr.com/posts?api_key=${key}&reblog_info=true&limit=20&offset=${offset}`, { headers: { "user-agent": UA } });
       if (!res.ok) throw new Error(`tumblr API -> HTTP ${res.status}`); // not the URL: it contains the key
       const r = (await res.json()).response;
       total = r.total_posts;
       out.push(...parseTumblr(r.posts, now));
       await sleep(300);
     }
-    return out;
+    return process.env.TUMBLR_BLOG ? out.filter((i) => i.kind === "reblog") : out;
   },
   // Every loved track (200 per request) and a daily rollup of all scrobbles. Needs LASTFM_API_KEY in the environment.
   async lastfm() {
