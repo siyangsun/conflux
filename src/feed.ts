@@ -33,7 +33,10 @@ export async function get(url: string, prev: SourceState) {
     await new Promise((r) => setTimeout(r, n * 2000));
   }
   if (res.status === 304) return null;
-  if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
+  if (!res.ok) { // say who blocked us (Cloudflare headers and the start of the body), so a 403 can be diagnosed from the failure issue
+    const who = ["server", "cf-mitigated", "cf-ray"].flatMap((h) => (res.headers.get(h) ? [`${h}=${res.headers.get(h)}`] : [])).join(" ");
+    throw new Error(`${url} -> HTTP ${res.status}${who ? ` (${who})` : ""} ${(await res.text()).replace(/\s+/g, " ").slice(0, 120)}`.trim());
+  }
   return {
     text: await res.text(),
     cache: { etag: res.headers.get("etag") ?? undefined, last_modified: res.headers.get("last-modified") ?? undefined },
