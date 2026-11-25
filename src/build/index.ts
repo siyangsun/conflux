@@ -65,7 +65,7 @@ const groups = (key: (i: Item) => string[]) => {
   for (const i of items) for (const k of key(i)) if (slug(k)) (m.get(slug(k)) ?? m.set(slug(k), { label: k, list: [] }).get(slug(k))!).list.push(i);
   return [...m].sort((a, b) => b[1].list.length - a[1].list.length);
 };
-const bySource = groups((i) => [i.source]);
+const bySource = [...groups((i) => [i.source]), ...groups((i) => (i.kind === "reblog" ? [`${i.source} reblogs`] : []))].sort((a, b) => b[1].list.length - a[1].list.length); // plus a reblogs-only row per source (liked, saved, reblogged)
 const byType = groups((i) => [i.type]);
 const byTag = groups((i) => [...new Set(i.tags.filter(slug))]);
 for (const [s, { label, list }] of bySource) {
