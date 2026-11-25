@@ -115,6 +115,29 @@
     "meta": {
       "repos": [
         {
+          "name": "courtyard",
+          "url": "https://github.com/siyangsun/courtyard",
+          "count": 2
+        }
+      ]
+    },
+    "id": "github:commits:2026-11-24",
+    "source": "github",
+    "type": "commits",
+    "title": "2 commits in 1 repo",
+    "text": "courtyard (2)",
+    "url": "https://github.com/siyangsun/courtyard",
+    "published_at": "2026-11-24T20:53:59.000Z",
+    "fetched_at": "2026-11-25T05:22:58.706Z"
+  },
+  {
+    "kind": "activity",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "repos": [
+        {
           "name": "the-glimmering",
           "url": "https://github.com/siyangsun/the-glimmering",
           "count": 3
