@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
+    "last_error": "https://sump.substack.com/feed -> HTTP 403 (server=cloudflare cf-mitigated=challenge cf-ray=a603e5fec88dff32-MSP) <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
     "failing_since": "2026-11-25T20:14:18.071Z",
     "feeds": {
       "https://sump.substack.com/feed": {
@@ -201,7 +201,7 @@
     "failing_since": null
   },
   "x": {
-    "cursor": "2125601845951488482",
+    "cursor": "2125696686383382803",
     "last_error": null,
     "failing_since": null
   },
