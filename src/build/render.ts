@@ -128,6 +128,7 @@ const SRC: Record<string, View> = {
     lead: (i, s) => (i.kind === "reblog" ? `${i.meta.own ? "posted" : "saved"} to ${s}` : undefined),
     preview: (i) => i.meta.block_type !== "Image", // Image blocks stay full size
   },
+  soundcloud: { lead: (i, s) => (i.kind === "reblog" ? `liked on ${s}` : undefined) }, // likes are stored as reblogs
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
 };
 export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")}`.toLowerCase();
