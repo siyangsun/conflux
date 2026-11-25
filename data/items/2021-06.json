@@ -709,15 +709,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "ChrisMYChen"
+      "reblog_from": "ChrisMYChen",
+      "account": "ChrisMYChen",
+      "account_url": "https://x.com/ChrisMYChen"
     },
     "id": "x:1400663740362620930",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @ChrisMYChen",
+    "text": "(bean) bag secured. from the street.",
     "url": "https://x.com/unevenlyeven/status/1400663740362620930",
     "published_at": "2021-06-04T04:00:33.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "f6399594ed74"
   },
   {
     "kind": "post",

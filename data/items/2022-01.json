@@ -100,15 +100,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "prerationalist"
+      "reblog_from": "prerationalist",
+      "account": "prerationalist",
+      "account_url": "https://x.com/prerationalist"
     },
     "id": "x:1487665130112389121",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @prerationalist",
+    "text": "curiosity fulfilled the rat",
     "url": "https://x.com/unevenlyeven/status/1487665130112389121",
     "published_at": "2022-01-30T05:53:01.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "9d4ba2224e8a"
   },
   {
     "kind": "post",
@@ -188,15 +191,19 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "MattHighton"
+      "reblog_from": "MattHighton",
+      "account": "MattHighton",
+      "account_url": "https://x.com/MattHighton",
+      "clip": "video"
     },
     "id": "x:1484958538807996416",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @MattHighton",
+    "text": "I've created the fabled Spice Girls Melange and put the Spice Girls into Dune.",
     "url": "https://x.com/unevenlyeven/status/1484958538807996416",
     "published_at": "2022-01-22T18:37:59.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "28ac83d4154d"
   },
   {
     "kind": "reblog",
@@ -482,15 +489,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "bunznrollz"
+      "reblog_from": "bunznrollz",
+      "account": "bunznrollz",
+      "account_url": "https://x.com/bunznrollz"
     },
     "id": "x:1481785686848016386",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @bunznrollz",
+    "text": "I’m not asking for much. All I want is for every single friend I’ve ever made to live in the same apartment complex or in v…",
     "url": "https://x.com/unevenlyeven/status/1481785686848016386",
     "published_at": "2022-01-14T00:30:12.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "bed56a3a3645"
   },
   {
     "kind": "post",
@@ -508,19 +518,24 @@
   },
   {
     "kind": "reblog",
-    "images": [],
+    "images": [
+      "https://pbs.twimg.com/media/FJAx9MMVIAAu410.png"
+    ],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "UCEInitiative"
+      "reblog_from": "UCEInitiative",
+      "account": "UCEInitiative",
+      "account_url": "https://x.com/UCEInitiative"
     },
     "id": "x:1481741151585517568",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @UCEInitiative",
+    "text": "No lies, just facts. 😏\n\nDay 1 starts at 12 PM PT January 14th!\n\n📺: https://www.twitch.tv/uceinitiative",
     "url": "https://x.com/unevenlyeven/status/1481741151585517568",
     "published_at": "2022-01-13T21:33:14.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "f4f7942d4a89"
   },
   {
     "kind": "post",
@@ -836,7 +851,7 @@
     "id": "quartz:backfill-updated-2022-01-04",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-01-04T16:39:22.000Z",
@@ -900,7 +915,7 @@
     "id": "quartz:backfill-updated-2022-01-03",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-01-03T21:37:24.000Z",

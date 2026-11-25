@@ -29,26 +29,6 @@
   },
   {
     "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/058ae5de-e75c-4212-8b3f-1c03450d2923/d9sndrf-f29b58e2-a0ef-4636-9dfe-54669d86f22c.jpg/v1/fit/w_300,h_900,q_70,strp/canyon_people_by_artofmarius_d9sndrf-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjQwMCIsInBhdGgiOiIvZi8wNThhZTVkZS1lNzVjLTQyMTItOGIzZi0xYzAzNDUwZDI5MjMvZDlzbmRyZi1mMjliNThlMi1hMGVmLTQ2MzYtOWRmZS01NDY2OWQ4NmYyMmMuanBnIiwid2lkdGgiOiI8PTMyMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.56cYS824-yDzEiJXsHyXGO8R8vyCTemskXfmQQbsWmw"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "artofmarius",
-      "account_url": "https://www.deviantart.com/artofmarius"
-    },
-    "id": "deviantart:592315755",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Canyon people",
-    "text": "Commission piece. Probably the most complicated thing that I've ever done....\n\nThank you for daily deviation! <3\n\nYou can find me here!\n\nwww.twitch.tv/mariusjanusonis\nartofmarius.tumblr.com/\nwww.artstation.com/artist/arto…\nartofmarius.blogspot.lt/",
-    "url": "https://www.deviantart.com/artofmarius/art/Canyon-people-592315755",
-    "published_at": "2016-02-22T00:40:49.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -555,19 +535,24 @@
   },
   {
     "kind": "reblog",
-    "images": [],
+    "images": [
+      "https://64.media.tumblr.com/41065370838dc37b8e83268a308de836/tumblr_nydojewDch1tv3pzuo1_500.jpg"
+    ],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "ragveld"
+      "reblog_from": "ragveld",
+      "account": "ragveld",
+      "account_url": "https://ragveld.tumblr.com"
     },
     "id": "tumblr:139474656579",
     "source": "tumblr",
     "type": "post",
-    "text": "Reblogged from @ragveld",
+    "text": "",
     "url": "https://unevenlyeven.tumblr.com/post/139474656579",
     "published_at": "2016-02-17T08:27:29.000Z",
-    "fetched_at": "2026-11-25T20:18:08.515Z"
+    "fetched_at": "2026-11-25T20:35:36.886Z",
+    "rev": "f0bf6dcee727"
   },
   {
     "kind": "reblog",
@@ -656,205 +641,5 @@
       "provider": "soundcloud",
       "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjoshpan%2Fopus"
     }
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/256201f4-81d0-4495-a03b-6604e7f82e3b/d9rw7vo-99c04ed8-7461-4ca9-8ffc-e96cfc3fa632.jpg/v1/fit/w_300,h_648,q_70,strp/hollow_face_by_shahanb_d9rw7vo-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQ4IiwicGF0aCI6Ii9mLzI1NjIwMWY0LTgxZDAtNDQ5NS1hMDNiLTY2MDRlN2Y4MmUzYi9kOXJ3N3ZvLTk5YzA0ZWQ4LTc0NjEtNGNhOS04ZmZjLWU5NmNmYzNmYTYzMi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.suyS5AA12G28i-TCj-07kGaluqnyCdIU_dKb5y0SpZo"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "shahanb",
-      "account_url": "https://www.deviantart.com/shahanb"
-    },
-    "id": "deviantart:591048420",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Hollow face",
-    "text": "Check it out on Behance for process work www.behance.net/gallery/341344…\n\nBackground mountains www.deviantart.com/art/Stock-G…\nGuy in boat: commons.wikimedia.org/wiki/Fil…\n\nI made the statue in Cinema4D\nI'd appreciate any feedback thanks!",
-    "url": "https://www.deviantart.com/shahanb/art/Hollow-face-591048420",
-    "published_at": "2016-02-15T21:43:00.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9971ddf5-559a-4aad-bca8-05b7ba7571e1/d9rw8n1-22817f10-98bb-4816-9fae-25f2f4889dc2.jpg/v1/fit/w_300,h_640,q_70,strp/pirate_sunset_by_deskridge_d9rw8n1-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6Ii9mLzk5NzFkZGY1LTU1OWEtNGFhZC1iY2E4LTA1YjdiYTc1NzFlMS9kOXJ3OG4xLTIyODE3ZjEwLTk4YmItNDgxNi05ZmFlLTI1ZjJmNDg4OWRjMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.F9IykrIzCKHAWc-Sado9zCvqUxVzldvuu2WvU763fyc"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "deskridge",
-      "account_url": "https://www.deviantart.com/deskridge"
-    },
-    "id": "deviantart:591049405",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Pirate Sunset",
-    "text": "............................................................\n Prints: danieleskridge.com/featured/pi…\n ............................................................\n\nA pair of pirate ships sail lazily through calm waters as the sun sets in a cloud filled sky.\n\nI started this scene out just to test out some clouds textures that I've been working on.  I thought the clouds turned out pretty well, so I decided to turn it into a nautical scene with a calm sea to reflect the light from the sky.  \n\nI created this image using CGI techniques as well as some digital painting applications.\n\nResources:\nPoser: IntrovertArtist.com/Poser\nThe Medusa: IntrovertArtist.com/medusa\nGIMP:  IntrovertArtist.com/Gimp    \nVue: IntrovertArtist.com/Vue\nPhotomatix: IntrovertArtist.com/Photomatix\n\nThanks for looking,\nDaniel Eskridge\n\nP.S. \n\nFollow me on Facebook: www.facebook.com/TheArtOfDanie…\nAlso, I have a Zazzle store: www.zazzle.com/artofdanieleskr…\nand, of course, a blog: www.introvertartist.com",
-    "url": "https://www.deviantart.com/deskridge/art/Pirate-Sunset-591049405",
-    "published_at": "2016-02-15T21:38:16.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3c7c11e-dea2-4d25-864b-eade9835dc75/d9rhiv4-7bca0e0c-5aa2-4360-b9ba-58d27e1ad085.jpg/v1/fit/w_300,h_900,q_70,strp/gou_sunset_splash_video_by_naschi_d9rhiv4-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTcyIiwicGF0aCI6Ii9mL2UzYzdjMTFlLWRlYTItNGQyNS04NjRiLWVhZGU5ODM1ZGM3NS9kOXJoaXY0LTdiY2EwZTBjLTVhYTItNDM2MC1iOWJhLTU4ZDI3ZTFhZDA4NS5qcGciLCJ3aWR0aCI6Ijw9MTIwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ne_Pp1rBB60iapXS4AB9ZjR--ahOdQO3wYZxOP8LZ_g"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "Naschi",
-      "account_url": "https://www.deviantart.com/Naschi"
-    },
-    "id": "deviantart:590362816",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Gou Sunset Splash + VIDEO",
-    "text": "Video => youtu.be/CHEOIeTuADE\n\nNew Watercolor Painting with Gou from the Kyoani Anime Free. \nI really liked to draw her. She's an awesome character with a strong will and lots of power. Yush Hands up for Gou eheh\n\nHave fun with the video ❤\nNashi\n\nTools used for the painting:\nDeleter G-Pen\nRohrer & Klingner Drawing Ink (Burnt Sienna)\nDa Vinci Brush \nKuretake Inkbrush\nDr Ph Martins Concentrated Watercolors\nDr Ph Martins Pen White\nFaber Castell Polychromos\nCanson Montvalle Watercolor Paper\n\n===============================================\nFACEBOOK  INSTAGRAM  LEARNMANGA",
-    "url": "https://www.deviantart.com/naschi/art/Gou-Sunset-Splash-%2B-VIDEO-590362816",
-    "published_at": "2016-02-12T22:23:55.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/90b0cf78-3356-43b3-a7a2-8e6bf0e85ef1/d9rg3pz-3c38ac65-22b5-480c-ad67-5b2e7d9184d8.jpg/v1/fit/w_300,h_774,q_70,strp/dusk_by_guweiz_d9rg3pz-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzc0IiwicGF0aCI6Ii9mLzkwYjBjZjc4LTMzNTYtNDNiMy1hN2EyLThlNmJmMGU4NWVmMS9kOXJnM3B6LTNjMzhhYzY1LTIyYjUtNDgwYy1hZDY3LTViMmU3ZDkxODRkOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.P3BsdAuEha37b1oexLBvR5yordgYlv9iAQ_fULY2CR0"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "GUWEIZ",
-      "account_url": "https://www.deviantart.com/GUWEIZ"
-    },
-    "id": "deviantart:590296535",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Dusk",
-    "text": "|Instagram|Tumblr|Twitter|Patreon|Facebook\n\nA quick rough painting just for fun~ Trying out more saturated Makoto Shinkai style sunset colors!\n\nSupport me on Patreon for: .PSDs, processes and tutorials~ \n\nRecent works~",
-    "url": "https://www.deviantart.com/guweiz/art/Dusk-590296535",
-    "published_at": "2016-02-12T15:30:55.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b51b9bd4-f3d3-4cc2-a821-e8eb96467f6e/d9refqm-c4888f99-088d-4bfd-8b7e-bdfbcfe38f24.png/v1/fit/w_300,h_900,q_70,strp/indigestion_by_danluvisiart_d9refqm-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU3NCIsInBhdGgiOiIvZi9iNTFiOWJkNC1mM2QzLTRjYzItYTgyMS1lOGViOTY0NjdmNmUvZDlyZWZxbS1jNDg4OGY5OS0wODhkLTRiZmQtOGI3ZS1iZGZiY2ZlMzhmMjQucG5nIiwid2lkdGgiOiI8PTExMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.VpbI__TLeTOM_nkxtfW_f8koyC5-K1_5oiuG4V4eXQU"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "DanLuVisiArt",
-      "account_url": "https://www.deviantart.com/DanLuVisiArt"
-    },
-    "id": "deviantart:590218798",
-    "source": "deviantart",
-    "type": "post",
-    "title": "INDIGESTION",
-    "text": "Painting for my Boba Fett series. \n\nMarvel, I'd love to do covers. Just saying.",
-    "url": "https://www.deviantart.com/danluvisiart/art/INDIGESTION-590218798",
-    "published_at": "2016-02-12T03:18:44.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d661c-7b90-4791-a9d8-1383b2cbde2a/d9qzfmf-2afcbda5-d36f-4ad5-bc05-95a445c0319f.jpg/v1/fit/w_300,h_675,q_70,strp/source_by_batjorge_d9qzfmf-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6Ii9mLzViOGQ2NjFjLTdiOTAtNDc5MS1hOWQ4LTEzODNiMmNiZGUyYS9kOXF6Zm1mLTJhZmNiZGE1LWQzNmYtNGFkNS1iYzA1LTk1YTQ0NWMwMzE5Zi5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vXPm0Yh6k_f_qp4zG2YoJCS6oMnClUml9l3MIQ5umdc"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "batjorge",
-      "account_url": "https://www.deviantart.com/batjorge"
-    },
-    "id": "deviantart:589518807",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Source",
-    "text": "Mandelbulb 3D 189. _sphereZinv, _SinhY, MixPinski4ex, reciprocalY3b and _LogY.",
-    "url": "https://www.deviantart.com/batjorge/art/Source-589518807",
-    "published_at": "2016-02-08T14:13:25.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d661c-7b90-4791-a9d8-1383b2cbde2a/d9qrs1k-ae7b8c62-a0ba-46df-ba21-05f8aa6d6af3.jpg/v1/fit/w_300,h_900,q_70,strp/interlude_by_batjorge_d9qrs1k-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiIvZi81YjhkNjYxYy03YjkwLTQ3OTEtYTlkOC0xMzgzYjJjYmRlMmEvZDlxcnMxay1hZTdiOGM2Mi1hMGJhLTQ2ZGYtYmEyMS0wNWY4YWE2ZDZhZjMuanBnIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ._7DobZviqtL89TQb_eG6U3xaifSdigC7fZ8Qdc8d3HI"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "batjorge",
-      "account_url": "https://www.deviantart.com/batjorge"
-    },
-    "id": "deviantart:589161656",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Interlude",
-    "text": "Mandelbulb 3D 189. ABoxVS_icen1, Folding Int Pow and ABoxMod2.",
-    "url": "https://www.deviantart.com/batjorge/art/Interlude-589161656",
-    "published_at": "2016-02-06T23:06:29.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f7a88b7-3a2d-42cb-96ad-19f13fd098a3/d9qli50-b8a90140-d0c8-479c-95ae-c51f024b7321.jpg/v1/fit/w_300,h_900,q_70,strp/_predator__by_yvanquinet_d9qli50-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6Ii9mLzlmN2E4OGI3LTNhMmQtNDJjYi05NmFkLTE5ZjEzZmQwOThhMy9kOXFsaTUwLWI4YTkwMTQwLWQwYzgtNDc5Yy05NWFlLWM1MWYwMjRiNzMyMS5qcGciLCJ3aWR0aCI6Ijw9NjMwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.SZ0j_hbXg22UG__Ro4L2U4Q9vjKFqRafsddVQpjCHBw"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "yvanquinet",
-      "account_url": "https://www.deviantart.com/yvanquinet"
-    },
-    "id": "deviantart:588868884",
-    "source": "deviantart",
-    "type": "post",
-    "title": "-- Predator --",
-    "text": "GIF process, PSD files and High-res here:www.patreon.com/yvanquinet?ty=…",
-    "url": "https://www.deviantart.com/yvanquinet/art/Predator-588868884",
-    "published_at": "2016-02-05T17:01:14.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7b046338-21e6-4092-9812-a550733d4eb6/d9qa4kz-75bf11f1-d5d7-420f-8a4a-7fcc95b5e804.jpg/v1/fit/w_300,h_900,q_70,strp/high_rise_by_h0stilekid_d9qa4kz-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6Ii9mLzdiMDQ2MzM4LTIxZTYtNDA5Mi05ODEyLWE1NTA3MzNkNGViNi9kOXFhNGt6LTc1YmYxMWYxLWQ1ZDctNDIwZi04YTRhLTdmY2M5NWI1ZTgwNC5qcGciLCJ3aWR0aCI6Ijw9MTgwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7Ja7LDH27_Q9i9DH-xMPjjLXBbSOXX1Jy7PeV8nTdNc"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "H0stilekid",
-      "account_url": "https://www.deviantart.com/H0stilekid"
-    },
-    "id": "deviantart:588338099",
-    "source": "deviantart",
-    "type": "post",
-    "title": "high-rise",
-    "text": "Hi sorry I haven't uploaded in a while did this one a few months ago just never uploaded it. I made a 3d base for this one with some parts from Nick Govacko as well as some of my own then a paint over in Photoshop.  I know I say this every time but I'm going to upload some new stuff and some more old stuff I haven't posted more frequently. Feel free to leave comments or questions ill try to make time to answer them.  Hope you enjoy!\n\nwww.artstation.com/artist/h0st…",
-    "url": "https://www.deviantart.com/h0stilekid/art/high-rise-588338099",
-    "published_at": "2016-02-02T22:36:34.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
-  },
-  {
-    "kind": "reblog",
-    "images": [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77daab12-4fc8-4928-ac0f-7f7543112553/d9q4810-e2903156-0183-4d1b-9e25-5c9a14be0d33.jpg/v1/fit/w_300,h_507,q_70,strp/khamsin_refinery_complex_by_ungdi_sea_d9q4810-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6Ii9mLzc3ZGFhYjEyLTRmYzgtNDkyOC1hYzBmLTdmNzU0MzExMjU1My9kOXE0ODEwLWUyOTAzMTU2LTAxODMtNGQxYi05ZTI1LTVjOWExNGJlMGQzMy5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.dw9QgZnVNa-zsuAUoXWPqd77Sr5IbwO-osZ-TdRcWCA"
-    ],
-    "tags": [],
-    "visibility": "public",
-    "meta": {
-      "account": "UNGDI-SEA",
-      "account_url": "https://www.deviantart.com/UNGDI-SEA"
-    },
-    "id": "deviantart:588062628",
-    "source": "deviantart",
-    "type": "post",
-    "title": "Khamsin Refinery Complex",
-    "text": "In the seemingly lifeless shadow of an immense canyon among the scorched badlands, a massive, brutalist facility serves to extract precious materials from far below the burning sands. Scout vehicles sent to oversee the state of the facility's exterior look no more than mere ants to a viewer atop one of the facility's serpentine decks and walkways. Dozens more of these collosal complexes exist within the dead, arid region.\n\nIt was quite literally supposed to be just a speedy, but it ended up taking much more than that! Probably more or less 24 hours of work, spread over perhaps two weeks. Slightly inspired by many artworks I've recently spotted once more from Akira and Blade Runner. Those two have quite a lot in common - at least in background materials.  I might not release too much works in this level of detail, it tends to eat up the pace. \n\nInitially, the name of the picture was 'Death Processing Facility Z', from a novice-built deathmatch map submitted to a map collection site a long, long, long time ago for the first Unreal Tournament. A lot of commenters lambasted the map badly for being simplistic, ugly, and composed mostly of thin, empty cubes. One commenter asked \"How the heck does a facility process DEATH?\". Another questioned \"If it's Z, that means there are also facilities A-Y that process death?!\".\n\nI believe they were wrong in attacking the concept (I'm not serious, of course!) - I thought to myself, what would my own take on a Death Processing Facility Z look like?! Definitely huge and menacing, as such, that was the theme I was going for with large, geometric, unfriendly shapes as a structural theme. \n\nI still don't know how the facility processes death though but since it's a refinery and we can assume it refines oil, I guess there's some dots to connect.",
-    "url": "https://www.deviantart.com/ungdi-sea/art/Khamsin-Refinery-Complex-588062628",
-    "published_at": "2016-02-01T14:03:03.000Z",
-    "fetched_at": "2026-11-25T20:23:05.222Z"
   }
 ]

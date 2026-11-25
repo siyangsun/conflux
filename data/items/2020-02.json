@@ -113,19 +113,24 @@
   },
   {
     "kind": "reblog",
-    "images": [],
+    "images": [
+      "https://64.media.tumblr.com/f5947e83bcf6092d58c5362876ef5589/tumblr_nqthrpnSR51urf4tmo2_r1_1280.jpg"
+    ],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "cypulchre"
+      "reblog_from": "cypulchre",
+      "account": "cypulchre",
+      "account_url": "https://cypulchre.tumblr.com"
     },
     "id": "tumblr:190773277014",
     "source": "tumblr",
     "type": "post",
-    "text": "Reblogged from @cypulchre",
+    "text": "Dystopia Samurai by S-lpis",
     "url": "https://unevenlyeven.tumblr.com/post/190773277014/astromech-punk-dystopia-samurai-by-s-lpis",
     "published_at": "2020-02-11T16:16:06.000Z",
-    "fetched_at": "2026-11-25T20:18:08.515Z"
+    "fetched_at": "2026-11-25T20:36:05.052Z",
+    "rev": "fff0b1607b2c"
   },
   {
     "kind": "post",

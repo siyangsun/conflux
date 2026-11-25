@@ -80,7 +80,7 @@
     "id": "quartz:backfill-updated-2021-12-27",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2021-12-27T20:59:19.000Z",
@@ -178,7 +178,7 @@
     "id": "quartz:backfill-updated-2021-12-26",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2021-12-26T04:45:30.000Z",
@@ -201,7 +201,7 @@
     "id": "quartz:backfill-updated-2021-12-23",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2021-12-23T22:05:27.000Z",
@@ -209,19 +209,26 @@
   },
   {
     "kind": "reblog",
-    "images": [],
+    "images": [
+      "https://pbs.twimg.com/media/FHO4LAoXIAMV9Hb.jpg",
+      "https://pbs.twimg.com/media/FHO4OTMX0AU6l_y.jpg",
+      "https://pbs.twimg.com/media/FHO4PquXsAwKkOx.jpg"
+    ],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "swordandsnore"
+      "reblog_from": "swordandsnore",
+      "account": "swordandsnore",
+      "account_url": "https://x.com/swordandsnore"
     },
     "id": "x:1473742587802443776",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @swordandsnore",
+    "text": "encounters and first impressions",
     "url": "https://x.com/unevenlyeven/status/1473742587802443776",
     "published_at": "2021-12-22T19:49:48.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "2ce349ba1b44"
   },
   {
     "kind": "post",
@@ -283,19 +290,24 @@
   },
   {
     "kind": "reblog",
-    "images": [],
+    "images": [
+      "https://pbs.twimg.com/media/FHAwm0wVkAIpKaS.jpg"
+    ],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "rachdele"
+      "reblog_from": "rachdele",
+      "account": "rachdele",
+      "account_url": "https://x.com/rachdele"
     },
     "id": "x:1472748058345574400",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @rachdele",
+    "text": "yep I'm back in southern california",
     "url": "https://x.com/unevenlyeven/status/1472748058345574400",
     "published_at": "2021-12-20T01:57:54.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "5ae5a53044b6"
   },
   {
     "kind": "post",
@@ -511,19 +523,24 @@
   },
   {
     "kind": "reblog",
-    "images": [],
+    "images": [
+      "https://pbs.twimg.com/media/FF1d1YvWQAcdcSi.jpg"
+    ],
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "archillect"
+      "reblog_from": "archillect",
+      "account": "archillect",
+      "account_url": "https://x.com/archillect"
     },
     "id": "x:1467559169108504580",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @archillect",
+    "text": "",
     "url": "https://x.com/unevenlyeven/status/1467559169108504580",
     "published_at": "2021-12-05T18:19:06.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "8080e65f4d5c"
   },
   {
     "kind": "post",

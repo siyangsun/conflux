@@ -721,15 +721,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "ChrisMYChen"
+      "reblog_from": "ChrisMYChen",
+      "account": "ChrisMYChen",
+      "account_url": "https://x.com/ChrisMYChen"
     },
     "id": "x:1505667992306143232",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @ChrisMYChen",
+    "text": "Do your parents say, ‘I love you?’ \nI surveyed 120+ of my Asian American friends to find out at http://asianamerican.fyi. T…",
     "url": "https://x.com/unevenlyeven/status/1505667992306143232",
     "published_at": "2022-03-20T22:09:57.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "f5e632923e56"
   },
   {
     "kind": "post",
@@ -849,7 +852,7 @@
     "id": "quartz:backfill-updated-2022-03-15",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-03-15T07:37:56.000Z",
@@ -1476,15 +1479,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "culdesac"
+      "reblog_from": "culdesac",
+      "account": "culdesac",
+      "account_url": "https://x.com/culdesac"
     },
     "id": "x:1501287114138275840",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @culdesac",
+    "text": "We are starting a one-of-a-kind Artist-In-Residence program right here at Culdesac Tempe. This is an opportunity for an emerg…",
     "url": "https://x.com/unevenlyeven/status/1501287114138275840",
     "published_at": "2022-03-08T20:01:55.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "c71fdfbb2883"
   },
   {
     "kind": "post",

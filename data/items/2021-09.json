@@ -791,15 +791,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "deevonne93"
+      "reblog_from": "deevonne93",
+      "account": "deevonne93",
+      "account_url": "https://x.com/deevonne93"
     },
     "id": "x:1433145191687356417",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @deevonne93",
+    "text": "To be or Applebee’s?",
     "url": "https://x.com/unevenlyeven/status/1433145191687356417",
     "published_at": "2021-09-01T19:10:14.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "6107c7e2ef27"
   },
   {
     "kind": "post",

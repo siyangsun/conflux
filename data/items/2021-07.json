@@ -102,7 +102,7 @@
     "id": "quartz:backfill-updated-2021-07-19",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2021-07-19T22:02:16.000Z",
@@ -125,7 +125,7 @@
     "id": "quartz:backfill-added-2021-07-18",
     "source": "quartz",
     "type": "site-update",
-    "title": "Added 1 page",
+    "title": "added 1 page",
     "text": "The Courtyard (added)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2021-07-18T13:35:42.000Z",
@@ -227,15 +227,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "Bitwig"
+      "reblog_from": "Bitwig",
+      "account": "Bitwig",
+      "account_url": "https://x.com/Bitwig"
     },
     "id": "x:1414964583257632768",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @Bitwig",
+    "text": "Bitwig Studio 4 is here! 🙌\nThat means audio-clip comping and Operators that allow you to set the chance, recurrence and more fo…",
     "url": "https://x.com/unevenlyeven/status/1414964583257632768",
     "published_at": "2021-07-13T15:07:00.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "55868cc252b3"
   },
   {
     "kind": "post",

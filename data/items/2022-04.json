@@ -674,7 +674,7 @@
     "id": "quartz:backfill-updated-2022-04-03",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-04-03T03:21:16.000Z",
@@ -711,7 +711,7 @@
     "id": "quartz:backfill-updated-2022-04-02",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-04-02T20:34:26.000Z",
@@ -812,14 +812,17 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "UCLAEsports"
+      "reblog_from": "UCLAEsports",
+      "account": "UCLAEsports",
+      "account_url": "https://x.com/UCLAEsports"
     },
     "id": "x:1509958993250160640",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @UCLAEsports",
+    "text": "Hey @UCLASunny … big fan 🥺🌞💛",
     "url": "https://x.com/unevenlyeven/status/1509958993250160640",
     "published_at": "2022-04-01T18:20:52.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "da502dab539e"
   }
 ]

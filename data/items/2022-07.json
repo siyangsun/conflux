@@ -56,7 +56,7 @@
     "id": "quartz:backfill-updated-2022-07-31",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-07-31T01:46:19.000Z",
@@ -607,7 +607,7 @@
     "id": "quartz:backfill-updated-2022-07-19",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-07-19T16:03:19.000Z",
@@ -644,7 +644,7 @@
     "id": "quartz:backfill-updated-2022-07-15",
     "source": "quartz",
     "type": "site-update",
-    "title": "Updated 1 page",
+    "title": "updated 1 page",
     "text": "The Courtyard (updated)",
     "url": "https://siyangsun.github.io/courtyard/",
     "published_at": "2022-07-15T21:26:31.000Z",
@@ -802,15 +802,18 @@
     "tags": [],
     "visibility": "public",
     "meta": {
-      "reblog_from": "NASA"
+      "reblog_from": "NASA",
+      "account": "NASA",
+      "account_url": "https://x.com/NASA"
     },
     "id": "x:1546630058881662976",
     "source": "x",
     "type": "post",
-    "text": "Reblogged from @NASA",
+    "text": "It's here–the deepest, sharpest infrared view of the universe to date: Webb's First Deep Field.\n\nPreviewed by @POTUS on July 11,…",
     "url": "https://x.com/unevenlyeven/status/1546630058881662976",
     "published_at": "2022-07-11T22:58:35.000Z",
-    "fetched_at": "2026-11-25T18:27:44.780Z"
+    "fetched_at": "2026-11-25T20:36:35.424Z",
+    "rev": "93d6454ad98b"
   },
   {
     "kind": "post",
