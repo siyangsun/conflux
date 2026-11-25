@@ -45,7 +45,7 @@ function embed(e: NonNullable<Item["embed"]>, click = false): string {
     return `<button class="embed" data-src="https://www.youtube-nocookie.com/embed/${e.id}?autoplay=1" data-h="315" aria-label="Play"><img src="https://i.ytimg.com/vi/${e.id}/hqdefault.jpg" loading="lazy" alt=""><span>▶</span></button>`;
   if (e.provider === "soundcloud" && SC.test(e.id)) {
     const src = soundcloudSrc(e.id);
-    if (click) return `<button class="embed sc" data-src="${esc(src)}&auto_play=true" data-h="166" aria-label="Play"><span>▶</span></button>`;
+    if (click) return `<button class="embed sc" data-src="${esc(src)}&auto_play=true" data-h="166">▶ play</button>`;
     return `<iframe class="embed" src="${esc(src)}" height="${src.includes("visual=true") ? 300 : 166}" loading="lazy" allow="autoplay; encrypted-media" title="SoundCloud player"></iframe>`;
   }
   return "";
@@ -95,6 +95,7 @@ const lead = (i: Item, s: string) =>
 
 // "via @name": the profile or publication posted to, when the fetcher recorded one (meta.account, meta.account_url).
 const via = (i: Item) => {
+  if (i.source === "soundcloud" && i.kind === "reblog") return ""; // shown under the title instead
   const { account, account_url } = i.meta as { account?: string; account_url?: string };
   return account ? ` via ${account_url ? `<a href="${esc(safe(account_url))}" rel="noopener">@${esc(account)}</a>` : `@${esc(account)}`}` : "";
 };
@@ -128,7 +129,10 @@ const SRC: Record<string, View> = {
     lead: (i, s) => (i.kind === "reblog" ? `${i.meta.own ? "posted" : "saved"} to ${s}` : undefined),
     preview: (i) => i.meta.block_type !== "Image", // Image blocks stay full size
   },
-  soundcloud: { lead: (i, s) => (i.kind === "reblog" ? `liked on ${s}` : undefined) }, // likes are stored as reblogs
+  soundcloud: { // likes are stored as reblogs: "liked on soundcloud", with the artist under the title instead of "via @artist"
+    lead: (i, s) => (i.kind === "reblog" ? `liked on ${s}` : undefined),
+    body: (i) => (i.kind === "reblog" ? `<p class="meta">by <a href="${esc(safe(String(i.meta.account_url)))}" rel="noopener">@${esc(String(i.meta.account))}</a></p>` : undefined),
+  },
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
 };
 export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")}`.toLowerCase();

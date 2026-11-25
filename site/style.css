@@ -21,7 +21,7 @@ article.preview img { max-width: min(100%, 40rem); height: auto; } /* link previ
 footer { padding: 16px 0 40px; color: var(--muted); font-size: .85rem; }
 .embed { display:block; position:relative; width:100%; padding:0; border:0; background:var(--line); max-width:40rem; margin-top:6px; cursor:pointer; min-height:120px; }
 .embed span { position:absolute; inset:0; display:grid; place-items:center; font-size:2rem; color:#fff; text-shadow:0 1px 6px #000; }
-.embed.sc { min-height:56px; }
+.embed.sc { display:inline-block; width:auto; min-height:0; margin:2px 0; background:none; color:var(--link); font:inherit; font-size:.85rem; text-decoration:underline; } /* liked tracks: a text link that swaps in the player on click */
 iframe.embed { aspect-ratio:auto; }
 .embed img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; margin:0; } /* crops the black bars off YouTube posters */
 nav { color: var(--muted); font-size: .85rem; padding-top: 2px; }
