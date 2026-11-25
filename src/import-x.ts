@@ -1,8 +1,7 @@
 // One-off import of an X/Twitter data archive: `node src/import-x.ts <archive dir>` (the folder that contains data/tweets.js).
 // Retweets become reblogs (just "retweeted from @user", like Tumblr: none of their words). Skipped: replies to other people. My own threads are kept.
 import { readFileSync } from "node:fs";
-import { repostMeta } from "./fetchers/x.ts";
-import { item } from "./feed.ts";
+import { fromMeta, item } from "./feed.ts";
 import { addItems } from "./store.ts";
 import { decode, hash } from "./text.ts";
 import type { Item } from "./types.ts";
@@ -40,7 +39,7 @@ export function parseTweets(tweets: any[], notes: any[], handle: string, uid: st
       ...(from && { rev: hash(body + photos.join()) }), // a changed parse replaces the stored retweet
       images: photos,
       meta: {
-        ...(from && repostMeta(from)),
+        ...(from && fromMeta(from, `https://x.com/${from}`)),
         ...(t.in_reply_to_screen_name && { reply_to: t.in_reply_to_screen_name }),
         ...(clip && { clip }), // shown as a "video" / "gif" link back to the tweet; the file itself isn't embedded
       },

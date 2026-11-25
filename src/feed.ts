@@ -17,6 +17,8 @@ export const teaser = (text: string) => text.slice(0, 300);
 // Tumblr and RSS fill <title> with the start of the post text when no title was set (truncated with an ellipsis if long): keep only real titles.
 export const realTitle = (title: string, text: string) =>
   title && !text.startsWith(title.replace(/(…|\.\.\.)$/, "")) ? title : undefined;
+// A retweet or reblog: who it came from, shown as "from @name" (meta.account).
+export const fromMeta = (name: string | undefined, url: string) => ({ reblog_from: name, account: name, account_url: url });
 export const iso = (d: string) => new Date(d).toISOString();
 
 // Conditional GET using stored ETag / Last-Modified; a 304 means nothing new.

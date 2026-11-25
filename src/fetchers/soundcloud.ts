@@ -55,9 +55,6 @@ export async function clientId(): Promise<string> {
 
 export const feedUrl = (userId: string, before?: string) =>
   `https://feeds.soundcloud.com/users/soundcloud:users:${userId}/sounds.rss${before ? `?before=${before}` : ""}`;
-// Each feed page links to the next-older one: <atom:link href="...?before=ID" rel="next">.
-export const nextBefore = (xml: string) => xml.match(/\?before=(\d+)"\s+rel="next"/)?.[1];
-
 const soundcloud: Fetcher = async (cfg, prev) => {
   const now = new Date().toISOString();
   const { fresh, state } = await getEach((cfg.user_ids as string[]).map((id) => feedUrl(id)), prev);

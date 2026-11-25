@@ -1,11 +1,10 @@
-import { arr, feedFetcher, iso, item, parseXml, realTitle, txt } from "../feed.ts";
+import { arr, feedFetcher, fromMeta, iso, item, parseXml, realTitle, txt } from "../feed.ts";
 import { hash, htmlToText, imagesOf } from "../text.ts";
 import type { Item } from "../types.ts";
 
 export { realTitle };
 
 // A reblog keeps my own comment first, then the reblogged post's text and images, with "from @blog" shown above (meta.account).
-const reblogMeta = (from: string) => ({ reblog_from: from, account: from, account_url: `https://${from}.tumblr.com` });
 const attribution = /<p><a [^>]*class="tumblr_blog"[^>]*>[^<]*<\/a>:<\/p>/g; // "<blog>:" lines that head each quoted post
 const withTheirs = (mine: string, theirs: string) => [mine, htmlToText(theirs.replace(attribution, ""))].filter(Boolean).join("\n\n");
 
@@ -34,7 +33,7 @@ export function parse(xml: string, now: string): Item[] {
       tags: arr<any>(it.category).map(txt),
       ...(reblog && { kind: "reblog" as const }),
       ...(reblog && { rev: hash(text + images.join()) }), // a changed parse replaces the stored reblog
-      meta: reblog ? reblogMeta(from) : {},
+      meta: reblog ? fromMeta(from, `https://${from}.tumblr.com`) : {},
     })];
   });
 }
@@ -60,7 +59,7 @@ export function parseApi(posts: any[], now: string): Item[] {
       images,
       tags: p.tags ?? [],
       ...(from && { kind: "reblog" as const, rev: hash(text + images.join()) }),
-      meta: from ? reblogMeta(from) : {},
+      meta: from ? fromMeta(from, `https://${from}.tumblr.com`) : {},
     });
   });
 }

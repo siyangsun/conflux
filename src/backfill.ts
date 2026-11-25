@@ -1,9 +1,8 @@
-// One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr|lastfm|deviantart]...` (default: all except the one-off fixes `arena-own` and `lastfm-format`, which you name explicitly).
+// One-off history import, past what the live feeds return: `node src/backfill.ts [youtube|soundcloud|quartz|github|arena|tumblr|lastfm]...` (default: all except the one-off fixes `arena-own` and `lastfm-format`, which you name explicitly).
 // Safe to re-run: items are deduped by id like any fetch.
 import { execFileSync } from "node:child_process";
 import { config } from "./config.ts";
 import { get, UA } from "./feed.ts";
-import { feedUrl as daFeed, nextUrl, parse as parseDa } from "./fetchers/deviantart.ts";
 import { clientId, parseApi as parseSoundcloudApi, parseLikes } from "./fetchers/soundcloud.ts";
 import { addDays, commitDates, dayOf, digests, listRepos } from "./fetchers/github.ts";
 import { api, channelPosts, parse as parseArena } from "./fetchers/arena.ts";
@@ -115,21 +114,6 @@ const jobs: Record<string, () => Promise<Item[]>> = {
     }
     return process.env.TUMBLR_BLOG ? out.filter((i) => i.kind === "reblog") : out;
   },
-  // My DeviantArt favourites (DEVIANTART_USER=<name>, no key needed): follow the RSS's next-page links to the end. A one-off; not a live source.
-  async deviantart() {
-    const user = process.env.DEVIANTART_USER;
-    if (!user) throw new Error("set DEVIANTART_USER");
-    const out: Item[] = [];
-    for (let url: string | undefined = daFeed(user); url; ) {
-      const res = await fetch(url, { headers: { "user-agent": UA } });
-      if (!res.ok) throw new Error(`deviantart -> HTTP ${res.status}`);
-      const xml = await res.text();
-      out.push(...parseDa(xml, now));
-      url = nextUrl(xml);
-      await sleep(500);
-    }
-    return out;
-  },
   // Every loved track (200 per request) and a daily rollup of all scrobbles. Needs LASTFM_API_KEY in the environment.
   async lastfm() {
     const out: Item[] = [];
@@ -161,7 +145,7 @@ const jobs: Record<string, () => Promise<Item[]>> = {
   },
 };
 
-const oneOff = ["arena-own", "lastfm-format", "deviantart"]; // deviantart needs DEVIANTART_USER
+const oneOff = ["arena-own", "lastfm-format"];
 for (const name of process.argv.length > 2 ? process.argv.slice(2) : Object.keys(jobs).filter((n) => !oneOff.includes(n))) {
   const items = await jobs[name]();
   console.log(`${name}: found ${items.length}, added ${addItems(items).added.length}`);

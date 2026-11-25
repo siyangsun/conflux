@@ -1,12 +1,9 @@
-import { item, UA } from "../feed.ts";
+import { fromMeta, item, UA } from "../feed.ts";
 import type { Fetcher, Item } from "../types.ts";
 
 // t.co links become the real address; the link to my own attached photo or video (it has a media_key) is dropped.
 export const expand = (text: string, urls: any[]) =>
   urls.reduce((s, u) => s.replaceAll(u.url, u.media_key ? "" : u.expanded_url), text).trim();
-
-// A retweet keeps the retweeted post's text and photos (like a Tumblr reblog), with "from @user" shown above (meta.account).
-export const repostMeta = (from?: string) => ({ reblog_from: from, account: from, account_url: `https://x.com/${from}` });
 
 export function parse(res: any, handle: string, now: string): Item[] {
   const media = new Map<string, any>((res.includes?.media ?? []).map((m: any) => [m.media_key, m]));
@@ -21,7 +18,7 @@ export function parse(res: any, handle: string, now: string): Item[] {
       type: "post",
       kind: rt ? "reblog" : "post",
       text: expand(src === t && rt ? t.text.replace(/^RT @\w+:\s*/, "") : src.text, src.entities?.urls ?? []),
-      meta: rt ? repostMeta(from) : t.in_reply_to_user_id ? { reply_to: handle } : {}, // replies to others are excluded by the query, so a reply here is to myself: a thread
+      meta: rt ? fromMeta(from, `https://x.com/${from}`) : t.in_reply_to_user_id ? { reply_to: handle } : {}, // replies to others are excluded by the query, so a reply here is to myself: a thread
       url: `https://x.com/${handle}/status/${t.id}`,
       published_at: new Date(t.created_at).toISOString(),
       fetched_at: now,

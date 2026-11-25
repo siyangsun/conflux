@@ -65,10 +65,9 @@ const groups = (key: (i: Item) => string[]) => {
   for (const i of items) for (const k of key(i)) if (slug(k)) (m.get(slug(k)) ?? m.set(slug(k), { label: k, list: [] }).get(slug(k))!).list.push(i);
   return [...m].sort((a, b) => b[1].list.length - a[1].list.length);
 };
-// Sources in NOUN get a second row for just their reblogs ("soundcloud likes"); SoundCloud's own row then holds only its uploads. Any other source is one row (DeviantArt's is named for its likes).
+// Sources in NOUN get a second row for just their reblogs ("soundcloud likes"); SoundCloud's own row then holds only its uploads. Any other source is one row.
 const bySource = [...groups((i) => (i.kind === "reblog" && i.source === "soundcloud" ? [] : [i.source])), ...groups((i) => (i.kind === "reblog" && NOUN[i.source] ? [`${i.source} ${NOUN[i.source]}`] : []))]
-  .sort((a, b) => b[1].list.length - a[1].list.length)
-  .map(([s, g]): [string, typeof g] => [s, s === "deviantart" ? { ...g, label: "deviantart likes" } : g]);
+  .sort((a, b) => b[1].list.length - a[1].list.length);
 const byType = groups((i) => [i.type]);
 const byTag = groups((i) => [...new Set(i.tags.filter(slug))]);
 for (const [s, { label, list }] of bySource) {

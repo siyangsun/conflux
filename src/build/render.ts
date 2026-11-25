@@ -103,7 +103,7 @@ export const lead = (i: Item, s: string) =>
   : SRC[i.source]?.lead?.(i, s) ?? (i.kind === "reblog" ? `reblogged on ${s}` : `posted to ${s}`);
 
 // Liked, favourited or reposted work: "by @artist" (retweets and reblogs: "from @name") under the title (meta.account, meta.account_url) instead of "via @artist" in the top line.
-const BYLINE = new Set(["soundcloud", "deviantart", "x", "tumblr"]);
+const BYLINE = new Set(["soundcloud", "x", "tumblr"]);
 const by = (i: Item, word = "by") => `<p class="meta">${word} <a href="${esc(safe(String(i.meta.account_url)))}" rel="noopener">@${esc(String(i.meta.account))}</a></p>`;
 // "via @name": the profile or publication posted to, when the fetcher recorded one (meta.account, meta.account_url).
 const via = (i: Item) => {
@@ -147,7 +147,6 @@ const SRC: Record<string, View> = {
     body: (i) => (i.kind === "reblog" ? by(i) : undefined),
   },
   tumblr: { body: (i) => (i.kind === "reblog" ? by(i, "from") + paragraphs(i.text, i.source) : undefined) },
-  deviantart: { lead: (_, s) => `liked on ${s}`, body: by }, // favourites are stored as reblogs; the artist's description stays in the data (searchable) but is not shown
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
 };
 export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")} ${i.meta.account ?? ""} ${i.meta.reblog_from ?? ""}`.toLowerCase(); // account: the artist or publication; reblog_from: who I reblogged
