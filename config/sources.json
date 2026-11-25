@@ -48,6 +48,11 @@
       ],
       "hourly": true
     },
+    "soundcloud_likes": {
+      "enabled": true,
+      "hourly": true,
+      "user_id": "11167186"
+    },
     "github": {
       "enabled": true,
       "username": "siyangsun"

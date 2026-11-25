@@ -152,6 +152,13 @@ test("soundcloud: track id, player embed, empty filler items skipped", () => {
   assert.equal(items[0].embed!.id, "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fme%2Fdemo");
 });
 
+test("soundcloud: a like becomes a reblog dated when I liked it", () => {
+  const track = { kind: "track", public: true, id: 7, title: "t", permalink_url: "https://soundcloud.com/them/t", created_at: "2013-05-14T20:19:41Z" };
+  const [i, ...rest] = soundcloud.parseLikes([{ created_at: "2026-11-25T15:46:20Z", track }, { created_at: "2026-11-24T00:00:00Z", track: null }], NOW);
+  assert.deepEqual([i.id, i.kind, i.published_at, rest.length], ["soundcloud:7", "reblog", "2026-11-25T15:46:20.000Z", 0]);
+  assert.equal(soundcloud.parseLikes([{ created_at: "2026-11-25T15:46:20Z", track: { ...track, user_id: 42 } }], NOW, ["42"]).length, 0); // my own music is skipped
+});
+
 test("soundcloud: next-page cursor from the feed", () => {
   assert.equal(soundcloud.nextBefore('<atom:link href="https://f/sounds.rss?before=2308388903" rel="next" type="application/rss+xml"/>'), "2308388903");
   assert.equal(soundcloud.nextBefore("<rss></rss>"), undefined);
@@ -258,4 +265,30 @@ test("rss: RSS 2.0 and Atom entries, hostile-safe ids, micro-post title dropped"
   const [b] = rss.parse(`<feed><entry><title>T</title><id>tag:1</id><link rel="alternate" href="https://y/1"/>
   <published>2026-10-27T20:00:00Z</published><content type="html">&lt;p&gt;body&lt;/p&gt;</content></entry></feed>`, NOW, "letterboxd");
   assert.deepEqual([b.title, b.text, b.url], ["T", "body", "https://y/1"]);
+});
+
+import likes from "./soundcloud_likes.ts";
+test("soundcloud likes: daily gate, and paging stops at the cursor", async () => {
+  const real = globalThis.fetch, ev = process.env.GITHUB_EVENT_NAME;
+  const t = (id: number, at: string) => ({ created_at: at, track: { kind: "track", public: true, id, title: "t", user_id: 1, permalink_url: `https://soundcloud.com/a/${id}`, created_at: "2013-01-01T00:00:00Z" } });
+  const pages: Record<string, any> = { "limit=50": { collection: [t(3, "2026-11-03T00:00:00Z"), t(2, "2026-11-02T00:00:00Z")], next_href: "https://api-v2.soundcloud.com/p2?x=1" }, "p2": { collection: [t(1, "2026-11-01T00:00:00Z")] } };
+  const calls: string[] = [];
+  globalThis.fetch = (async (u: string) => {
+    calls.push(u);
+    if (u === "https://soundcloud.com/") return { text: async () => '<script src="https://a-v2.sndcdn.com/assets/a.js"></script>' };
+    if (u.endsWith("a.js")) return { text: async () => 'client_id:"' + "a".repeat(32) + '"' };
+    return { ok: true, json: async () => pages[u.includes("p2") ? "p2" : "limit=50"] };
+  }) as any;
+  try {
+    process.env.GITHUB_EVENT_NAME = "push";
+    assert.deepEqual((await likes({ user_id: "9" }, {})).items, []); // pushes never poll
+    assert.equal(calls.length, 0);
+    process.env.GITHUB_EVENT_NAME = "workflow_dispatch";
+    const first = await likes({ user_id: "9" }, {});
+    assert.deepEqual([first.items.length, first.state.cursor], [2, "2026-11-03T00:00:00Z"]); // first run: one page only
+    const next = await likes({ user_id: "9" }, { cursor: "2026-10-31T00:00:00Z" });
+    assert.equal(next.items.length, 3); // cursor older than page 1's last like: follows next_href
+    const caught = await likes({ user_id: "9" }, { cursor: "2026-11-02T00:00:00Z" });
+    assert.equal(caught.items.length, 2); // page 1 reaches the cursor: stops
+  } finally { globalThis.fetch = real; process.env.GITHUB_EVENT_NAME = ev; if (ev === undefined) delete process.env.GITHUB_EVENT_NAME; }
 });

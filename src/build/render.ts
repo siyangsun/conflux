@@ -37,14 +37,15 @@ const linkify = (h: string, source: string) =>
 export const paragraphs = (t: string, source = "") => t.split(/\n{2,}/).filter(Boolean).map((p) => `<p>${linkify(esc(p), source).replace(/\n/g, "<br>")}</p>`).join("");
 
 // YouTube: click-to-load. The poster is derived from the video id (nothing stored); the iframe replaces it on click (see site/site.js).
-// SoundCloud: the compact player, lazy-loaded. Both ids are checked so stored data can't inject an arbitrary iframe.
+// SoundCloud: the compact player, lazy-loaded; click-to-load for liked tracks (reblogs), which come in the thousands. Both ids are checked so stored data can't inject an arbitrary iframe.
 const YT = /^[\w-]{11}$/, SC = /^https:\/\/w\.soundcloud\.com\/player\/\?/;
 const soundcloudSrc = (id: string) => `${id}${id.includes("visual=") ? "" : "&visual=false"}&hide_related=true&show_comments=false`;
-function embed(e: NonNullable<Item["embed"]>): string {
+function embed(e: NonNullable<Item["embed"]>, click = false): string {
   if (e.provider === "youtube" && YT.test(e.id))
     return `<button class="embed" data-src="https://www.youtube-nocookie.com/embed/${e.id}?autoplay=1" data-h="315" aria-label="Play"><img src="https://i.ytimg.com/vi/${e.id}/hqdefault.jpg" loading="lazy" alt=""><span>▶</span></button>`;
   if (e.provider === "soundcloud" && SC.test(e.id)) {
     const src = soundcloudSrc(e.id);
+    if (click) return `<button class="embed sc" data-src="${esc(src)}&auto_play=true" data-h="166" aria-label="Play"><span>▶</span></button>`;
     return `<iframe class="embed" src="${esc(src)}" height="${src.includes("visual=true") ? 300 : 166}" loading="lazy" allow="autoplay; encrypted-media" title="SoundCloud player"></iframe>`;
   }
   return "";
@@ -121,7 +122,7 @@ const SRC: Record<string, View> = {
   lastfm: {
     body: (i) => (i.kind === "activity" ? plays(i) : undefined),
     lead: (i, s) => (i.kind === "activity" ? `listened on ${s}` : `loved on ${s}`),
-    search: (i) => i.kind !== "activity", // the per-day artist/song lists would drown real results
+    search: (i) => i.kind !== "activity", // the per-day artist/song lists would fill the results with rollups
   },
   arena: {
     lead: (i, s) => (i.kind === "reblog" ? `${i.meta.own ? "posted" : "saved"} to ${s}` : undefined),
@@ -132,7 +133,7 @@ const SRC: Record<string, View> = {
 export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")}`.toLowerCase();
 
 export function renderItem(i: Item): string {
-  const media = (i.embed && embed(i.embed)) || i.images.map(img).join("");
+  const media = (i.embed && embed(i.embed, i.kind === "reblog")) || i.images.map(img).join("");
   const clip = i.meta.clip === "video" || i.meta.clip === "gif" ? `<p class="meta"><a href="${esc(safe(i.url))}" rel="noopener">▶ ${i.meta.clip} (watch on ${esc(i.source)})</a></p>` : "";
   const linked = i.tags.filter(slug); // symbol-only tags slug to "" and get no page
   const tags = linked.length ? `<p class="tags">${linked.map((t) => `<a href="${BASE}/tag/${slug(t)}/">#${esc(t)}</a>`).join(" ")}</p>` : "";
