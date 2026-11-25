@@ -5,10 +5,16 @@ import type { Fetcher, Item } from "../types.ts";
 export const expand = (text: string, urls: any[]) =>
   urls.reduce((s, u) => s.replaceAll(u.url, u.media_key ? "" : u.expanded_url), text).trim();
 
+// A repost keeps none of their words, like a Tumblr reblog. `text` is the raw "RT @user: ..." text.
+export const repost = (id: string, text: string, handle: string, at: string, now: string): Item => {
+  const from = text.match(/^RT @(\w+)/)?.[1];
+  return item({ id: `x:${id}`, source: "x", type: "post", kind: "reblog", text: `Reblogged from @${from}`, url: `https://x.com/${handle}/status/${id}`, published_at: new Date(at).toISOString(), fetched_at: now, meta: { reblog_from: from } });
+};
+
 export function parse(res: any, handle: string, now: string): Item[] {
   const media = new Map<string, any>((res.includes?.media ?? []).map((m: any) => [m.media_key, m]));
-  return (res.data ?? []).map((t: any): Item => t.referenced_tweets?.some((r: any) => r.type === "retweeted") // a repost keeps none of their words, like a Tumblr reblog
-    ? item({ id: `x:${t.id}`, source: "x", type: "post", kind: "reblog", text: `Reblogged from @${t.text.match(/^RT @(\w+)/)?.[1]}`, url: `https://x.com/${handle}/status/${t.id}`, published_at: new Date(t.created_at).toISOString(), fetched_at: now, meta: { reblog_from: t.text.match(/^RT @(\w+)/)?.[1] } })
+  return (res.data ?? []).map((t: any): Item => t.referenced_tweets?.some((r: any) => r.type === "retweeted")
+    ? repost(t.id, t.text, handle, t.created_at, now)
     : item({
     id: `x:${t.id}`,
     source: "x",

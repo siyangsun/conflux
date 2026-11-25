@@ -1,6 +1,7 @@
 // One-off import of an X/Twitter data archive: `node src/import-x.ts <archive dir>` (the folder that contains data/tweets.js).
 // Retweets become reblogs (just "Reblogged from @user", like Tumblr: none of their words). Skipped: replies to other people. My own threads are kept.
 import { readFileSync } from "node:fs";
+import { repost } from "./fetchers/x.ts";
 import { item } from "./feed.ts";
 import { addItems } from "./store.ts";
 import { decode } from "./text.ts";
@@ -16,8 +17,7 @@ export function parseTweets(tweets: any[], notes: any[], handle: string, uid: st
   const long = new Map(notes.map((n) => [n.noteTweet.createdAt.slice(0, 19), n.noteTweet.core]));
   return tweets.map((r) => r.tweet).filter((t) => t.full_text.startsWith("RT @") || (!t.in_reply_to_status_id_str || t.in_reply_to_user_id_str === uid)).map((t) => {
     const at = new Date(t.created_at).toISOString();
-    const rt = t.full_text.match(/^RT @(\w+)/)?.[1];
-    if (rt) return item({ id: `x:${t.id_str}`, source: "x", type: "post", kind: "reblog", text: `Reblogged from @${rt}`, url: `https://x.com/${handle}/status/${t.id_str}`, published_at: at, fetched_at: now, meta: { reblog_from: rt } });
+    if (t.full_text.startsWith("RT @")) return repost(t.id_str, t.full_text, handle, t.created_at, now);
     const selfReply = !!t.in_reply_to_status_id_str;
     const [from, to] = t.display_text_range.map(Number);
     const note = long.get(at.slice(0, 19));
