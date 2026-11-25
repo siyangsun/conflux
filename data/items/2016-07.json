@@ -1017,6 +1017,26 @@
   },
   {
     "kind": "reblog",
+    "images": [
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a24fc03-0d51-42dc-90fa-8abcb6b1e76a/dabaejv-995d2401-17b9-4317-bff4-241ac93f82f8.png/v1/fit/w_300,h_900/guiding_light_by_aenami_dabaejv-300w.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6Ii9mLzFhMjRmYzAzLTBkNTEtNDJkYy05MGZhLThhYmNiNmIxZTc2YS9kYWJhZWp2LTk5NWQyNDAxLTE3YjktNDMxNy1iZmY0LTI0MWFjOTNmODJmOC5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ku8ZUUntBR1XO6IqZw63b2G89ifmzIzu2KVJh4TNTh4"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "Aenami",
+      "account_url": "https://www.deviantart.com/Aenami"
+    },
+    "id": "deviantart:623622955",
+    "source": "deviantart",
+    "type": "post",
+    "title": "Guiding Light",
+    "text": "",
+    "url": "https://www.deviantart.com/aenami/art/Guiding-Light-623622955",
+    "published_at": "2016-07-24T09:19:23.000Z",
+    "fetched_at": "2026-11-25T20:23:05.222Z"
+  },
+  {
+    "kind": "reblog",
     "images": [],
     "tags": [],
     "visibility": "public",

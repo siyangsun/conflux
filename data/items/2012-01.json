@@ -152,5 +152,25 @@
       "provider": "soundcloud",
       "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fklaypex%2Fchinterswill"
     }
+  },
+  {
+    "kind": "reblog",
+    "images": [
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f751fac-38f1-4416-97c4-a6bce05d8435/d4l4mui-36a22ccb-8d10-4acc-85b8-f49d7b223e8c.jpg/v1/fit/w_300,h_651,q_70,strp/clooouuuds_by_shoomlah_d4l4mui-300w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUxIiwicGF0aCI6Ii9mLzlmNzUxZmFjLTM4ZjEtNDQxNi05N2M0LWE2YmNlMDVkODQzNS9kNGw0bXVpLTM2YTIyY2NiLThkMTAtNGFjYy04NWI4LWY0OWQ3YjIyM2U4Yy5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.c8VxzihTb1u_zmmDyczVSr6gDFsQJwHDZGjoytI7x-c"
+    ],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "shoomlah",
+      "account_url": "https://www.deviantart.com/shoomlah"
+    },
+    "id": "deviantart:277352874",
+    "source": "deviantart",
+    "type": "post",
+    "title": "Clooouuuds",
+    "text": "My most recent assignment for my Schoolism course with the lovely and inimitably talented Sam Nielson (). I'm actually happy enough with this to post it, so that's something! God I love painting clouds.\n\nSam does the initial loose linework for each assignment, so credit where credit is due for general mountain/cloud placement. \n-C\n\n(painted in Photoshop CS4)",
+    "url": "https://www.deviantart.com/shoomlah/art/Clooouuuds-277352874",
+    "published_at": "2012-01-03T04:08:58.000Z",
+    "fetched_at": "2026-11-25T20:23:05.222Z"
   }
 ]
