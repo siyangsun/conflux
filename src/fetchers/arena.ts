@@ -1,3 +1,4 @@
+import { decode } from "../text.ts";
 import { item, UA } from "../feed.ts";
 import type { Fetcher, Item } from "../types.ts";
 
@@ -25,7 +26,7 @@ export function parse(blocks: any[], channel: any, me: number, now: string): Ite
   return blocks.flatMap((b): Item[] => {
     const c = b.connection;
     if (c?.connected_by?.id !== me || b.visibility !== "public" || b.state !== "available") return [];
-    const text = [b.content?.plain, b.description?.plain].filter(Boolean).join("\n\n");
+    const text = decode([b.content?.plain, b.description?.plain].filter(Boolean).join("\n\n")); // Are.na's plain text keeps HTML entities from pasted content
     return [item({
       id: `arena:${c.id}`,
       source: "arena",
@@ -54,7 +55,7 @@ export const channelPosts = (channels: any[], me: number, now: string): Item[] =
     source: "arena",
     type: "channel",
     title: c.title,
-    text: c.description?.plain ?? "",
+    text: decode(c.description?.plain ?? ""),
     url: `https://www.are.na/${c.owner.slug}/${c.slug}`,
     published_at: new Date(c.created_at).toISOString(),
     fetched_at: now,

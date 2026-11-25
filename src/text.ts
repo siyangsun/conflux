@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 
 export const hash = (s: string) => createHash("sha1").update(s).digest("hex").slice(0, 12);
 
-const ENT: Record<string, string> = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+const ENT: Record<string, string> = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”", ndash: "–", mdash: "—", hellip: "…", bull: "•", middot: "·", copy: "©", reg: "®", trade: "™", deg: "°", times: "×" };
 
 export const decode = (s: string) =>
   s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e: string) =>

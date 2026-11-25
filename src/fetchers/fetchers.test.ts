@@ -292,3 +292,7 @@ test("soundcloud likes: daily gate, and paging stops at the cursor", async () =>
     assert.equal(caught.items.length, 2); // page 1 reaches the cursor: stops
   } finally { globalThis.fetch = real; process.env.GITHUB_EVENT_NAME = ev; if (ev === undefined) delete process.env.GITHUB_EVENT_NAME; }
 });
+
+test("decode: curly quotes and dashes", () => {
+  assert.equal(htmlToText("don&rsquo;t &ldquo;x&rdquo; a&ndash;b"), "don’t “x” a–b");
+});
