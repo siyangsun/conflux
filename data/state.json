@@ -1,7 +1,7 @@
 {
   "substack": {
-    "last_error": null,
-    "failing_since": null,
+    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403",
+    "failing_since": "2026-11-25T20:14:18.071Z",
     "feeds": {
       "https://sump.substack.com/feed": {
         "etag": "W/\"20398-K5SYr8p+vPCLNcyuigXbnFebye4\""
@@ -22,7 +22,7 @@
   "arena": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-24T18:54:47Z"
+    "cursor": "2026-11-25T20:08:38Z"
   },
   "manual": {
     "last_error": null,
@@ -217,5 +217,9 @@
       "https://siyangsun.medium.com/feed": {},
       "https://bsky.app/profile/siyang.bsky.social/rss": {}
     }
+  },
+  "soundcloud_likes": {
+    "last_error": null,
+    "failing_since": null
   }
 }
