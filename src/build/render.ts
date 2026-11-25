@@ -140,7 +140,7 @@ const SRC: Record<string, View> = {
   },
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
 };
-export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")}`.toLowerCase();
+export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")} ${i.meta.account ?? ""} ${i.meta.reblog_from ?? ""}`.toLowerCase(); // account: the artist or publication; reblog_from: who I reblogged
 
 export function renderItem(i: Item): string {
   const media = (i.embed && embed(i.embed, i.kind === "reblog")) || i.images.map(img).join("");
