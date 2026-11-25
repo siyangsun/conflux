@@ -1,13 +1,13 @@
 {
   "substack": {
-    "last_error": "https://sump.substack.com/feed -> HTTP 403",
-    "failing_since": "2026-11-20T16:02:04.157Z",
+    "last_error": null,
+    "failing_since": null,
     "feeds": {
       "https://sump.substack.com/feed": {
-        "etag": "W/\"20398-mnitbYqCEmybIY2HwvpLd4WlMhY\""
+        "etag": "W/\"20398-K5SYr8p+vPCLNcyuigXbnFebye4\""
       },
       "https://unevenlyeven.substack.com/feed": {
-        "etag": "W/\"193d9-wcCEWJWeIk7WTLsQ7lC95IX2ehw\""
+        "etag": "W/\"193d9-5Ztnty7OhUOgJXKC4Se4qhzBkYY\""
       }
     }
   },
@@ -201,14 +201,14 @@
     "failing_since": null
   },
   "x": {
-    "cursor": "2123080097175626179",
+    "cursor": "2125601845951488482",
     "last_error": null,
     "failing_since": null
   },
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-21"
+    "cursor": "2026-11-24"
   },
   "rss": {
     "last_error": null,
