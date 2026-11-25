@@ -31,7 +31,7 @@ document.addEventListener("click", (e) => {
     .catch(() => {});
 })();
 
-// Search results and "on this day" share a row format: search.json rows are [label, link, source, date, lowercase text].
+// Search results and "on this day" share a row format: search.json rows are [label, link, lead, date, lowercase text].
 const result = (r) => {
   const li = document.createElement("li"), a = document.createElement("a"), m = document.createElement("span");
   a.href = r[1];

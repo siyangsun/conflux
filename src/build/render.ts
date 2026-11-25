@@ -16,7 +16,12 @@ export const abs = (path: string) => ORIGIN + path;
 export const hasPage = (i: Item) => i.kind === "post" && SRC[i.source]?.page !== false;
 // Item text without display markup (Last.fm digests store **Artist**), for feeds and link previews.
 export const flat = (i: Item) => i.text.replace(/\*\*(.+?)\*\*/g, "$1");
-export const title = (i: Item) => i.title || i.text.slice(0, 80) || i.id;
+// One line of text cut at a word boundary, with "…" when anything was dropped.
+export const clip = (text: string, n: number) => {
+  const t = text.replace(/\s+/g, " ").trim();
+  return t.length <= n ? t : t.slice(0, n).replace(/\s\S*$/, "") + "…";
+};
+export const title = (i: Item) => i.title || clip(i.text, 80) || i.id;
 // Only http(s) links are rendered as hrefs (no javascript: URLs from feed data).
 const safe = (u: string) => (/^https?:\/\//i.test(u) ? u : "#");
 // Where an item's date, and its feed entry, should point.
@@ -84,7 +89,7 @@ const dateLink = (i: Item) => {
 };
 
 // What happened, as a lead-in for the meta line; `s` is the linked source name.
-const lead = (i: Item, s: string) =>
+export const lead = (i: Item, s: string) =>
   i.type === "repo" ? `created a new repo on ${s}`
   : i.type === "channel" ? `created a new channel on ${s}`
   : i.type === "page" ? `added a page to ${s}`
