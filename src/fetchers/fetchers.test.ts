@@ -106,6 +106,8 @@ test("x: photo urls resolved from includes, url built from handle", () => {
   const [a, b] = x.parse({ data: [{ id: "1", text: "root", created_at: "2026-10-27T10:00:00.000Z" }, { id: "2", text: "next", created_at: "2026-10-27T10:01:00.000Z", in_reply_to_user_id: "9" }] }, "me", NOW);
   assert.equal(x.expand("see https://t.co/a and https://t.co/p", [{ url: "https://t.co/a", expanded_url: "https://example.com" }, { url: "https://t.co/p", expanded_url: "https://x.com/me/status/1/photo/1", media_key: "k" }]), "see https://example.com and");
   assert.deepEqual([a.meta, b.meta], [{}, { reply_to: "me" }]); // a reply that gets through the query is a reply to myself
+  const [rt] = x.parse({ data: [{ id: "9", text: "RT @bob: hi", created_at: "2026-10-27T10:00:00.000Z", referenced_tweets: [{ type: "retweeted", id: "8" }] }] }, "me", NOW);
+  assert.deepEqual([rt.kind, rt.text, rt.meta], ["reblog", "Reblogged from @bob", { reblog_from: "bob" }]);
 });
 
 import { diff, fromHistory } from "./quartz.ts";

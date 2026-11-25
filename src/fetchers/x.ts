@@ -7,7 +7,9 @@ export const expand = (text: string, urls: any[]) =>
 
 export function parse(res: any, handle: string, now: string): Item[] {
   const media = new Map<string, any>((res.includes?.media ?? []).map((m: any) => [m.media_key, m]));
-  return (res.data ?? []).map((t: any): Item => item({
+  return (res.data ?? []).map((t: any): Item => t.referenced_tweets?.some((r: any) => r.type === "retweeted") // a repost keeps none of their words, like a Tumblr reblog
+    ? item({ id: `x:${t.id}`, source: "x", type: "post", kind: "reblog", text: `Reblogged from @${t.text.match(/^RT @(\w+)/)?.[1]}`, url: `https://x.com/${handle}/status/${t.id}`, published_at: new Date(t.created_at).toISOString(), fetched_at: now, meta: { reblog_from: t.text.match(/^RT @(\w+)/)?.[1] } })
+    : item({
     id: `x:${t.id}`,
     source: "x",
     type: "post",
@@ -20,13 +22,13 @@ export function parse(res: any, handle: string, now: string): Item[] {
   }));
 }
 
-// Disabled by default (paid API). Cursor = since_id; replies to others and reposts are excluded (my own threads still come through).
+// Disabled by default (paid API). Cursor = since_id; replies to others are excluded, reposts become reblogs (my own threads still come through).
 const x: Fetcher = async (cfg, prev) => {
   if (!process.env.X_BEARER_TOKEN) throw new Error("X_BEARER_TOKEN is not set");
   const q = new URLSearchParams({
     max_results: "100",
-    exclude: "replies,retweets",
-    "tweet.fields": "created_at,attachments,in_reply_to_user_id,entities",
+    exclude: "replies",
+    "tweet.fields": "created_at,attachments,in_reply_to_user_id,entities,referenced_tweets",
     expansions: "attachments.media_keys",
     "media.fields": "url,type",
   });

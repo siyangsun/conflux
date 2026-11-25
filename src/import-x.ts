@@ -1,5 +1,5 @@
 // One-off import of an X/Twitter data archive: `node src/import-x.ts <archive dir>` (the folder that contains data/tweets.js).
-// Skipped: retweets (not my words) and replies to other people. My own threads are kept.
+// Retweets become reblogs (just "Reblogged from @user", like Tumblr: none of their words). Skipped: replies to other people. My own threads are kept.
 import { readFileSync } from "node:fs";
 import { item } from "./feed.ts";
 import { addItems } from "./store.ts";
@@ -14,8 +14,10 @@ export const readJs = (file: string): any[] => { const s = readFileSync(file, "u
 export function parseTweets(tweets: any[], notes: any[], handle: string, uid: string, now: string): Item[] {
   // Tweets over 280 characters are truncated in tweets.js; the full text (and its link list) is in note-tweet.js, matched by creation time.
   const long = new Map(notes.map((n) => [n.noteTweet.createdAt.slice(0, 19), n.noteTweet.core]));
-  return tweets.map((r) => r.tweet).filter((t) => !t.full_text.startsWith("RT @") && (!t.in_reply_to_status_id_str || t.in_reply_to_user_id_str === uid)).map((t) => {
+  return tweets.map((r) => r.tweet).filter((t) => t.full_text.startsWith("RT @") || (!t.in_reply_to_status_id_str || t.in_reply_to_user_id_str === uid)).map((t) => {
     const at = new Date(t.created_at).toISOString();
+    const rt = t.full_text.match(/^RT @(\w+)/)?.[1];
+    if (rt) return item({ id: `x:${t.id_str}`, source: "x", type: "post", kind: "reblog", text: `Reblogged from @${rt}`, url: `https://x.com/${handle}/status/${t.id_str}`, published_at: at, fetched_at: now, meta: { reblog_from: rt } });
     const selfReply = !!t.in_reply_to_status_id_str;
     const [from, to] = t.display_text_range.map(Number);
     const note = long.get(at.slice(0, 19));
