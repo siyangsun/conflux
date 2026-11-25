@@ -296,3 +296,15 @@ test("soundcloud likes: daily gate, and paging stops at the cursor", async () =>
 test("decode: curly quotes and dashes", () => {
   assert.equal(htmlToText("don&rsquo;t &ldquo;x&rdquo; a&ndash;b"), "don’t “x” a–b");
 });
+
+import * as deviantart from "./deviantart.ts";
+test("deviantart favourites: id, artist, biggest thumbnail, next page", () => {
+  const xml = `<rss xmlns:media="m" xmlns:atom="a"><channel><atom:link rel="next" href="https://f/rss.xml?q=favby%3Au&amp;offset=60" /><item><title>Swamp</title>
+  <link>https://www.deviantart.com/hunger/art/Swamp-Outpost-890312480</link><pubDate>Sun, 29 Aug 2021 18:08:48 PDT</pubDate>
+  <media:credit role="author">hunger</media:credit><media:credit role="author">https://a.deviantart.net/avatars/h.gif</media:credit>
+  <media:description type="html">blender &amp; stuff</media:description>
+  <media:thumbnail url="https://i/150.jpg" height="93" width="150"/><media:thumbnail url="https://i/300.jpg" height="187" width="300"/></item></channel></rss>`;
+  const [i] = deviantart.parse(xml, NOW);
+  assert.deepEqual([i.id, i.kind, i.images, i.text, i.meta.account], ["deviantart:890312480", "reblog", ["https://i/300.jpg"], "blender & stuff", "hunger"]);
+  assert.equal(deviantart.nextUrl(xml), "https://f/rss.xml?q=favby%3Au&offset=60");
+});

@@ -98,9 +98,12 @@ export const lead = (i: Item, s: string) =>
   : i.type === "video" ? `posted a video to ${s}`
   : SRC[i.source]?.lead?.(i, s) ?? (i.kind === "reblog" ? `reblogged on ${s}` : `posted to ${s}`);
 
+// Liked or favourited work: "by @artist" under the title (meta.account, meta.account_url) instead of "via @artist" in the top line.
+const BYLINE = new Set(["soundcloud", "deviantart"]);
+const by = (i: Item) => `<p class="meta">by <a href="${esc(safe(String(i.meta.account_url)))}" rel="noopener">@${esc(String(i.meta.account))}</a></p>`;
 // "via @name": the profile or publication posted to, when the fetcher recorded one (meta.account, meta.account_url).
 const via = (i: Item) => {
-  if (i.source === "soundcloud" && i.kind === "reblog") return ""; // shown under the title instead
+  if (i.kind === "reblog" && BYLINE.has(i.source)) return ""; // shown under the title instead
   const { account, account_url } = i.meta as { account?: string; account_url?: string };
   return account ? ` via ${account_url ? `<a href="${esc(safe(account_url))}" rel="noopener">@${esc(account)}</a>` : `@${esc(account)}`}` : "";
 };
@@ -136,8 +139,9 @@ const SRC: Record<string, View> = {
   },
   soundcloud: { // likes are stored as reblogs: "liked on soundcloud", with the artist under the title instead of "via @artist"
     lead: (i, s) => (i.kind === "reblog" ? `liked on ${s}` : undefined),
-    body: (i) => (i.kind === "reblog" ? `<p class="meta">by <a href="${esc(safe(String(i.meta.account_url)))}" rel="noopener">@${esc(String(i.meta.account))}</a></p>` : undefined),
+    body: (i) => (i.kind === "reblog" ? by(i) : undefined),
   },
+  deviantart: { lead: (_, s) => `favorited on ${s}`, body: (i) => by(i) + paragraphs(i.text) }, // favourites are stored as reblogs
   manual: { lead: () => "posted", preview: () => true }, // OpenGraph unfurls
 };
 export const searchText = (i: Item) => `${i.title ?? ""} ${SRC[i.source]?.search?.(i) === false ? "" : i.text} ${i.tags.join(" ")} ${i.meta.account ?? ""} ${i.meta.reblog_from ?? ""}`.toLowerCase(); // account: the artist or publication; reblog_from: who I reblogged
