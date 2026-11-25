@@ -1604,6 +1604,28 @@
     "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lvnar-amethyst",
+      "account_url": "https://soundcloud.com/lvnar-amethyst"
+    },
+    "id": "soundcloud:2163839220",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SIRIUS",
+    "text": "",
+    "url": "https://soundcloud.com/lvnar-amethyst/sirius",
+    "published_at": "2025-12-15T20:40:41.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flvnar-amethyst%2Fsirius"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -1662,6 +1684,116 @@
     "url": "https://www.last.fm/user/siyangsun/library?from=2025-12-11&to=2025-12-11",
     "published_at": "2025-12-12T02:54:45.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "djsmth",
+      "account_url": "https://soundcloud.com/djsmth"
+    },
+    "id": "soundcloud:2107307448",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "socool[c]",
+    "text": "",
+    "url": "https://soundcloud.com/djsmth/socool-c",
+    "published_at": "2025-12-11T22:32:29.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdjsmth%2Fsocool-c"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cut_outs",
+      "account_url": "https://soundcloud.com/cut_outs"
+    },
+    "id": "soundcloud:308055759",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Nina",
+    "text": "",
+    "url": "https://soundcloud.com/cut_outs/01-nina",
+    "published_at": "2025-12-11T22:20:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcut_outs%2F01-nina"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "icezcopeland",
+      "account_url": "https://soundcloud.com/icezcopeland"
+    },
+    "id": "soundcloud:1994032783",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "MERK (PROD. BY ICEZ)",
+    "text": "",
+    "url": "https://soundcloud.com/icezcopeland/icez-merk-prod-by-icez",
+    "published_at": "2025-12-11T22:16:33.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ficezcopeland%2Ficez-merk-prod-by-icez"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "bpiv",
+      "account_url": "https://soundcloud.com/bpiv"
+    },
+    "id": "soundcloud:2191106055",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "10.18.25 -- on U",
+    "text": "",
+    "url": "https://soundcloud.com/bpiv/on-u",
+    "published_at": "2025-12-11T21:57:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbpiv%2Fon-u"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cosmicbeats",
+      "account_url": "https://soundcloud.com/cosmicbeats"
+    },
+    "id": "soundcloud:2191264379",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "tower of mems (ivri)",
+    "text": "",
+    "url": "https://soundcloud.com/cosmicbeats/tower-of-mems-ivri",
+    "published_at": "2025-12-11T21:46:23.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcosmicbeats%2Ftower-of-mems-ivri"
+    }
   },
   {
     "kind": "activity",

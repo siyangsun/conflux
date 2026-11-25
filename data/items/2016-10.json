@@ -1,5 +1,489 @@
 [
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wiwek",
+      "account_url": "https://soundcloud.com/wiwek"
+    },
+    "id": "soundcloud:274276003",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Wiwek & Skrillex ft Elliphant - Killa (Boombox Cartel & Aryay Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/wiwek/killa-with-skrillex-ft-elliphantboombox-cartel-aryay-remix",
+    "published_at": "2016-10-31T23:55:30.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwiwek%2Fkilla-with-skrillex-ft-elliphantboombox-cartel-aryay-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "spinninrecords",
+      "account_url": "https://soundcloud.com/spinninrecords"
+    },
+    "id": "soundcloud:290207849",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "KSHMR, B3nte & Badjack - The Spook Returns [OUT NOW]",
+    "text": "",
+    "url": "https://soundcloud.com/spinninrecords/kshmr-b3nte-badjack-the-spook-returns",
+    "published_at": "2016-10-28T04:42:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fspinninrecords%2Fkshmr-b3nte-badjack-the-spook-returns"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "excision",
+      "account_url": "https://soundcloud.com/excision"
+    },
+    "id": "soundcloud:289808161",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Excision \"Neck Brace\" feat Messinian (New album \"Virus\" out now!)",
+    "text": "",
+    "url": "https://soundcloud.com/excision/neck-brace",
+    "published_at": "2016-10-26T23:11:11.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fexcision%2Fneck-brace"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "excision",
+      "account_url": "https://soundcloud.com/excision"
+    },
+    "id": "soundcloud:289991892",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Excision \"Drowning\" feat Akylla",
+    "text": "",
+    "url": "https://soundcloud.com/excision/drowning",
+    "published_at": "2016-10-26T22:46:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fexcision%2Fdrowning"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "rezzsecrettunes",
+      "account_url": "https://soundcloud.com/rezzsecrettunes"
+    },
+    "id": "soundcloud:268383269",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "REZZ - Edge",
+    "text": "",
+    "url": "https://soundcloud.com/rezzsecrettunes/rezz-edge-16-bit-master",
+    "published_at": "2016-10-26T18:45:06.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Frezzsecrettunes%2Frezz-edge-16-bit-master"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "official-rezz",
+      "account_url": "https://soundcloud.com/official-rezz"
+    },
+    "id": "soundcloud:277914385",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "REZZ - Voice In The Wall",
+    "text": "",
+    "url": "https://soundcloud.com/official-rezz/voice-in-the-wall",
+    "published_at": "2016-10-26T03:35:51.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fofficial-rezz%2Fvoice-in-the-wall"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "veyronarche",
+      "account_url": "https://soundcloud.com/veyronarche"
+    },
+    "id": "soundcloud:189673372",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "HUCCI ~ Hitta VIP",
+    "text": "",
+    "url": "https://soundcloud.com/veyronarche/hucci-hitta-vip",
+    "published_at": "2016-10-26T00:38:21.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fveyronarche%2Fhucci-hitta-vip"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "official-rezz",
+      "account_url": "https://soundcloud.com/official-rezz"
+    },
+    "id": "soundcloud:285215658",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "REZZ - Purple Gusher",
+    "text": "",
+    "url": "https://soundcloud.com/official-rezz/rezz-purple-gusher",
+    "published_at": "2016-10-25T23:32:39.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fofficial-rezz%2Frezz-purple-gusher"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wearegraves",
+      "account_url": "https://soundcloud.com/wearegraves"
+    },
+    "id": "soundcloud:281866263",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "graves & Maazel - Lost Boys",
+    "text": "",
+    "url": "https://soundcloud.com/wearegraves/graves-maazel-lost-boys",
+    "published_at": "2016-10-25T06:12:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwearegraves%2Fgraves-maazel-lost-boys"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "whoskid",
+      "account_url": "https://soundcloud.com/whoskid"
+    },
+    "id": "soundcloud:286436779",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "glitch boy - forgotten",
+    "text": "",
+    "url": "https://soundcloud.com/whoskid/forgotten",
+    "published_at": "2016-10-25T06:04:52.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwhoskid%2Fforgotten"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ramzoid",
+      "account_url": "https://soundcloud.com/ramzoid"
+    },
+    "id": "soundcloud:289758429",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Maze",
+    "text": "",
+    "url": "https://soundcloud.com/ramzoid/maze",
+    "published_at": "2016-10-25T06:00:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Framzoid%2Fmaze"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "mickeyvalen",
+      "account_url": "https://soundcloud.com/mickeyvalen"
+    },
+    "id": "soundcloud:244077436",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Mickey Valen X Lucian - Hero (feat. Oktavian)",
+    "text": "",
+    "url": "https://soundcloud.com/mickeyvalen/mickey-valen-x-lucian-hero-feat-oktavian",
+    "published_at": "2016-10-25T05:26:43.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmickeyvalen%2Fmickey-valen-x-lucian-hero-feat-oktavian"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "maxzwell",
+      "account_url": "https://soundcloud.com/maxzwell"
+    },
+    "id": "soundcloud:257826686",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Honey",
+    "text": "",
+    "url": "https://soundcloud.com/maxzwell/honey",
+    "published_at": "2016-10-24T00:14:44.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmaxzwell%2Fhoney"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "futurejames",
+      "account_url": "https://soundcloud.com/futurejames"
+    },
+    "id": "soundcloud:255459161",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "pure imagination (dotan negrin x prismatic mantis flip)",
+    "text": "",
+    "url": "https://soundcloud.com/futurejames/pureimagination",
+    "published_at": "2016-10-24T00:09:43.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffuturejames%2Fpureimagination"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "kidswaste",
+      "account_url": "https://soundcloud.com/kidswaste"
+    },
+    "id": "soundcloud:222930763",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Medicine (ft. chelsea cutler)",
+    "text": "",
+    "url": "https://soundcloud.com/kidswaste/medicine-ft-chelsea-cutler-1",
+    "published_at": "2016-10-24T00:08:01.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fkidswaste%2Fmedicine-ft-chelsea-cutler-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "bydaruma",
+      "account_url": "https://soundcloud.com/bydaruma"
+    },
+    "id": "soundcloud:241791921",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "lux.impala - MorningStar",
+    "text": "",
+    "url": "https://soundcloud.com/bydaruma/luximpala-morningstar",
+    "published_at": "2016-10-24T00:07:15.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbydaruma%2Fluximpala-morningstar"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "jrndmusic",
+      "account_url": "https://soundcloud.com/jrndmusic"
+    },
+    "id": "soundcloud:272264025",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "JRND - Happiness (ft. Stefanie Pereira) [Domingo Records Exclusive]",
+    "text": "",
+    "url": "https://soundcloud.com/jrndmusic/happiness",
+    "published_at": "2016-10-21T04:03:13.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjrndmusic%2Fhappiness"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "solestramusic",
+      "account_url": "https://soundcloud.com/solestramusic"
+    },
+    "id": "soundcloud:289205491",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Ember Island X Radiohead - Creep (Solestra Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/solestramusic/ember-island-x-radiohead-creep-solestra-remix",
+    "published_at": "2016-10-21T03:46:17.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsolestramusic%2Fember-island-x-radiohead-creep-solestra-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lucianofficial",
+      "account_url": "https://soundcloud.com/lucianofficial"
+    },
+    "id": "soundcloud:177683998",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Black Coast - TRNDSTTR (Lucian Remix) [feat. M. Maggie]",
+    "text": "",
+    "url": "https://soundcloud.com/lucianofficial/black-coast-trndsttr-lucian-remix",
+    "published_at": "2016-10-21T00:15:58.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flucianofficial%2Fblack-coast-trndsttr-lucian-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "zedsdead",
+      "account_url": "https://soundcloud.com/zedsdead"
+    },
+    "id": "soundcloud:286240028",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Too Young (ft. Rivers Cuomo, Pusha T)",
+    "text": "",
+    "url": "https://soundcloud.com/zedsdead/too-young-ft-rivers-cuomo-pusha-t",
+    "published_at": "2016-10-18T05:43:55.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fzedsdead%2Ftoo-young-ft-rivers-cuomo-pusha-t"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "zedsdead",
+      "account_url": "https://soundcloud.com/zedsdead"
+    },
+    "id": "soundcloud:285269538",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Stardust (ft. Twin Shadow)",
+    "text": "",
+    "url": "https://soundcloud.com/zedsdead/stardust-ft-twin-shadow",
+    "published_at": "2016-10-18T05:43:22.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fzedsdead%2Fstardust-ft-twin-shadow"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "zedsdead",
+      "account_url": "https://soundcloud.com/zedsdead"
+    },
+    "id": "soundcloud:286835586",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "DNA (ft. Jadakiss & Styles P)",
+    "text": "",
+    "url": "https://soundcloud.com/zedsdead/dna-ft-jadakiss-styles-p",
+    "published_at": "2016-10-18T05:43:03.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fzedsdead%2Fdna-ft-jadakiss-styles-p"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/2a81c28d83a70169588ebd8ef8c7eb26/tumblr_of5vsuJr671vfje5h_r3_og_1280.jpg"
@@ -15,6 +499,28 @@
     "url": "https://siyang-art-dump.tumblr.com/post/151903531589/tower",
     "published_at": "2016-10-16T22:29:18.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "seven-lions",
+      "account_url": "https://soundcloud.com/seven-lions"
+    },
+    "id": "soundcloud:287018575",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Seven Lions x Illenium x Said The Sky - Rush Over Me Feat. HALIENE",
+    "text": "",
+    "url": "https://soundcloud.com/seven-lions/seven-lions-x-illenium-x-said-the-sky-rush-over-me-feat-haliene",
+    "published_at": "2016-10-11T04:18:36.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fseven-lions%2Fseven-lions-x-illenium-x-said-the-sky-rush-over-me-feat-haliene"
+    }
   },
   {
     "kind": "post",
@@ -54,5 +560,511 @@
     "url": "https://siyang-art-dump.tumblr.com/post/151616952469/10916",
     "published_at": "2016-10-10T16:50:01.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ithinkimcrashin",
+      "account_url": "https://soundcloud.com/ithinkimcrashin"
+    },
+    "id": "soundcloud:263219866",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Line It Up",
+    "text": "",
+    "url": "https://soundcloud.com/ithinkimcrashin/line-it-up",
+    "published_at": "2016-10-10T04:46:43.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fithinkimcrashin%2Fline-it-up"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lucianofficial",
+      "account_url": "https://soundcloud.com/lucianofficial"
+    },
+    "id": "soundcloud:263631569",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Lucian - Fly By Night (feat. Noé)",
+    "text": "",
+    "url": "https://soundcloud.com/lucianofficial/lucian-fly-by-night-feat-noe",
+    "published_at": "2016-10-10T04:31:12.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flucianofficial%2Flucian-fly-by-night-feat-noe"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ibynoe",
+      "account_url": "https://soundcloud.com/ibynoe"
+    },
+    "id": "soundcloud:273506396",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "In the Dark",
+    "text": "",
+    "url": "https://soundcloud.com/ibynoe/in-the-dark",
+    "published_at": "2016-10-10T00:51:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fibynoe%2Fin-the-dark"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "mickeyvalen",
+      "account_url": "https://soundcloud.com/mickeyvalen"
+    },
+    "id": "soundcloud:284103578",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Meet Me (feat. Noé)",
+    "text": "",
+    "url": "https://soundcloud.com/mickeyvalen/meet-me-feat-noe",
+    "published_at": "2016-10-10T00:50:34.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmickeyvalen%2Fmeet-me-feat-noe"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "maxstyler",
+      "account_url": "https://soundcloud.com/maxstyler"
+    },
+    "id": "soundcloud:282140533",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Awakening (feat. CXLOE)",
+    "text": "",
+    "url": "https://soundcloud.com/maxstyler/awakening-feat-cxloe-1",
+    "published_at": "2016-10-10T00:50:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmaxstyler%2Fawakening-feat-cxloe-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "kaskade",
+      "account_url": "https://soundcloud.com/kaskade"
+    },
+    "id": "soundcloud:265879716",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Kaskade & Felix Cartal \"Fakin It (Feat. Ofelia K)\"",
+    "text": "",
+    "url": "https://soundcloud.com/kaskade/kaskade-felix-cartal-fakin-it-feat-ofelia-k",
+    "published_at": "2016-10-07T20:34:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fkaskade%2Fkaskade-felix-cartal-fakin-it-feat-ofelia-k"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sodaisland",
+      "account_url": "https://soundcloud.com/sodaisland"
+    },
+    "id": "soundcloud:243758322",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Arian Cook - Quantum Racer",
+    "text": "",
+    "url": "https://soundcloud.com/sodaisland/arian-cook-quantum-racer",
+    "published_at": "2016-10-05T18:29:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsodaisland%2Farian-cook-quantum-racer"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cidmusic",
+      "account_url": "https://soundcloud.com/cidmusic"
+    },
+    "id": "soundcloud:275786456",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Together (Niko the Kid Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/cidmusic/together-niko-the-kid-remix",
+    "published_at": "2016-10-05T04:54:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcidmusic%2Ftogether-niko-the-kid-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "stonebank",
+      "account_url": "https://soundcloud.com/stonebank"
+    },
+    "id": "soundcloud:272352722",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Stonebank - Lift You Up - (Feat. EMEL)",
+    "text": "",
+    "url": "https://soundcloud.com/stonebank/stonebank-lift-you-up-feat-emel",
+    "published_at": "2016-10-05T04:42:18.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fstonebank%2Fstonebank-lift-you-up-feat-emel"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "xangriffin",
+      "account_url": "https://soundcloud.com/xangriffin"
+    },
+    "id": "soundcloud:274856158",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Marshmello - Alone (Xan Griffin Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/xangriffin/aloneremix",
+    "published_at": "2016-10-04T20:38:52.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fxangriffin%2Faloneremix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "xangriffin",
+      "account_url": "https://soundcloud.com/xangriffin"
+    },
+    "id": "soundcloud:267299677",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Bright Lights - Runaway (feat. 3lau) (Xan Griffin Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/xangriffin/3lau-runaway-xan-griffin-remix-1",
+    "published_at": "2016-10-04T20:38:34.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fxangriffin%2F3lau-runaway-xan-griffin-remix-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "vicetone",
+      "account_url": "https://soundcloud.com/vicetone"
+    },
+    "id": "soundcloud:270414959",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Vicetone - 'Nevada feat. Cozi Zuehlsdorff'",
+    "text": "",
+    "url": "https://soundcloud.com/vicetone/vicetone-mc-nevada",
+    "published_at": "2016-10-04T20:38:03.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fvicetone%2Fvicetone-mc-nevada"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "whoskid",
+      "account_url": "https://soundcloud.com/whoskid"
+    },
+    "id": "soundcloud:279391038",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Huntar - 4AM (k?d Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/whoskid/huntar-4am-kd-remix",
+    "published_at": "2016-10-04T20:32:47.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwhoskid%2Fhuntar-4am-kd-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "whoskid",
+      "account_url": "https://soundcloud.com/whoskid"
+    },
+    "id": "soundcloud:274542149",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Manila Killa - Youth ft. Satica (k?d Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/whoskid/manila-killa-youth-ft-satica-kid-remix",
+    "published_at": "2016-10-04T20:32:40.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwhoskid%2Fmanila-killa-youth-ft-satica-kid-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "whoskid",
+      "account_url": "https://soundcloud.com/whoskid"
+    },
+    "id": "soundcloud:283052283",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Birth of The Universe",
+    "text": "",
+    "url": "https://soundcloud.com/whoskid/botu",
+    "published_at": "2016-10-04T20:29:56.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwhoskid%2Fbotu"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "theprodigy",
+      "account_url": "https://soundcloud.com/theprodigy"
+    },
+    "id": "soundcloud:285983711",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "The Day Is My Enemy - Bad Company UK Remix - Clip",
+    "text": "",
+    "url": "https://soundcloud.com/theprodigy/the-day-is-my-enemy-bad-company-uk-remix-clip",
+    "published_at": "2016-10-04T20:23:30.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ftheprodigy%2Fthe-day-is-my-enemy-bad-company-uk-remix-clip"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "grynpyret",
+      "account_url": "https://soundcloud.com/grynpyret"
+    },
+    "id": "soundcloud:179337749",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Tamagotchi",
+    "text": "",
+    "url": "https://soundcloud.com/grynpyret/tamagotchi",
+    "published_at": "2016-10-04T20:18:34.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fgrynpyret%2Ftamagotchi"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "autografmusic",
+      "account_url": "https://soundcloud.com/autografmusic"
+    },
+    "id": "soundcloud:286015742",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Future Sauce",
+    "text": "",
+    "url": "https://soundcloud.com/autografmusic/futuresauce",
+    "published_at": "2016-10-04T20:16:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fautografmusic%2Ffuturesauce"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "echosofficial",
+      "account_url": "https://soundcloud.com/echosofficial"
+    },
+    "id": "soundcloud:285880047",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Take",
+    "text": "",
+    "url": "https://soundcloud.com/echosofficial/take",
+    "published_at": "2016-10-04T19:52:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fechosofficial%2Ftake"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "heartsfmx",
+      "account_url": "https://soundcloud.com/heartsfmx"
+    },
+    "id": "soundcloud:283509465",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "RL Grime - Core (Hearts Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/heartsfmx/core",
+    "published_at": "2016-10-04T19:40:53.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fheartsfmx%2Fcore"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "dubstep",
+      "account_url": "https://soundcloud.com/dubstep"
+    },
+    "id": "soundcloud:283062288",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Xilent - Kill Me",
+    "text": "",
+    "url": "https://soundcloud.com/dubstep/xilent-kill-me",
+    "published_at": "2016-10-04T19:21:56.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdubstep%2Fxilent-kill-me"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wearepantheon",
+      "account_url": "https://soundcloud.com/wearepantheon"
+    },
+    "id": "soundcloud:282742384",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Cryate - Poisoned",
+    "text": "",
+    "url": "https://soundcloud.com/wearepantheon/cryate-poisoned",
+    "published_at": "2016-10-04T18:33:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwearepantheon%2Fcryate-poisoned"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "tuslo",
+      "account_url": "https://soundcloud.com/tuslo"
+    },
+    "id": "soundcloud:281816175",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Louis the Child - Weekend (Tuslo Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/tuslo/louis-the-child-weekend-tuslo-remix-2",
+    "published_at": "2016-10-04T18:10:18.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ftuslo%2Flouis-the-child-weekend-tuslo-remix-2"
+    }
   }
 ]

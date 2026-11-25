@@ -64,6 +64,226 @@
     "fetched_at": "2026-11-05T18:31:29.357Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "swaylonights",
+      "account_url": "https://soundcloud.com/swaylonights"
+    },
+    "id": "soundcloud:590154849",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Ancient Forest",
+    "text": "",
+    "url": "https://soundcloud.com/swaylonights/2-ancient-forest-1",
+    "published_at": "2019-04-20T06:34:09.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fswaylonights%2F2-ancient-forest-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lolozouai",
+      "account_url": "https://soundcloud.com/lolozouai"
+    },
+    "id": "soundcloud:607916688",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Caffeine (Prod. by Stelios)",
+    "text": "",
+    "url": "https://soundcloud.com/lolozouai/caffeine-hhll",
+    "published_at": "2019-04-20T06:31:38.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flolozouai%2Fcaffeine-hhll"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "andersonpaak",
+      "account_url": "https://soundcloud.com/andersonpaak"
+    },
+    "id": "soundcloud:603221496",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Jet Black (feat. Brandy)",
+    "text": "",
+    "url": "https://soundcloud.com/andersonpaak/jet-black-feat-brandy-1",
+    "published_at": "2019-04-20T06:29:24.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fandersonpaak%2Fjet-black-feat-brandy-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "iamthys",
+      "account_url": "https://soundcloud.com/iamthys"
+    },
+    "id": "soundcloud:385468361",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Replicant Spiel",
+    "text": "",
+    "url": "https://soundcloud.com/iamthys/replicant-spiel",
+    "published_at": "2019-04-19T19:12:50.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fiamthys%2Freplicant-spiel"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "glance-s",
+      "account_url": "https://soundcloud.com/glance-s"
+    },
+    "id": "soundcloud:588117195",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "NIGHTSHADE",
+    "text": "",
+    "url": "https://soundcloud.com/glance-s/nightshade-1",
+    "published_at": "2019-04-19T19:07:58.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fglance-s%2Fnightshade-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "eatbrain",
+      "account_url": "https://soundcloud.com/eatbrain"
+    },
+    "id": "soundcloud:606281118",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "AKOV - Blind (Sun Mix) (Eatbrain080)",
+    "text": "",
+    "url": "https://soundcloud.com/eatbrain/akov-blind-sun-mix-eatbrain080",
+    "published_at": "2019-04-19T19:05:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Featbrain%2Fakov-blind-sun-mix-eatbrain080"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "elohimelohim",
+      "account_url": "https://soundcloud.com/elohimelohim"
+    },
+    "id": "soundcloud:556295229",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Elohim - Buckets",
+    "text": "",
+    "url": "https://soundcloud.com/elohimelohim/buckets",
+    "published_at": "2019-04-19T18:48:03.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Felohimelohim%2Fbuckets"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "iamthys",
+      "account_url": "https://soundcloud.com/iamthys"
+    },
+    "id": "soundcloud:571702953",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Reflection for String Quartet and Electronics (sketch)",
+    "text": "",
+    "url": "https://soundcloud.com/iamthys/reflection-for-string-quartet-and-electronics",
+    "published_at": "2019-04-19T18:47:00.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fiamthys%2Freflection-for-string-quartet-and-electronics"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "nollmusic",
+      "account_url": "https://soundcloud.com/nollmusic"
+    },
+    "id": "soundcloud:604429203",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "gold & silver",
+    "text": "",
+    "url": "https://soundcloud.com/nollmusic/gold-silver-fuxwithit-premiere",
+    "published_at": "2019-04-19T18:45:35.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fnollmusic%2Fgold-silver-fuxwithit-premiere"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "aries",
+      "account_url": "https://soundcloud.com/aries"
+    },
+    "id": "soundcloud:606521454",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "BAD NEWS",
+    "text": "",
+    "url": "https://soundcloud.com/aries/bad-news",
+    "published_at": "2019-04-19T18:40:37.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Faries%2Fbad-news"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/391f9a4c0f3b0bf79803bc3cde99565a/tumblr_pq2hp1W2b01vfje5ho1_1280.png"

@@ -1,5 +1,181 @@
 [
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "whethan",
+      "account_url": "https://soundcloud.com/whethan"
+    },
+    "id": "soundcloud:451309122",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Clairo - Pretty Girl (Whethan Bootleg)",
+    "text": "",
+    "url": "https://soundcloud.com/whethan/prettygirl",
+    "published_at": "2018-05-31T00:04:05.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwhethan%2Fprettygirl"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wallflowermusic",
+      "account_url": "https://soundcloud.com/wallflowermusic"
+    },
+    "id": "soundcloud:367770308",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Polaroid",
+    "text": "",
+    "url": "https://soundcloud.com/wallflowermusic/polaroid",
+    "published_at": "2018-05-31T00:02:31.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwallflowermusic%2Fpolaroid"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "hexcougar",
+      "account_url": "https://soundcloud.com/hexcougar"
+    },
+    "id": "soundcloud:312375867",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Afterlife (feat. Jarell Perry)",
+    "text": "",
+    "url": "https://soundcloud.com/hexcougar/afterlife-feat-jarell-perry",
+    "published_at": "2018-05-29T09:20:29.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhexcougar%2Fafterlife-feat-jarell-perry"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "hexcougar",
+      "account_url": "https://soundcloud.com/hexcougar"
+    },
+    "id": "soundcloud:422371218",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "KRANE - Chemical feat. Ahsha & Lemay (Hex Cougar Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/hexcougar/kraneremix",
+    "published_at": "2018-05-29T09:20:27.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhexcougar%2Fkraneremix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wearewavedash",
+      "account_url": "https://soundcloud.com/wearewavedash"
+    },
+    "id": "soundcloud:442130253",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "WAVEDASH & QUEST - Devil Music (feat. fknsyd)",
+    "text": "",
+    "url": "https://soundcloud.com/wearewavedash/devilmusic",
+    "published_at": "2018-05-24T04:48:25.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwearewavedash%2Fdevilmusic"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "shadient",
+      "account_url": "https://soundcloud.com/shadient"
+    },
+    "id": "soundcloud:393669072",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Wavedash & Tucker Kreway Ft Amelia - Honey Jar (Shadient Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/shadient/honeyjar-rmx",
+    "published_at": "2018-05-24T04:43:57.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fshadient%2Fhoneyjar-rmx"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "isqa3d",
+      "account_url": "https://soundcloud.com/isqa3d"
+    },
+    "id": "soundcloud:307558504",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "why did you",
+    "text": "",
+    "url": "https://soundcloud.com/isqa3d/why_did_you",
+    "published_at": "2018-05-24T04:41:19.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fisqa3d%2Fwhy_did_you"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "illeniumofficial",
+      "account_url": "https://soundcloud.com/illeniumofficial"
+    },
+    "id": "soundcloud:442645704",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "ILLENIUM, Said The Sky, 1 7 8 8 - L, Kerli - Sound of Where'd U Go [VIP Edit]",
+    "text": "",
+    "url": "https://soundcloud.com/illeniumofficial/illenium-said-the-sky-1-7-8-8-l-kerli-sound-of-whered-u-go-vip-edit",
+    "published_at": "2018-05-11T17:37:18.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Filleniumofficial%2Fillenium-said-the-sky-1-7-8-8-l-kerli-sound-of-whered-u-go-vip-edit"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/6789a812e3788cb646f2f62c6d50b2b4/tumblr_p8i83knsam1vfje5ho1_1280.png"
@@ -32,5 +208,49 @@
     "url": "https://siyang-art-dump.tumblr.com/post/173697101414",
     "published_at": "2018-05-08T07:38:32.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "bennymayne",
+      "account_url": "https://soundcloud.com/bennymayne"
+    },
+    "id": "soundcloud:436032672",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "jutes x benny mayne - attitude",
+    "text": "",
+    "url": "https://soundcloud.com/bennymayne/attitude",
+    "published_at": "2018-05-03T21:32:20.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbennymayne%2Fattitude"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "pronouncedyea",
+      "account_url": "https://soundcloud.com/pronouncedyea"
+    },
+    "id": "soundcloud:438334428",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "pronouncedyea x Far & Few - iwantuu",
+    "text": "",
+    "url": "https://soundcloud.com/pronouncedyea/iwantuu2",
+    "published_at": "2018-05-03T21:31:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fpronouncedyea%2Fiwantuu2"
+    }
   }
 ]

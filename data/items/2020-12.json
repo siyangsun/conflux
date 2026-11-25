@@ -176,6 +176,28 @@
     }
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "movingcastle",
+      "account_url": "https://soundcloud.com/movingcastle"
+    },
+    "id": "soundcloud:773463511",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "juuku - healing (ft. wilo wilde)",
+    "text": "",
+    "url": "https://soundcloud.com/movingcastle/juuku-healing-ft-wilo-wilde",
+    "published_at": "2020-12-26T06:42:58.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmovingcastle%2Fjuuku-healing-ft-wilo-wilde"
+    }
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],

@@ -1930,6 +1930,28 @@
     "kind": "reblog"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sabighost",
+      "account_url": "https://soundcloud.com/sabighost"
+    },
+    "id": "soundcloud:1775031318",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "about me",
+    "text": "",
+    "url": "https://soundcloud.com/sabighost/about-me-1",
+    "published_at": "2024-06-18T14:29:14.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsabighost%2Fabout-me-1"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -1994,6 +2016,28 @@
     "url": "https://x.com/unevenlyeven/status/1802382838337007875",
     "published_at": "2024-06-16T16:48:49.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "moorekismet",
+      "account_url": "https://soundcloud.com/moorekismet"
+    },
+    "id": "soundcloud:1847616255",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "ISOxo & fussy - SKYLIT (Moore Kismet Reboot)",
+    "text": "",
+    "url": "https://soundcloud.com/moorekismet/skylit-9",
+    "published_at": "2024-06-16T16:11:28.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmoorekismet%2Fskylit-9"
+    }
   },
   {
     "id": "arena:59991887",

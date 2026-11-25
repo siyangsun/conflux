@@ -569,6 +569,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "exxyau",
+      "account_url": "https://soundcloud.com/exxyau"
+    },
+    "id": "soundcloud:1792248475",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Blue Train Lines - Mount Kimbie, King Krule (exxy rework)",
+    "text": "",
+    "url": "https://soundcloud.com/exxyau/blue-train-lines-mount-kimbie-king-krule-exxy-rework",
+    "published_at": "2024-07-23T15:11:30.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fexxyau%2Fblue-train-lines-mount-kimbie-king-krule-exxy-rework"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "jamesjamesjames"
     },
     "id": "lastfm:849f38e96c8b",
@@ -579,6 +601,72 @@
     "url": "https://www.last.fm/music/jamesjamesjames/_/island",
     "published_at": "2024-07-23T15:08:36.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "jamesjamesjamess",
+      "account_url": "https://soundcloud.com/jamesjamesjamess"
+    },
+    "id": "soundcloud:1797723016",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "island",
+    "text": "",
+    "url": "https://soundcloud.com/jamesjamesjamess/island",
+    "published_at": "2024-07-23T15:08:36.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjamesjamesjamess%2Fisland"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "edoken",
+      "account_url": "https://soundcloud.com/edoken"
+    },
+    "id": "soundcloud:1819908696",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "glitchlooped - Single",
+    "text": "",
+    "url": "https://soundcloud.com/edoken/glitchlooped-single",
+    "published_at": "2024-07-23T15:06:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fedoken%2Fglitchlooped-single"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "seasonsandfrequency",
+      "account_url": "https://soundcloud.com/seasonsandfrequency"
+    },
+    "id": "soundcloud:1773317454",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "街へ行く（ゆず）.mp3",
+    "text": "",
+    "url": "https://soundcloud.com/seasonsandfrequency/mp3",
+    "published_at": "2024-07-23T15:05:50.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fseasonsandfrequency%2Fmp3"
+    }
   },
   {
     "kind": "post",
@@ -593,6 +681,138 @@
     "url": "https://x.com/unevenlyeven/status/1815764851395821711",
     "published_at": "2024-07-23T15:04:10.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "petticoat",
+      "account_url": "https://soundcloud.com/petticoat"
+    },
+    "id": "soundcloud:1695944016",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Skag",
+    "text": "",
+    "url": "https://soundcloud.com/petticoat/skag-1",
+    "published_at": "2024-07-23T14:48:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fpetticoat%2Fskag-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "itsthedare",
+      "account_url": "https://soundcloud.com/itsthedare"
+    },
+    "id": "soundcloud:1301344147",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Girls",
+    "text": "",
+    "url": "https://soundcloud.com/itsthedare/girls",
+    "published_at": "2024-07-23T14:45:56.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fitsthedare%2Fgirls"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "itsthedare",
+      "account_url": "https://soundcloud.com/itsthedare"
+    },
+    "id": "soundcloud:1459181521",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Good Time",
+    "text": "",
+    "url": "https://soundcloud.com/itsthedare/good-time",
+    "published_at": "2024-07-23T14:45:23.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fitsthedare%2Fgood-time"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "camouflybeats",
+      "account_url": "https://soundcloud.com/camouflybeats"
+    },
+    "id": "soundcloud:1876610112",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Calcutta - Oroscopo (camoufly Edit)",
+    "text": "",
+    "url": "https://soundcloud.com/camouflybeats/oroscopo",
+    "published_at": "2024-07-23T14:45:08.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcamouflybeats%2Foroscopo"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "iamkasiopi",
+      "account_url": "https://soundcloud.com/iamkasiopi"
+    },
+    "id": "soundcloud:1873334220",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Megan Thee Stallion & Yuki Chiba - Mamushi (kasi opi remix)",
+    "text": "",
+    "url": "https://soundcloud.com/iamkasiopi/mamushi-kasi-opi-remix",
+    "published_at": "2024-07-23T14:42:58.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fiamkasiopi%2Fmamushi-kasi-opi-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "itsmsft",
+      "account_url": "https://soundcloud.com/itsmsft"
+    },
+    "id": "soundcloud:1879017075",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Hesitate Dub",
+    "text": "",
+    "url": "https://soundcloud.com/itsmsft/hesitate-dub",
+    "published_at": "2024-07-23T14:39:52.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fitsmsft%2Fhesitate-dub"
+    }
   },
   {
     "kind": "post",

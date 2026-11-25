@@ -411,6 +411,28 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "shameless_wav",
+      "account_url": "https://soundcloud.com/shameless_wav"
+    },
+    "id": "soundcloud:1245550333",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "re:set (cover) - 50landing",
+    "text": "",
+    "url": "https://soundcloud.com/shameless_wav/reset",
+    "published_at": "2022-04-11T06:38:55.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fshameless_wav%2Freset"
+    }
+  },
+  {
     "id": "arena:28721435",
     "source": "arena",
     "type": "block",
@@ -612,6 +634,28 @@
       "own": true
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "hatetwo",
+      "account_url": "https://soundcloud.com/hatetwo"
+    },
+    "id": "soundcloud:1243662169",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "dove cameron - boyfriend [hatetwo flip]",
+    "text": "",
+    "url": "https://soundcloud.com/hatetwo/dove-cameron-boyfriend-hatetwo-flip",
+    "published_at": "2022-04-03T20:01:46.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhatetwo%2Fdove-cameron-boyfriend-hatetwo-flip"
+    }
   },
   {
     "kind": "activity",

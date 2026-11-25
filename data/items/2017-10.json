@@ -1,5 +1,313 @@
 [
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "bitbird",
+      "account_url": "https://soundcloud.com/bitbird"
+    },
+    "id": "soundcloud:345165285",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "DROELOE - Kintsugi",
+    "text": "",
+    "url": "https://soundcloud.com/bitbird/droeloe-kintsugi",
+    "published_at": "2017-10-31T20:42:35.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbitbird%2Fdroeloe-kintsugi"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "troyboi",
+      "account_url": "https://soundcloud.com/troyboi"
+    },
+    "id": "soundcloud:346067206",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Don't Want",
+    "text": "",
+    "url": "https://soundcloud.com/troyboi/dont-want",
+    "published_at": "2017-10-31T20:31:24.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ftroyboi%2Fdont-want"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "zhu",
+      "account_url": "https://soundcloud.com/zhu"
+    },
+    "id": "soundcloud:338387316",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Chasing Marrakech",
+    "text": "",
+    "url": "https://soundcloud.com/zhu/chasing-marrakech",
+    "published_at": "2017-10-31T20:31:00.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fzhu%2Fchasing-marrakech"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "rlgrime",
+      "account_url": "https://soundcloud.com/rlgrime"
+    },
+    "id": "soundcloud:348867878",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Halloween VI",
+    "text": "",
+    "url": "https://soundcloud.com/rlgrime/halloween-vi",
+    "published_at": "2017-10-27T18:48:23.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Frlgrime%2Fhalloween-vi"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "chvnge_up",
+      "account_url": "https://soundcloud.com/chvnge_up"
+    },
+    "id": "soundcloud:337154726",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "let you down",
+    "text": "",
+    "url": "https://soundcloud.com/chvnge_up/let-you-down",
+    "published_at": "2017-10-27T01:31:14.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fchvnge_up%2Flet-you-down"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "blackgummy_reserve",
+      "account_url": "https://soundcloud.com/blackgummy_reserve"
+    },
+    "id": "soundcloud:274808660",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "BlackGummy - Plucking Technology",
+    "text": "",
+    "url": "https://soundcloud.com/blackgummy_reserve/blackgummy-plucking-technology",
+    "published_at": "2017-10-26T19:10:38.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fblackgummy_reserve%2Fblackgummy-plucking-technology"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "blackgummy",
+      "account_url": "https://soundcloud.com/blackgummy"
+    },
+    "id": "soundcloud:285486978",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "KT (Original Mix)",
+    "text": "",
+    "url": "https://soundcloud.com/blackgummy/3-kt-original-mix-1",
+    "published_at": "2017-10-26T19:10:26.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fblackgummy%2F3-kt-original-mix-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "krane",
+      "account_url": "https://soundcloud.com/krane"
+    },
+    "id": "soundcloud:345657109",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "KRANE & QUIX - Next World",
+    "text": "",
+    "url": "https://soundcloud.com/krane/krane-quix-next-world",
+    "published_at": "2017-10-26T19:10:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fkrane%2Fkrane-quix-next-world"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "youknowlimbo",
+      "account_url": "https://soundcloud.com/youknowlimbo"
+    },
+    "id": "soundcloud:291592518",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "airplane mode",
+    "text": "",
+    "url": "https://soundcloud.com/youknowlimbo/airplanemode",
+    "published_at": "2017-10-26T19:09:27.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fyouknowlimbo%2Fairplanemode"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "chelseacutler",
+      "account_url": "https://soundcloud.com/chelseacutler"
+    },
+    "id": "soundcloud:338311496",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "You Make Me",
+    "text": "",
+    "url": "https://soundcloud.com/chelseacutler/you-make-me",
+    "published_at": "2017-10-26T19:09:15.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fchelseacutler%2Fyou-make-me"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "tycho",
+      "account_url": "https://soundcloud.com/tycho"
+    },
+    "id": "soundcloud:85216617",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Daydream",
+    "text": "",
+    "url": "https://soundcloud.com/tycho/daydream",
+    "published_at": "2017-10-26T19:08:48.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ftycho%2Fdaydream"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sonn",
+      "account_url": "https://soundcloud.com/sonn"
+    },
+    "id": "soundcloud:322932538",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "iroh",
+    "text": "",
+    "url": "https://soundcloud.com/sonn/iroh",
+    "published_at": "2017-10-26T19:08:39.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsonn%2Firoh"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "imgoldwater",
+      "account_url": "https://soundcloud.com/imgoldwater"
+    },
+    "id": "soundcloud:347548156",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "intentions",
+    "text": "",
+    "url": "https://soundcloud.com/imgoldwater/intentions",
+    "published_at": "2017-10-26T18:59:28.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fimgoldwater%2Fintentions"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ekalimusic",
+      "account_url": "https://soundcloud.com/ekalimusic"
+    },
+    "id": "soundcloud:348714754",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Porter Robinson - Language (Ekali & QUIX Tribute)",
+    "text": "",
+    "url": "https://soundcloud.com/ekalimusic/language-ekali-quix-tribute",
+    "published_at": "2017-10-26T18:52:12.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fekalimusic%2Flanguage-ekali-quix-tribute"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/30bddcc8b033f114a24489c9c5b11e75/tumblr_oyf7waezm01vfje5ho1_1280.png"
@@ -92,6 +400,292 @@
     "fetched_at": "2026-11-05T18:31:29.357Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "832832",
+      "account_url": "https://soundcloud.com/832832"
+    },
+    "id": "soundcloud:342704043",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Rainy Girl - レイニーガール",
+    "text": "",
+    "url": "https://soundcloud.com/832832/rainy-girl",
+    "published_at": "2017-10-26T07:33:53.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2F832832%2Frainy-girl"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "dark_cat",
+      "account_url": "https://soundcloud.com/dark_cat"
+    },
+    "id": "soundcloud:285432163",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "YOU'RE EVERYTHING (feat. juu)",
+    "text": "",
+    "url": "https://soundcloud.com/dark_cat/youre-everything-1",
+    "published_at": "2017-10-26T04:45:04.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdark_cat%2Fyoure-everything-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "deathtarot",
+      "account_url": "https://soundcloud.com/deathtarot"
+    },
+    "id": "soundcloud:94046615",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Youth Decay",
+    "text": "",
+    "url": "https://soundcloud.com/deathtarot/youth-decay",
+    "published_at": "2017-10-25T01:25:35.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdeathtarot%2Fyouth-decay"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "kastrosplace",
+      "account_url": "https://soundcloud.com/kastrosplace"
+    },
+    "id": "soundcloud:339724050",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "There'sSomethingEerieGoingOn",
+    "text": "",
+    "url": "https://soundcloud.com/kastrosplace/theressomethingeeriegoingon",
+    "published_at": "2017-10-25T01:24:27.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fkastrosplace%2Ftheressomethingeeriegoingon"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "user-342268246",
+      "account_url": "https://soundcloud.com/user-342268246"
+    },
+    "id": "soundcloud:268260705",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Ramen Life",
+    "text": "",
+    "url": "https://soundcloud.com/user-342268246/ramen-life",
+    "published_at": "2017-10-25T01:19:16.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fuser-342268246%2Framen-life"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "love-sadkid",
+      "account_url": "https://soundcloud.com/love-sadkid"
+    },
+    "id": "soundcloud:329866580",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Something More w/ Paper Latte (prod. Frith)",
+    "text": "",
+    "url": "https://soundcloud.com/love-sadkid/something-more",
+    "published_at": "2017-10-25T01:11:40.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flove-sadkid%2Fsomething-more"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "atlas",
+      "account_url": "https://soundcloud.com/atlas"
+    },
+    "id": "soundcloud:264491926",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "music and cute girls (interlude) (prod. tomppabeats)",
+    "text": "",
+    "url": "https://soundcloud.com/atlas/music-and-cute-girls-interlude-prod-tomppabeats",
+    "published_at": "2017-10-25T01:05:25.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fatlas%2Fmusic-and-cute-girls-interlude-prod-tomppabeats"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "khaidreams",
+      "account_url": "https://soundcloud.com/khaidreams"
+    },
+    "id": "soundcloud:339532979",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Summer is Like a Dream(Prod. Rook1e)",
+    "text": "",
+    "url": "https://soundcloud.com/khaidreams/summer-is-like-a-dream-prod",
+    "published_at": "2017-10-24T17:04:52.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fkhaidreams%2Fsummer-is-like-a-dream-prod"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "officialbiosphere",
+      "account_url": "https://soundcloud.com/officialbiosphere"
+    },
+    "id": "soundcloud:340641510",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "dreaming of blueberry pancakes",
+    "text": "",
+    "url": "https://soundcloud.com/officialbiosphere/dreaming-of-blueberry-pancakes",
+    "published_at": "2017-10-24T17:00:00.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fofficialbiosphere%2Fdreaming-of-blueberry-pancakes"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "getterofficial",
+      "account_url": "https://soundcloud.com/getterofficial"
+    },
+    "id": "soundcloud:347802321",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Solo Feat. Party Nails [Music Video Out Now]",
+    "text": "",
+    "url": "https://soundcloud.com/getterofficial/solo-feat-party-nails",
+    "published_at": "2017-10-23T21:49:27.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fgetterofficial%2Fsolo-feat-party-nails"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "eva_gomi_tenshi",
+      "account_url": "https://soundcloud.com/eva_gomi_tenshi"
+    },
+    "id": "soundcloud:302520493",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "miss u / hate u",
+    "text": "",
+    "url": "https://soundcloud.com/eva_gomi_tenshi/imisu",
+    "published_at": "2017-10-21T23:37:39.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Feva_gomi_tenshi%2Fimisu"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "alinabaraz",
+      "account_url": "https://soundcloud.com/alinabaraz"
+    },
+    "id": "soundcloud:344491269",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Buzzin",
+    "text": "",
+    "url": "https://soundcloud.com/alinabaraz/buzzin",
+    "published_at": "2017-10-21T23:36:20.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Falinabaraz%2Fbuzzin"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "j-trick2",
+      "account_url": "https://soundcloud.com/j-trick2"
+    },
+    "id": "soundcloud:347578946",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Kendrick Lamar x Skrillex - Humble (J-Trick x Autokraft Flip)",
+    "text": "",
+    "url": "https://soundcloud.com/j-trick2/kendrick-lamar-x-skrillex-humble-j-trick-x-autokraft-flip",
+    "published_at": "2017-10-20T01:01:37.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fj-trick2%2Fkendrick-lamar-x-skrillex-humble-j-trick-x-autokraft-flip"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/23d62c050ae79b8b19d2643d24b73a43/tumblr_oy28rhECZY1vfje5ho1_1280.png"
@@ -144,6 +738,138 @@
     "url": "https://siyang-art-dump.tumblr.com/post/166495630874/mysterious",
     "published_at": "2017-10-17T09:10:02.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "bonniexclydeofficial",
+      "account_url": "https://soundcloud.com/bonniexclydeofficial"
+    },
+    "id": "soundcloud:346720013",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "BONNIE X CLYDE, PURGE - TORN (LINK TO MUSIC VIDEO)",
+    "text": "",
+    "url": "https://soundcloud.com/bonniexclydeofficial/bonnie-x-clyde-purge-torn",
+    "published_at": "2017-10-13T20:52:50.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbonniexclydeofficial%2Fbonnie-x-clyde-purge-torn"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "notubeats",
+      "account_url": "https://soundcloud.com/notubeats"
+    },
+    "id": "soundcloud:346711531",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "The Others",
+    "text": "",
+    "url": "https://soundcloud.com/notubeats/theothers",
+    "published_at": "2017-10-13T20:52:34.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fnotubeats%2Ftheothers"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "morguemami",
+      "account_url": "https://soundcloud.com/morguemami"
+    },
+    "id": "soundcloud:346137811",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Medusa",
+    "text": "",
+    "url": "https://soundcloud.com/morguemami/medusa-1",
+    "published_at": "2017-10-13T20:49:10.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmorguemami%2Fmedusa-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ryanjacobxx",
+      "account_url": "https://soundcloud.com/ryanjacobxx"
+    },
+    "id": "soundcloud:346746066",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Raka - Ghost (prod. @ryanjacobx)",
+    "text": "",
+    "url": "https://soundcloud.com/ryanjacobxx/raka-ghost-prod-ryanjacob-1",
+    "published_at": "2017-10-13T20:48:24.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fryanjacobxx%2Fraka-ghost-prod-ryanjacob-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "robotaki",
+      "account_url": "https://soundcloud.com/robotaki"
+    },
+    "id": "soundcloud:345191126",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Capital Cities - Vowels (Robotaki Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/robotaki/vowelsremix",
+    "published_at": "2017-10-13T20:47:19.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Frobotaki%2Fvowelsremix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "movingcastle",
+      "account_url": "https://soundcloud.com/movingcastle"
+    },
+    "id": "soundcloud:346583558",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Robokid & phem - Judge Me",
+    "text": "",
+    "url": "https://soundcloud.com/movingcastle/robokid-phem-judge-me-1",
+    "published_at": "2017-10-13T20:46:38.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmovingcastle%2Frobokid-phem-judge-me-1"
+    }
   },
   {
     "kind": "post",
@@ -204,6 +930,50 @@
     "fetched_at": "2026-11-05T18:31:29.357Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "slumberjack",
+      "account_url": "https://soundcloud.com/slumberjack"
+    },
+    "id": "soundcloud:156634109",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Touched (Slumberjack Edit)ヽ(ｏ`皿′ｏ)ﾉ",
+    "text": "",
+    "url": "https://soundcloud.com/slumberjack/touched-slumberjack-edit-2",
+    "published_at": "2017-10-12T22:05:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fslumberjack%2Ftouched-slumberjack-edit-2"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "yoemase",
+      "account_url": "https://soundcloud.com/yoemase"
+    },
+    "id": "soundcloud:346134374",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Lonely (Phantom Sage Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/yoemase/lonely-phantom-sage-remix",
+    "published_at": "2017-10-10T21:32:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fyoemase%2Flonely-phantom-sage-remix"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/aa3e6dfc8132c1327f36e9d017f83e88/tumblr_oxlms2m3XL1vfje5ho1_1280.jpg"
@@ -221,6 +991,28 @@
     "url": "https://siyang-art-dump.tumblr.com/post/166248013354/screech",
     "published_at": "2017-10-10T08:40:49.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lissa-music",
+      "account_url": "https://soundcloud.com/lissa-music"
+    },
+    "id": "soundcloud:344549953",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Suffer Baby",
+    "text": "",
+    "url": "https://soundcloud.com/lissa-music/suffer-baby-1",
+    "published_at": "2017-10-10T00:38:40.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flissa-music%2Fsuffer-baby-1"
+    }
   },
   {
     "kind": "post",
@@ -261,6 +1053,50 @@
     "fetched_at": "2026-11-05T18:31:29.357Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "chill",
+      "account_url": "https://soundcloud.com/chill"
+    },
+    "id": "soundcloud:345010739",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Hang Øver - Insomnia",
+    "text": "",
+    "url": "https://soundcloud.com/chill/hang-over-insomnia",
+    "published_at": "2017-10-09T05:16:18.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fchill%2Fhang-over-insomnia"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ekalimusic",
+      "account_url": "https://soundcloud.com/ekalimusic"
+    },
+    "id": "soundcloud:345582679",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Ekali – Babylon ft. Denzel Curry (Skrillex & Ronny J Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/ekalimusic/babylon-skrillex-ronny-j-remix",
+    "published_at": "2017-10-06T05:15:47.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fekalimusic%2Fbabylon-skrillex-ronny-j-remix"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/320fa03a180c629b4959a1f3a7cde2a7/tumblr_oxccvvRAPW1vfje5ho1_1280.jpg"
@@ -299,6 +1135,50 @@
     "url": "https://siyang-art-dump.tumblr.com/post/166033298144/poison",
     "published_at": "2017-10-04T06:34:44.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "gillchang",
+      "account_url": "https://soundcloud.com/gillchang"
+    },
+    "id": "soundcloud:319918939",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Story (feat. Cimo Fränkel)",
+    "text": "",
+    "url": "https://soundcloud.com/gillchang/story-feat-cimo-frankel",
+    "published_at": "2017-10-03T20:35:51.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fgillchang%2Fstory-feat-cimo-frankel"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ekalimusic",
+      "account_url": "https://soundcloud.com/ekalimusic"
+    },
+    "id": "soundcloud:345194586",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Awakening - Mix.3",
+    "text": "",
+    "url": "https://soundcloud.com/ekalimusic/awakening-mix3",
+    "published_at": "2017-10-03T20:30:16.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fekalimusic%2Fawakening-mix3"
+    }
   },
   {
     "kind": "post",

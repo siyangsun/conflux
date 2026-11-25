@@ -2072,6 +2072,72 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "officialshstr",
+      "account_url": "https://soundcloud.com/officialshstr"
+    },
+    "id": "soundcloud:1661526546",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SHSTR • THE MARIONETTE",
+    "text": "",
+    "url": "https://soundcloud.com/officialshstr/shstr-the-marionette",
+    "published_at": "2024-04-17T05:22:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fofficialshstr%2Fshstr-the-marionette"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "iamlick",
+      "account_url": "https://soundcloud.com/iamlick"
+    },
+    "id": "soundcloud:659714978",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "LICK - POISON (ft. Tori Letzler)",
+    "text": "",
+    "url": "https://soundcloud.com/iamlick/lick-poison-ft-tori-letzler",
+    "published_at": "2024-04-17T05:18:28.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fiamlick%2Flick-poison-ft-tori-letzler"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "whippedcream",
+      "account_url": "https://soundcloud.com/whippedcream"
+    },
+    "id": "soundcloud:874173091",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Do I ft. big latto",
+    "text": "",
+    "url": "https://soundcloud.com/whippedcream/do-i-feat-mulatto-baby-goth",
+    "published_at": "2024-04-17T04:56:29.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwhippedcream%2Fdo-i-feat-mulatto-baby-goth"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -6004,6 +6070,28 @@
     "url": "https://siyang-art-dump.tumblr.com/post/746657462638313472",
     "published_at": "2024-04-02T14:27:25.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wearebadfriends",
+      "account_url": "https://soundcloud.com/wearebadfriends"
+    },
+    "id": "soundcloud:1761313809",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Little Simz - Fever (BAD FRIENDS FLIP)",
+    "text": "",
+    "url": "https://soundcloud.com/wearebadfriends/fever-flip",
+    "published_at": "2024-04-02T03:52:10.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwearebadfriends%2Ffever-flip"
+    }
   },
   {
     "kind": "activity",

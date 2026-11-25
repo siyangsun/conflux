@@ -1271,6 +1271,28 @@
     "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "c2r2o2s2s",
+      "account_url": "https://soundcloud.com/c2r2o2s2s"
+    },
+    "id": "soundcloud:1529280445",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "hot rain",
+    "text": "",
+    "url": "https://soundcloud.com/c2r2o2s2s/hot-rain",
+    "published_at": "2025-03-08T15:25:30.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fc2r2o2s2s%2Fhot-rain"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -1308,6 +1330,28 @@
       }
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "jukaamusic",
+      "account_url": "https://soundcloud.com/jukaamusic"
+    },
+    "id": "soundcloud:2048955080",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Tsu Nami - eye2eye (Jukaa Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/jukaamusic/eye2eye-jukaa-rmx",
+    "published_at": "2025-03-07T15:13:22.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjukaamusic%2Feye2eye-jukaa-rmx"
+    }
   },
   {
     "kind": "activity",

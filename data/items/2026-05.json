@@ -233,6 +233,28 @@
     "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lucybedroque",
+      "account_url": "https://soundcloud.com/lucybedroque"
+    },
+    "id": "soundcloud:2288361698",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "whitehorsemannequinprodginseng",
+    "text": "",
+    "url": "https://soundcloud.com/lucybedroque/horse",
+    "published_at": "2026-05-27T00:31:09.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flucybedroque%2Fhorse"
+    }
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],

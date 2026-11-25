@@ -1458,6 +1458,50 @@
     "kind": "reblog"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "c-h-r-o-m-a",
+      "account_url": "https://soundcloud.com/c-h-r-o-m-a"
+    },
+    "id": "soundcloud:754840171",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Strange Inventor",
+    "text": "",
+    "url": "https://soundcloud.com/c-h-r-o-m-a/strange-inventor",
+    "published_at": "2023-04-09T15:09:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fc-h-r-o-m-a%2Fstrange-inventor"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "uwaaaa",
+      "account_url": "https://soundcloud.com/uwaaaa"
+    },
+    "id": "soundcloud:1467833203",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "星の臨界",
+    "text": "",
+    "url": "https://soundcloud.com/uwaaaa/criticality",
+    "published_at": "2023-04-09T15:07:04.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fuwaaaa%2Fcriticality"
+    }
+  },
+  {
     "id": "arena:41294857",
     "source": "arena",
     "type": "block",
@@ -1481,6 +1525,28 @@
       "own": true
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "dialgadu77",
+      "account_url": "https://soundcloud.com/dialgadu77"
+    },
+    "id": "soundcloud:1373662963",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "The Infinite Sky, A Lonesome Comet And The Decaying Civilization",
+    "text": "",
+    "url": "https://soundcloud.com/dialgadu77/infinitesky",
+    "published_at": "2023-04-09T15:02:41.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdialgadu77%2Finfinitesky"
+    }
   },
   {
     "id": "arena:41294331",

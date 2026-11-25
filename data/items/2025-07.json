@@ -774,6 +774,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "wraith9_gloam",
+      "account_url": "https://soundcloud.com/wraith9_gloam"
+    },
+    "id": "soundcloud:2070180880",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Plastic",
+    "text": "",
+    "url": "https://soundcloud.com/wraith9_gloam/plastic-2",
+    "published_at": "2025-07-12T15:26:05.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwraith9_gloam%2Fplastic-2"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Tmo>< , Liquid Sauce"
     },
     "id": "lastfm:e4123ba917d3",
@@ -784,6 +806,28 @@
     "url": "https://www.last.fm/music/Tmo%3E%3C+,+Liquid+Sauce/_/%E7%BE%BD%E7%BF%BC+w%2Fliquid",
     "published_at": "2025-07-12T15:20:44.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "drogasdrogas",
+      "account_url": "https://soundcloud.com/drogasdrogas"
+    },
+    "id": "soundcloud:2054347384",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "等我",
+    "text": "",
+    "url": "https://soundcloud.com/drogasdrogas/hrpbhcgwjyza",
+    "published_at": "2025-07-12T15:19:22.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdrogasdrogas%2Fhrpbhcgwjyza"
+    }
   },
   {
     "kind": "activity",

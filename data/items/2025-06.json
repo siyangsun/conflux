@@ -81,6 +81,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "jukaamusic",
+      "account_url": "https://soundcloud.com/jukaamusic"
+    },
+    "id": "soundcloud:2121505965",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "MISOGI - GOSSIP (Jukaa Bootleg)",
+    "text": "",
+    "url": "https://soundcloud.com/jukaamusic/gossip-bootleg",
+    "published_at": "2025-06-29T19:22:34.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjukaamusic%2Fgossip-bootleg"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "MISOGI"
     },
     "id": "lastfm:6ddae07334a7",
@@ -107,6 +129,50 @@
     "fetched_at": "2026-11-07T03:55:22.416Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "tashkamusiccc",
+      "account_url": "https://soundcloud.com/tashkamusiccc"
+    },
+    "id": "soundcloud:1976375659",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "glitter",
+    "text": "",
+    "url": "https://soundcloud.com/tashkamusiccc/glitter",
+    "published_at": "2025-06-29T18:12:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ftashkamusiccc%2Fglitter"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "drogasdrogas",
+      "account_url": "https://soundcloud.com/drogasdrogas"
+    },
+    "id": "soundcloud:2108868582",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "好人壞人",
+    "text": "",
+    "url": "https://soundcloud.com/drogasdrogas/a085dd1a-fa05-43d2-886b-39d0cf763378",
+    "published_at": "2025-06-29T18:11:11.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdrogasdrogas%2Fa085dd1a-fa05-43d2-886b-39d0cf763378"
+    }
+  },
+  {
     "id": "arena:79556309",
     "source": "arena",
     "type": "block",
@@ -129,6 +195,50 @@
       "own": true
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "chalkywong",
+      "account_url": "https://soundcloud.com/chalkywong"
+    },
+    "id": "soundcloud:688768165",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "千山万水 Ft. Billionhappy",
+    "text": "",
+    "url": "https://soundcloud.com/chalkywong/qianshanwanshui",
+    "published_at": "2025-06-29T17:34:44.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fchalkywong%2Fqianshanwanshui"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "chalkywong",
+      "account_url": "https://soundcloud.com/chalkywong"
+    },
+    "id": "soundcloud:1119290836",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "武当 (Prod. KennyAmiri)",
+    "text": "",
+    "url": "https://soundcloud.com/chalkywong/bznl8v2wu5hq",
+    "published_at": "2025-06-29T17:34:08.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fchalkywong%2Fbznl8v2wu5hq"
+    }
   },
   {
     "kind": "reblog",
@@ -170,6 +280,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "msmsmsm",
+      "account_url": "https://soundcloud.com/msmsmsm"
+    },
+    "id": "soundcloud:2108749371",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "OOH",
+    "text": "",
+    "url": "https://soundcloud.com/msmsmsm/ooh",
+    "published_at": "2025-06-28T17:18:49.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmsmsmsm%2Fooh"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Dakku"
     },
     "id": "lastfm:94f5ccc8f63a",
@@ -187,6 +319,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "dakku-productor",
+      "account_url": "https://soundcloud.com/dakku-productor"
+    },
+    "id": "soundcloud:1338627769",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Dakku - Anyway",
+    "text": "",
+    "url": "https://soundcloud.com/dakku-productor/dakku-anyway",
+    "published_at": "2025-06-28T17:17:51.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdakku-productor%2Fdakku-anyway"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "CHARLIE!"
     },
     "id": "lastfm:5474007d0725",
@@ -197,6 +351,72 @@
     "url": "https://www.last.fm/music/CHARLIE!/_/Tony+Tony+(prod.+me+%252B+robridd)",
     "published_at": "2025-06-28T17:16:15.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "shoutoutcharlie",
+      "account_url": "https://soundcloud.com/shoutoutcharlie"
+    },
+    "id": "soundcloud:2103219573",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Tony Tony (prod. me + robridd)",
+    "text": "",
+    "url": "https://soundcloud.com/shoutoutcharlie/tonytony",
+    "published_at": "2025-06-28T17:16:14.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fshoutoutcharlie%2Ftonytony"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ayeshaerotica73424",
+      "account_url": "https://soundcloud.com/ayeshaerotica73424"
+    },
+    "id": "soundcloud:1878939996",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Yummy (Righteous Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/ayeshaerotica73424/yummy-righteous-remix",
+    "published_at": "2025-06-28T17:15:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fayeshaerotica73424%2Fyummy-righteous-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "556kurumi",
+      "account_url": "https://soundcloud.com/556kurumi"
+    },
+    "id": "soundcloud:2092731129",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Sing (prod. Nova Chance)",
+    "text": "",
+    "url": "https://soundcloud.com/556kurumi/sing-prod-nova-chance",
+    "published_at": "2025-06-28T17:14:52.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2F556kurumi%2Fsing-prod-nova-chance"
+    }
   },
   {
     "kind": "activity",
@@ -324,6 +544,28 @@
     "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "shadient",
+      "account_url": "https://soundcloud.com/shadient"
+    },
+    "id": "soundcloud:2116799619",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SECRET PATH",
+    "text": "",
+    "url": "https://soundcloud.com/shadient/secret-path",
+    "published_at": "2025-06-21T19:12:19.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fshadient%2Fsecret-path"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -401,6 +643,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "dreamscapeee",
+      "account_url": "https://soundcloud.com/dreamscapeee"
+    },
+    "id": "soundcloud:1201323046",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "tokyoghost777 - metadata",
+    "text": "",
+    "url": "https://soundcloud.com/dreamscapeee/tokyoghost-metadata",
+    "published_at": "2025-06-20T13:23:59.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdreamscapeee%2Ftokyoghost-metadata"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Chicane (feat. Bryan Adams)"
     },
     "id": "lastfm:e14759a23788",
@@ -411,6 +675,28 @@
     "url": "https://www.last.fm/music/Chicane+(feat.+Bryan+Adams)/_/Don%27t+Give+Up+(Altered+Soul+Remix)",
     "published_at": "2025-06-20T13:20:30.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "thealteredsoul",
+      "account_url": "https://soundcloud.com/thealteredsoul"
+    },
+    "id": "soundcloud:2112762012",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Don't Give Up (Altered Soul Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/thealteredsoul/dont-give-up-altered-soul-remix",
+    "published_at": "2025-06-20T13:20:29.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fthealteredsoul%2Fdont-give-up-altered-soul-remix"
+    }
   },
   {
     "kind": "reblog",
@@ -435,6 +721,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "sanholobeats",
+      "account_url": "https://soundcloud.com/sanholobeats"
+    },
+    "id": "soundcloud:1511406940",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "San Holo & midwxst - Out Of Options",
+    "text": "",
+    "url": "https://soundcloud.com/sanholobeats/san-holo-midwxst-out-of-options-1",
+    "published_at": "2025-06-20T13:18:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsanholobeats%2Fsan-holo-midwxst-out-of-options-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Ninajirachi"
     },
     "id": "lastfm:12d0c44c1f32",
@@ -445,6 +753,28 @@
     "url": "https://www.last.fm/music/Ninajirachi/_/iPod+Touch",
     "published_at": "2025-06-20T03:10:06.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ninajirachi",
+      "account_url": "https://soundcloud.com/ninajirachi"
+    },
+    "id": "soundcloud:2115508632",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "iPod Touch",
+    "text": "",
+    "url": "https://soundcloud.com/ninajirachi/ipodtouch",
+    "published_at": "2025-06-20T03:10:05.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fninajirachi%2Fipodtouch"
+    }
   },
   {
     "kind": "reblog",
@@ -469,6 +799,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "radcatsecretstash",
+      "account_url": "https://soundcloud.com/radcatsecretstash"
+    },
+    "id": "soundcloud:2096759481",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Selena Gomez, benny blanco - Bluest Flame (Rad Cat Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/radcatsecretstash/selena-gomez-bluest-flame-rad-cat-remix",
+    "published_at": "2025-06-20T03:08:12.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fradcatsecretstash%2Fselena-gomez-bluest-flame-rad-cat-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Leroy"
     },
     "id": "lastfm:49688265d302",
@@ -479,6 +831,28 @@
     "url": "https://www.last.fm/music/Leroy/_/XO+TOUR+LLIF3",
     "published_at": "2025-06-20T02:50:42.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "c0ncernn",
+      "account_url": "https://soundcloud.com/c0ncernn"
+    },
+    "id": "soundcloud:2106162570",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "XO TOUR LLIF3",
+    "text": "",
+    "url": "https://soundcloud.com/c0ncernn/xo-tour-llif3",
+    "published_at": "2025-06-20T02:50:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fc0ncernn%2Fxo-tour-llif3"
+    }
   },
   {
     "kind": "reblog",
@@ -503,6 +877,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "welcome2bishu",
+      "account_url": "https://soundcloud.com/welcome2bishu"
+    },
+    "id": "soundcloud:2031641692",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "looping",
+    "text": "",
+    "url": "https://soundcloud.com/welcome2bishu/looping-2",
+    "published_at": "2025-06-20T02:46:29.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwelcome2bishu%2Flooping-2"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "welcome2bishu"
     },
     "id": "lastfm:72a81ea7f004",
@@ -513,6 +909,28 @@
     "url": "https://www.last.fm/music/welcome2bishu/_/SWBG",
     "published_at": "2025-06-20T02:46:07.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "welcome2bishu2",
+      "account_url": "https://soundcloud.com/welcome2bishu2"
+    },
+    "id": "soundcloud:2071091400",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SWBG",
+    "text": "",
+    "url": "https://soundcloud.com/welcome2bishu2/shadowwizardbishugang",
+    "published_at": "2025-06-20T02:46:06.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwelcome2bishu2%2Fshadowwizardbishugang"
+    }
   },
   {
     "kind": "activity",
@@ -528,6 +946,28 @@
     "url": "https://www.last.fm/user/siyangsun/library?from=2025-06-19&to=2025-06-19",
     "published_at": "2025-06-20T02:43:00.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "realsillage",
+      "account_url": "https://soundcloud.com/realsillage"
+    },
+    "id": "soundcloud:2085496998",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "I hate it when somebody says your name",
+    "text": "",
+    "url": "https://soundcloud.com/realsillage/db380410-f5dd-4f5b-aded-756208dd2013",
+    "published_at": "2025-06-20T02:40:05.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Frealsillage%2Fdb380410-f5dd-4f5b-aded-756208dd2013"
+    }
   },
   {
     "kind": "reblog",
@@ -653,6 +1093,94 @@
     "url": "https://www.last.fm/user/siyangsun/library?from=2025-06-16&to=2025-06-16",
     "published_at": "2025-06-17T03:29:50.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "zane-arky",
+      "account_url": "https://soundcloud.com/zane-arky"
+    },
+    "id": "soundcloud:2052166512",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "nate sib - sayuloveme",
+    "text": "",
+    "url": "https://soundcloud.com/zane-arky/nate-sib-sayuloveme",
+    "published_at": "2025-06-16T17:23:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fzane-arky%2Fnate-sib-sayuloveme"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "fly-tenshi333",
+      "account_url": "https://soundcloud.com/fly-tenshi333"
+    },
+    "id": "soundcloud:2111872011",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SO LONG (one day i wanna see the light)",
+    "text": "",
+    "url": "https://soundcloud.com/fly-tenshi333/so-long-one-day-i-wanna-see-the-light",
+    "published_at": "2025-06-16T17:16:36.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffly-tenshi333%2Fso-long-one-day-i-wanna-see-the-light"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "fly-tenshi333",
+      "account_url": "https://soundcloud.com/fly-tenshi333"
+    },
+    "id": "soundcloud:2112329682",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "EXPRESSION ON YOUR 360",
+    "text": "",
+    "url": "https://soundcloud.com/fly-tenshi333/expression-on-your-360",
+    "published_at": "2025-06-16T17:16:13.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffly-tenshi333%2Fexpression-on-your-360"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "fly-tenshi333",
+      "account_url": "https://soundcloud.com/fly-tenshi333"
+    },
+    "id": "soundcloud:2101164072",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "only1 is all i need (nate sib x justin bieber)",
+    "text": "",
+    "url": "https://soundcloud.com/fly-tenshi333/only1-is-all-i-need-ns-jb",
+    "published_at": "2025-06-16T17:15:11.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ffly-tenshi333%2Fonly1-is-all-i-need-ns-jb"
+    }
   },
   {
     "kind": "activity",

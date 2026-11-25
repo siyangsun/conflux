@@ -781,6 +781,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "vandawav",
+      "account_url": "https://soundcloud.com/vandawav"
+    },
+    "id": "soundcloud:1845460767",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "HAMDI, Skrillex, Taichu, Contra & OFFAIAH - Push (VANDA REMIX) [FREE DL]",
+    "text": "",
+    "url": "https://soundcloud.com/vandawav/hamdi-skrillex-taichu-contra-offaiah-push-vanda-remix",
+    "published_at": "2024-11-07T03:19:14.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fvandawav%2Fhamdi-skrillex-taichu-contra-offaiah-push-vanda-remix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Olivia Rodrigo"
     },
     "id": "lastfm:ae541d8c5e8e",
@@ -791,6 +813,28 @@
     "url": "https://www.last.fm/music/Olivia+Rodrigo/_/Vampire+(SPORTMODE+Remix)",
     "published_at": "2024-11-07T03:16:21.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sportmodemusic",
+      "account_url": "https://soundcloud.com/sportmodemusic"
+    },
+    "id": "soundcloud:1566581014",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Olivia Rodrigo - Vampire (SPORTMODE Remix) [FREE DL]",
+    "text": "",
+    "url": "https://soundcloud.com/sportmodemusic/vampire-remix3",
+    "published_at": "2024-11-07T03:16:21.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsportmodemusic%2Fvampire-remix3"
+    }
   },
   {
     "kind": "post",

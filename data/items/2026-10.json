@@ -45,6 +45,28 @@
     "fetched_at": "2026-11-06T17:12:37.486Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "wasianmusic",
+      "account_url": "https://soundcloud.com/wasianmusic"
+    },
+    "id": "soundcloud:2342074049",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "What da hell (Saja edit)",
+    "text": "",
+    "url": "https://soundcloud.com/wasianmusic/whatdahell",
+    "published_at": "2026-10-28T15:06:33.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwasianmusic%2Fwhatdahell"
+    }
+  },
+  {
     "images": [],
     "tags": [],
     "visibility": "public",
@@ -2274,6 +2296,28 @@
     "fetched_at": "2026-11-03T21:53:54.848Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "xylinsound",
+      "account_url": "https://soundcloud.com/xylinsound"
+    },
+    "id": "soundcloud:2271080348",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "YANGYINYUE x 攬佬SKAI ISYOURGOD (xylin CNY edit)",
+    "text": "",
+    "url": "https://soundcloud.com/xylinsound/cny2026",
+    "published_at": "2026-10-07T17:27:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fxylinsound%2Fcny2026"
+    }
+  },
+  {
     "id": "arena:107164200",
     "source": "arena",
     "type": "block",
@@ -2361,6 +2405,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "user-326561445",
+      "account_url": "https://soundcloud.com/user-326561445"
+    },
+    "id": "soundcloud:1090764373",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Ecco2k - Seeing Stars (SOS)",
+    "text": "",
+    "url": "https://soundcloud.com/user-326561445/ecco2k-seeing-stars-sos",
+    "published_at": "2026-10-06T19:55:13.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fuser-326561445%2Fecco2k-seeing-stars-sos"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "10cust, Temp Affairs"
     },
     "id": "lastfm:1ee2fe616992",
@@ -2371,6 +2437,28 @@
     "url": "https://www.last.fm/music/10cust,+Temp+Affairs/_/OMGIDRC",
     "published_at": "2026-10-06T19:51:49.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "10cust",
+      "account_url": "https://soundcloud.com/10cust"
+    },
+    "id": "soundcloud:2394523998",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "OMGIDRC",
+    "text": "",
+    "url": "https://soundcloud.com/10cust/omgidrc",
+    "published_at": "2026-10-06T19:51:49.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2F10cust%2Fomgidrc"
+    }
   },
   {
     "kind": "post",

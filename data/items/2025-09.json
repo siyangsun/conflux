@@ -52,6 +52,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "lancer_gloam",
+      "account_url": "https://soundcloud.com/lancer_gloam"
+    },
+    "id": "soundcloud:2111546016",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Virus VIP",
+    "text": "",
+    "url": "https://soundcloud.com/lancer_gloam/virus-vip-2",
+    "published_at": "2025-09-30T03:13:55.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flancer_gloam%2Fvirus-vip-2"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Amane"
     },
     "id": "lastfm:f18338bfe2cc",
@@ -62,6 +84,28 @@
     "url": "https://www.last.fm/music/Amane/_/DEATH",
     "published_at": "2025-09-30T03:06:23.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "user-5766047",
+      "account_url": "https://soundcloud.com/user-5766047"
+    },
+    "id": "soundcloud:2128327473",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "DEATH",
+    "text": "",
+    "url": "https://soundcloud.com/user-5766047/death-mix-m4a",
+    "published_at": "2025-09-30T03:06:22.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fuser-5766047%2Fdeath-mix-m4a"
+    }
   },
   {
     "id": "arena:84188851",
@@ -275,6 +319,28 @@
     "fetched_at": "2026-11-06T13:42:51.965Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sudbath",
+      "account_url": "https://soundcloud.com/sudbath"
+    },
+    "id": "soundcloud:2048339892",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "brawler",
+    "text": "",
+    "url": "https://soundcloud.com/sudbath/brawler",
+    "published_at": "2025-09-27T16:16:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsudbath%2Fbrawler"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -305,6 +371,28 @@
     "url": "https://www.last.fm/music/Musa/_/Ipop",
     "published_at": "2025-09-27T15:50:29.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "prodmusa",
+      "account_url": "https://soundcloud.com/prodmusa"
+    },
+    "id": "soundcloud:2076088020",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "iPop",
+    "text": "",
+    "url": "https://soundcloud.com/prodmusa/ipop",
+    "published_at": "2025-09-27T15:50:28.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fprodmusa%2Fipop"
+    }
   },
   {
     "id": "arena:84101100",
@@ -479,6 +567,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "djkelcore",
+      "account_url": "https://soundcloud.com/djkelcore"
+    },
+    "id": "soundcloud:2076469828",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Effie - put my hoodie on (DJ KELSEY x yx2 Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/djkelcore/hoodie",
+    "published_at": "2025-09-27T14:19:38.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdjkelcore%2Fhoodie"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "EsDeeKid, Fakemink, Rico Ace"
     },
     "id": "lastfm:ff84ac78f448",
@@ -496,6 +606,50 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "esdeekid",
+      "account_url": "https://soundcloud.com/esdeekid"
+    },
+    "id": "soundcloud:2116582941",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "LV Sandals",
+    "text": "",
+    "url": "https://soundcloud.com/esdeekid/lv-sandals",
+    "published_at": "2025-09-27T13:58:25.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fesdeekid%2Flv-sandals"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "lancer_gloam",
+      "account_url": "https://soundcloud.com/lancer_gloam"
+    },
+    "id": "soundcloud:2149739985",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "White Stag",
+    "text": "",
+    "url": "https://soundcloud.com/lancer_gloam/white-stag",
+    "published_at": "2025-09-27T13:55:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Flancer_gloam%2Fwhite-stag"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Cybertrash"
     },
     "id": "lastfm:c1995789b53d",
@@ -506,6 +660,28 @@
     "url": "https://www.last.fm/music/Cybertrash/_/SATELLITE",
     "published_at": "2025-09-27T12:38:46.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cbrtrsh",
+      "account_url": "https://soundcloud.com/cbrtrsh"
+    },
+    "id": "soundcloud:2168279775",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SATELLITE",
+    "text": "",
+    "url": "https://soundcloud.com/cbrtrsh/satellite",
+    "published_at": "2025-09-27T12:38:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcbrtrsh%2Fsatellite"
+    }
   },
   {
     "kind": "reblog",
@@ -593,6 +769,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "wishlane",
+      "account_url": "https://soundcloud.com/wishlane"
+    },
+    "id": "soundcloud:2104677120",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SUCKER PUNCH",
+    "text": "",
+    "url": "https://soundcloud.com/wishlane/suckerpunch",
+    "published_at": "2025-09-26T14:20:36.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fwishlane%2Fsuckerpunch"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Okah!"
     },
     "id": "lastfm:3a4497e05179",
@@ -603,6 +801,50 @@
     "url": "https://www.last.fm/music/Okah!/_/BYE+BAD+THOUGHTS",
     "published_at": "2025-09-26T12:25:46.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "ayeokah",
+      "account_url": "https://soundcloud.com/ayeokah"
+    },
+    "id": "soundcloud:2147896218",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "BYE BAD THOUGHTS [桜]",
+    "text": "",
+    "url": "https://soundcloud.com/ayeokah/bye-bad-thoughts",
+    "published_at": "2025-09-26T12:25:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fayeokah%2Fbye-bad-thoughts"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "dead4cf",
+      "account_url": "https://soundcloud.com/dead4cf"
+    },
+    "id": "soundcloud:2141393598",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "hotdeath (oh!)",
+    "text": "",
+    "url": "https://soundcloud.com/dead4cf/hotdeath-oh",
+    "published_at": "2025-09-26T12:22:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdead4cf%2Fhotdeath-oh"
+    }
   },
   {
     "kind": "reblog",
@@ -627,6 +869,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "user-177606668",
+      "account_url": "https://soundcloud.com/user-177606668"
+    },
+    "id": "soundcloud:2088535290",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "corefish remix i forgot to post for 2 years",
+    "text": "",
+    "url": "https://soundcloud.com/user-177606668/corefish-remix-i-forgot-to-post-for-2-years",
+    "published_at": "2025-09-26T12:18:48.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fuser-177606668%2Fcorefish-remix-i-forgot-to-post-for-2-years"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "olswel"
     },
     "id": "lastfm:2854705da59e",
@@ -644,6 +908,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "olswel",
+      "account_url": "https://soundcloud.com/olswel"
+    },
+    "id": "soundcloud:1174448356",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "save",
+    "text": "",
+    "url": "https://soundcloud.com/olswel/save",
+    "published_at": "2025-09-26T12:17:49.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Folswel%2Fsave"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "venturing"
     },
     "id": "lastfm:32ab630e2262",
@@ -654,6 +940,28 @@
     "url": "https://www.last.fm/music/venturing/_/In+the+dark+(demo)",
     "published_at": "2025-09-26T11:45:14.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "02_26_2001",
+      "account_url": "https://soundcloud.com/02_26_2001"
+    },
+    "id": "soundcloud:2116263309",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "In the dark",
+    "text": "",
+    "url": "https://soundcloud.com/02_26_2001/in-the-dark",
+    "published_at": "2025-09-26T11:45:14.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2F02_26_2001%2Fin-the-dark"
+    }
   },
   {
     "id": "arena:84048792",
@@ -1982,6 +2290,28 @@
       "own": true
     },
     "kind": "reblog"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "spookycorbin",
+      "account_url": "https://soundcloud.com/spookycorbin"
+    },
+    "id": "soundcloud:137277472",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Time (Intro)",
+    "text": "",
+    "url": "https://soundcloud.com/spookycorbin/time-intro",
+    "published_at": "2025-09-03T18:11:45.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fspookycorbin%2Ftime-intro"
+    }
   },
   {
     "kind": "activity",

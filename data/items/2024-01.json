@@ -500,6 +500,94 @@
     "fetched_at": "2026-11-06T17:12:37.486Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "druiduk",
+      "account_url": "https://soundcloud.com/druiduk"
+    },
+    "id": "soundcloud:920444191",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Sacrifice",
+    "text": "",
+    "url": "https://soundcloud.com/druiduk/sacrifice",
+    "published_at": "2024-01-18T03:23:23.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdruiduk%2Fsacrifice"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "druiduk",
+      "account_url": "https://soundcloud.com/druiduk"
+    },
+    "id": "soundcloud:981047428",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Warrrr",
+    "text": "",
+    "url": "https://soundcloud.com/druiduk/warrrrr",
+    "published_at": "2024-01-18T03:23:13.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdruiduk%2Fwarrrrr"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "milkfish4k4k4k",
+      "account_url": "https://soundcloud.com/milkfish4k4k4k"
+    },
+    "id": "soundcloud:1702246977",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "G.U.Y. (I Want You)",
+    "text": "",
+    "url": "https://soundcloud.com/milkfish4k4k4k/i-want-you",
+    "published_at": "2024-01-18T03:14:09.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmilkfish4k4k4k%2Fi-want-you"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "jukaamusic",
+      "account_url": "https://soundcloud.com/jukaamusic"
+    },
+    "id": "soundcloud:1715477889",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Doja Cat - Agora Hills (Jukaa Bootleg)",
+    "text": "",
+    "url": "https://soundcloud.com/jukaamusic/doja-cat-agora-hills-jukaa-bootleg",
+    "published_at": "2024-01-18T02:46:39.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjukaamusic%2Fdoja-cat-agora-hills-jukaa-bootleg"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://pbs.twimg.com/media/GEF4sjeWAAAW4Ip.png"
@@ -1674,6 +1762,116 @@
     "url": "https://x.com/unevenlyeven/status/1744834526310809776",
     "published_at": "2024-01-09T21:32:23.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "sockk",
+      "account_url": "https://soundcloud.com/sockk"
+    },
+    "id": "soundcloud:1710548931",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "one hunned ft. laserjet ink toner",
+    "text": "",
+    "url": "https://soundcloud.com/sockk/one-hunned",
+    "published_at": "2024-01-09T12:36:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fsockk%2Fone-hunned"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "hundaes",
+      "account_url": "https://soundcloud.com/hundaes"
+    },
+    "id": "soundcloud:1711188534",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Aulde Lang Syne (Hundaes Edit)",
+    "text": "",
+    "url": "https://soundcloud.com/hundaes/aulde-lang-syne-hundaes-edit",
+    "published_at": "2024-01-09T12:36:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhundaes%2Faulde-lang-syne-hundaes-edit"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "xox-scruz",
+      "account_url": "https://soundcloud.com/xox-scruz"
+    },
+    "id": "soundcloud:1674472248",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "everything",
+    "text": "",
+    "url": "https://soundcloud.com/xox-scruz/scruz-everything",
+    "published_at": "2024-01-09T12:35:49.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fxox-scruz%2Fscruz-everything"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "skankandbass",
+      "account_url": "https://soundcloud.com/skankandbass"
+    },
+    "id": "soundcloud:1624853985",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Trinist - After All",
+    "text": "",
+    "url": "https://soundcloud.com/skankandbass/trinist-after-all",
+    "published_at": "2024-01-09T12:35:12.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fskankandbass%2Ftrinist-after-all"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "azziahmusic",
+      "account_url": "https://soundcloud.com/azziahmusic"
+    },
+    "id": "soundcloud:1712336115",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "apple juice",
+    "text": "",
+    "url": "https://soundcloud.com/azziahmusic/sorry-i-bit-you-m4a",
+    "published_at": "2024-01-09T12:35:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fazziahmusic%2Fsorry-i-bit-you-m4a"
+    }
   },
   {
     "kind": "post",

@@ -564,6 +564,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "corefish",
+      "account_url": "https://soundcloud.com/corefish"
+    },
+    "id": "soundcloud:1901761767",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "FELT",
+    "text": "",
+    "url": "https://soundcloud.com/corefish/felt",
+    "published_at": "2025-08-09T05:23:34.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcorefish%2Ffelt"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Ghostinnafurcoat"
     },
     "id": "lastfm:8a2a1a5fa7f3",
@@ -581,6 +603,28 @@
     "tags": [],
     "visibility": "public",
     "meta": {
+      "account": "ella-843755159",
+      "account_url": "https://soundcloud.com/ella-843755159"
+    },
+    "id": "soundcloud:2149057158",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "GhostInnaFurCoat - Fish Light",
+    "text": "",
+    "url": "https://soundcloud.com/ella-843755159/ghostinnafurcoat-fish-light",
+    "published_at": "2025-08-09T05:23:06.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fella-843755159%2Fghostinnafurcoat-fish-light"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
       "artist": "Login"
     },
     "id": "lastfm:d484d0d1af3b",
@@ -591,6 +635,28 @@
     "url": "https://www.last.fm/music/Login/_/SICK+(ft.+1o6)",
     "published_at": "2025-08-09T05:22:32.000Z",
     "fetched_at": "2026-11-06T13:42:51.965Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "loginstrash",
+      "account_url": "https://soundcloud.com/loginstrash"
+    },
+    "id": "soundcloud:1860594597",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "SICK (ft. 1o6)",
+    "text": "",
+    "url": "https://soundcloud.com/loginstrash/sickf",
+    "published_at": "2025-08-09T05:22:32.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Floginstrash%2Fsickf"
+    }
   },
   {
     "kind": "activity",

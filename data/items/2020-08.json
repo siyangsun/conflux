@@ -66,6 +66,72 @@
     }
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "leagueoflegends",
+      "account_url": "https://soundcloud.com/leagueoflegends"
+    },
+    "id": "soundcloud:838700191",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Fiddlesticks, the Harbinger of Doom",
+    "text": "",
+    "url": "https://soundcloud.com/leagueoflegends/fiddlesticks-the-harbinger-of-doom",
+    "published_at": "2020-08-26T18:29:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fleagueoflegends%2Ffiddlesticks-the-harbinger-of-doom"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "bitbird",
+      "account_url": "https://soundcloud.com/bitbird"
+    },
+    "id": "soundcloud:857199271",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Aiobahn - Fragments (instrumental)",
+    "text": "",
+    "url": "https://soundcloud.com/bitbird/aiobahn-fragments-instrumental",
+    "published_at": "2020-08-26T18:28:56.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbitbird%2Faiobahn-fragments-instrumental"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "porter-robinson",
+      "account_url": "https://soundcloud.com/porter-robinson"
+    },
+    "id": "soundcloud:868983397",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Mirror",
+    "text": "",
+    "url": "https://soundcloud.com/porter-robinson/mirror",
+    "published_at": "2020-08-26T18:22:42.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fporter-robinson%2Fmirror"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/6a832ecb9b56141dbc651f7cc9da6184/2e8586465793b376-7a/s1280x1920/1d6654c5c91eb33005bbb4fd533220663642830f.png"
@@ -112,6 +178,28 @@
     "url": "https://siyang-art-dump.tumblr.com/post/627227113205923840",
     "published_at": "2020-08-23T08:13:08.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "seradotwav",
+      "account_url": "https://soundcloud.com/seradotwav"
+    },
+    "id": "soundcloud:859826884",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Childhood Dreams",
+    "text": "",
+    "url": "https://soundcloud.com/seradotwav/childhood-dreams",
+    "published_at": "2020-08-23T00:54:18.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fseradotwav%2Fchildhood-dreams"
+    }
   },
   {
     "kind": "post",
@@ -208,6 +296,28 @@
     "url": "https://siyang-art-dump.tumblr.com/post/626674372373086208",
     "published_at": "2020-08-17T05:47:33.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "haarper",
+      "account_url": "https://soundcloud.com/haarper"
+    },
+    "id": "soundcloud:831476131",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "DROP IT LIKE IT'S HOT! [PROD. LUGA]",
+    "text": "",
+    "url": "https://soundcloud.com/haarper/dropitlikeitshot",
+    "published_at": "2020-08-17T05:40:28.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhaarper%2Fdropitlikeitshot"
+    }
   },
   {
     "kind": "post",

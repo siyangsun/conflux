@@ -736,6 +736,28 @@
     "fetched_at": "2026-11-06T17:12:37.486Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "electrocado",
+      "account_url": "https://soundcloud.com/electrocado"
+    },
+    "id": "soundcloud:349484030",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Bouncey Balls",
+    "text": "",
+    "url": "https://soundcloud.com/electrocado/bounceyballs",
+    "published_at": "2022-12-16T20:45:41.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Felectrocado%2Fbounceyballs"
+    }
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
@@ -1231,6 +1253,28 @@
     "fetched_at": "2026-11-25T18:27:44.780Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "user-767602011",
+      "account_url": "https://soundcloud.com/user-767602011"
+    },
+    "id": "soundcloud:1071751666",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "世界魔方 Wewe SIN",
+    "text": "",
+    "url": "https://soundcloud.com/user-767602011/wewe-sin-1",
+    "published_at": "2022-12-10T23:37:05.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fuser-767602011%2Fwewe-sin-1"
+    }
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
@@ -1432,6 +1476,28 @@
     "url": "https://www.last.fm/user/siyangsun/library?from=2022-12-04&to=2022-12-04",
     "published_at": "2022-12-04T20:22:41.000Z",
     "fetched_at": "2026-11-06T17:12:37.486Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "camouflybeats",
+      "account_url": "https://soundcloud.com/camouflybeats"
+    },
+    "id": "soundcloud:1379196946",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Kaleidoscope (Me&U) [feat. Alexander Lewis]",
+    "text": "",
+    "url": "https://soundcloud.com/camouflybeats/kaleidoscope",
+    "published_at": "2022-12-03T21:34:03.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcamouflybeats%2Fkaleidoscope"
+    }
   },
   {
     "kind": "activity",

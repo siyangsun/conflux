@@ -68,6 +68,72 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "kruewl",
+      "account_url": "https://soundcloud.com/kruewl"
+    },
+    "id": "soundcloud:1376960086",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Vortex",
+    "text": "",
+    "url": "https://soundcloud.com/kruewl/kruewl-vortex-original-mix",
+    "published_at": "2023-03-31T15:21:49.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fkruewl%2Fkruewl-vortex-original-mix"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "duumu",
+      "account_url": "https://soundcloud.com/duumu"
+    },
+    "id": "soundcloud:276454024",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Love Spells (feat. Elise du Crest)",
+    "text": "",
+    "url": "https://soundcloud.com/duumu/lovespells",
+    "published_at": "2023-03-31T03:32:02.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fduumu%2Flovespells"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "aklaidmusic",
+      "account_url": "https://soundcloud.com/aklaidmusic"
+    },
+    "id": "soundcloud:258533856",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "KRANE - Gloss (Flip)",
+    "text": "",
+    "url": "https://soundcloud.com/aklaidmusic/krne-gloss-niteloops-flip",
+    "published_at": "2023-03-31T03:31:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Faklaidmusic%2Fkrne-gloss-niteloops-flip"
+    }
+  },
+  {
     "kind": "activity",
     "images": [],
     "tags": [],
@@ -198,6 +264,50 @@
     "url": "https://x.com/unevenlyeven/status/1640345391240474628",
     "published_at": "2023-03-27T13:29:52.000Z",
     "fetched_at": "2026-11-25T18:27:44.780Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "middleclasscigars",
+      "account_url": "https://soundcloud.com/middleclasscigars"
+    },
+    "id": "soundcloud:327308792",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Sobs - Girl",
+    "text": "",
+    "url": "https://soundcloud.com/middleclasscigars/02-girl",
+    "published_at": "2023-03-26T14:44:10.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmiddleclasscigars%2F02-girl"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cayenneforever",
+      "account_url": "https://soundcloud.com/cayenneforever"
+    },
+    "id": "soundcloud:1071348046",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Centrefold",
+    "text": "",
+    "url": "https://soundcloud.com/cayenneforever/centrefold",
+    "published_at": "2023-03-26T14:43:55.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcayenneforever%2Fcentrefold"
+    }
   },
   {
     "kind": "post",
@@ -2800,6 +2910,28 @@
     "url": "https://x.com/unevenlyeven/status/1631749849866534919",
     "published_at": "2023-03-03T20:14:15.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "shadient",
+      "account_url": "https://soundcloud.com/shadient"
+    },
+    "id": "soundcloud:1460704471",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "WAKE UP (I'M HOME)",
+    "text": "",
+    "url": "https://soundcloud.com/shadient/wakeup",
+    "published_at": "2023-03-03T19:04:27.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fshadient%2Fwakeup"
+    }
   },
   {
     "kind": "post",

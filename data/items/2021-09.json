@@ -712,6 +712,50 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "unknownrealities",
+      "account_url": "https://soundcloud.com/unknownrealities"
+    },
+    "id": "soundcloud:917708605",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Aiden Williams - Rebirth",
+    "text": "",
+    "url": "https://soundcloud.com/unknownrealities/rebirth",
+    "published_at": "2021-09-02T23:51:23.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Funknownrealities%2Frebirth"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "aidenwilliams",
+      "account_url": "https://soundcloud.com/aidenwilliams"
+    },
+    "id": "soundcloud:861358672",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Polygon Future",
+    "text": "",
+    "url": "https://soundcloud.com/aidenwilliams/polygon-future",
+    "published_at": "2021-09-02T23:50:41.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Faidenwilliams%2Fpolygon-future"
+    }
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],

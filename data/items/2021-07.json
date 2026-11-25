@@ -474,6 +474,28 @@
     "fetched_at": "2026-11-07T03:22:50.409Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "efuminor",
+      "account_url": "https://soundcloud.com/efuminor"
+    },
+    "id": "soundcloud:435005295",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "不眠画報 ｻ",
+    "text": "",
+    "url": "https://soundcloud.com/efuminor/fumin",
+    "published_at": "2021-07-08T19:30:00.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fefuminor%2Ffumin"
+    }
+  },
+  {
     "kind": "post",
     "images": [],
     "tags": [],
@@ -536,6 +558,28 @@
     "url": "https://x.com/unevenlyeven/status/1410665820355661827",
     "published_at": "2021-07-01T18:25:15.000Z",
     "fetched_at": "2026-11-07T03:22:50.409Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "vedra-music",
+      "account_url": "https://soundcloud.com/vedra-music"
+    },
+    "id": "soundcloud:1077950761",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Desperation",
+    "text": "",
+    "url": "https://soundcloud.com/vedra-music/desperation",
+    "published_at": "2021-07-01T15:55:43.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fvedra-music%2Fdesperation"
+    }
   },
   {
     "kind": "post",

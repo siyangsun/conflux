@@ -150,6 +150,72 @@
     "fetched_at": "2026-11-05T18:31:29.357Z"
   },
   {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "prodbytibe",
+      "account_url": "https://soundcloud.com/prodbytibe"
+    },
+    "id": "soundcloud:319799485",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Tibe - She Bad",
+    "text": "",
+    "url": "https://soundcloud.com/prodbytibe/she-bad",
+    "published_at": "2020-07-25T00:38:20.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fprodbytibe%2Fshe-bad"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cavaliersound",
+      "account_url": "https://soundcloud.com/cavaliersound"
+    },
+    "id": "soundcloud:321143171",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Visions (feat. montell2099) [2016]",
+    "text": "",
+    "url": "https://soundcloud.com/cavaliersound/visions-feat-montell2099",
+    "published_at": "2020-07-25T00:37:03.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcavaliersound%2Fvisions-feat-montell2099"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "cavaliersound",
+      "account_url": "https://soundcloud.com/cavaliersound"
+    },
+    "id": "soundcloud:573801669",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Choker - Daisy (Cavalier Remix)",
+    "text": "",
+    "url": "https://soundcloud.com/cavaliersound/daisy",
+    "published_at": "2020-07-25T00:30:43.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fcavaliersound%2Fdaisy"
+    }
+  },
+  {
     "kind": "post",
     "images": [
       "https://64.media.tumblr.com/fb2a4cb8ca5832cae5e531771be18996/e1cd8fe526054889-7f/s1280x1920/7c5056efdc30f2d4c10ca03a9b852f537afe7983.png"
@@ -317,5 +383,71 @@
     "url": "https://siyang-art-dump.tumblr.com/post/623874483727564800/cutlery",
     "published_at": "2020-07-17T08:04:31.000Z",
     "fetched_at": "2026-11-05T18:31:29.357Z"
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "itsgladez",
+      "account_url": "https://soundcloud.com/itsgladez"
+    },
+    "id": "soundcloud:858477181",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Abyss",
+    "text": "",
+    "url": "https://soundcloud.com/itsgladez/abyss",
+    "published_at": "2020-07-16T02:25:07.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fitsgladez%2Fabyss"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "tynanofficial",
+      "account_url": "https://soundcloud.com/tynanofficial"
+    },
+    "id": "soundcloud:858509947",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "Kaskade & Skrillex - Lick It (TYNAN Flip)",
+    "text": "",
+    "url": "https://soundcloud.com/tynanofficial/kaskade-skrillex-lick-it-tynan-flip-1",
+    "published_at": "2020-07-16T02:24:54.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Ftynanofficial%2Fkaskade-skrillex-lick-it-tynan-flip-1"
+    }
+  },
+  {
+    "kind": "reblog",
+    "images": [],
+    "tags": [],
+    "visibility": "public",
+    "meta": {
+      "account": "voltra",
+      "account_url": "https://soundcloud.com/voltra"
+    },
+    "id": "soundcloud:820126201",
+    "source": "soundcloud",
+    "type": "audio",
+    "title": "RADAR",
+    "text": "",
+    "url": "https://soundcloud.com/voltra/radar",
+    "published_at": "2020-07-13T07:35:57.000Z",
+    "fetched_at": "2026-11-25T19:30:25.094Z",
+    "embed": {
+      "provider": "soundcloud",
+      "id": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fvoltra%2Fradar"
+    }
   }
 ]
