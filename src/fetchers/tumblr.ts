@@ -12,7 +12,7 @@ export function parse(xml: string, now: string): Item[] {
     const reblog = from !== undefined;
     const end = html.lastIndexOf("</blockquote>");
     const mine = reblog && end >= 0 ? html.slice(end + "</blockquote>".length) : html;
-    const text = htmlToText(reblog && end < 0 ? "" : mine) || (reblog ? `Reblogged from ${from}` : "");
+    const text = htmlToText(reblog && end < 0 ? "" : mine) || (reblog ? `Reblogged from @${from}` : "");
     const id = (txt(it.guid) + " " + txt(it.link)).match(/\/post\/(\d+)/)?.[1];
     if (!id) return [];
     return [item({
@@ -44,7 +44,7 @@ export function parseApi(posts: any[], now: string): Item[] {
       source: "tumblr",
       type: "post",
       title: !from && p.title ? p.title : undefined,
-      text: from ? mine || `Reblogged from ${from}` : mine,
+      text: from ? mine || `Reblogged from @${from}` : mine,
       url: p.post_url,
       published_at: new Date(p.timestamp * 1000).toISOString(),
       fetched_at: now,

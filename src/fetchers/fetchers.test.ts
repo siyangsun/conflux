@@ -59,7 +59,7 @@ test("tumblr API: own post keeps original images; reblog keeps only my comment",
   ], NOW);
   assert.deepEqual([own.id, own.text, own.images, own.kind], ["tumblr:1", "my sketch", ["https://i/big.png"], "post"]);
   assert.deepEqual([re.text, re.images, re.kind, re.meta], ["so good", [], "reblog", { reblog_from: "orig" }]);
-  assert.equal(bare.text, "Reblogged from orig");
+  assert.equal(bare.text, "Reblogged from @orig");
   assert.deepEqual(textPost.images, ["https://i/s640.png"]);
 });
 
