@@ -295,3 +295,11 @@ test("soundcloud likes: daily gate, and paging stops at the cursor", async () =>
 test("decode: curly quotes and dashes", () => {
   assert.equal(htmlToText("don&rsquo;t &ldquo;x&rdquo; a&ndash;b"), "don’t “x” a–b");
 });
+
+test("substack: full text and photos come from content:encoded, keyed like the stored item", () => {
+  const xml = `<rss><channel><item><title>t</title><link>https://sump.substack.com/p/hello?x=1</link><guid>g</guid>
+  <content:encoded><![CDATA[<h2>big</h2><p>one &amp; two</p><figure><img src="https://i/a.jpg"></figure>]]></content:encoded></item></channel></rss>`;
+  const full = substack.parseFull(xml, "sump");
+  assert.deepEqual([...full.keys()], ["substack:sump:hello"]);
+  assert.deepEqual(full.get("substack:sump:hello"), { text: "big\n\none & two", images: ["https://i/a.jpg"] });
+});

@@ -1,4 +1,6 @@
 import { cpSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { config } from "../config.ts";
+import { fullPosts } from "../fetchers/substack.ts";
 import { loadAll } from "../store.ts";
 import type { Item } from "../types.ts";
 import { atom, feedLinks, jsonFeed } from "./feeds.ts";
@@ -85,13 +87,14 @@ const links = (heading: string, dir: string, g: typeof bySource, prefix = "", fo
 };
 write("browse", page(`Browse · ${SITE}`, links("Sources", "source", bySource) + links("Types", "type", byType) + links("Tags", "tag", byTag, "#", true)));
 
-// Permalink pages (posts only), with OpenGraph / Twitter card tags.
+// Permalink pages (posts only), with OpenGraph / Twitter card tags. A Substack post's page shows its full text and photos, fetched from the feed now and never stored (a blocked feed leaves the teaser).
+const full = config.sources.substack?.enabled ? await fullPosts(config.sources.substack.names) : new Map();
 for (const i of items.filter(hasPage)) {
   const t = title(i);
   const og = `<meta property="og:title" content="${esc(t)}"><meta property="og:description" content="${esc(flat(i).slice(0, 200))}">
 <meta property="og:type" content="article"><meta property="og:url" content="${esc(abs(permalink(i)))}">
 ${i.images[0] ? `<meta property="og:image" content="${esc(i.images[0])}">` : ""}<meta name="twitter:card" content="${i.images[0] ? "summary_large_image" : "summary"}">`;
-  write(`p/${slug(i.id)}`, page(`${t} · ${SITE}`, renderItem(i), og));
+  write(`p/${slug(i.id)}`, page(`${t} · ${SITE}`, renderItem(full.has(i.id) ? { ...i, ...full.get(i.id) } : i), og));
 }
 
 // Search: one JSON row per item [label, link, lead, date, lowercase text], filtered in the browser (site/site.js). ponytail: fine to a few thousand items; shard or add Pagefind past ~10k.
