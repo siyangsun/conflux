@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://sump.substack.com/feed -> HTTP 403 (server=cloudflare cf-mitigated=challenge cf-ray=a603e5fec88dff32-MSP) <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
+    "last_error": "https://sump.substack.com/feed -> HTTP 403 (server=cloudflare cf-mitigated=challenge cf-ray=a60c4030d97ed6e7-IAD) <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
     "failing_since": "2026-11-25T20:14:18.071Z",
     "feeds": {
       "https://sump.substack.com/feed": {
@@ -208,7 +208,7 @@
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-24"
+    "cursor": "2026-11-25"
   },
   "rss": {
     "last_error": null,
