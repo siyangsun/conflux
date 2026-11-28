@@ -1,6 +1,6 @@
 {
   "substack": {
-    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403 (server=cloudflare cf-mitigated=challenge cf-ray=a611aab6a938102a-MSP) <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
+    "last_error": "https://unevenlyeven.substack.com/feed -> HTTP 403 (server=cloudflare cf-mitigated=challenge cf-ray=a619a7082d469850-DFW) <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/htm",
     "failing_since": "2026-11-25T20:14:18.071Z",
     "feeds": {
       "https://sump.substack.com/feed": {
@@ -196,19 +196,19 @@
     }
   },
   "github": {
-    "cursor": "2026-11-26",
+    "cursor": "2026-11-27",
     "last_error": null,
     "failing_since": null
   },
   "x": {
-    "cursor": "2125830951444041996",
+    "cursor": "2126660556358660416",
     "last_error": null,
     "failing_since": null
   },
   "lastfm": {
     "last_error": null,
     "failing_since": null,
-    "cursor": "2026-11-26"
+    "cursor": "2026-11-27"
   },
   "rss": {
     "last_error": null,
@@ -220,6 +220,7 @@
   },
   "soundcloud_likes": {
     "last_error": null,
-    "failing_since": null
+    "failing_since": null,
+    "cursor": "2026-11-26T03:46:52Z"
   }
 }
